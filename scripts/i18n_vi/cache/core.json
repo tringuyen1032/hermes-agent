@@ -52,7 +52,7 @@
 "approval.summary.blocked": {
 "en": "This {noun} is not allowed in an unattended session — it did not run.",
 "note": null,
-"vi": "Không cho phép chạy {noun} này trong phiên không có người giám sát — lệnh không được chạy."
+"vi": "Không được phép chạy {noun} này trong phiên không có người giám sát nên nó không được chạy."
 },
 "approval.summary.cancelled": {
 "en": "The approval prompt was withdrawn or never reached you — the {noun} did not run.",
@@ -62,12 +62,12 @@
 "approval.summary.default": {
 "en": "This {noun} did not run.",
 "note": null,
-"vi": "{noun} này không được chạy."
+"vi": "Hermes đã không chạy {noun} này."
 },
 "approval.summary.denied": {
 "en": "You denied this {noun} — it did not run.",
 "note": null,
-"vi": "Bạn đã từ chối {noun} này — lệnh không được chạy."
+"vi": "Bạn đã từ chối {noun} này nên nó không được chạy."
 },
 "approval.summary.notify_failed": {
 "en": "The approval request could not be delivered — the {noun} did not run.",

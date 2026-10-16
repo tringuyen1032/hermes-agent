@@ -24,12 +24,12 @@ approval:
     confirm_always: "always,always approve,remember,luôn luôn,luon luon,ghi nhớ,ghi nho"
     confirm_cancel: "cancel,nevermind,no,deny,hủy,huy,thôi,thoi,không,khong,từ chối,tu choi"
   summary:
-    denied: "Bạn đã từ chối {noun} này — lệnh không được chạy."
+    denied: "Bạn đã từ chối {noun} này nên nó không được chạy."
     timeout: "Không có phản hồi trong {window} — {noun} không được chạy."
     notify_failed: "Không thể gửi yêu cầu phê duyệt — {noun} không được chạy."
     cancelled: "Yêu cầu phê duyệt đã bị thu hồi hoặc chưa đến được bạn — {noun} không được chạy."
-    blocked: "Không cho phép chạy {noun} này trong phiên không có người giám sát — lệnh không được chạy."
-    default: "{noun} này không được chạy."
+    blocked: "Không được phép chạy {noun} này trong phiên không có người giám sát nên nó không được chạy."
+    default: "Hermes đã không chạy {noun} này."
   noun:
     command: "lệnh"
     code: "đoạn mã"
