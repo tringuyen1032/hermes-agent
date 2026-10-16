@@ -403,6 +403,7 @@ export const viOverrides = {
           theyOff > 0 ? `đã tắt ${theyOff} công cụ đang bật` : '',
           theyOn > 0 ? `đã để bật ${theyOn} công cụ mà bạn đã tắt` : ''
         ].filter(Boolean)
+
         return `${they.length > 0 ? `Các thay đổi đó ${they.join(', và ')}. ` : ''}Chỉnh sửa vẫn hiển thị trên màn hình; chưa có gì được lưu.`
       },
       conflictReload: 'Tải lại phiên bản của họ',

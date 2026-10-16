@@ -1,0 +1,182 @@
+{
+"activity": {
+"en": "(n) => `Activity \\xB7 ${n}`",
+"note": null,
+"vi": "(n) => `Hoạt động · ${n}`"
+},
+"attachedTip": {
+"en": "(name) => `${name} is attached \\u2014 the dispatcher hands this over on its next tick (\\u22641m).`",
+"note": null,
+"vi": "(name) => `${name} đã được gắn — bộ điều phối sẽ bàn giao ở chu kỳ tiếp theo (≤1 phút).`"
+},
+"attachments": {
+"en": "(n) => `Attachments \\xB7 ${n}`",
+"note": null,
+"vi": "(n) => `Tệp đính kèm · ${n}`"
+},
+"autoAssignTip": {
+"en": "(name) => `Auto-assigns to \\u201C${name}\\u201D (kanban.default_assignee) on the next dispatch tick.`",
+"note": null,
+"vi": "(name) => `Tự động giao cho “${name}” (kanban.default_assignee) ở chu kỳ điều phối tiếp theo.`"
+},
+"blockKindTip": {
+"en": "(kind) => kind === \"needs_input\" ? \"The worker asked for human input.\" : kind === \"capability\" ? \"The worker hit a capability wall it cannot get past.\" : kind === \"transient\" ? \"The worker failed on a transient error.\" : \"The worker reported a dependency it must wait on.\"",
+"note": null,
+"vi": "(kind) => kind === \"needs_input\" ? \"Worker cần người dùng cung cấp thông tin.\" : kind === \"capability\" ? \"Worker gặp trở ngại về khả năng và không thể tiếp tục.\" : kind === \"transient\" ? \"Worker gặp lỗi tạm thời.\" : \"Worker báo có một phụ thuộc cần chờ xử lý.\""
+},
+"boardArchived": {
+"en": "(path) => `Board archived to ${path}`",
+"note": null,
+"vi": "(path) => `Đã lưu trữ bảng vào ${path}`"
+},
+"boardExported": {
+"en": "(path) => `Board exported to ${path}`",
+"note": null,
+"vi": "(path) => `Đã xuất bảng đến ${path}`"
+},
+"boardImported": {
+"en": "(name) => `Imported ${name}`",
+"note": null,
+"vi": "(name) => `Đã nhập ${name}`"
+},
+"boardImportedAs": {
+"en": "(slug) => `That name was taken \\u2014 imported as ${slug}`",
+"note": null,
+"vi": "(slug) => `Tên đó đã được dùng — đã nhập với tên ${slug}`"
+},
+"boardSettingsFor": {
+"en": "(name) => `Board settings \\u2014 ${name}`",
+"note": null,
+"vi": "(name) => `Cài đặt bảng — ${name}`"
+},
+"bulkFailed": {
+"en": "(failed2, total, err) => `${failed2} of ${total} failed \\u2014 ${err}. Failed cards stay selected.`",
+"note": null,
+"vi": "(failed2, total, err) => `${failed2}/${total} tác vụ thất bại — ${err}. Các thẻ thất bại vẫn được chọn.`"
+},
+"collapse": {
+"en": "(label) => `Collapse ${label}`",
+"note": null,
+"vi": "(label) => `Thu gọn ${label}`"
+},
+"comments": {
+"en": "(n) => `Comments \\xB7 ${n}`",
+"note": null,
+"vi": "(n) => `Bình luận · ${n}`"
+},
+"copiedId": {
+"en": "(id) => `Copied ${id}`",
+"note": null,
+"vi": "(id) => `Đã sao chép ${id}`"
+},
+"countTip": {
+"en": "(running, ready) => `Kanban \\u2014 ${running} running, ${ready} ready`",
+"note": null,
+"vi": "(running, ready) => `Kanban — ${running} đang chạy, ${ready} sẵn sàng`"
+},
+"defaultOption": {
+"en": "(name) => `${name} (default)`",
+"note": null,
+"vi": "(name) => `${name} (mặc định)`"
+},
+"deleteBoardTitle": {
+"en": "(name) => `Delete \"${name}\"?`",
+"note": null,
+"vi": "(name) => `Xóa \"${name}\"?`"
+},
+"diagnosticsN": {
+"en": "(n) => `Diagnostics \\xB7 ${n}`",
+"note": null,
+"vi": "(n) => `Chẩn đoán · ${n}`"
+},
+"evtAssignedTo": {
+"en": "(assignee) => `assigned to ${assignee}`",
+"note": null,
+"vi": "(assignee) => `đã giao cho ${assignee}`"
+},
+"evtCommentBy": {
+"en": "(author) => `comment by ${author}`",
+"note": null,
+"vi": "(author) => `bình luận từ ${author}`"
+},
+"evtCreated": {
+"en": "(where, assignee) => `created${where ? ` in ${where}` : \"\"}${assignee ? ` \\xB7 assigned to ${assignee}` : \"\"}`",
+"note": null,
+"vi": "(where, assignee) => `đã tạo${where ? ` trong ${where}` : \"\"}${assignee ? ` · giao cho ${assignee}` : \"\"}`"
+},
+"evtMovedTo": {
+"en": "(col) => `moved to ${col}`",
+"note": null,
+"vi": "(col) => `đã chuyển đến ${col}`"
+},
+"evtParentReopened": {
+"en": "(parent) => `parent ${parent} reopened`",
+"note": null,
+"vi": "(parent) => `tác vụ cha ${parent} đã mở lại`"
+},
+"evtReprioritized": {
+"en": "(priority) => `priority set to ${priority}`",
+"note": null,
+"vi": "(priority) => `đã đặt mức ưu tiên thành ${priority}`"
+},
+"evtUnblocked": {
+"en": "(col) => `unblocked${col ? ` \\u2192 ${col}` : \" \\u2192 Ready\"}`",
+"note": null,
+"vi": "(col) => `đã bỏ chặn${col ? ` → ${col}` : \" → Sẵn sàng\"}`"
+},
+"expand": {
+"en": "(label) => `Expand ${label}`",
+"note": null,
+"vi": "(label) => `Mở rộng ${label}`"
+},
+"moveTo": {
+"en": "(label) => `Move to ${label}`",
+"note": null,
+"vi": "(label) => `Chuyển đến ${label}`"
+},
+"nSelected": {
+"en": "(n) => `${n} selected`",
+"note": null,
+"vi": "(n) => `Đã chọn ${n}`"
+},
+"newTaskIn": {
+"en": "(label) => `New task in ${label}`",
+"note": null,
+"vi": "(label) => `Tạo tác vụ mới trong ${label}`"
+},
+"notify.artifacts": {
+"en": "(n) => `${n} artifacts`",
+"note": null,
+"vi": "(n) => `${n} mục`"
+},
+"orchestratorTip": {
+"en": "(name) => `${name} (the orchestrator) picks this up on the next tick and writes the spec.`",
+"note": null,
+"vi": "(name) => `${name} (bộ điều phối) sẽ xử lý ở chu kỳ tiếp theo và viết bản đặc tả.`"
+},
+"runs": {
+"en": "(n) => `Runs \\xB7 ${n}`",
+"note": null,
+"vi": "(n) => `Lượt chạy · ${n}`"
+},
+"select": {
+"en": "(modifier) => `Select (${modifier}-click)`",
+"note": null,
+"vi": "(modifier) => `Chọn (nhấp với ${modifier})`"
+},
+"slug": {
+"en": "(slug) => `slug: ${slug}`",
+"note": null,
+"vi": "(slug) => `slug: ${slug}`"
+},
+"unblockedMessage": {
+"en": "(id) => `Unblocked ${id}. Task is ready for the next tick.`",
+"note": null,
+"vi": "(id) => `Đã bỏ chặn ${id}. Tác vụ sẵn sàng cho chu kỳ tiếp theo.`"
+},
+"workspaceInheritDir": {
+"en": "(dir) => `Leave empty to inherit ${dir}`",
+"note": null,
+"vi": "(dir) => `Để trống để kế thừa ${dir}`"
+}
+}

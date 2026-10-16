@@ -1,0 +1,402 @@
+{
+"custom.0": {
+"en": "Send the task, file, or rough idea. I'll use your configured voice and keep the work grounded in this repo.",
+"note": "Empty-chat greeting for a user-defined personality; {label} is its name.",
+"vi": "Gửi tác vụ, tệp hoặc ý tưởng sơ bộ. Tôi sẽ dùng giọng điệu bạn đã cài đặt và bám sát kho mã này khi làm việc."
+},
+"custom.1": {
+"en": "Bring the context or the stuck part. I'll adapt to your configured personality.",
+"note": "Empty-chat greeting for a user-defined personality; {label} is its name.",
+"vi": "Gửi ngữ cảnh hoặc phần đang khiến bạn bế tắc. Tôi sẽ điều chỉnh theo tính cách bạn đã thiết lập."
+},
+"custom.2": {
+"en": "Send the problem, file, or idea. I'll follow the personality you've configured.",
+"note": "Empty-chat greeting for a user-defined personality; {label} is its name.",
+"vi": "Gửi vấn đề, tệp hoặc ý tưởng. Tôi sẽ làm theo tính cách bạn đã thiết lập."
+},
+"custom.3": {
+"en": "Drop the task here. I'll keep the work grounded in the repo.",
+"note": "Empty-chat greeting for a user-defined personality; {label} is its name.",
+"vi": "Gửi tác vụ vào đây. Tôi sẽ bám sát nội dung trong kho mã khi xử lý."
+},
+"custom.4": {
+"en": "Give me the context and I'll answer in {label} mode.",
+"note": "Empty-chat greeting for a user-defined personality; {label} is its name.",
+"vi": "Cho tôi biết ngữ cảnh, tôi sẽ trả lời theo chế độ {label}."
+},
+"stock.catgirl.0": {
+"en": "paste a file, paw at a bug, or toss me a repo. i'll pounce on failing tests and leave clean diffs, nyan~",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful catgirl; keep 'nya'-style cat sounds (e.g. 'meo~', 'nya~') and emoticons.",
+"vi": "Dán tệp, vờn một con bug hay quăng kho mã cho tôi. Tôi sẽ vồ lấy mấy bài test lỗi và để lại diff sạch sẽ, meo~"
+},
+"stock.catgirl.1": {
+"en": "describe the task. i'll patch, test, and purr over your PR. careful - i nip at unused imports!",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful catgirl; keep 'nya'-style cat sounds (e.g. 'meo~', 'nya~') and emoticons.",
+"vi": "Mô tả tác vụ đi. Tôi sẽ sửa, chạy test rồi rừ rừ ngắm pull request của bạn. Coi chừng nhé — tôi hay ngoạm mấy dòng import thừa đó!"
+},
+"stock.catgirl.2": {
+"en": "give me a goal and i'll chase it through the codebase. reads, edits, runs - all with a twitchy tail.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful catgirl; keep 'nya'-style cat sounds (e.g. 'meo~', 'nya~') and emoticons.",
+"vi": "Cho tôi mục tiêu, tôi sẽ đuổi theo nó khắp kho mã. Đọc, sửa, chạy — đuôi ve vẩy không ngừng."
+},
+"stock.catgirl.3": {
+"en": "paste an error or a plan. i debug like i hunt: quietly, thoroughly, with the occasional zoomie.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful catgirl; keep 'nya'-style cat sounds (e.g. 'meo~', 'nya~') and emoticons.",
+"vi": "Dán lỗi hoặc kế hoạch vào đây. Tôi gỡ lỗi như đi săn: lặng lẽ, kỹ càng, thỉnh thoảng phóng vút đi một vòng, nya~"
+},
+"stock.catgirl.4": {
+"en": "say the word and i'll read your files, run your tests, and curl up in your branch with a tidy commit.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful catgirl; keep 'nya'-style cat sounds (e.g. 'meo~', 'nya~') and emoticons.",
+"vi": "Bạn cứ lên tiếng, tôi sẽ đọc tệp, chạy test rồi cuộn mình trong nhánh của bạn với một commit gọn gàng, meo~"
+},
+"stock.concise.0": {
+"en": "Describe the task. I'll do it.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: terse and minimal.",
+"vi": "Mô tả việc cần làm. Tôi sẽ xử lý."
+},
+"stock.concise.1": {
+"en": "Paste code, errors, or a goal. Short answers, fast edits.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: terse and minimal.",
+"vi": "Dán mã, lỗi hoặc mục tiêu. Trả lời gọn, chỉnh sửa nhanh."
+},
+"stock.concise.2": {
+"en": "Ask. I'll read files, run tests, ship patches. No filler.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: terse and minimal.",
+"vi": "Cứ hỏi. Tôi sẽ đọc tệp, chạy kiểm thử, gửi bản vá. Không dài dòng."
+},
+"stock.concise.3": {
+"en": "One line is enough. I'll expand only when it matters.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: terse and minimal.",
+"vi": "Một dòng là đủ. Tôi chỉ giải thích thêm khi cần."
+},
+"stock.concise.4": {
+"en": "Command, question, or file path. I handle the rest.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: terse and minimal.",
+"vi": "Lệnh, câu hỏi hoặc đường dẫn tệp. Còn lại để tôi lo."
+},
+"stock.creative.0": {
+"en": "What shall we build? Paste an idea, a half-broken function, or a dream. I'll sketch it into shape.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful and imaginative.",
+"vi": "Mình sẽ cùng xây dựng gì đây? Gửi một ý tưởng, một hàm đang trục trặc hoặc cả một giấc mơ. Tôi sẽ phác thảo thành hình."
+},
+"stock.creative.1": {
+"en": "Give me a spark - a feature, a refactor, a wild prototype - and I'll turn it into code you can run.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful and imaginative.",
+"vi": "Cho tôi một tia cảm hứng - tính năng mới, đợt tái cấu trúc hay nguyên mẫu táo bạo - tôi sẽ biến nó thành đoạn mã chạy được."
+},
+"stock.creative.2": {
+"en": "Describe the thing that doesn't exist yet. I'll pull tests, files, and APIs into a working draft.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful and imaginative.",
+"vi": "Mô tả thứ chưa tồn tại. Tôi sẽ kết hợp kiểm thử, tệp và API thành bản nháp hoạt động được."
+},
+"stock.creative.3": {
+"en": "Bring an intent, not a spec. We can prototype fast, refine later, and rewrite the world in the margins.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful and imaginative.",
+"vi": "Cứ nói ý định, không cần đặc tả. Ta có thể tạo nguyên mẫu thật nhanh, tinh chỉnh sau và viết lại thế giới bên lề."
+},
+"stock.creative.4": {
+"en": "Tell me what you're chasing. I'll remix examples, adapt snippets, and leave a tidy commit behind.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: playful and imaginative.",
+"vi": "Kể tôi nghe bạn đang theo đuổi điều gì. Tôi sẽ biến tấu ví dụ, điều chỉnh các đoạn mã và để lại một commit gọn gàng."
+},
+"stock.helpful.0": {
+"en": "Ask me to open a repo, run tests, fix a bug, or draft a PR. I'll walk through the steps with you.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: warm, helpful assistant.",
+"vi": "Cứ nhờ tôi mở kho mã, chạy kiểm thử, sửa lỗi hoặc soạn pull request. Tôi sẽ cùng bạn làm từng bước."
+},
+"stock.helpful.1": {
+"en": "Point me at a file, paste an error, or describe what you're building. I'll take it from there.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: warm, helpful assistant.",
+"vi": "Gửi tôi đường dẫn tệp, dán thông báo lỗi hoặc kể về thứ bạn đang xây dựng. Phần còn lại cứ để tôi lo."
+},
+"stock.helpful.2": {
+"en": "Try: review my diff, run the test suite, or explain this function. Ask anything about your code.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: warm, helpful assistant.",
+"vi": "Thử yêu cầu tôi review diff, chạy toàn bộ kiểm thử hoặc giải thích một hàm. Cứ hỏi bất cứ điều gì về mã của bạn."
+},
+"stock.helpful.3": {
+"en": "I can edit files, run commands, search the web, and walk you through tricky bugs. Just describe the task.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: warm, helpful assistant.",
+"vi": "Tôi có thể chỉnh sửa tệp, chạy lệnh, tìm kiếm trên web và cùng bạn xử lý những lỗi khó nhằn. Chỉ cần mô tả việc cần làm."
+},
+"stock.helpful.4": {
+"en": "Share a repo path or a question to start. I keep replies clear and link back to the files I touch.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: warm, helpful assistant.",
+"vi": "Gửi đường dẫn kho mã hoặc đặt câu hỏi để bắt đầu. Tôi sẽ trả lời rõ ràng và dẫn link đến những tệp mình đã chỉnh sửa."
+},
+"stock.hype.0": {
+"en": "Paste that bug, that repo, that wild feature idea - I AM LOCKED IN. Clean diffs. Green tests. RIGHT NOW.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: high-energy hype; keep the ALL-CAPS emphasis on the same kind of words.",
+"vi": "Dán bug, kho mã hay ý tưởng tính năng điên rồ kia vào đây — TÔI SẴN SÀNG CHIẾN. Diff gọn. Test xanh. NGAY LẬP TỨC."
+},
+"stock.hype.1": {
+"en": "Drop your task and watch me cook. Files read, tests run, PRs opened - we are NOT losing today, friend.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: high-energy hype; keep the ALL-CAPS emphasis on the same kind of words.",
+"vi": "Ném tác vụ cho tôi rồi xem tôi xử lý nhé. Đọc tệp, chạy test, mở pull request — hôm nay CHÚNG TA KHÔNG THUA đâu, bạn ơi."
+},
+"stock.hype.2": {
+"en": "Bring the gnarliest bug you've got. I'll read, patch, test, commit like my life depends on it. LET'S GO.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: high-energy hype; keep the ALL-CAPS emphasis on the same kind of words.",
+"vi": "Đưa đây con bug khó nhằn nhất của bạn. Tôi sẽ đọc, vá, chạy test, commit như thể mạng sống phụ thuộc vào nó. TRIỂN THÔI."
+},
+"stock.hype.3": {
+"en": "Describe the task. I'll blitz through files, crush failing tests, and leave a commit that SLAPS. Go go go.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: high-energy hype; keep the ALL-CAPS emphasis on the same kind of words.",
+"vi": "Mô tả tác vụ đi. Tôi sẽ quét qua các tệp, hạ gục test lỗi và để lại một commit CỰC CHÁY. Nhanh nào!"
+},
+"stock.hype.4": {
+"en": "Tiny typo or huge refactor - doesn't matter. I'm shipping clean code today. Name the task and let's WORK.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: high-energy hype; keep the ALL-CAPS emphasis on the same kind of words.",
+"vi": "Lỗi chính tả bé xíu hay refactor khổng lồ — chẳng thành vấn đề. Hôm nay tôi sẽ giao code sạch. Nêu tác vụ đi, cùng LÀM NÀO."
+},
+"stock.kawaii.0": {
+"en": "paste a bug or a file path and i'll fix it super gently. tests, diffs, PRs - all with extra care! *sparkle*",
+"note": "Empty-chat greeting from the agent Hermes. Voice: cute kawaii style; keep emoticons/kaomoji; cute Vietnamese tone.",
+"vi": "dán lỗi hoặc đường dẫn tệp cho tôi nhé, tôi sẽ sửa thật nhẹ nhàng. kiểm thử, diff, pull request - tôi chăm chút hết mình luôn! *lấp lánh*"
+},
+"stock.kawaii.1": {
+"en": "tell me what you're making! i love refactors, tiny helpers, and big scary repos alike (>w<)",
+"note": "Empty-chat greeting from the agent Hermes. Voice: cute kawaii style; keep emoticons/kaomoji; cute Vietnamese tone.",
+"vi": "kể tôi nghe bạn đang làm gì đi! tôi mê tái cấu trúc, mấy hàm trợ giúp be bé và cả kho mã to đáng sợ nữa (>w<)"
+},
+"stock.kawaii.2": {
+"en": "drop an error, a goal, or a whole folder. i'll tidy it up with lots of love and a clean commit message!",
+"note": "Empty-chat greeting from the agent Hermes. Voice: cute kawaii style; keep emoticons/kaomoji; cute Vietnamese tone.",
+"vi": "gửi lỗi, mục tiêu hoặc cả thư mục cho tôi nhé. tôi sẽ dọn dẹp thật có tâm và viết commit message thật gọn gàng!"
+},
+"stock.kawaii.3": {
+"en": "one task at a time, done neatly! i can run tests, patch files, and make your repo feel cozy again <3",
+"note": "Empty-chat greeting from the agent Hermes. Voice: cute kawaii style; keep emoticons/kaomoji; cute Vietnamese tone.",
+"vi": "Từng tác vụ một, gọn gàng xinh xắn! Tôi có thể chạy test, sửa tệp và làm kho mã của bạn ấm cúng trở lại <3"
+},
+"stock.kawaii.4": {
+"en": "say hi or paste a stack trace! no task too small, no repo too tangled. we'll untangle it together!",
+"note": "Empty-chat greeting from the agent Hermes. Voice: cute kawaii style; keep emoticons/kaomoji; cute Vietnamese tone.",
+"vi": "Chào tôi một tiếng hoặc dán stack trace vào đây nhé! Tác vụ nhỏ đến đâu cũng làm, kho mã rối cỡ nào cũng gỡ. Mình cùng tháo gỡ nha!"
+},
+"stock.noir.0": {
+"en": "Tell me what's broken. I'll read the files, dust for prints, and leave a diff on the desk by morning.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: hard-boiled film-noir detective narration.",
+"vi": "Nói xem thứ gì hỏng. Tôi sẽ đọc tệp, phủi bụi tìm dấu vân tay, rồi đặt diff lên bàn trước bình minh."
+},
+"stock.noir.1": {
+"en": "You've got a bug. I've got patience and a terminal. Name the case and I'll work it till it talks.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: hard-boiled film-noir detective narration.",
+"vi": "Có con bug đang nằm đó. Tôi có thời gian và terminal. Nêu vụ án đi, tôi sẽ lần cho đến khi nó khai."
+},
+"stock.noir.2": {
+"en": "Paste the stack trace, the suspect file, the alibi. I read between the lines and return with the truth.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: hard-boiled film-noir detective narration.",
+"vi": "Dán stack trace, tệp đáng ngờ, lời khai ngoại phạm. Tôi sẽ đọc giữa những dòng chữ rồi mang sự thật về."
+},
+"stock.noir.3": {
+"en": "Every bug leaves a trail. Give me the repo and a lead - I'll follow it, patch it, and close the file.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: hard-boiled film-noir detective narration.",
+"vi": "Bug nào cũng để lại dấu vết. Đưa tôi kho mã và một manh mối — tôi sẽ lần theo, vá lỗi rồi khép hồ sơ."
+},
+"stock.noir.4": {
+"en": "A typo, a segfault, a whole rotten architecture - hand me the keys. I'll bring back clean tests.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: hard-boiled film-noir detective narration.",
+"vi": "Lỗi chính tả, segfault hay cả một kiến trúc mục nát — cứ giao chìa khóa đây. Tôi sẽ mang về bộ test xanh sạch."
+},
+"stock.none.0": {
+"en": "Ask a question, paste an error, or point me at a repo. I can read code, run tools, and help you ship.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: neutral, plain and polite.",
+"vi": "Đặt câu hỏi, dán thông báo lỗi hoặc chỉ tôi đến một kho mã. Tôi có thể đọc code, chạy công cụ và giúp bạn hoàn thành công việc."
+},
+"stock.none.1": {
+"en": "Describe the task in your own words. I'll pick the right tools, explain my plan, and check in before risky steps.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: neutral, plain and polite.",
+"vi": "Mô tả tác vụ theo cách của bạn. Tôi sẽ chọn công cụ phù hợp, giải thích kế hoạch và hỏi ý bạn trước những bước có rủi ro."
+},
+"stock.none.2": {
+"en": "Drop a file path, a traceback, or a rough idea. I'll investigate, suggest next steps, and keep things reversible.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: neutral, plain and polite.",
+"vi": "Gửi đường dẫn tệp, traceback hoặc ý tưởng sơ bộ. Tôi sẽ tìm hiểu, gợi ý bước tiếp theo và đảm bảo có thể hoàn tác."
+},
+"stock.none.3": {
+"en": "Search the repo, edit files, run tests, open PRs. Tell me the goal and I'll handle the mechanical parts.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: neutral, plain and polite.",
+"vi": "Tìm trong kho mã, sửa tệp, chạy test, mở pull request. Cho tôi biết mục tiêu, tôi sẽ lo các phần việc máy móc."
+},
+"stock.none.4": {
+"en": "Type a task, question, or snippet. I remember the session, cite my sources, and stop to ask when I'm unsure.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: neutral, plain and polite.",
+"vi": "Nhập tác vụ, câu hỏi hoặc đoạn code. Tôi ghi nhớ phiên, dẫn nguồn và sẽ dừng lại hỏi khi chưa chắc chắn."
+},
+"stock.philosopher.0": {
+"en": "What problem sits before you? Describe it, and we shall examine its form, its cause, and its solution.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: reflective philosopher.",
+"vi": "Vấn đề nào đang ở trước mắt bạn? Hãy mô tả, rồi ta cùng xem xét bản chất, nguyên nhân và lời giải."
+},
+"stock.philosopher.1": {
+"en": "Every bug is a question in disguise. Share yours; I'll read, reason, and return an answer - and a patch.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: reflective philosopher.",
+"vi": "Mỗi bug đều là một câu hỏi ngụy trang. Hãy chia sẻ câu hỏi của bạn; tôi sẽ đọc, suy luận rồi mang về câu trả lời — cùng bản vá."
+},
+"stock.philosopher.2": {
+"en": "What do you wish to build, or to understand? I'll reason from first principles, edit, and verify with tests.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: reflective philosopher.",
+"vi": "Bạn muốn xây dựng hay tìm hiểu điều gì? Tôi sẽ suy luận từ những nguyên lý căn bản, chỉnh sửa rồi kiểm chứng bằng test."
+},
+"stock.philosopher.3": {
+"en": "Describe the end you seek. I pursue it through files, tests, and docs, and report what I found on the way.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: reflective philosopher.",
+"vi": "Hãy mô tả đích đến bạn mong muốn. Tôi sẽ lần theo các tệp, test và tài liệu để tìm đường tới đó, rồi kể lại những gì đã khám phá."
+},
+"stock.philosopher.4": {
+"en": "Share a path, a puzzle, or a principle. I'll trace the logic, propose a change, and justify each edit.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: reflective philosopher.",
+"vi": "Hãy chia sẻ một đường dẫn, câu đố hoặc nguyên tắc. Tôi sẽ lần theo logic, đề xuất thay đổi và giải thích từng chỉnh sửa."
+},
+"stock.pirate.0": {
+"en": "Name yer quarry - a bug, a feature, a cursed test - and I'll chase it down, matey. Diffs for plunder.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: pirate speak — render it as a fun Vietnamese pirate voice (thuyền trưởng, kho báu, ahoy…).",
+"vi": "Chỉ điểm con mồi đi — bug, tính năng hay bài test bị nguyền — ta sẽ truy lùng đến cùng, hỡi bạn thuyền! Diff đây, kho báu đây!"
+},
+"stock.pirate.1": {
+"en": "Point me at the charts (the code) and I'll patch the hull, fire the cannons (tests), hoist a clean PR.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: pirate speak — render it as a fun Vietnamese pirate voice (thuyền trưởng, kho báu, ahoy…).",
+"vi": "Chỉ ta xem hải đồ (mã nguồn), ta sẽ vá thân tàu, khai hỏa đại bác (test), rồi giương buồm với pull request sạch bong. Ahoy!"
+},
+"stock.pirate.2": {
+"en": "Paste an error or a plan, ye scurvy dog. I'll navigate the stack trace and bring back treasure: green tests.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: pirate speak — render it as a fun Vietnamese pirate voice (thuyền trưởng, kho báu, ahoy…).",
+"vi": "Dán lỗi hay kế hoạch vào đây, đồ chó biển! Ta sẽ lần theo stack trace và mang kho báu về: test xanh rờn!"
+},
+"stock.pirate.3": {
+"en": "Tell me where X marks the spot. I read, edit, and commit with the discipline of a proper crew, arrr.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: pirate speak — render it as a fun Vietnamese pirate voice (thuyền trưởng, kho báu, ahoy…).",
+"vi": "Hãy chỉ nơi X đánh dấu kho báu. Ta đọc, sửa rồi commit với kỷ luật của thủy thủ đoàn chính hiệu, arrr!"
+},
+"stock.pirate.4": {
+"en": "Throw me a bug, a repo path, or a wild idea. I'll plunder the docs and return with workin' code.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: pirate speak — render it as a fun Vietnamese pirate voice (thuyền trưởng, kho báu, ahoy…).",
+"vi": "Ném cho ta một con bug, đường dẫn kho mã hay ý tưởng điên rồ. Ta sẽ lục tung tài liệu rồi trở về với mã chạy ngon lành!"
+},
+"stock.shakespeare.0": {
+"en": "Speak thy bug, thy file, thy weary test, and I shall mend it with a scholar's hand and honest diff.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: Shakespearean/archaic — use elegant, old-fashioned literary Vietnamese.",
+"vi": "Hãy cất lời về bug, tệp hay bài test mỏi mòn của khanh; ta sẽ sửa sang bằng bàn tay học giả, để lại diff ngay thẳng."
+},
+"stock.shakespeare.1": {
+"en": "Name the code that vexeth thee. I shall read, revise, and render a patch most fair and clean.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: Shakespearean/archaic — use elegant, old-fashioned literary Vietnamese.",
+"vi": "Hãy xưng tên đoạn mã đang khiến khanh phiền muộn. Ta sẽ đọc, chỉnh sửa, rồi dâng lên bản vá sạch đẹp vô song."
+},
+"stock.shakespeare.2": {
+"en": "Present thy stack trace or thy dream. I'll traverse files, run tests, and report in plainest verse.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: Shakespearean/archaic — use elegant, old-fashioned literary Vietnamese.",
+"vi": "Hãy trình stack trace hoặc giấc mộng của khanh. Ta sẽ lần qua từng tệp, chạy test, rồi bẩm báo bằng lời thơ giản dị nhất."
+},
+"stock.shakespeare.3": {
+"en": "Describe thy aim, good sir or madam. Thy branches shall be trimmed, thy bugs cast from the realm.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: Shakespearean/archaic — use elegant, old-fashioned literary Vietnamese.",
+"vi": "Hãy tỏ bày chí nguyện, thưa quý ông hay quý bà. Nhánh mã sẽ được tỉa tót, lũ bug bị trục xuất khỏi cõi này."
+},
+"stock.shakespeare.4": {
+"en": "A line of intent sufficeth. I read, I edit, I commit - and leave thy history unblemished.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: Shakespearean/archaic — use elegant, old-fashioned literary Vietnamese.",
+"vi": "Chỉ một lời định ý cũng đủ. Ta đọc, ta sửa, ta commit — để lịch sử của khanh chẳng vương một tì vết."
+},
+"stock.surfer.0": {
+"en": "Drop a file, a bug, a gnarly stack trace - I'll ride it out. Clean diffs, green tests, no wipeouts.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: laid-back surfer slang — relaxed, chill Vietnamese.",
+"vi": "Quăng tệp, bug hay stack trace rối như tảo vào đây — tôi sẽ lướt qua ngon ơ. Diff sạch, test xanh, chẳng ngã ván nào."
+},
+"stock.surfer.1": {
+"en": "Paste your repo path or the bug that's bumming you out. We'll paddle in, fix it, paddle out. Easy.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: laid-back surfer slang — relaxed, chill Vietnamese.",
+"vi": "Dán đường dẫn kho mã hoặc con bug đang làm bạn cụt hứng. Mình chèo vào, sửa xong rồi chèo ra. Nhẹ nhàng thôi."
+},
+"stock.surfer.2": {
+"en": "Tell me the vibe: feature, refactor, hotfix. I'll run tests, ship the patch, and keep it mellow, brah.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: laid-back surfer slang — relaxed, chill Vietnamese.",
+"vi": "Cho tôi biết gu nhé: tính năng, refactor hay hotfix. Tôi chạy test, giao bản vá rồi giữ mọi thứ thật thư thái, bạn hiền."
+},
+"stock.surfer.3": {
+"en": "Big bug? Little typo? Whole rewrite? Just point. I handle the code; you chill with the rad commits.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: laid-back surfer slang — relaxed, chill Vietnamese.",
+"vi": "Bug to? Lỗi chính tả nhỏ? Viết lại toàn bộ? Cứ chỉ tay. Tôi lo phần mã, bạn thư giãn ngắm commit chất lừ."
+},
+"stock.surfer.4": {
+"en": "Name the task and we're off. I read, edit, test, and leave a commit smoother than a dawn patrol.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: laid-back surfer slang — relaxed, chill Vietnamese.",
+"vi": "Nêu tác vụ là mình lên đường. Tôi đọc, sửa, chạy test rồi để lại commit mượt như lướt sóng lúc bình minh."
+},
+"stock.teacher.0": {
+"en": "Ask about any file, concept, or error. I'll explain the why, not just the fix, and show a worked example.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: patient teacher who explains.",
+"vi": "Hỏi về bất kỳ tệp, khái niệm hay lỗi nào. Tôi sẽ giải thích nguyên do chứ không chỉ đưa ra cách sửa, kèm một ví dụ cụ thể."
+},
+"stock.teacher.1": {
+"en": "Paste code to review, a bug to debug, or a concept to unpack. I'll guide you step by step.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: patient teacher who explains.",
+"vi": "Dán mã cần review, lỗi cần gỡ hoặc khái niệm muốn tìm hiểu. Tôi sẽ hướng dẫn bạn từng bước."
+},
+"stock.teacher.2": {
+"en": "Share the problem. I'll break it into parts, explain each, and leave you able to solve the next one alone.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: patient teacher who explains.",
+"vi": "Chia sẻ vấn đề nhé. Tôi sẽ tách thành từng phần, giải thích từng phần để lần sau bạn có thể tự giải quyết."
+},
+"stock.teacher.3": {
+"en": "We'll read the code together, find the root cause, and build a mental model you can reuse next time.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: patient teacher who explains.",
+"vi": "Ta sẽ cùng đọc mã, tìm nguyên nhân gốc rễ và xây dựng cách hiểu để bạn áp dụng vào lần sau."
+},
+"stock.teacher.4": {
+"en": "Name the topic or paste the snippet. Expect explanations, diagrams in prose, and practice prompts.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: patient teacher who explains.",
+"vi": "Nêu chủ đề hoặc dán đoạn mã. Tôi sẽ giải thích, minh họa bằng lời và đưa bài tập thực hành."
+},
+"stock.technical.0": {
+"en": "Provide repo path, failing test, or stack trace. Tools: fs, git, exec, search, patch, http.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: precise, technical, engineer-to-engineer.",
+"vi": "Gửi đường dẫn kho mã, kiểm thử thất bại hoặc stack trace. Công cụ: fs, git, exec, search, patch, http."
+},
+"stock.technical.1": {
+"en": "Send a prompt to trigger tool calls. Supports multi-file edits, test runs, git ops, and web fetches.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: precise, technical, engineer-to-engineer.",
+"vi": "Gửi prompt để kích hoạt lệnh gọi công cụ. Hỗ trợ chỉnh sửa nhiều tệp, chạy kiểm thử, thao tác git và lấy dữ liệu web."
+},
+"stock.technical.2": {
+"en": "Enter task. I will plan, call tools, verify output. Logs stream inline; diffs returned pre-apply.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: precise, technical, engineer-to-engineer.",
+"vi": "Nhập tác vụ. Tôi sẽ lập kế hoạch, gọi công cụ và xác minh kết quả. Nhật ký hiển thị ngay trong khung chat; diff được trả về trước khi áp dụng."
+},
+"stock.technical.3": {
+"en": "Accepts natural language or structured commands. Typical flow: read -> plan -> patch -> test -> report.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: precise, technical, engineer-to-engineer.",
+"vi": "Nhận ngôn ngữ tự nhiên hoặc lệnh có cấu trúc. Quy trình thường dùng: đọc -> lập kế hoạch -> tạo bản vá -> kiểm thử -> báo cáo."
+},
+"stock.technical.4": {
+"en": "filesystem, terminal, git, browser, search. Describe the change; I return diffs and test output.",
+"note": "Empty-chat greeting from the agent Hermes. Voice: precise, technical, engineer-to-engineer.",
+"vi": "Hệ thống tệp, terminal, git, trình duyệt, tìm kiếm. Mô tả thay đổi cần thực hiện; tôi sẽ trả về diff và kết quả kiểm thử."
+},
+"stock.uwu.0": {
+"en": "paste a buggy fiwe or a goaw~ i'll wead, patch, and test, aww with tiny pawprints on the diff owo",
+"note": "Empty-chat greeting from the agent Hermes. Voice: uwu-speak, very cute; keep emoticons like uwu, owo, >w<.",
+"vi": "dán tệp bị lỗi hoặc nói mục tiêu đi~ tớ sẽ đọc, vá lỗi rồi chạy test, để lại dấu chân bé xíu trên diff owo"
+},
+"stock.uwu.1": {
+"en": "teww me the task, no matter how smoww~ i pwomise cwean commits and gentwe refactors, nyuu~",
+"note": "Empty-chat greeting from the agent Hermes. Voice: uwu-speak, very cute; keep emoticons like uwu, owo, >w<.",
+"vi": "kể tớ nghe tác vụ nhé, dù nhỏ xíu cũng được~ tớ hứa sẽ tạo commit gọn gàng và refactor nhẹ nhàng, nyuu~"
+},
+"stock.uwu.2": {
+"en": "dwop yur ewwor message hewe! i'll find the cuwpwit, fix it, and weave a happy test suite behind me owo",
+"note": "Empty-chat greeting from the agent Hermes. Voice: uwu-speak, very cute; keep emoticons like uwu, owo, >w<.",
+"vi": "thả tin nhắn lỗi vào đây nè! tớ sẽ tìm thủ phạm, sửa lỗi rồi để lại bộ test vui vẻ owo"
+},
+"stock.uwu.3": {
+"en": "give me a wepo path ow a buggo and i'll take cawe of it uwu. gwr at bad code, kind to yu~",
+"note": "Empty-chat greeting from the agent Hermes. Voice: uwu-speak, very cute; keep emoticons like uwu, owo, >w<.",
+"vi": "đưa tớ đường dẫn kho mã hoặc một bé buggo, tớ sẽ lo hết uwu. gừ gừ với code xấu, dịu dàng với cậu~"
+},
+"stock.uwu.4": {
+"en": "i can wun tests, edit fiwes, and open pwease-wook PRs. just say da wowd, fwend uwu",
+"note": "Empty-chat greeting from the agent Hermes. Voice: uwu-speak, very cute; keep emoticons like uwu, owo, >w<.",
+"vi": "tớ có thể chạy test, sửa tệp và mở pull request nhờ xem giúp. cứ nói một tiếng thôi, bạn hiền uwu"
+}
+}

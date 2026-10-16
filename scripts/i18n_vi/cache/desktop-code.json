@@ -1,0 +1,3357 @@
+{
+"agents.activeCount": {
+"en": "count=>`${count} active`",
+"note": null,
+"vi": "count=>`${count} đang hoạt động`"
+},
+"agents.ageDays": {
+"en": "days=>`${days}d ago`",
+"note": null,
+"vi": "days=>`${days} ngày trước`"
+},
+"agents.ageHours": {
+"en": "hours=>`${hours}h ago`",
+"note": null,
+"vi": "hours=>`${hours} giờ trước`"
+},
+"agents.ageMinutes": {
+"en": "minutes=>`${minutes}m ago`",
+"note": null,
+"vi": "minutes=>`${minutes} phút trước`"
+},
+"agents.ageSeconds": {
+"en": "seconds=>`${seconds}s ago`",
+"note": null,
+"vi": "seconds=>`${seconds} giây trước`"
+},
+"agents.agentsCount": {
+"en": "count=>`${count} ${count===1?\"agent\":\"agents\"}`",
+"note": null,
+"vi": "count=>`${count} agent`"
+},
+"agents.delegation": {
+"en": "index=>`Delegation ${index}`",
+"note": null,
+"vi": "index=>`Ủy quyền ${index}`"
+},
+"agents.durationMinutes": {
+"en": "(minutes,seconds)=>`${minutes}m ${seconds}s`",
+"note": null,
+"vi": "(minutes,seconds)=>`${minutes} phút ${seconds} giây`"
+},
+"agents.durationSeconds": {
+"en": "seconds=>`${seconds}s`",
+"note": null,
+"vi": "seconds=>`${seconds} giây`"
+},
+"agents.failedCount": {
+"en": "count=>`${count} failed`",
+"note": null,
+"vi": "count=>`${count} thất bại`"
+},
+"agents.filesCount": {
+"en": "count=>`${count} files`",
+"note": null,
+"vi": "count=>`${count} tệp`"
+},
+"agents.moreAgents": {
+"en": "count=>`+${count} more agents`",
+"note": null,
+"vi": "count=>`+${count} agent nữa`"
+},
+"agents.moreFiles": {
+"en": "count=>`+${count} more files`",
+"note": null,
+"vi": "count=>`+${count} tệp nữa`"
+},
+"agents.tokens": {
+"en": "value=>`${value} tok`",
+"note": null,
+"vi": "value=>`${value} token`"
+},
+"agents.toolsCount": {
+"en": "count=>`${count} tools`",
+"note": null,
+"vi": "count=>`${count} công cụ`"
+},
+"agents.updatedAgo": {
+"en": "age=>`updated ${age}`",
+"note": null,
+"vi": "age=>`cập nhật ${age} trước`"
+},
+"agents.workers": {
+"en": "count=>`${count} workers`",
+"note": null,
+"vi": "count=>`${count} worker`"
+},
+"agents.workersActive": {
+"en": "count=>`${count} active`",
+"note": null,
+"vi": "count=>`${count} đang hoạt động`"
+},
+"artifactCard.generating": {
+"en": "lines=>`Generating\\u2026 ${lines} lines`",
+"note": null,
+"vi": "lines=>`Đang tạo… ${lines} dòng`"
+},
+"artifactCard.versionBadge": {
+"en": "count=>`${count} versions`",
+"note": null,
+"vi": "count=>`${count} phiên bản`"
+},
+"artifactPreview.versionOf": {
+"en": "(current,total)=>`v${current} of ${total}`",
+"note": null,
+"vi": "(current,total)=>`v${current} / ${total}`"
+},
+"artifacts.goToPage": {
+"en": "(itemLabel,page)=>`Go to ${itemLabel} page ${page}`",
+"note": null,
+"vi": "(itemLabel,page)=>`Đi đến trang ${page} của ${itemLabel}`"
+},
+"artifacts.rangeOf": {
+"en": "(start,end,total)=>`${start}-${end} of ${total}`",
+"note": null,
+"vi": "(start,end,total)=>`${start}-${end} / ${total}`"
+},
+"assistant.approval.alwaysDescription": {
+"en": "pattern=>`This adds the \\u201C${pattern}\\u201D pattern to your permanent allowlist (~/.hermes/config.yaml). Hermes won\\u2019t ask again for commands like this \\u2014 in this session or any future one.`",
+"note": null,
+"vi": "pattern=>`Thêm mẫu “${pattern}” vào danh sách cho phép vĩnh viễn (~/.hermes/config.yaml). Hermes sẽ không hỏi lại về các lệnh tương tự trong phiên này hoặc những phiên sau.`"
+},
+"assistant.catalogInstall.envVar": {
+"en": "name=>`${name} environment variable`",
+"note": null,
+"vi": "name=>`biến môi trường ${name}`"
+},
+"assistant.catalogInstall.missingEnv": {
+"en": "names=>`Set ${names} to finish setup`",
+"note": null,
+"vi": "names=>`Thiết lập ${names} để hoàn tất cài đặt`"
+},
+"assistant.catalogInstall.requiresHermes": {
+"en": "range=>`Hermes ${range}`",
+"note": null,
+"vi": "range=>`Hermes ${range}`"
+},
+"assistant.catalogInstall.serverNotConnected": {
+"en": "(server,reason)=>`MCP server ${server} not connected${reason?`: ${reason}`:\"\"}`",
+"note": null,
+"vi": "(server,reason)=>`Máy chủ MCP ${server} chưa kết nối${reason?`: ${reason}`:\"\"}`"
+},
+"assistant.catalogInstall.skill": {
+"en": "name=>`skill ${name}`",
+"note": null,
+"vi": "name=>`kỹ năng ${name}`"
+},
+"assistant.catalogInstall.targetProfile": {
+"en": "profile=>`Installs into your ${profile} profile`",
+"note": null,
+"vi": "profile=>`Cài vào hồ sơ ${profile}`"
+},
+"assistant.clarify.questionProgress": {
+"en": "(answered,total)=>`${answered} of ${total} answered`",
+"note": null,
+"vi": "(answered,total)=>`Đã trả lời ${answered}/${total} câu hỏi`"
+},
+"assistant.mcpSetup.authorized": {
+"en": "server=>`Authorized ${server}`",
+"note": null,
+"vi": "server=>`Đã cấp quyền cho ${server}`"
+},
+"assistant.mcpSetup.enabled": {
+"en": "server=>`Enabled ${server}`",
+"note": null,
+"vi": "server=>`Đã bật ${server}`"
+},
+"assistant.mcpSetup.failed": {
+"en": "server=>`Setup failed for ${server}`",
+"note": null,
+"vi": "server=>`Thiết lập ${server} thất bại`"
+},
+"assistant.mcpSetup.installed": {
+"en": "server=>`Installed ${server}`",
+"note": null,
+"vi": "server=>`Đã cài đặt ${server}`"
+},
+"assistant.mcpSetup.toolCount": {
+"en": "count=>count===1?\"1 tool\":`${count} tools`",
+"note": null,
+"vi": "count=>`${count} công cụ`"
+},
+"assistant.thread.errorAuthKinds.api_key.body": {
+"en": "provider=>`The key saved for ${provider} is invalid or was revoked. Update it, then retry.`",
+"note": null,
+"vi": "provider=>`Khóa đã lưu cho ${provider} không hợp lệ hoặc đã bị thu hồi. Hãy cập nhật khóa rồi thử lại.`"
+},
+"assistant.thread.errorAuthKinds.api_key.title": {
+"en": "provider=>`${provider} rejected your API key`",
+"note": null,
+"vi": "provider=>`${provider} từ chối khóa API của bạn`"
+},
+"assistant.thread.errorAuthKinds.oauth.title": {
+"en": "provider=>`Your ${provider} sign-in expired`",
+"note": null,
+"vi": "provider=>`Phiên đăng nhập ${provider} của bạn đã hết hạn`"
+},
+"assistant.thread.errorCodes.auth.body": {
+"en": "provider=>`The credentials saved for ${provider} were not accepted. Fix them in Settings or switch provider, then send your message again.`",
+"note": null,
+"vi": "provider=>`Thông tin đăng nhập đã lưu cho ${provider} không được chấp nhận. Hãy sửa trong Cài đặt hoặc chuyển sang nhà cung cấp khác, rồi gửi lại tin nhắn.`"
+},
+"assistant.thread.errorCodes.auth.title": {
+"en": "provider=>`${provider} rejected your sign-in`",
+"note": null,
+"vi": "provider=>`${provider} từ chối thông tin đăng nhập của bạn`"
+},
+"assistant.thread.errorCodes.auth_permanent.body": {
+"en": "provider=>`The credentials saved for ${provider} are invalid or were revoked. Update them or switch provider, then send your message again.`",
+"note": null,
+"vi": "provider=>`Thông tin đăng nhập đã lưu cho ${provider} không hợp lệ hoặc đã bị thu hồi. Hãy cập nhật hoặc chuyển sang nhà cung cấp khác, rồi gửi lại tin nhắn.`"
+},
+"assistant.thread.errorCodes.auth_permanent.title": {
+"en": "provider=>`${provider} rejected your sign-in`",
+"note": null,
+"vi": "provider=>`${provider} từ chối thông tin đăng nhập của bạn`"
+},
+"assistant.thread.errorCodes.billing.body": {
+"en": "provider=>`Your ${provider} account has no credits left. Top up or switch provider, then send again.`",
+"note": null,
+"vi": "provider=>`Tài khoản ${provider} của bạn đã hết credit. Hãy nạp thêm hoặc chuyển sang nhà cung cấp khác, rồi gửi lại tin nhắn.`"
+},
+"assistant.thread.errorCodes.content_policy_blocked.body": {
+"en": "provider=>`${provider} would not answer this message. Edit it and send again.`",
+"note": null,
+"vi": "provider=>`${provider} không thể phản hồi tin nhắn này. Hãy chỉnh sửa rồi gửi lại.`"
+},
+"assistant.thread.errorCodes.empty_response.body": {
+"en": "provider=>`${provider} returned nothing for this message. Retry in a moment.`",
+"note": null,
+"vi": "provider=>`${provider} không trả về nội dung nào cho tin nhắn này. Hãy thử lại sau.`"
+},
+"assistant.thread.errorCodes.format_error.body": {
+"en": "provider=>`${provider} did not accept how this request was built. Switch provider or send diagnostics so we can look into it.`",
+"note": null,
+"vi": "provider=>`${provider} không chấp nhận cách tạo yêu cầu này. Hãy chuyển sang nhà cung cấp khác hoặc gửi thông tin chẩn đoán để chúng tôi tìm hiểu.`"
+},
+"assistant.thread.errorCodes.invalid_response.body": {
+"en": "provider=>`${provider} returned something Hermes could not read. Retry in a moment.`",
+"note": null,
+"vi": "provider=>`${provider} trả về nội dung Hermes không thể đọc. Hãy thử lại sau.`"
+},
+"assistant.thread.errorCodes.model_not_found.body": {
+"en": "provider=>`${provider} does not offer this model on your account. Choose another model, then send your message again.`",
+"note": null,
+"vi": "provider=>`Tài khoản của bạn không có quyền dùng mô hình này trên ${provider}. Hãy chọn mô hình khác rồi gửi lại tin nhắn.`"
+},
+"assistant.thread.errorCodes.overloaded.body": {
+"en": "provider=>`${provider} is having problems right now. Retry in a moment or switch provider.`",
+"note": null,
+"vi": "provider=>`${provider} đang gặp sự cố. Hãy thử lại sau hoặc chuyển sang nhà cung cấp khác.`"
+},
+"assistant.thread.errorCodes.provider_policy_blocked.body": {
+"en": "provider=>`${provider} would not route this request under your account's data or privacy settings. Choose another model or switch provider.`",
+"note": null,
+"vi": "provider=>`${provider} không thể chuyển tiếp yêu cầu này do cài đặt dữ liệu hoặc quyền riêng tư trên tài khoản của bạn. Hãy chọn mô hình khác hoặc chuyển sang nhà cung cấp khác.`"
+},
+"assistant.thread.errorCodes.rate_limit.body": {
+"en": "provider=>`${provider} is limiting requests right now. Wait a minute, then retry.`",
+"note": null,
+"vi": "provider=>`${provider} đang giới hạn yêu cầu. Hãy đợi một phút rồi thử lại.`"
+},
+"assistant.thread.errorCodes.server_error.body": {
+"en": "provider=>`${provider} returned a server error. Retry in a moment or switch provider.`",
+"note": null,
+"vi": "provider=>`${provider} trả về lỗi máy chủ. Hãy thử lại sau hoặc chuyển sang nhà cung cấp khác.`"
+},
+"assistant.thread.errorCodes.ssl_cert_verification.body": {
+"en": "provider=>`Hermes could not verify the secure connection to ${provider}. Check your network or proxy settings, or switch provider, then send your message again.`",
+"note": null,
+"vi": "provider=>`Hermes không thể xác minh kết nối bảo mật đến ${provider}. Hãy kiểm tra cài đặt mạng hoặc proxy, hoặc chuyển sang nhà cung cấp khác, rồi gửi lại tin nhắn.`"
+},
+"assistant.thread.errorCodes.timeout.body": {
+"en": "provider=>`${provider} could not be reached or did not answer in time. Check your internet connection, then retry.`",
+"note": null,
+"vi": "provider=>`Không thể kết nối với ${provider} hoặc nhà cung cấp không phản hồi kịp thời. Hãy kiểm tra kết nối Internet rồi thử lại.`"
+},
+"assistant.thread.errorCodes.upstream_blocked.body": {
+"en": "provider=>`A firewall or CDN in front of ${provider} blocked the request before it reached the model \\u2014 your key is probably fine. Set a User-Agent header via the provider's extra_headers in Settings, or switch provider, then send your message again.`",
+"note": null,
+"vi": "provider=>`Tường lửa hoặc CDN phía trước ${provider} đã chặn yêu cầu trước khi yêu cầu đến được mô hình — có thể khóa của bạn vẫn ổn. Hãy đặt tiêu đề User-Agent qua extra_headers của nhà cung cấp trong Cài đặt, hoặc chuyển sang nhà cung cấp khác, rồi gửi lại tin nhắn.`"
+},
+"assistant.thread.errorCodes.upstream_rate_limit.body": {
+"en": "provider=>`${provider} is limiting requests right now. Wait a minute, then retry.`",
+"note": null,
+"vi": "provider=>`${provider} đang giới hạn yêu cầu. Hãy đợi một phút rồi thử lại.`"
+},
+"assistant.thread.errorLimitResets": {
+"en": "time=>`Limit resets at ${time}`",
+"note": null,
+"vi": "time=>`Giới hạn sẽ được đặt lại lúc ${time}`"
+},
+"assistant.thread.errorOauthExpired": {
+"en": "provider=>`Your ${provider} sign-in has expired or was revoked. Sign in again to keep chatting.`",
+"note": null,
+"vi": "provider=>`Phiên đăng nhập ${provider} của bạn đã hết hạn hoặc bị thu hồi. Hãy đăng nhập lại để tiếp tục trò chuyện.`"
+},
+"assistant.thread.errorRetryAtReset": {
+"en": "time=>`Retry when the limit resets (${time})`",
+"note": null,
+"vi": "time=>`Hãy thử lại khi giới hạn được đặt lại (${time})`"
+},
+"assistant.thread.errorRetryScheduled": {
+"en": "(time,wait)=>`Retrying at ${time} \\u2014 in ${wait}`",
+"note": null,
+"vi": "(time,wait)=>`Sẽ thử lại lúc ${time} — sau ${wait}`"
+},
+"assistant.thread.errorSignInAgain": {
+"en": "provider=>`Sign in to ${provider} again`",
+"note": null,
+"vi": "provider=>`Đăng nhập lại vào ${provider}`"
+},
+"assistant.thread.filesChanged": {
+"en": "count=>count===1?\"1 file changed\":`${count} files changed`",
+"note": null,
+"vi": "count=>count===1?\"1 tệp đã thay đổi\":`${count} tệp đã thay đổi`"
+},
+"assistant.thread.loadingLocalModel": {
+"en": "model=>`Loading ${model} into memory`",
+"note": null,
+"vi": "model=>`Đang tải ${model} vào bộ nhớ`"
+},
+"assistant.thread.resumeWhenBackgroundDone": {
+"en": "count=>count===1?\"Will resume when the background task finishes\":`Will resume when ${count} background tasks finish`",
+"note": null,
+"vi": "count=>count===1?\"Sẽ tiếp tục khi tác vụ chạy nền hoàn tất\":`Sẽ tiếp tục khi ${count} tác vụ chạy nền hoàn tất`"
+},
+"assistant.thread.thoughtFor": {
+"en": "duration=>`Thought for ${duration}`",
+"note": null,
+"vi": "duration=>`Đã suy luận trong ${duration}`"
+},
+"assistant.thread.today": {
+"en": "time=>`Today, ${time}`",
+"note": null,
+"vi": "time=>`Hôm nay, ${time}`"
+},
+"assistant.thread.turnDuration": {
+"en": "duration=>`This turn took ${duration}`",
+"note": null,
+"vi": "duration=>`Lượt này mất ${duration}`"
+},
+"assistant.thread.yesterday": {
+"en": "time=>`Yesterday, ${time}`",
+"note": null,
+"vi": "time=>`Hôm qua, ${time}`"
+},
+"assistant.tool.failedCalls": {
+"en": "count=>`${count} tool call${count===1?\"\":\"s\"} failed`",
+"note": null,
+"vi": "count=>`${count} lệnh gọi công cụ thất bại`"
+},
+"assistant.tool.failedMany": {
+"en": "count=>`${count} steps failed`",
+"note": null,
+"vi": "count=>`${count} bước thất bại`"
+},
+"assistant.tool.recoveredMany": {
+"en": "count=>`Recovered after ${count} failed steps`",
+"note": null,
+"vi": "count=>`Đã khôi phục sau ${count} bước thất bại`"
+},
+"assistant.tool.titleTemplates.actionCommand": {
+"en": "(action,command)=>`${action} ${command}`",
+"note": null,
+"vi": "(action,command)=>`${action} ${command}`"
+},
+"assistant.tool.titleTemplates.actionQuoted": {
+"en": "(action,value)=>`${action} \\u201C${value}\\u201D`",
+"note": null,
+"vi": "(action,value)=>`${action} “${value}”`"
+},
+"assistant.tool.titleTemplates.actionTarget": {
+"en": "(action,target)=>`${action} ${target}`",
+"note": null,
+"vi": "(action,target)=>`${action} ${target}`"
+},
+"assistant.tool.titleTemplates.prefixedDone": {
+"en": "(prefix,action)=>`${prefix} ${action}`",
+"note": null,
+"vi": "(prefix,action)=>`${prefix} ${action}`"
+},
+"assistant.tool.titleTemplates.runningPrefixedTool": {
+"en": "(prefix,action)=>`Running ${prefix.toLowerCase()} ${action.toLowerCase()}`",
+"note": null,
+"vi": "(prefix,action)=>`Đang ${prefix.toLowerCase()} ${action.toLowerCase()}`"
+},
+"assistant.tool.titleTemplates.runningTool": {
+"en": "action=>`Running ${action.toLowerCase()}`",
+"note": null,
+"vi": "action=>`Đang ${action.toLowerCase()}`"
+},
+"billingBlock.titleProvider": {
+"en": "provider=>`Out of credits \\u2014 ${provider}`",
+"note": null,
+"vi": "provider=>`Đã hết credit — ${provider}`"
+},
+"boot.desktopBootFailedWithMessage": {
+"en": "message=>`Desktop boot failed: ${message}`",
+"note": null,
+"vi": "message=>`Khởi chạy ứng dụng desktop thất bại: ${message}`"
+},
+"boot.failure.remoteSignInHint": {
+"en": "signInLabel=>`Signs out of the saved remote browser session, then opens ${signInLabel}. Use local gateway to switch to the bundled backend instead.`",
+"note": null,
+"vi": "signInLabel=>`Đăng xuất khỏi phiên trình duyệt từ xa đã lưu, sau đó mở ${signInLabel}. Chọn gateway cục bộ để chuyển sang backend đi kèm.`"
+},
+"boot.failure.signInWithProvider": {
+"en": "provider=>`Sign in with ${provider}`",
+"note": null,
+"vi": "provider=>`Đăng nhập bằng ${provider}`"
+},
+"boot.updateHold.heldByProcess": {
+"en": "pid=>`The update (process ${pid}) exited, but a process it started still holds the Hermes install.`",
+"note": null,
+"vi": "pid=>`Quá trình cập nhật (process ${pid}) đã thoát, nhưng một tiến trình do nó khởi chạy vẫn đang giữ bản cài đặt Hermes.`"
+},
+"boot.updateHold.lastChecked": {
+"en": "time=>`Last checked ${time}`",
+"note": null,
+"vi": "time=>`Kiểm tra lần cuối ${time}`"
+},
+"boot.updateHold.since": {
+"en": "time=>`Waiting since ${time}`",
+"note": null,
+"vi": "time=>`Đang chờ từ ${time}`"
+},
+"butterbar.goTo": {
+"en": "(index,total)=>`Show notice ${index} of ${total}`",
+"note": null,
+"vi": "(index,total)=>`Hiển thị thông báo ${index}/${total}`"
+},
+"commandCenter.actions": {
+"en": "count=>`${count} actions`",
+"note": null,
+"vi": "count=>`${count} thao tác`"
+},
+"commandCenter.actualCost": {
+"en": "cost=>`actual ${cost}`",
+"note": null,
+"vi": "cost=>`thực tế ${cost}`"
+},
+"commandCenter.days": {
+"en": "count=>`${count}d`",
+"note": null,
+"vi": "count=>`${count} ngày`"
+},
+"commandCenter.generatePet.hatchRow": {
+"en": "(_state,done,total)=>`Sketching frame ${done} of ${total}\\u2026`",
+"note": null,
+"vi": "(_state,done,total)=>`Đang phác họa khung hình ${done}/${total}…`"
+},
+"commandCenter.hermesActiveSessions": {
+"en": "(version,count)=>`Hermes ${version} \\xB7 Active sessions ${count}`",
+"note": null,
+"vi": "(version,count)=>`Hermes ${version} · Phiên đang hoạt động: ${count}`"
+},
+"commandCenter.installTheme.installs": {
+"en": "count=>`${count} installs`",
+"note": null,
+"vi": "count=>`${count} lượt cài đặt`"
+},
+"commandCenter.maintenance.actionFailed": {
+"en": "name=>`${name} failed to start`",
+"note": null,
+"vi": "name=>`Không thể khởi động ${name}`"
+},
+"commandCenter.maintenance.actionStarted": {
+"en": "name=>`${name} started \\u2014 tailing log...`",
+"note": null,
+"vi": "name=>`Đã bắt đầu ${name} — đang theo dõi nhật ký...`"
+},
+"commandCenter.maintenance.bytes": {
+"en": "size=>size",
+"note": null,
+"vi": "size=>size"
+},
+"commandCenter.maintenance.curatorLastRun": {
+"en": "when=>`Last run ${when}`",
+"note": null,
+"vi": "when=>`Chạy gần nhất ${when}`"
+},
+"commandCenter.maintenance.memoryProvider": {
+"en": "name=>`Active provider: ${name}`",
+"note": null,
+"vi": "name=>`Nhà cung cấp đang dùng: ${name}`"
+},
+"commandCenter.maintenance.resetConfirm": {
+"en": "target=>`Delete ${target}? This cannot be undone.`",
+"note": null,
+"vi": "target=>`Xóa ${target}? Bạn không thể hoàn tác thao tác này.`"
+},
+"commandCenter.maintenance.resetDone": {
+"en": "files=>`Deleted ${files}.`",
+"note": null,
+"vi": "files=>`Đã xóa ${files}.`"
+},
+"commandCenter.newSessionInProject": {
+"en": "project=>`New session in ${project}`",
+"note": null,
+"vi": "project=>`Phiên mới trong ${project}`"
+},
+"commandCenter.noUsage": {
+"en": "period=>`No usage in the last ${period} days.`",
+"note": null,
+"vi": "period=>`Không có hoạt động nào trong ${period} ngày qua.`"
+},
+"commandCenter.openFolderAt": {
+"en": "path=>`Open folder as project \\u2014 ${path}`",
+"note": null,
+"vi": "path=>`Mở thư mục dưới dạng dự án — ${path}`"
+},
+"commandCenter.pets.toggleFailed": {
+"en": "enabled=>`Could not turn the pet ${enabled?\"on\":\"off\"}.`",
+"note": null,
+"vi": "enabled => `Không thể ${enabled ? 'bật' : 'tắt'} thú cưng.`"
+},
+"commandCenter.sharedGatewayRestartDescription": {
+"en": "bots=>`All bots on this device reconnect: ${bots}`",
+"note": null,
+"vi": "bots=>`Tất cả bot trên thiết bị này sẽ kết nối lại: ${bots}`"
+},
+"commandCenter.sharedGatewayRestarted": {
+"en": "count=>`Shared gateway restarted (${count} ${count===1?\"bot\":\"bots\"})`",
+"note": null,
+"vi": "count=>`Đã khởi động lại gateway dùng chung (${count} bot)`"
+},
+"commandCenter.startInBranch": {
+"en": "branch=>`New conversation in ${branch}`",
+"note": null,
+"vi": "branch=>`Cuộc trò chuyện mới trong ${branch}`"
+},
+"common.tryHint": {
+"en": "term=>`Try \\u201C${term}\\u201D`",
+"note": null,
+"vi": "term=>`Thử “${term}”`"
+},
+"composer.attachments": {
+"en": "count=>`${count} attachment${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} tệp đính kèm`"
+},
+"composer.couldNotPreview": {
+"en": "label=>`Could not preview ${label}`",
+"note": null,
+"vi": "label=>`Không thể xem trước ${label}`"
+},
+"composer.cronSuggestions.tip": {
+"en": "phrase=>`\\u201C${phrase}\\u201D sounds recurring \\u2014 run it on a schedule instead`",
+"note": null,
+"vi": "phrase=>`“${phrase}” có vẻ là tác vụ định kỳ — hãy lên lịch chạy thay vì`"
+},
+"composer.mcpSuggestions.added": {
+"en": "server=>`Added ${server}`",
+"note": null,
+"vi": "server=>`Đã thêm ${server}`"
+},
+"composer.mcpSuggestions.connectFailed": {
+"en": "server=>`Could not connect ${server}`",
+"note": null,
+"vi": "server=>`Không thể kết nối ${server}`"
+},
+"composer.mcpSuggestions.connecting": {
+"en": "server=>`Connecting ${server}\\u2026`",
+"note": null,
+"vi": "server=>`Đang kết nối ${server}…`"
+},
+"composer.mcpSuggestions.label": {
+"en": "server=>`Add ${server}`",
+"note": null,
+"vi": "server=>`Thêm ${server}`"
+},
+"composer.mcpSuggestions.tip": {
+"en": "keyword=>`Suggested because you mentioned \\u201C${keyword}\\u201D \\u2014 click to connect`",
+"note": null,
+"vi": "keyword=>`Gợi ý vì bạn đã nhắc đến “${keyword}” — nhấp để kết nối`"
+},
+"composer.previewLabel": {
+"en": "label=>`Preview ${label}`",
+"note": null,
+"vi": "label=>`Xem trước ${label}`"
+},
+"composer.queued": {
+"en": "count=>`${count} Queued`",
+"note": null,
+"vi": "count=>`${count} đang chờ`"
+},
+"composer.queuedPaused": {
+"en": "count=>`${count} Queued \\u2014 paused`",
+"note": null,
+"vi": "count=>`${count} đang chờ — đã tạm dừng`"
+},
+"composer.removeAttachment": {
+"en": "label=>`Remove ${label}`",
+"note": null,
+"vi": "label=>`Gỡ ${label}`"
+},
+"composer.repairSuggestions.done": {
+"en": "server=>`Reconnected ${server}`",
+"note": null,
+"vi": "server=>`Đã kết nối lại ${server}`"
+},
+"composer.repairSuggestions.failed": {
+"en": "server=>`Could not reconnect ${server}`",
+"note": null,
+"vi": "server=>`Không thể kết nối lại ${server}`"
+},
+"composer.repairSuggestions.label": {
+"en": "server=>`Reconnect ${server}`",
+"note": null,
+"vi": "server=>`Kết nối lại ${server}`"
+},
+"composer.repairSuggestions.tip": {
+"en": "server=>`A ${server} call just failed with a connection error`",
+"note": null,
+"vi": "server=>`Lệnh gọi ${server} vừa thất bại do lỗi kết nối`"
+},
+"composer.repairSuggestions.working": {
+"en": "server=>`Reconnecting ${server}\\u2026`",
+"note": null,
+"vi": "server=>`Đang kết nối lại ${server}…`"
+},
+"composer.skillSuggestions.done": {
+"en": "skill=>`Added /${skill}`",
+"note": null,
+"vi": "skill=>`Đã thêm /${skill}`"
+},
+"composer.skillSuggestions.label": {
+"en": "skill=>`Use skill: ${skill}`",
+"note": null,
+"vi": "skill=>`Dùng kỹ năng: ${skill}`"
+},
+"composer.skillSuggestions.tip": {
+"en": "skill=>`You mentioned \\u201C${skill}\\u201D \\u2014 click to lead with that skill`",
+"note": null,
+"vi": "skill=>`Bạn đã nhắc đến “${skill}” — nhấp để bắt đầu bằng kỹ năng này`"
+},
+"composer.wakeWord": {
+"en": "phrase=>`Wake word \"${phrase}\"`",
+"note": null,
+"vi": "phrase=>`Từ đánh thức \"${phrase}\"`"
+},
+"composer.wakeWordListening": {
+"en": "phrase=>`Wake word: \"${phrase}\" \\u2014 listening`",
+"note": null,
+"vi": "phrase=>`Từ đánh thức: \"${phrase}\" — đang nghe`"
+},
+"composer.wakeWordOff": {
+"en": "phrase=>`Wake word: \"${phrase}\" \\u2014 off`",
+"note": null,
+"vi": "phrase=>`Từ đánh thức: \"${phrase}\" — đã tắt`"
+},
+"composer.wakeWordPausedVoice": {
+"en": "phrase=>`Wake word: \"${phrase}\" \\u2014 paused during voice chat`",
+"note": null,
+"vi": "phrase=>`Từ đánh thức: \"${phrase}\" — tạm dừng trong cuộc trò chuyện thoại`"
+},
+"composer.wakingProfile": {
+"en": "profile=>`Waking up ${profile}\\u2026`",
+"note": null,
+"vi": "profile=>`Đang đánh thức ${profile}…`"
+},
+"connectors.connectErrorFor": {
+"en": "app=>`Could not start authorization for ${app}.`",
+"note": null,
+"vi": "app=>`Không thể bắt đầu quá trình ủy quyền cho ${app}.`"
+},
+"connectors.directory.receiptConnected": {
+"en": "apps=>`Connected: ${apps}`",
+"note": null,
+"vi": "apps=>`Đã kết nối: ${apps}`"
+},
+"connectors.namedAccount": {
+"en": "(app,alias)=>`Hermes named this ${app} account ${alias}.`",
+"note": null,
+"vi": "(app,alias)=>`Hermes đặt tên cho tài khoản ${app} này là ${alias}.`"
+},
+"connectors.setup": {
+"en": "server=>`Set up ${server}`",
+"note": null,
+"vi": "server=>`Thiết lập ${server}`"
+},
+"connectorsPage.accounts.count": {
+"en": "count=>`${count} account${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} tài khoản`"
+},
+"connectorsPage.accounts.removeTitle": {
+"en": "(app,name)=>`Remove the ${name} ${app} account?`",
+"note": null,
+"vi": "(app,name)=>`Xóa tài khoản ${app} ${name}?`"
+},
+"connectorsPage.accounts.renameLabel": {
+"en": "name=>`New name for ${name}`",
+"note": null,
+"vi": "name=>`Tên mới cho ${name}`"
+},
+"connectorsPage.accounts.retiredCount": {
+"en": "count=>`${count} retired`",
+"note": null,
+"vi": "count=>`${count} đã ngừng hoạt động`"
+},
+"connectorsPage.card.fact.tools": {
+"en": "count=>`${count} tool${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} công cụ`"
+},
+"connectorsPage.card.fact.toolsOff": {
+"en": "count=>`${count} tool${count===1?\"\":\"s\"} off`",
+"note": null,
+"vi": "count=>`${count} công cụ đang tắt`"
+},
+"connectorsPage.card.fact.toolsOn": {
+"en": "count=>`${count} tool${count===1?\"\":\"s\"} on`",
+"note": null,
+"vi": "count=>`${count} công cụ đang bật`"
+},
+"connectorsPage.card.fact.toolsSomeOn": {
+"en": "(total,on)=>`${total} tools, ${on} on`",
+"note": null,
+"vi": "(total,on)=>`${total} công cụ, ${on} đang bật`"
+},
+"connectorsPage.card.kindPlugin": {
+"en": "plugin=>`MCP \\xB7 Plugin ${plugin}`",
+"note": null,
+"vi": "plugin=>`MCP · plugin ${plugin}`"
+},
+"connectorsPage.card.open": {
+"en": "name=>`Open ${name}`",
+"note": null,
+"vi": "name=>`Mở ${name}`"
+},
+"connectorsPage.card.turnServerOff": {
+"en": "name=>`Turn ${name} off`",
+"note": null,
+"vi": "name=>`Tắt ${name}`"
+},
+"connectorsPage.card.turnServerOn": {
+"en": "name=>`Turn ${name} on`",
+"note": null,
+"vi": "name=>`Bật ${name}`"
+},
+"connectorsPage.dialog.appSwitch": {
+"en": "name=>`Hermes can use ${name}`",
+"note": null,
+"vi": "name=>`Hermes có thể dùng ${name}`"
+},
+"connectorsPage.dialog.bothOn": {
+"en": "name=>`Both are on, so Hermes sees every ${name} tool twice.`",
+"note": null,
+"vi": "name=>`Cả hai đều đang bật nên Hermes thấy mỗi công cụ ${name} hai lần.`"
+},
+"connectorsPage.dialog.disconnectTitle": {
+"en": "name=>`Disconnect ${name}?`",
+"note": null,
+"vi": "name=>`Ngắt kết nối ${name}?`"
+},
+"connectorsPage.dialog.orgNote": {
+"en": "count=>`Your organisation turned ${count} tools off.`",
+"note": null,
+"vi": "count=>`Tổ chức của bạn đã tắt ${count} công cụ.`"
+},
+"connectorsPage.dialog.providedByPlugin": {
+"en": "plugin=>`Provided by plugin ${plugin}`",
+"note": null,
+"vi": "plugin=>`Do plugin ${plugin} cung cấp`"
+},
+"connectorsPage.dialog.removeServerTitle": {
+"en": "name=>`Remove ${name}?`",
+"note": null,
+"vi": "name=>`Gỡ ${name}?`"
+},
+"connectorsPage.dialog.rulesAppOff": {
+"en": "name=>`Turn ${name} on to change its tools.`",
+"note": null,
+"vi": "name=>`Bật ${name} để thay đổi các công cụ của ứng dụng.`"
+},
+"connectorsPage.dialog.wayNotConnected": {
+"en": "name=>`Not connected yet. Sign in to ${name} in your browser.`",
+"note": null,
+"vi": "name=>`Chưa kết nối. Đăng nhập vào ${name} trong trình duyệt.`"
+},
+"connectorsPage.dialog.waysTitle": {
+"en": "name=>`Where ${name} runs`",
+"note": null,
+"vi": "name=>`${name} chạy ở đâu`"
+},
+"connectorsPage.page.matchesElsewhere": {
+"en": "count=>`${count} more match${count===1?\"\":\"es\"} in other groups.`",
+"note": null,
+"vi": "count=>`Còn ${count} kết quả phù hợp trong các nhóm khác.`"
+},
+"connectorsPage.page.segmentNoMatch": {
+"en": "segment=>`No match in ${segment}, so every match is shown.`",
+"note": null,
+"vi": "segment=>`Không có kết quả phù hợp trong ${segment}, nên tất cả kết quả đều được hiển thị.`"
+},
+"connectorsPage.searchPlaceholder": {
+"en": "count=>`Search ${count} apps`",
+"note": null,
+"vi": "count=>`Tìm trong ${count} ứng dụng`"
+},
+"connectorsPage.tools.categorySelect": {
+"en": "count=>`${count} categories`",
+"note": null,
+"vi": "count=>`${count} danh mục`"
+},
+"connectorsPage.tools.conflictBody": {
+"en": "(theyOff,theyOn)=>{const they=[theyOff>0?`turned off ${theyOff} tool${theyOff===1?\"\":\"s\"} you have on`:\"\",theyOn>0?`left ${theyOn} tool${theyOn===1?\"\":\"s\"} on that you turned off`:\"\"].filter(Boolean);return`${they.length>0?`They ${they.join(\", and \")}. `:\"\"}Your edits stay on screen; nothing was written.`}",
+"note": null,
+"vi": "(theyOff,theyOn)=>{const they=[theyOff>0?`đã tắt ${theyOff} công cụ đang bật`:\"\",theyOn>0?`đã để bật ${theyOn} công cụ mà bạn đã tắt`:\"\"].filter(Boolean);return`${they.length>0?`Các thay đổi đó ${they.join(\", và \")}. `:\"\"}Chỉnh sửa vẫn hiển thị trên màn hình; chưa có gì được lưu.`}"
+},
+"connectorsPage.tools.facetSwitch": {
+"en": "facet=>`Turn ${facet} tools on or off`",
+"note": null,
+"vi": "facet=>`Bật hoặc tắt các công cụ ${facet}`"
+},
+"connectorsPage.tools.footerDirty": {
+"en": "(off,backOn)=>`${off} tool${off===1?\"\":\"s\"} off, ${backOn===0?\"none\":backOn} back on`",
+"note": null,
+"vi": "(off,backOn)=>`${off} công cụ đã tắt, ${backOn===0?\"không có công cụ nào được bật lại\":`${backOn} công cụ được bật lại`}`"
+},
+"connectorsPage.tools.goneTitle": {
+"en": "name=>`${name} left the catalog.`",
+"note": null,
+"vi": "name=>`${name} không còn trong danh mục.`"
+},
+"connectorsPage.tools.hideDeprecated": {
+"en": "count=>`Hide ${count} deprecated`",
+"note": null,
+"vi": "count=>`Ẩn ${count} công cụ đã lỗi thời`"
+},
+"connectorsPage.tools.hideDetails": {
+"en": "tool=>`Hide what ${tool} does`",
+"note": null,
+"vi": "tool=>`Ẩn chức năng của ${tool}`"
+},
+"connectorsPage.tools.moreHints": {
+"en": "count=>`+${count}`",
+"note": null,
+"vi": "count=>`+${count}`"
+},
+"connectorsPage.tools.needsAuthTitle": {
+"en": "name=>`Sign in to ${name} to read its tools.`",
+"note": null,
+"vi": "name=>`Đăng nhập vào ${name} để xem các công cụ.`"
+},
+"connectorsPage.tools.offTitle": {
+"en": "name=>`${name} is off.`",
+"note": null,
+"vi": "name=>`${name} đang tắt.`"
+},
+"connectorsPage.tools.searchCountPlaceholder": {
+"en": "count=>`Search ${count} tools`",
+"note": null,
+"vi": "count=>`Tìm trong ${count} công cụ`"
+},
+"connectorsPage.tools.showAllTools": {
+"en": "count=>`Show all ${count} tool${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`Hiện tất cả ${count} công cụ`"
+},
+"connectorsPage.tools.showDeprecated": {
+"en": "count=>`Show ${count} deprecated`",
+"note": null,
+"vi": "count=>`Hiện ${count} công cụ đã lỗi thời`"
+},
+"connectorsPage.tools.showDetails": {
+"en": "tool=>`Show what ${tool} does`",
+"note": null,
+"vi": "tool=>`Xem chức năng của ${tool}`"
+},
+"connectorsPage.tools.summaryCount": {
+"en": "count=>`${count} tool${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} công cụ`"
+},
+"connectorsPage.tools.summaryPreviewTitle": {
+"en": "name=>`What Hermes could do with ${name} once you connect`",
+"note": null,
+"vi": "name=>`Hermes có thể làm gì với ${name} sau khi bạn kết nối`"
+},
+"connectorsPage.tools.summarySomeOn": {
+"en": "(on,total)=>`${on} of ${total} on`",
+"note": null,
+"vi": "(on,total)=>`Đã bật ${on}/${total}`"
+},
+"connectorsPage.tools.summaryTitle": {
+"en": "name=>`What Hermes may do with ${name}`",
+"note": null,
+"vi": "name=>`Hermes có thể làm gì với ${name}`"
+},
+"connectorsPage.tools.toolList": {
+"en": "name=>`${name} tools`",
+"note": null,
+"vi": "name=>`Công cụ ${name}`"
+},
+"connectorsPage.tools.turnToolOff": {
+"en": "tool=>`Turn ${tool} off`",
+"note": null,
+"vi": "tool=>`Tắt ${tool}`"
+},
+"connectorsPage.tools.turnToolOn": {
+"en": "tool=>`Turn ${tool} on`",
+"note": null,
+"vi": "tool=>`Bật ${tool}`"
+},
+"cron.count": {
+"en": "count=>`${count} ${count===1?\"job\":\"jobs\"}`",
+"note": null,
+"vi": "count=>`${count} tác vụ định kỳ`"
+},
+"cron.dayFallback": {
+"en": "value=>`day ${value}`",
+"note": null,
+"vi": "value=>`ngày ${value}`"
+},
+"cron.everyDayAt": {
+"en": "time=>`Every day at ${time}`",
+"note": null,
+"vi": "time=>`Hằng ngày lúc ${time}`"
+},
+"cron.everyDayOfWeekAt": {
+"en": "(day,time)=>`Every ${day} at ${time}`",
+"note": null,
+"vi": "(day,time)=>`Thứ ${day} lúc ${time}`"
+},
+"cron.everyHourAt": {
+"en": "minute=>`Every hour at :${minute}`",
+"note": null,
+"vi": "minute=>`Mỗi giờ vào phút :${minute}`"
+},
+"cron.monthlyOnDayAt": {
+"en": "(dayOfMonth,time)=>`Monthly on day ${dayOfMonth} at ${time}`",
+"note": null,
+"vi": "(dayOfMonth,time)=>`Hằng tháng vào ngày ${dayOfMonth} lúc ${time}`"
+},
+"cron.weekdaysAt": {
+"en": "time=>`Weekdays at ${time}`",
+"note": null,
+"vi": "time=>`Các ngày trong tuần lúc ${time}`"
+},
+"desktop.branchTitle": {
+"en": "n=>`Draft: Branch #${n}`",
+"note": null,
+"vi": "n=>`Bản nháp: Nhánh #${n}`"
+},
+"desktop.handoff.failed": {
+"en": "error=>`Handoff failed: ${error}`",
+"note": null,
+"vi": "error=>`Bàn giao thất bại: ${error}`"
+},
+"desktop.handoff.success": {
+"en": "platform=>`Handed off to ${platform}. Resume here anytime.`",
+"note": null,
+"vi": "platform=>`Đã bàn giao cho ${platform}. Bạn có thể quay lại đây bất cứ lúc nào.`"
+},
+"desktop.handoff.systemNote": {
+"en": "platform=>`\\u21BB Handed off to ${platform} \\u2014 resume here anytime.`",
+"note": null,
+"vi": "platform=>`↻ Đã bàn giao cho ${platform} — có thể quay lại đây bất cứ lúc nào.`"
+},
+"desktop.hydrationSyncing": {
+"en": "profile=>`Syncing ${profile}\\u2026`",
+"note": null,
+"vi": "profile=>`Đang đồng bộ ${profile}…`"
+},
+"desktop.modelSwitchConfirmTitle": {
+"en": "model=>`Switch to ${model}?`",
+"note": null,
+"vi": "model=>`Chuyển sang ${model}?`"
+},
+"desktop.newChatsProfile": {
+"en": "name=>`New chats will use profile ${name}.`",
+"note": null,
+"vi": "name=>`Cuộc trò chuyện mới sẽ dùng hồ sơ ${name}.`"
+},
+"desktop.noProfileNamed": {
+"en": "(target,available)=>`No profile named \"${target}\". Available: ${available}`",
+"note": null,
+"vi": "(target,available)=>`Không có hồ sơ tên \"${target}\". Các hồ sơ hiện có: ${available}`"
+},
+"desktop.profileStatus": {
+"en": "current=>`Profile: ${current}. Use /profile <name> or the \"New session\" picker to start a chat in another profile.`",
+"note": null,
+"vi": "current=>`Hồ sơ: ${current}. Dùng /profile <name> hoặc chọn trong bộ chọn \"Phiên mới\" để bắt đầu cuộc trò chuyện bằng hồ sơ khác.`"
+},
+"desktop.skillCommandsAvailable": {
+"en": "count=>`${count} skill commands available.`",
+"note": null,
+"vi": "count=>`Có ${count} lệnh kỹ năng.`"
+},
+"desktop.warningLine": {
+"en": "message=>`warning: ${message}`",
+"note": null,
+"vi": "message=>`cảnh báo: ${message}`"
+},
+"desktop.yoloSystem": {
+"en": "active=>`YOLO ${active?\"on\":\"off\"} for this session`",
+"note": null,
+"vi": "active=>`YOLO ${active?\"bật\":\"tắt\"} trong phiên này`"
+},
+"fileMenu.deleteTitle": {
+"en": "name=>`Delete ${name}?`",
+"note": null,
+"vi": "name=>`Xóa ${name}?`"
+},
+"firstRun.localModel.text": {
+"en": "(model,size)=>`${model} (${size}) fits your hardware. It runs free, and your chats stay on this computer.`",
+"note": null,
+"vi": "(model,size)=>`${model} (${size}) phù hợp với phần cứng của bạn. Mô hình chạy miễn phí và các cuộc trò chuyện vẫn nằm trên máy tính này.`"
+},
+"firstRun.useName": {
+"en": "name=>`Use \\u201C${name}\\u201D`",
+"note": null,
+"vi": "name=>`Dùng “${name}”`"
+},
+"freeTier.busyBody": {
+"en": "wait=>`Hermes couldn't finish signing you in because the Nous service is busy. Try again in ${wait}. Your session is still here in the meantime.`",
+"note": null,
+"vi": "wait=>`Hermes chưa thể đăng nhập cho bạn vì dịch vụ Nous đang bận. Hãy thử lại sau ${wait}. Trong lúc chờ, phiên của bạn vẫn được giữ nguyên.`"
+},
+"freeTier.setupFailed.rateLimited": {
+"en": "wait=>`Lots of people are getting started right now, so Hermes will try again in ${wait}. Signing in is free and skips the wait.`",
+"note": null,
+"vi": "wait=>`Hiện có nhiều người bắt đầu sử dụng cùng lúc, Hermes sẽ thử lại sau ${wait}. Đăng nhập miễn phí và giúp bạn không phải chờ.`"
+},
+"freeTier.signedInAs": {
+"en": "email=>`Signed in as ${email}`",
+"note": null,
+"vi": "email=>`Đã đăng nhập bằng ${email}`"
+},
+"freeTier.statusLabel": {
+"en": "model=>`Nous \\xB7 ${model}`",
+"note": null,
+"vi": "model=>`Nous \\xB7 ${model}`"
+},
+"install.authNeedsOauth": {
+"en": "provider=>`Sign in with ${provider} before testing this gateway.`",
+"note": null,
+"vi": "provider=>`Đăng nhập vào ${provider} trước khi kiểm tra gateway này.`"
+},
+"install.currentStage": {
+"en": "stage=>` -- now: ${stage}`",
+"note": null,
+"vi": "stage=>` -- hiện tại: ${stage}`"
+},
+"install.lines": {
+"en": "count=>`${count} line${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} dòng`"
+},
+"install.progress": {
+"en": "(completed,total)=>`${completed} of ${total} steps complete`",
+"note": null,
+"vi": "(completed,total)=>`Đã hoàn tất ${completed}/${total} bước`"
+},
+"install.signInWith": {
+"en": "provider=>`Sign in with ${provider}`",
+"note": null,
+"vi": "provider=>`Đăng nhập bằng ${provider}`"
+},
+"install.testSucceeded": {
+"en": "(baseUrl,version)=>`Connected to ${baseUrl}${version?` (${version})`:\"\"}.`",
+"note": null,
+"vi": "(baseUrl,version)=>`Đã kết nối với ${baseUrl}${version?` (${version})`:\"\"}.`"
+},
+"install.unsupportedDesc": {
+"en": "platform=>`Automated first-launch install isn\\u2019t available on ${platform} yet. Open Terminal and run the command below, then relaunch this app. Subsequent launches will skip this step.`",
+"note": null,
+"vi": "platform=>`Chưa thể tự động cài đặt trong lần chạy đầu trên ${platform}. Mở Terminal và chạy lệnh bên dưới, sau đó khởi chạy lại ứng dụng này. Những lần khởi chạy tiếp theo sẽ bỏ qua bước này.`"
+},
+"keybinds.conflictWith": {
+"en": "label=>`Also bound to \\u201C${label}\\u201D`",
+"note": null,
+"vi": "label=>`Cũng được gán cho “${label}”`"
+},
+"keybinds.subtitle": {
+"en": "open=>`Click a shortcut to rebind it \\xB7 ${open} reopens this panel.`",
+"note": null,
+"vi": "open=>`Nhấp vào phím tắt để đổi tổ hợp phím · Nhấn ${open} để mở lại bảng này.`"
+},
+"messaging.advanced": {
+"en": "count=>`Advanced (${count})`",
+"note": null,
+"vi": "count=>`Nâng cao (${count})`"
+},
+"messaging.approvedUser": {
+"en": "name=>`${name} approved`",
+"note": null,
+"vi": "name=>`Đã phê duyệt ${name}`"
+},
+"messaging.approvedUsers": {
+"en": "count=>`Approved users (${count})`",
+"note": null,
+"vi": "count=>`Người dùng đã phê duyệt (${count})`"
+},
+"messaging.clearField": {
+"en": "key=>`Clear ${key}`",
+"note": null,
+"vi": "key=>`Xóa ${key}`"
+},
+"messaging.disableAria": {
+"en": "name=>`Disable ${name}`",
+"note": null,
+"vi": "name=>`Tắt ${name}`"
+},
+"messaging.enableAria": {
+"en": "name=>`Enable ${name}`",
+"note": null,
+"vi": "name=>`Bật ${name}`"
+},
+"messaging.failedApprove": {
+"en": "name=>`Failed to approve ${name}`",
+"note": null,
+"vi": "name=>`Không thể phê duyệt ${name}`"
+},
+"messaging.failedClear": {
+"en": "key=>`Failed to clear ${key}`",
+"note": null,
+"vi": "key=>`Không thể xóa ${key}`"
+},
+"messaging.failedRevoke": {
+"en": "name=>`Failed to revoke ${name}`",
+"note": null,
+"vi": "name=>`Không thể thu hồi quyền của ${name}`"
+},
+"messaging.failedSave": {
+"en": "name=>`Failed to save ${name}`",
+"note": null,
+"vi": "name=>`Không thể lưu ${name}`"
+},
+"messaging.failedUpdate": {
+"en": "name=>`Failed to update ${name}`",
+"note": null,
+"vi": "name=>`Không thể cập nhật ${name}`"
+},
+"messaging.keyCleared": {
+"en": "key=>`${key} cleared`",
+"note": null,
+"vi": "key=>`Đã xóa ${key}`"
+},
+"messaging.pendingAria": {
+"en": "count=>`${count} pending pairing ${count===1?\"request\":\"requests\"}`",
+"note": null,
+"vi": "count=>`${count} yêu cầu ghép đôi đang chờ`"
+},
+"messaging.pendingRequests": {
+"en": "count=>`Pending requests (${count})`",
+"note": null,
+"vi": "count=>`Yêu cầu đang chờ (${count})`"
+},
+"messaging.platformDisabled": {
+"en": "name=>`${name} disabled`",
+"note": null,
+"vi": "name=>`Đã tắt ${name}`"
+},
+"messaging.platformEnabled": {
+"en": "name=>`${name} enabled`",
+"note": null,
+"vi": "name=>`Đã bật ${name}`"
+},
+"messaging.revokeAria": {
+"en": "name=>`Revoke ${name}`",
+"note": null,
+"vi": "name=>`Thu hồi quyền của ${name}`"
+},
+"messaging.revokeDesc": {
+"en": "name=>`${name} will lose access and stop being recognized on their next message.`",
+"note": null,
+"vi": "name=>`${name} sẽ mất quyền truy cập và không còn được nhận diện khi gửi tin nhắn tiếp theo.`"
+},
+"messaging.revokedUser": {
+"en": "name=>`${name} revoked`",
+"note": null,
+"vi": "name=>`Đã thu hồi quyền của ${name}`"
+},
+"messaging.setupSaved": {
+"en": "name=>`${name} setup saved`",
+"note": null,
+"vi": "name=>`Đã lưu cấu hình ${name}`"
+},
+"messaging.setupUpdated": {
+"en": "name=>`${name} setup was updated.`",
+"note": null,
+"vi": "name=>`Đã cập nhật cấu hình ${name}.`"
+},
+"messaging.telegramQr.expiresIn": {
+"en": "remaining=>`Expires in ${remaining}`",
+"note": null,
+"vi": "remaining=>`Hết hạn sau ${remaining}`"
+},
+"messaging.telegramQr.savedRestartFailed": {
+"en": "detail=>`Telegram saved; gateway restart failed${detail}`",
+"note": null,
+"vi": "detail=>`Đã lưu Telegram nhưng không thể khởi động lại gateway${detail}`"
+},
+"messaging.telegramQr.stillWaiting": {
+"en": "detail=>`Still waiting for Telegram. Retrying after: ${detail}`",
+"note": null,
+"vi": "detail=>`Vẫn đang chờ Telegram. Thử lại sau: ${detail}`"
+},
+"messaging.waitingSince": {
+"en": "minutes=>minutes<1?\"just now\":`${minutes}m ago`",
+"note": null,
+"vi": "minutes=>minutes<1?\"vừa xong\":`${minutes} phút trước`"
+},
+"notifications.mcp.disableFailed": {
+"en": "name=>`Could not disable ${name} MCP.`",
+"note": null,
+"vi": "name=>`Không thể tắt ${name} MCP.`"
+},
+"notifications.mcp.disabledMessage": {
+"en": "name=>`${name} MCP disabled. Re-enable it any time from Capabilities \\u2192 MCP.`",
+"note": null,
+"vi": "name=>`${name} MCP đã tắt. Bạn có thể bật lại bất cứ lúc nào trong Capabilities → MCP.`"
+},
+"notifications.mcp.errorMessage": {
+"en": "name=>`${name} MCP failed its health check.`",
+"note": null,
+"vi": "name=>`${name} MCP không vượt qua bước kiểm tra tình trạng.`"
+},
+"notifications.mcp.needsAuthMessage": {
+"en": "name=>`${name} MCP needs re-authentication.`",
+"note": null,
+"vi": "name=>`${name} MCP cần xác thực lại.`"
+},
+"notifications.more": {
+"en": "count=>`${count} more ${count===1?\"notification\":\"notifications\"}`",
+"note": null,
+"vi": "count=>`${count} thông báo khác`"
+},
+"notifications.native.approvalTitleNamed": {
+"en": "session=>`Approval needed \\u2014 ${session}`",
+"note": null,
+"vi": "session=>`Cần phê duyệt — ${session}`"
+},
+"notifications.native.inputTitleNamed": {
+"en": "session=>`Input needed \\u2014 ${session}`",
+"note": null,
+"vi": "session=>`Cần nhập liệu — ${session}`"
+},
+"notifications.updateReadyMessage": {
+"en": "count=>`${count} new change${count===1?\"\":\"s\"} available.`",
+"note": null,
+"vi": "count=>`${count} thay đổi mới có sẵn.`"
+},
+"notifications.voice.liveUnavailable": {
+"en": "reason=>`GPT-Live voice chat is not available: ${reason}. Using speech-to-text instead.`",
+"note": null,
+"vi": "reason=>`Không thể dùng GPT-Live để trò chuyện bằng giọng nói: ${reason}. Thay vào đó, sẽ dùng tính năng chuyển giọng nói thành văn bản.`"
+},
+"notifications.voice.sayStopToEnd": {
+"en": "phrase=>`Say \"${phrase}\" to end the voice chat.`",
+"note": null,
+"vi": "phrase=>`Hãy nói \"${phrase}\" để kết thúc cuộc trò chuyện bằng giọng nói.`"
+},
+"onboarding.connectedPicking": {
+"en": "provider=>`${provider} connected. Picking a default model...`",
+"note": null,
+"vi": "provider=>`Đã kết nối với ${provider}. Đang chọn mô hình mặc định...`"
+},
+"onboarding.connectedProvider": {
+"en": "provider=>`${provider} connected`",
+"note": null,
+"vi": "provider=>`Đã kết nối với ${provider}`"
+},
+"onboarding.deviceCodeOpened": {
+"en": "provider=>`We opened ${provider} in your browser. Enter this code there:`",
+"note": null,
+"vi": "provider=>`Đã mở ${provider} trong trình duyệt. Nhập mã này tại đó:`"
+},
+"onboarding.docs": {
+"en": "provider=>`${provider} docs`",
+"note": null,
+"vi": "provider=>`Tài liệu ${provider}`"
+},
+"onboarding.externalPending": {
+"en": "provider=>`${provider} signs in through its own CLI. Run this command in a terminal, then come back and pick \"I've signed in\":`",
+"note": null,
+"vi": "provider=>`${provider} yêu cầu đăng nhập qua CLI riêng. Chạy lệnh này trong terminal, sau đó quay lại và chọn \"Tôi đã đăng nhập\":`"
+},
+"onboarding.openedBrowser": {
+"en": "provider=>`We opened ${provider} in your browser.`",
+"note": null,
+"vi": "provider=>`Đã mở ${provider} trong trình duyệt.`"
+},
+"onboarding.price": {
+"en": "(input,output)=>`${input} in / ${output} out per Mtok`",
+"note": null,
+"vi": "(input,output)=>`${input} đầu vào / ${output} đầu ra mỗi Mtok`"
+},
+"onboarding.signInDidNotFinish": {
+"en": "provider=>`Sign-in with ${provider} did not finish. Check your internet connection and try again, or pick a different provider.`",
+"note": null,
+"vi": "provider=>`Chưa đăng nhập xong với ${provider}. Hãy kiểm tra kết nối Internet rồi thử lại hoặc chọn nhà cung cấp khác.`"
+},
+"onboarding.signInWith": {
+"en": "provider=>`Sign in with ${provider}`",
+"note": null,
+"vi": "provider=>`Đăng nhập bằng ${provider}`"
+},
+"onboarding.startingSignIn": {
+"en": "provider=>`Starting sign-in for ${provider}...`",
+"note": null,
+"vi": "provider=>`Đang bắt đầu đăng nhập vào ${provider}...`"
+},
+"onboarding.verifyingCode": {
+"en": "provider=>`Verifying your code with ${provider}...`",
+"note": null,
+"vi": "provider=>`Đang xác minh mã với ${provider}...`"
+},
+"preview.binaryBody": {
+"en": "label=>`Previewing ${label} may show unreadable text.`",
+"note": null,
+"vi": "label=>`Xem trước ${label} có thể hiển thị văn bản khó đọc.`"
+},
+"preview.console.messages": {
+"en": "count=>`${count} console messages`",
+"note": null,
+"vi": "count=>`${count} tin nhắn console`"
+},
+"preview.console.selected": {
+"en": "count=>`${count} selected`",
+"note": null,
+"vi": "count=>`Đã chọn ${count}`"
+},
+"preview.console.sentMessage": {
+"en": "count=>`${count} log entr${count===1?\"y\":\"ies\"} added to composer`",
+"note": null,
+"vi": "count=>`Đã thêm ${count} mục nhật ký vào khung soạn tin`"
+},
+"preview.largeBody": {
+"en": "(label,size)=>`${label} is ${size}. Hermes will only show the first 512 KB.`",
+"note": null,
+"vi": "(label,size)=>`${label} có kích thước ${size}. Hermes chỉ hiển thị 512 KB đầu tiên.`"
+},
+"preview.missingBody": {
+"en": "label=>`${label} was deleted, moved, or its temporary location was cleared. This tab will not be restored on the next launch.`",
+"note": null,
+"vi": "label=>`${label} đã bị xóa, di chuyển hoặc vị trí tạm thời đã bị dọn. Thẻ này sẽ không được khôi phục ở lần khởi chạy tiếp theo.`"
+},
+"preview.noInlineBody": {
+"en": "mimeType=>`${mimeType||\"This file type\"} can still be attached as context.`",
+"note": null,
+"vi": "mimeType=>`${mimeType||\"Loại tệp này\"} vẫn có thể được đính kèm làm ngữ cảnh.`"
+},
+"preview.saveFailed": {
+"en": "message=>`Couldn't save: ${message}`",
+"note": null,
+"vi": "message=>`Không thể lưu: ${message}`"
+},
+"preview.web.addComments": {
+"en": "count=>count===1?\"Add 1 comment\":`Add ${count} comments`",
+"note": null,
+"vi": "count=>count===1?\"Thêm 1 nhận xét\":`Thêm ${count} nhận xét`"
+},
+"preview.web.commentTitle": {
+"en": "n=>`Comment ${n}`",
+"note": null,
+"vi": "n=>`Nhận xét ${n}`"
+},
+"preview.web.failedRestarting": {
+"en": "message=>`Server restart failed: ${message}`",
+"note": null,
+"vi": "message=>`Khởi động lại máy chủ thất bại: ${message}`"
+},
+"preview.web.fileChanged": {
+"en": "url=>`File changed, reloading preview: ${url}`",
+"note": null,
+"vi": "url=>`Tệp đã thay đổi, đang tải lại bản xem trước: ${url}`"
+},
+"preview.web.filesChanged": {
+"en": "(count,url)=>`${count} file changes, reloading preview: ${url}`",
+"note": null,
+"vi": "(count,url)=>`${count} tệp đã thay đổi, đang tải lại bản xem trước: ${url}`"
+},
+"preview.web.finishedRestarting": {
+"en": "message=>`Hermes finished restarting the preview server${message?`: ${message}`:\"\"}`",
+"note": null,
+"vi": "message=>`Hermes đã khởi động lại máy chủ xem trước${message?`: ${message}`:\"\"}`"
+},
+"preview.web.loadFailedConsole": {
+"en": "(code,message)=>`Load failed${code?` (${code})`:\"\"}: ${message}`",
+"note": null,
+"vi": "(code,message)=>`Tải thất bại${code?` (${code})`:\"\"}: ${message}`"
+},
+"preview.web.lookingRestart": {
+"en": "taskId=>`Hermes is looking for a preview server to restart (${taskId})`",
+"note": null,
+"vi": "taskId=>`Hermes đang tìm máy chủ xem trước để khởi động lại (${taskId})`"
+},
+"preview.web.openTarget": {
+"en": "url=>`Open ${url}`",
+"note": null,
+"vi": "url=>`Mở ${url}`"
+},
+"preview.web.startRestartFailed": {
+"en": "message=>`Could not start server restart: ${message}`",
+"note": null,
+"vi": "message=>`Không thể bắt đầu khởi động lại máy chủ: ${message}`"
+},
+"preview.web.watchFailed": {
+"en": "message=>`Could not watch preview file: ${message}`",
+"note": null,
+"vi": "message=>`Không thể theo dõi tệp xem trước: ${message}`"
+},
+"profiles.count": {
+"en": "count=>`${count} ${count===1?\"profile\":\"profiles\"}`",
+"note": null,
+"vi": "count=>`${count} hồ sơ`"
+},
+"profiles.defaultSet": {
+"en": "name=>`${name} is now the default`",
+"note": null,
+"vi": "name=>`${name} hiện là hồ sơ mặc định`"
+},
+"profiles.fleet.deleteOn": {
+"en": "gateway=>` on ${gateway}`",
+"note": null,
+"vi": "gateway=>` trên ${gateway}`"
+},
+"profiles.fleet.gateway": {
+"en": "gateway=>`Profiles on ${gateway}`",
+"note": null,
+"vi": "gateway=>`Hồ sơ trên ${gateway}`"
+},
+"profiles.fleet.gatewayUnreachable": {
+"en": "gateway=>`${gateway} \\xB7 unreachable`",
+"note": null,
+"vi": "gateway=>`${gateway} \\xB7 không thể kết nối`"
+},
+"profiles.fleet.onGateway": {
+"en": "(name,gateway)=>`${name} \\xB7 ${gateway}`",
+"note": null,
+"vi": "(name,gateway)=>`${name} \\xB7 ${gateway}`"
+},
+"profiles.fleet.switchTo": {
+"en": "(name,gateway)=>`Switch to ${name} on ${gateway}`",
+"note": null,
+"vi": "(name,gateway)=>`Chuyển sang ${name} trên ${gateway}`"
+},
+"profiles.invalidName": {
+"en": "hint=>`Invalid name. ${hint}`",
+"note": null,
+"vi": "hint=>`Tên không hợp lệ. ${hint}`"
+},
+"profiles.remoteOverride.authFailedMessage": {
+"en": "(profile,host)=>`${host} refused the token saved for ${profile}. It may have been changed on the remote side.`",
+"note": null,
+"vi": "(profile,host)=>`${host} đã từ chối token đã lưu cho ${profile}. Token có thể đã bị thay đổi ở máy chủ từ xa.`"
+},
+"profiles.remoteOverride.badge": {
+"en": "host=>`Runs on ${host}`",
+"note": null,
+"vi": "host=>`Chạy trên ${host}`"
+},
+"profiles.remoteOverride.collisionWarning": {
+"en": "label=>`A gateway named \\u201C${label}\\u201D already exists in Settings. This profile connection is separate and will not change it.`",
+"note": null,
+"vi": "label=>`Trong Cài đặt đã có gateway tên “${label}”. Kết nối hồ sơ này là riêng biệt và sẽ không thay đổi gateway đó.`"
+},
+"profiles.remoteOverride.confirmNote": {
+"en": "(profile,host)=>`New chats in ${profile} will run on ${host}. That computer will run commands and read files there, not on this one. Only connect to a host you trust.`",
+"note": null,
+"vi": "(profile,host)=>`Các cuộc trò chuyện mới trong ${profile} sẽ chạy trên ${host}. Máy tính đó sẽ chạy lệnh và đọc tệp ở đó, không phải trên máy này. Chỉ kết nối với máy chủ mà bạn tin cậy.`"
+},
+"profiles.remoteOverride.removedMessage": {
+"en": "profile=>`${profile} now runs on this computer`",
+"note": null,
+"vi": "profile=>`${profile} hiện chạy trên máy tính này`"
+},
+"profiles.remoteOverride.savedMessage": {
+"en": "(profile,host)=>`${profile} now runs on ${host}`",
+"note": null,
+"vi": "(profile,host)=>`${profile} hiện chạy trên ${host}`"
+},
+"profiles.remoteOverride.title": {
+"en": "profile=>`Connect ${profile} to a remote host`",
+"note": null,
+"vi": "profile=>`Kết nối ${profile} với máy chủ từ xa`"
+},
+"profiles.setColor": {
+"en": "color=>`Set color ${color}`",
+"note": null,
+"vi": "color=>`Đặt màu ${color}`"
+},
+"profiles.skills": {
+"en": "count=>`${count} ${count===1?\"skill\":\"skills\"}`",
+"note": null,
+"vi": "count=>`${count} kỹ năng`"
+},
+"profiles.soulPlaceholder": {
+"en": "mode=>`The system prompt / persona for this profile.\nLeave blank to keep the ${mode} default.`",
+"note": null,
+"vi": "mode=>`Prompt hệ thống / tính cách cho hồ sơ này.\nĐể trống để dùng mặc định ${mode}.`"
+},
+"profiles.status.needsInput": {
+"en": "count=>count===1?\"1 session needs your answer\":`${count} sessions need your answer`",
+"note": null,
+"vi": "count=>`${count} phiên đang chờ bạn trả lời`"
+},
+"profiles.status.unread": {
+"en": "count=>count===1?\"1 unread session\":`${count} unread sessions`",
+"note": null,
+"vi": "count=>`${count} phiên chưa đọc`"
+},
+"profiles.status.working": {
+"en": "count=>count===1?\"1 session running\":`${count} sessions running`",
+"note": null,
+"vi": "count=>`${count} phiên đang chạy`"
+},
+"profiles.switchConnectionFailed": {
+"en": "name=>`Could not connect to ${name}`",
+"note": null,
+"vi": "name=>`Không thể kết nối với ${name}`"
+},
+"profiles.switchToConnection": {
+"en": "name=>`Switch to ${name}`",
+"note": null,
+"vi": "name=>`Chuyển sang ${name}`"
+},
+"profiles.switchToProfile": {
+"en": "name=>`Switch to ${name}`",
+"note": null,
+"vi": "name=>`Chuyển sang ${name}`"
+},
+"promptNotices.sessionCommands.countOne": {
+"en": "count=>`${count} queued message`",
+"note": null,
+"vi": "count=>`${count} tin nhắn đang chờ`"
+},
+"promptNotices.sessionCommands.countOther": {
+"en": "count=>`${count} queued messages`",
+"note": null,
+"vi": "count=>`${count} tin nhắn đang chờ`"
+},
+"promptNotices.sessionCommands.queued": {
+"en": "preview=>`queued: \"${preview}\"`",
+"note": null,
+"vi": "preview=>`đã xếp hàng: \"${preview}\"`"
+},
+"promptNotices.sessionCommands.steerNoActiveTurn": {
+"en": "preview=>`no active turn \\u2014 queued for next: \"${preview}\"`",
+"note": null,
+"vi": "preview=>`không có lượt nào đang hoạt động — đã xếp hàng cho lượt tiếp theo: \"${preview}\"`"
+},
+"promptNotices.sessionCommands.steerQueued": {
+"en": "preview=>`steer queued \\u2014 arrives after next tool call: \"${preview}\"`",
+"note": null,
+"vi": "preview=>`đã xếp hàng định hướng — sẽ gửi sau lệnh gọi công cụ tiếp theo: \"${preview}\"`"
+},
+"promptNotices.sessionCommands.undidOne": {
+"en": "count=>`undid ${count} message \\u2014 the removed message is in the composer`",
+"note": null,
+"vi": "count=>`đã hoàn tác ${count} tin nhắn — tin nhắn đã xóa nằm trong khung soạn tin`"
+},
+"promptNotices.sessionCommands.undidOther": {
+"en": "count=>`undid ${count} messages \\u2014 the removed message is in the composer`",
+"note": null,
+"vi": "count=>`đã hoàn tác ${count} tin nhắn — tin nhắn đã xóa nằm trong khung soạn tin`"
+},
+"prompts.vaultCodeDesc": {
+"en": "site=>`${site} is asking for a one-time code (text message, email or authenticator app). Enter it here and Hermes types it into the page; the model never sees it.`",
+"note": null,
+"vi": "site=>`${site} yêu cầu mã dùng một lần (qua tin nhắn, email hoặc ứng dụng xác thực). Nhập mã tại đây, Hermes sẽ điền vào trang; mô hình không bao giờ thấy mã.`"
+},
+"prompts.vaultCodeTitle": {
+"en": "site=>`Verification code for ${site}`",
+"note": null,
+"vi": "site=>`Mã xác minh cho ${site}`"
+},
+"prompts.vaultSaveDesc": {
+"en": "origin=>`Hermes reached a sign-in page at ${origin} and has no login for it. Enter it once here; it is encrypted on this machine and filled into the page without the model ever seeing the password.`",
+"note": null,
+"vi": "origin=>`Hermes đã mở trang đăng nhập tại ${origin} nhưng chưa có thông tin đăng nhập cho trang này. Nhập thông tin một lần tại đây; thông tin sẽ được mã hóa trên thiết bị này và điền vào trang mà mô hình không bao giờ thấy mật khẩu.`"
+},
+"prompts.vaultSaveTitle": {
+"en": "site=>`Save your ${site} login?`",
+"note": null,
+"vi": "site=>`Lưu thông tin đăng nhập ${site}?`"
+},
+"prompts.vaultUnlockDesc": {
+"en": "name=>`The agent wants to sign into a site with a login saved in ${name}. Enter your master password to unlock it for this session \\u2014 it goes straight to ${name} on this machine and is never stored or shown to the agent.`",
+"note": null,
+"vi": "name=>`Agent muốn đăng nhập vào một trang web bằng thông tin đăng nhập đã lưu trong ${name}. Nhập mật khẩu chính để mở khóa trong phiên này — mật khẩu sẽ được gửi thẳng đến ${name} trên thiết bị này, không bao giờ được lưu hoặc hiển thị cho agent.`"
+},
+"prompts.vaultUnlockTitle": {
+"en": "name=>`Unlock ${name}`",
+"note": null,
+"vi": "name=>`Mở khóa ${name}`"
+},
+"remoteDisplayBanner.message": {
+"en": "reason=>`Software rendering active \\u2014 remote display detected (${reason}). GPU acceleration is disabled to prevent flickering.`",
+"note": null,
+"vi": "reason=>`Đang dùng kết xuất bằng phần mềm — phát hiện màn hình từ xa (${reason}). Đã tắt tăng tốc GPU để tránh nhấp nháy.`"
+},
+"rightSidebar.couldNotPreview": {
+"en": "path=>`Could not preview ${path}`",
+"note": null,
+"vi": "path=>`Không thể xem trước ${path}`"
+},
+"rightSidebar.folderTip": {
+"en": "cwd=>cwd",
+"note": null,
+"vi": "cwd=>cwd"
+},
+"rightSidebar.remotePickerCreateFolderFailed": {
+"en": "error=>`Could not create the folder (${error}).`",
+"note": null,
+"vi": "error=>`Không thể tạo thư mục (${error}).`"
+},
+"rightSidebar.unreadableBody": {
+"en": "error=>`Could not read this folder (${error}).`",
+"note": null,
+"vi": "error=>`Không thể đọc thư mục này (${error}).`"
+},
+"sendDiagnostics.uploadIdFallback": {
+"en": "id=>`No view link returned \\u2014 quote upload ID ${id} to support`",
+"note": null,
+"vi": "id=>`Không có liên kết xem — hãy gửi mã tải lên ${id} cho bộ phận hỗ trợ`"
+},
+"settings.about.channel.branch": {
+"en": "b=>`Branch: ${b}`",
+"note": null,
+"vi": "b=>`Nhánh: ${b}`"
+},
+"settings.about.channel.latestRelease": {
+"en": "v=>`You\\u2019re on the latest stable release (${v}).`",
+"note": null,
+"vi": "v=>`Bạn đang dùng bản phát hành ổn định mới nhất (${v}).`"
+},
+"settings.about.channel.rollbackAction": {
+"en": "v=>`Roll back to ${v}`",
+"note": null,
+"vi": "v=>`Quay lại ${v}`"
+},
+"settings.about.channel.rollbackBody": {
+"en": "v=>`This build is newer than the stable release ${v}. Installing it moves Hermes back to that release.`",
+"note": null,
+"vi": "v=>`Bản dựng này mới hơn bản phát hành ổn định ${v}. Cài đặt bản đó sẽ đưa Hermes quay lại phiên bản này.`"
+},
+"settings.about.channel.rollbackTitle": {
+"en": "v=>`Back to stable release ${v}`",
+"note": null,
+"vi": "v=>`Quay lại bản phát hành ổn định ${v}`"
+},
+"settings.appearance.embedsReset": {
+"en": "count=>`Reset ${count} allowed ${count===1?\"service\":\"services\"}`",
+"note": null,
+"vi": "count=>`Đặt lại ${count} dịch vụ được cho phép`"
+},
+"settings.appearance.installed": {
+"en": "name=>`Installed \\u201C${name}\\u201D.`",
+"note": null,
+"vi": "name=>`Đã cài đặt “${name}”.`"
+},
+"settings.appearance.pet.adoptFailed": {
+"en": "slug=>`Could not adopt ${slug}`",
+"note": null,
+"vi": "slug=>`Không thể nhận nuôi ${slug}`"
+},
+"settings.appearance.pet.count": {
+"en": "n=>`${n} pet${n===1?\"\":\"s\"}.`",
+"note": null,
+"vi": "n=>`${n} thú cưng.`"
+},
+"settings.appearance.pet.countCapped": {
+"en": "(cap,total)=>`Showing ${cap} of ${total} \\u2014 type to narrow it down.`",
+"note": null,
+"vi": "(cap,total)=>`Đang hiển thị ${cap}/${total} — nhập để thu hẹp kết quả.`"
+},
+"settings.appearance.pet.delete": {
+"en": "name=>`Delete ${name}`",
+"note": null,
+"vi": "name=>`Xóa ${name}`"
+},
+"settings.appearance.pet.deleteTitle": {
+"en": "name=>`Delete ${name}?`",
+"note": null,
+"vi": "name=>`Xóa ${name}?`"
+},
+"settings.appearance.pet.exportFailed": {
+"en": "slug=>`Could not export ${slug}`",
+"note": null,
+"vi": "slug=>`${slug} — không thể xuất`"
+},
+"settings.appearance.pet.exportPet": {
+"en": "name=>`Export ${name}`",
+"note": null,
+"vi": "name=>`Xuất ${name}`"
+},
+"settings.appearance.pet.noMatch": {
+"en": "query=>`No pets match \"${query}\".`",
+"note": null,
+"vi": "query=>`Không có thú cưng nào khớp với \"${query}\".`"
+},
+"settings.appearance.pet.rename": {
+"en": "name=>`Rename ${name}`",
+"note": null,
+"vi": "name=>`Đổi tên ${name}`"
+},
+"settings.appearance.pet.renameFailed": {
+"en": "slug=>`Could not rename ${slug}`",
+"note": null,
+"vi": "slug=>`Không thể đổi tên ${slug}`"
+},
+"settings.appearance.pet.uninstall": {
+"en": "name=>`Uninstall ${name}`",
+"note": null,
+"vi": "name=>`Gỡ cài đặt ${name}`"
+},
+"settings.appearance.pet.uninstallFailed": {
+"en": "slug=>`Could not uninstall ${slug}`",
+"note": null,
+"vi": "slug=>`Không thể gỡ cài đặt ${slug}`"
+},
+"settings.appearance.themeProfileNote": {
+"en": "profile=>`Saved for the ${profile} profile \\u2014 each profile keeps its own theme.`",
+"note": null,
+"vi": "profile=>`Đã lưu cho hồ sơ ${profile} — mỗi hồ sơ có chủ đề riêng.`"
+},
+"settings.appearance.tipsReset": {
+"en": "count=>`Show ${count} ${count===1?\"tip\":\"tips\"} again`",
+"note": null,
+"vi": "count=>`Hiện lại ${count} mẹo`"
+},
+"settings.appearance.uiScaleDesc": {
+"en": "percent=>`Scales text and controls across the whole app. Cmd/Ctrl with +, - and 0 also works. Current: ${percent}%.`",
+"note": null,
+"vi": "percent=>`Điều chỉnh kích thước văn bản và nút điều khiển trên toàn ứng dụng. Bạn cũng có thể dùng Cmd/Ctrl cùng với +, - và 0. Hiện tại: ${percent}%.`"
+},
+"settings.billing.amountValidation.decimal": {
+"en": "label=>`${label}: enter a dollar amount with at most 2 decimal places.`",
+"note": null,
+"vi": "label=>`${label}: nhập số tiền bằng đô la, tối đa 2 chữ số thập phân.`"
+},
+"settings.billing.amountValidation.maximum": {
+"en": "(label,amount)=>`${label}: maximum is ${amount}.`",
+"note": null,
+"vi": "(label,amount)=>`${label}: mức tối đa là ${amount}.`"
+},
+"settings.billing.amountValidation.minimum": {
+"en": "(label,amount)=>`${label}: minimum is ${amount}.`",
+"note": null,
+"vi": "(label,amount)=>`${label}: mức tối thiểu là ${amount}.`"
+},
+"settings.billing.amountValidation.positive": {
+"en": "label=>`${label}: amount must be greater than $0.`",
+"note": null,
+"vi": "label=>`${label}: số tiền phải lớn hơn $0.`"
+},
+"settings.billing.buyCredits.added": {
+"en": "amount=>`${amount} added. Balance is refreshing.`",
+"note": null,
+"vi": "amount=>`Đã thêm ${amount}. Đang cập nhật số dư.`"
+},
+"settings.billing.charge.added": {
+"en": "amount=>amount?`$${amount} added.`:\"Credits added.\"",
+"note": null,
+"vi": "amount=>amount?`Đã thêm $${amount}.`:`Đã thêm credit.`"
+},
+"settings.billing.charge.failedBody": {
+"en": "reason=>`The charge didn't go through (${reason}).`",
+"note": null,
+"vi": "reason=>`Không thể thực hiện giao dịch (${reason}).`"
+},
+"settings.billing.charge.unconfirmedBody": {
+"en": "message=>`${message} Your last charge's outcome is unconfirmed - check your balance/history before retrying.`",
+"note": null,
+"vi": "message=>`${message} Chưa xác nhận được kết quả giao dịch gần nhất — hãy kiểm tra số dư/lịch sử trước khi thử lại.`"
+},
+"settings.billing.creditsPerMonth": {
+"en": "amount=>`${amount} credits/mo`",
+"note": null,
+"vi": "amount=>`${amount} credit/tháng`"
+},
+"settings.billing.errors.monthlyCapExceeded.messageHeadroom": {
+"en": "remaining=>`\\u{1F534} Monthly spend cap reached \\u2014 $${remaining} headroom left.`",
+"note": null,
+"vi": "remaining=>`\\u{1F534} Đã đạt giới hạn chi tiêu hàng tháng — còn dư $${remaining}.`"
+},
+"settings.billing.errors.rateLimited.message": {
+"en": "mins=>mins>0?`\\u{1F7E1} Too many charges right now (try again in ~${mins} min). This isn't a payment failure.`:\"\\u{1F7E1} Too many charges right now. This isn't a payment failure.\"",
+"note": null,
+"vi": "mins=>mins>0?`\\u{1F7E1} Hiện có quá nhiều khoản thanh toán (thử lại sau khoảng ${mins} phút). Đây không phải lỗi thanh toán.`:\"\\u{1F7E1} Hiện có quá nhiều khoản thanh toán. Đây không phải lỗi thanh toán.\""
+},
+"settings.billing.errors.remoteSpendingReconnect": {
+"en": "who=>`${who} Reconnect from Settings -> Gateway to re-authorize this device.`",
+"note": null,
+"vi": "who=>`${who} Hãy kết nối lại trong Cài đặt -> Gateway để cấp quyền lại cho thiết bị này.`"
+},
+"settings.billing.errors.stripeUnavailable.message": {
+"en": "mins=>mins>0?`Stripe is having trouble \\u2014 try again in ~${mins} min`:\"Stripe is having trouble \\u2014 try again shortly\"",
+"note": null,
+"vi": "mins=>mins>0?`Stripe đang gặp sự cố — thử lại sau khoảng ${mins} phút`:\"Stripe đang gặp sự cố — hãy thử lại sau\""
+},
+"settings.billing.perMonth": {
+"en": "amount=>`${amount}/mo`",
+"note": null,
+"vi": "amount=>`${amount}/tháng`"
+},
+"settings.billing.plan.alreadyOn": {
+"en": "name=>`You are already on ${name} \\u2014 nothing to change.`",
+"note": null,
+"vi": "name=>`Bạn đang dùng gói ${name} rồi — không có gì cần thay đổi.`"
+},
+"settings.billing.plan.effectScheduled": {
+"en": "(targetName,effectiveAt,creditsDelta)=>`Change to ${targetName} \\u2014 takes effect ${effectiveAt}. No charge now; you keep your current plan until then.${creditsDelta?` Monthly credits change: ${creditsDelta}.`:\"\"}`",
+"note": null,
+"vi": "(targetName,effectiveAt,creditsDelta)=>`Đổi sang gói ${targetName} — có hiệu lực ${effectiveAt}. Hiện chưa bị tính phí; bạn vẫn dùng gói hiện tại đến lúc đó.${creditsDelta?` Credit hằng tháng sẽ thay đổi: ${creditsDelta}.`:\"\"}`"
+},
+"settings.billing.state.autoRefill.chargesDescription": {
+"en": "(reloadTo,threshold)=>`Charges ${reloadTo} automatically when your balance falls below ${threshold}.`",
+"note": null,
+"vi": "(reloadTo,threshold)=>`Tự động tính phí ${reloadTo} khi số dư của bạn giảm xuống dưới ${threshold}.`"
+},
+"settings.billing.state.autoRefill.distinctCardCaption": {
+"en": "cardLabel=>`Auto-refill charges ${cardLabel} \\u2014 reconcile on the portal`",
+"note": null,
+"vi": "cardLabel=>`Tự động nạp tiền sẽ tính phí vào ${cardLabel} — đối soát trên cổng thanh toán`"
+},
+"settings.billing.state.paymentMethod.provenance.suffix": {
+"en": "label=>` - ${label}`",
+"note": null,
+"vi": "label=>` - ${label}`"
+},
+"settings.billing.state.planCard.cancellationCaption": {
+"en": "when=>`Cancels on ${when}.`",
+"note": null,
+"vi": "when=>`Hủy vào ${when}.`"
+},
+"settings.billing.state.planCard.downgradeCaption": {
+"en": "(tierName,when)=>`Changes to ${tierName} on ${when}.`",
+"note": null,
+"vi": "(tierName,when)=>`Chuyển sang gói ${tierName} vào ${when}.`"
+},
+"settings.billing.state.planCard.renewsCaption": {
+"en": "date=>`Renews ${date}`",
+"note": null,
+"vi": "date=>`Gia hạn ${date}`"
+},
+"settings.billing.state.usage.monthlyCap.valueUsed": {
+"en": "(spent,limit)=>`${spent} of ${limit} used`",
+"note": null,
+"vi": "(spent,limit)=>`Đã dùng ${spent}/${limit}`"
+},
+"settings.billing.state.usage.subscriptionCredits.captionResets": {
+"en": "date=>`Resets ${date}`",
+"note": null,
+"vi": "date=>`Đặt lại vào ${date}`"
+},
+"settings.billing.state.usage.subscriptionCredits.valueOf": {
+"en": "(remaining,monthly)=>`${remaining} of ${monthly} left`",
+"note": null,
+"vi": "(remaining,monthly)=>`Còn ${remaining}/${monthly}`"
+},
+"settings.billing.state.usage.subscriptionCredits.valueOver": {
+"en": "(remaining,monthly,over)=>`${remaining} of ${monthly} left \\xB7 ${over} over`",
+"note": null,
+"vi": "(remaining,monthly,over)=>`Còn ${remaining}/${monthly} · vượt ${over}`"
+},
+"settings.billing.usageLabel": {
+"en": "label=>`${label} usage`",
+"note": null,
+"vi": "label=>`Mức sử dụng ${label}`"
+},
+"settings.connections.duplicateSsh": {
+"en": "label=>`A connection to this SSH host already exists (\\u201C${label}\\u201D).`",
+"note": null,
+"vi": "label=>`Đã có kết nối đến máy chủ SSH này (“${label}”).`"
+},
+"settings.connections.duplicateUrl": {
+"en": "label=>`A connection to this gateway URL already exists (\\u201C${label}\\u201D).`",
+"note": null,
+"vi": "label=>`Đã có kết nối đến URL gateway này (“${label}”).`"
+},
+"settings.connections.removeConfirmDesc": {
+"en": "label=>`\\u201C${label}\\u201D will be removed from this app. The instance itself is not touched \\u2014 you can add it again any time.`",
+"note": null,
+"vi": "label=>`“${label}” sẽ bị gỡ khỏi ứng dụng này. Phiên bản đó không bị ảnh hưởng — bạn có thể thêm lại bất cứ lúc nào.`"
+},
+"settings.connections.sameBackendHint": {
+"en": "label=>`Same backend as \\u201C${label}\\u201D`",
+"note": null,
+"vi": "label=>`Cùng backend với “${label}”`"
+},
+"settings.credentials.pasteLabelKey": {
+"en": "label=>`Paste ${label} key`",
+"note": null,
+"vi": "label=>`Dán khóa ${label}`"
+},
+"settings.customEndpoints.deleteConfirm": {
+"en": "name=>`Delete ${name}?`",
+"note": null,
+"vi": "name=>`Xóa ${name}?`"
+},
+"settings.customEndpoints.endpointReachableModels": {
+"en": "(reachable,count)=>`${reachable} Found ${count} models.`",
+"note": null,
+"vi": "(reachable,count)=>`${reachable} Đã tìm thấy ${count} mô hình.`"
+},
+"settings.customEndpoints.endpointReachableTransport": {
+"en": "transport=>`Endpoint is reachable (${transport} route served).`",
+"note": null,
+"vi": "transport=>`Đã kết nối đến endpoint (qua tuyến ${transport}).`"
+},
+"settings.gateway.authNeedsOauth": {
+"en": "provider=>`This gateway uses OAuth. Sign in with ${provider} to authorize this desktop app.`",
+"note": null,
+"vi": "provider=>`Gateway này dùng OAuth. Hãy đăng nhập bằng ${provider} để cấp quyền cho ứng dụng desktop.`"
+},
+"settings.gateway.cloudConnectedTo": {
+"en": "name=>`Connected to ${name}.`",
+"note": null,
+"vi": "name=>`Đã kết nối với ${name}.`"
+},
+"settings.gateway.cloudOrgRole": {
+"en": "role=>`Role: ${role}`",
+"note": null,
+"vi": "role=>`Vai trò: ${role}`"
+},
+"settings.gateway.cloudStatusLabel": {
+"en": "status=>`Status: ${status}`",
+"note": null,
+"vi": "status=>`Trạng thái: ${status}`"
+},
+"settings.gateway.connectedTo": {
+"en": "(baseUrl,version)=>`Connected to ${baseUrl}${version?` \\xB7 Hermes ${version}`:\"\"}`",
+"note": null,
+"vi": "(baseUrl,version)=>`Đã kết nối với ${baseUrl}${version?` · Hermes ${version}`:\"\"}`"
+},
+"settings.gateway.existingToken": {
+"en": "value=>`Existing token ${value}`",
+"note": null,
+"vi": "value=>`Token hiện có ${value}`"
+},
+"settings.gateway.signInWith": {
+"en": "provider=>`Sign in with ${provider}`",
+"note": null,
+"vi": "provider=>`Đăng nhập bằng ${provider}`"
+},
+"settings.gateway.sshReachable": {
+"en": "(host,platform)=>`Reachable: ${host} (${platform}) \\u2014 Hermes found`",
+"note": null,
+"vi": "(host,platform)=>`Có thể kết nối: ${host} (${platform}) — đã tìm thấy Hermes`"
+},
+"settings.localModels.activateDoneToast": {
+"en": "model=>`New chats use ${model}.`",
+"note": null,
+"vi": "model=>`Các cuộc trò chuyện mới sẽ dùng ${model}.`"
+},
+"settings.localModels.activateFailed": {
+"en": "model=>`Could not switch to ${model}`",
+"note": null,
+"vi": "model=>`Không thể chuyển sang ${model}`"
+},
+"settings.localModels.deleteConfirm": {
+"en": "model=>`Delete ${model} from disk?`",
+"note": null,
+"vi": "model=>`Xóa ${model} khỏi ổ đĩa?`"
+},
+"settings.localModels.deleted": {
+"en": "model=>`${model} deleted.`",
+"note": null,
+"vi": "model=>`Đã xóa ${model}.`"
+},
+"settings.localModels.downloadAction": {
+"en": "size=>`Download \\xB7 ${size}`",
+"note": null,
+"vi": "size=>`Tải xuống · ${size}`"
+},
+"settings.localModels.downloadDoneToast": {
+"en": "model=>`${model} is ready.`",
+"note": null,
+"vi": "model=>`${model} đã sẵn sàng.`"
+},
+"settings.localModels.downloadEta": {
+"en": "time=>`~${time} left`",
+"note": null,
+"vi": "time=>`~còn ${time}`"
+},
+"settings.localModels.downloadEtaHours": {
+"en": "(hours,minutes)=>minutes?`${hours} h ${minutes} min`:`${hours} h`",
+"note": null,
+"vi": "(hours,minutes)=>minutes?`${hours} giờ ${minutes} phút`:`${hours} giờ`"
+},
+"settings.localModels.downloadEtaMinutes": {
+"en": "count=>`${count} min`",
+"note": null,
+"vi": "count=>`${count} phút`"
+},
+"settings.localModels.downloadEtaSeconds": {
+"en": "count=>`${count} sec`",
+"note": null,
+"vi": "count=>`${count} giây`"
+},
+"settings.localModels.downloadFailed": {
+"en": "model=>`Download of ${model} failed`",
+"note": null,
+"vi": "model=>`Tải ${model} thất bại`"
+},
+"settings.localModels.downloadPauseFailed": {
+"en": "model=>`Couldn\\u2019t pause the download of ${model}`",
+"note": null,
+"vi": "model=>`Không thể tạm dừng tải ${model}`"
+},
+"settings.localModels.downloadProgress": {
+"en": "(done,total)=>`${done} of ${total}`",
+"note": null,
+"vi": "(done,total)=>`${done}/${total}`"
+},
+"settings.localModels.downloadResumeFailed": {
+"en": "model=>`Couldn\\u2019t resume the download of ${model}`",
+"note": null,
+"vi": "model=>`Không thể tiếp tục tải ${model}`"
+},
+"settings.localModels.downloadSpeed": {
+"en": "rate=>`${rate}`",
+"note": null,
+"vi": "rate=>`${rate}`"
+},
+"settings.localModels.pillFullContext": {
+"en": "max=>`Full ${max} context`",
+"note": null,
+"vi": "max=>`Đầy đủ cửa sổ ngữ cảnh ${max}`"
+},
+"settings.localModels.pillUpTo": {
+"en": "max=>`Up to ${max} context`",
+"note": null,
+"vi": "max=>`Cửa sổ ngữ cảnh tối đa ${max}`"
+},
+"settings.localModels.quickstartDetail": {
+"en": "(model,size)=>`One click sets everything up: the local engine, ${model} (${size} download), and your default for new chats. Nothing leaves this computer.`",
+"note": null,
+"vi": "(model,size)=>`Chỉ cần một cú nhấp để thiết lập mọi thứ: bộ máy cục bộ, ${model} (tệp tải xuống ${size}) và mô hình mặc định cho các cuộc trò chuyện mới. Mọi thứ đều nằm trên máy tính này.`"
+},
+"settings.localModels.quickstartDetailReady": {
+"en": "model=>`One click makes ${model} your default for new chats. Everything runs on this machine.`",
+"note": null,
+"vi": "model=>`Chỉ cần một cú nhấp để đặt ${model} làm mô hình mặc định cho các cuộc trò chuyện mới. Mọi thứ đều chạy trên máy này.`"
+},
+"settings.localModels.quickstartDoneToast": {
+"en": "model=>`${model} is set up \\u2014 new chats run on this machine.`",
+"note": null,
+"vi": "model=>`${model} đã được thiết lập — các cuộc trò chuyện mới sẽ chạy trên máy này.`"
+},
+"settings.localModels.ram": {
+"en": "label=>`${label} RAM`",
+"note": null,
+"vi": "label=>`RAM ${label}`"
+},
+"settings.localModels.runtimeInstalledDetail": {
+"en": "(tag,backend)=>`Build ${tag}, ${backend} backend. Hermes starts and manages the server for you.`",
+"note": null,
+"vi": "(tag,backend)=>`Bản dựng ${tag}, backend ${backend}. Hermes sẽ khởi chạy và quản lý máy chủ giúp bạn.`"
+},
+"settings.localModels.runtimeReady": {
+"en": "backend=>`Ready \\xB7 ${backend}`",
+"note": null,
+"vi": "backend=>`Sẵn sàng · ${backend}`"
+},
+"settings.localModels.upToDateDetail": {
+"en": "(tag,backend)=>`Running llama.cpp ${tag} (${backend}).`",
+"note": null,
+"vi": "(tag,backend)=>`Đang chạy llama.cpp ${tag} (${backend}).`"
+},
+"settings.localModels.updateDetail": {
+"en": "(next,current)=>`A newer llama.cpp build (${next}) is ready to install \\u2014 you're on ${current}. Models keep working during the download.`",
+"note": null,
+"vi": "(next,current)=>`Đã có bản dựng llama.cpp mới hơn (${next}) để cài đặt — hiện đang dùng ${current}. Các mô hình vẫn hoạt động trong khi tải xuống.`"
+},
+"settings.localModels.vram": {
+"en": "label=>`${label} GPU memory`",
+"note": null,
+"vi": "label=>`Bộ nhớ GPU ${label}`"
+},
+"settings.managedUpdates.receipt": {
+"en": "(id,outcome)=>`Receipt ${id} \\xB7 ${outcome}`",
+"note": null,
+"vi": "(id,outcome)=>`Biên nhận ${id} · ${outcome}`"
+},
+"settings.managedUpdates.receiptVersions": {
+"en": "(pre,post)=>`${pre} \\u2192 ${post}`",
+"note": null,
+"vi": "(pre,post)=>`${pre} → ${post}`"
+},
+"settings.managedUpdates.scopeNotRestored": {
+"en": "(profile,error)=>`Profile \\u201C${profile}\\u201D not restored: ${error}`",
+"note": null,
+"vi": "(profile,error)=>`Không thể khôi phục hồ sơ “${profile}”: ${error}`"
+},
+"settings.managedUpdates.scopesRestored": {
+"en": "profiles=>`Restored profiles: ${profiles}`",
+"note": null,
+"vi": "profiles=>`Đã khôi phục hồ sơ: ${profiles}`"
+},
+"settings.mcp.authenticatedMessage": {
+"en": "(server,count)=>`${server}: ${count} tools`",
+"note": null,
+"vi": "(server,count)=>`${server}: ${count} công cụ`"
+},
+"settings.mcp.capabilitySummary": {
+"en": "(tools,prompts,resources)=>`${[`${tools} tools`,...prompts?[`${prompts} prompts`]:[],...resources?[`${resources} resources`]:[]].join(\", \")} enabled`",
+"note": null,
+"vi": "(tools,prompts,resources)=>`${[`${tools} công cụ`,...prompts?[`${prompts} prompt`]:[],...resources?[`${resources} tài nguyên`]:[]].join(\", \")} đã bật`"
+},
+"settings.mcp.catalogInstallFailed": {
+"en": "name=>`Failed to install ${name}`",
+"note": null,
+"vi": "name=>`Cài đặt ${name} thất bại`"
+},
+"settings.mcp.costTokens": {
+"en": "tokens=>`~${tokens} tok/call`",
+"note": null,
+"vi": "tokens=>`~${tokens} token/lệnh gọi`"
+},
+"settings.mcp.deepLinkNameConflict": {
+"en": "name=>`A server named ${name} already exists \\u2014 choose a different name or cancel.`",
+"note": null,
+"vi": "name=>`Đã có máy chủ tên ${name} — hãy chọn tên khác hoặc hủy.`"
+},
+"settings.mcp.savedMessage": {
+"en": "name=>`${name} applies after MCP reload.`",
+"note": null,
+"vi": "name=>`${name} sẽ có hiệu lực sau khi tải lại MCP.`"
+},
+"settings.mcp.usage30d": {
+"en": "uses=>`${uses} uses/30d`",
+"note": null,
+"vi": "uses=>`${uses} lượt dùng/30 ngày`"
+},
+"settings.model.followTask": {
+"en": "task=>`Follow ${task}`",
+"note": null,
+"vi": "task=>`Theo ${task}`"
+},
+"settings.model.inheritsFrom": {
+"en": "task=>`inherits ${task}`",
+"note": null,
+"vi": "task=>`kế thừa ${task}`"
+},
+"settings.model.mainAppliedMessage": {
+"en": "model=>`New sessions will use ${model}.`",
+"note": null,
+"vi": "model=>`Các phiên mới sẽ dùng ${model}.`"
+},
+"settings.model.moaReferenceTitle": {
+"en": "index=>`Reference ${index}`",
+"note": null,
+"vi": "index=>`Tham chiếu ${index}`"
+},
+"settings.model.moaReferenceToggle": {
+"en": "(enabled,index)=>`${enabled?\"Disable\":\"Enable\"} reference ${index}`",
+"note": null,
+"vi": "(enabled,index)=>`${enabled?\"Tắt\":\"Bật\"} tham chiếu ${index}`"
+},
+"settings.model.setUpProvider": {
+"en": "name=>`Set up ${name}`",
+"note": null,
+"vi": "name=>`Thiết lập ${name}`"
+},
+"settings.model.staleAuxBefore": {
+"en": "(count,names)=>`${count} auxiliary task${count===1?\"\":\"s\"} (${names}) still run on `",
+"note": null,
+"vi": "(count,names)=>`${count} tác vụ phụ (${names}) vẫn chạy trên `"
+},
+"settings.pluginPages.pageCount": {
+"en": "n=>n===1?\"1 page\":`${n} pages`",
+"note": null,
+"vi": "n=>`${n} trang`"
+},
+"settings.plugins.installModal.agentSuccess": {
+"en": "name=>`Agent plugin ${name} installed`",
+"note": null,
+"vi": "name=>`Đã cài đặt plugin agent ${name}`"
+},
+"settings.plugins.installModal.agentTargetLocal": {
+"en": "(profile,dir)=>`Installs into the ${profile} backend (${dir})`",
+"note": null,
+"vi": "(profile,dir)=>`Cài đặt vào backend ${profile} (${dir})`"
+},
+"settings.plugins.installModal.agentTargetRemote": {
+"en": "profile=>`Installs into the connected ${profile} backend`",
+"note": null,
+"vi": "profile=>`Cài đặt vào backend ${profile} đã kết nối`"
+},
+"settings.plugins.installModal.alreadyInstalled": {
+"en": "name=>`${name} is already installed.`",
+"note": null,
+"vi": "name=>`${name} đã được cài đặt.`"
+},
+"settings.plugins.installModal.desktopSuccess": {
+"en": "name=>`Desktop plugin ${name} installed`",
+"note": null,
+"vi": "name=>`Đã cài đặt plugin desktop ${name}`"
+},
+"settings.plugins.installModal.installsAndEnables": {
+"en": "profile=>`Installs for ${profile} and turns on right away.`",
+"note": null,
+"vi": "profile=>`Cài đặt cho ${profile} và bật ngay.`"
+},
+"settings.plugins.installModal.installsOnly": {
+"en": "profile=>`Installs for ${profile}.`",
+"note": null,
+"vi": "profile=>`Cài đặt cho ${profile}.`"
+},
+"settings.plugins.installModal.missingEnv": {
+"en": "(name,vars)=>`${name} is installed but needs a key before it can work: ${vars}. Add it now, or the plugin's tools will fail.`",
+"note": null,
+"vi": "(name,vars)=>`${name} đã được cài đặt nhưng cần khóa để hoạt động: ${vars}. Thêm khóa ngay, nếu không các công cụ của plugin sẽ gặp lỗi.`"
+},
+"settings.plugins.installModal.reviewedPin": {
+"en": "sha=>sha?`Reviewed pin ${sha}`:\"Reviewed pin\"",
+"note": null,
+"vi": "sha=>sha?`Đã xác minh mã pin ${sha}`:\"Đã xác minh mã pin\""
+},
+"settings.plugins.installModal.serverNotConnected": {
+"en": "(server,reason)=>`MCP server ${server} is not connected${reason?`: ${reason}`:\".\"}`",
+"note": null,
+"vi": "(server,reason)=>`Máy chủ MCP ${server} chưa kết nối${reason?`: ${reason}`:\".\"}`"
+},
+"settings.plugins.installModal.skillsReady": {
+"en": "names=>names.length===1?`skill ${names[0]} ready`:`${names.length} skills ready`",
+"note": null,
+"vi": "names=>names.length===1?`Kỹ năng ${names[0]} đã sẵn sàng`:`${names.length} kỹ năng đã sẵn sàng`"
+},
+"settings.plugins.installModal.toolsConnected": {
+"en": "n=>n===1?\"1 tool connected\":`${n} tools connected`",
+"note": null,
+"vi": "n=>`${n} công cụ đã kết nối`"
+},
+"settings.profileScope.editsProfile": {
+"en": "profile=>`Changes on this page apply to the \\u201C${profile}\\u201D profile.`",
+"note": null,
+"vi": "profile=>`Các thay đổi trên trang này áp dụng cho hồ sơ “${profile}”.`"
+},
+"settings.providers.failedRemove": {
+"en": "provider=>`Could not remove ${provider}`",
+"note": null,
+"vi": "provider=>`Không thể gỡ ${provider}`"
+},
+"settings.providers.removeConfirm": {
+"en": "provider=>`Remove ${provider}?`",
+"note": null,
+"vi": "provider=>`Gỡ ${provider}?`"
+},
+"settings.providers.removeExternalGeneric": {
+"en": "provider=>`${provider} is managed by its own CLI \\u2014 remove it there.`",
+"note": null,
+"vi": "provider=>`${provider} được quản lý bằng CLI riêng — hãy gỡ tại đó.`"
+},
+"settings.providers.removeKeyManaged": {
+"en": "provider=>`${provider} is configured from an API key. Remove it from API Keys.`",
+"note": null,
+"vi": "provider=>`${provider} được cấu hình bằng khóa API. Hãy gỡ trong mục Khóa API.`"
+},
+"settings.providers.removeTerminalConfirm": {
+"en": "(provider,command)=>`Disconnect ${provider}? This runs \"${command}\" in the terminal to clear the credential.`",
+"note": null,
+"vi": "(provider,command)=>`Ngắt kết nối ${provider}? Lệnh \"${command}\" sẽ chạy trong terminal để xóa thông tin xác thực.`"
+},
+"settings.providers.removeTerminalRunning": {
+"en": "provider=>`Running ${provider} disconnect in the terminal\\u2026`",
+"note": null,
+"vi": "provider=>`Đang ngắt kết nối ${provider} trong terminal…`"
+},
+"settings.providers.removedMessage": {
+"en": "provider=>`${provider} was removed.`",
+"note": null,
+"vi": "provider=>`Đã gỡ ${provider}.`"
+},
+"settings.sessions.defaultsTo": {
+"en": "label=>`Defaults to ${label}.`",
+"note": null,
+"vi": "label=>`Mặc định là ${label}.`"
+},
+"settings.sessions.deleteConfirm": {
+"en": "title=>`Permanently delete \"${title}\"? This cannot be undone.`",
+"note": null,
+"vi": "title=>`Xóa vĩnh viễn \"${title}\"? Không thể hoàn tác thao tác này.`"
+},
+"settings.sessions.messages": {
+"en": "count=>`${count} ${count===1?\"message\":\"messages\"}`",
+"note": null,
+"vi": "count=>`${count} tin nhắn`"
+},
+"settings.toolsets.failedRemove": {
+"en": "key=>`Failed to remove ${key}`",
+"note": null,
+"vi": "key=>`Không thể gỡ ${key}`"
+},
+"settings.toolsets.failedReveal": {
+"en": "key=>`Failed to reveal ${key}`",
+"note": null,
+"vi": "key=>`Không thể hiển thị ${key}`"
+},
+"settings.toolsets.failedSave": {
+"en": "key=>`Failed to save ${key}`",
+"note": null,
+"vi": "key=>`Không thể lưu ${key}`"
+},
+"settings.toolsets.failedSelect": {
+"en": "provider=>`Failed to select ${provider}`",
+"note": null,
+"vi": "provider=>`Không thể chọn ${provider}`"
+},
+"settings.toolsets.failedSelectCapability": {
+"en": "provider=>`Failed to set ${provider}`",
+"note": null,
+"vi": "provider=>`Không thể đặt ${provider}`"
+},
+"settings.toolsets.failedSelectModel": {
+"en": "model=>`Failed to select ${model}`",
+"note": null,
+"vi": "model=>`Không thể chọn ${model}`"
+},
+"settings.toolsets.modelCount": {
+"en": "count=>`${count} model${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} mô hình`"
+},
+"settings.toolsets.modelSelectedMessage": {
+"en": "model=>`${model} applies to new sessions.`",
+"note": null,
+"vi": "model=>`${model} áp dụng cho các phiên mới.`"
+},
+"settings.toolsets.nousAuthNeededMessage": {
+"en": "provider=>`${provider} is saved but will only work once you sign in with your Nous account.`",
+"note": null,
+"vi": "provider=>`${provider} đã được lưu nhưng chỉ hoạt động sau khi bạn đăng nhập bằng tài khoản Nous.`"
+},
+"settings.toolsets.postSetupCompleteMessage": {
+"en": "step=>`${step} installed.`",
+"note": null,
+"vi": "step=>`Đã cài đặt ${step}.`"
+},
+"settings.toolsets.postSetupErrorMessage": {
+"en": "step=>`Setting up ${step} did not finish. Open the logs to see why, then run setup again.`",
+"note": null,
+"vi": "step=>`Chưa hoàn tất thiết lập ${step}. Mở nhật ký để tìm hiểu nguyên nhân, rồi chạy lại thiết lập.`"
+},
+"settings.toolsets.postSetupFailed": {
+"en": "step=>`Failed to run ${step} setup`",
+"note": null,
+"vi": "step=>`Không thể chạy thiết lập ${step}`"
+},
+"settings.toolsets.postSetupHint": {
+"en": "step=>`This backend needs a one-time install (${step}). Runs on this machine \\u2014 may take a few minutes.`",
+"note": null,
+"vi": "step=>`Backend này cần cài đặt một lần (${step}). Quá trình chạy trên máy này và có thể mất vài phút.`"
+},
+"settings.toolsets.removeConfirm": {
+"en": "key=>`Remove ${key} from .env?`",
+"note": null,
+"vi": "key=>`Gỡ ${key} khỏi .env?`"
+},
+"settings.toolsets.removedMessage": {
+"en": "key=>`${key} removed.`",
+"note": null,
+"vi": "key=>`Đã gỡ ${key}.`"
+},
+"settings.toolsets.savedMessage": {
+"en": "key=>`${key} updated.`",
+"note": null,
+"vi": "key=>`Đã cập nhật ${key}.`"
+},
+"settings.toolsets.selectedMessage": {
+"en": "provider=>`${provider} is now active.`",
+"note": null,
+"vi": "provider=>`${provider} hiện đang hoạt động.`"
+},
+"settings.toolsets.terminalBackend.failedSelect": {
+"en": "backend=>`Failed to select ${backend}`",
+"note": null,
+"vi": "backend=>`Không thể chọn ${backend}`"
+},
+"settings.toolsets.terminalBackend.needsSetupConfirmDescription": {
+"en": "detail=>`${detail} Sessions that start after this change will have no terminal or file tools until setup is finished.`",
+"note": null,
+"vi": "detail=>`${detail} Các phiên bắt đầu sau khi thay đổi này sẽ không có công cụ terminal hoặc tệp cho đến khi hoàn tất thiết lập.`"
+},
+"settings.toolsets.terminalBackend.needsSetupConfirmTitle": {
+"en": "backend=>`Select ${backend} anyway?`",
+"note": null,
+"vi": "backend=>`Vẫn chọn ${backend}?`"
+},
+"settings.toolsets.terminalBackend.selectedMessage": {
+"en": "backend=>`Terminal commands now run via ${backend}. Applies to new sessions.`",
+"note": null,
+"vi": "backend=>`Lệnh terminal hiện chạy qua ${backend}. Áp dụng cho các phiên mới.`"
+},
+"settings.toolsets.terminalBackend.unavailableMessage": {
+"en": "backend=>`Hermes can't run shell commands right now: ${backend} isn't ready. Switch to Local, or finish setting up ${backend} and try again.`",
+"note": null,
+"vi": "backend=>`Hermes hiện không thể chạy lệnh shell: ${backend} chưa sẵn sàng. Hãy chuyển sang Local hoặc hoàn tất thiết lập ${backend} rồi thử lại.`"
+},
+"settings.toolsets.webCapabilitySelectedMessage": {
+"en": "(provider,capability)=>`${provider} now handles web ${capability}.`",
+"note": null,
+"vi": "(provider,capability)=>`${provider} hiện xử lý ${capability} trên web.`"
+},
+"settings.toolsets.webExtractActive": {
+"en": "backend=>`Extract: ${backend}`",
+"note": null,
+"vi": "backend=>`Trích xuất: ${backend}`"
+},
+"settings.toolsets.webSearchActive": {
+"en": "backend=>`Search: ${backend}`",
+"note": null,
+"vi": "backend=>`Tìm kiếm: ${backend}`"
+},
+"settings.uninstallSection.confirmBody": {
+"en": "what=>`This removes ${what}. This can\\u2019t be undone.`",
+"note": null,
+"vi": "what=>`Thao tác này sẽ xóa ${what}. Không thể hoàn tác.`"
+},
+"settings.uninstallSection.dataKept": {
+"en": "path=>`Your config, chats, and secrets live in ${path}. Removing the app does not delete them.`",
+"note": null,
+"vi": "path=>`Tệp cấu hình, cuộc trò chuyện và bí mật vẫn nằm trong ${path}. Gỡ ứng dụng không xóa những dữ liệu này.`"
+},
+"settings.vault.count": {
+"en": "n=>`${n} saved`",
+"note": null,
+"vi": "n=>`Đã lưu ${n}`"
+},
+"settings.vault.createdOn": {
+"en": "date=>`Added ${date}`",
+"note": null,
+"vi": "date=>`Đã thêm ${date}`"
+},
+"settings.vault.deleteDescription": {
+"en": "label=>`\"${label}\" will be removed. This cannot be undone.`",
+"note": null,
+"vi": "label=>`\"${label}\" sẽ bị gỡ. Thao tác này không thể hoàn tác.`"
+},
+"settings.vault.identifierShown": {
+"en": "identifier=>identifier",
+"note": null,
+"vi": "identifier=>identifier"
+},
+"settings.vault.sources.notInstalled": {
+"en": "name=>`Not detected. Install the ${name} command-line tool and sign in to it; Hermes picks it up automatically.`",
+"note": null,
+"vi": "name=>`Không phát hiện thấy. Hãy cài đặt công cụ dòng lệnh ${name} và đăng nhập; Hermes sẽ tự động nhận diện.`"
+},
+"settings.vault.sources.unlockTitle": {
+"en": "name=>`Unlock ${name}`",
+"note": null,
+"vi": "name=>`Mở khóa ${name}`"
+},
+"settings.vault.sources.unlocked": {
+"en": "name=>`${name} unlocked for this session.`",
+"note": null,
+"vi": "name=>`${name} đã được mở khóa cho phiên này.`"
+},
+"shell.approvalMode.ariaLabel": {
+"en": "mode=>`Approval mode: ${mode}`",
+"note": null,
+"vi": "mode=>`Chế độ phê duyệt: ${mode}`"
+},
+"shell.gatewayMenu.connection": {
+"en": "label=>`Connection: ${label}`",
+"note": null,
+"vi": "label=>`Kết nối: ${label}`"
+},
+"shell.modelMenu.limitedTip": {
+"en": "(provider,time)=>time?`${provider} hit its usage limit. It resets at ${time}; you can still pick a model for after.`:`${provider} hit its usage limit. You can still pick a model for after it resets.`",
+"note": null,
+"vi": "(provider,time)=>time?`${provider} đã chạm giới hạn sử dụng. Giới hạn sẽ được đặt lại lúc ${time}; bạn vẫn có thể chọn mô hình để dùng sau đó.`:`${provider} đã chạm giới hạn sử dụng. Bạn vẫn có thể chọn mô hình để dùng sau khi giới hạn được đặt lại.`"
+},
+"shell.modelMenu.limitedUntil": {
+"en": "time=>`Limited until ${time}`",
+"note": null,
+"vi": "time=>`Bị giới hạn đến ${time}`"
+},
+"shell.modelMenu.localSetup.text": {
+"en": "(model,size)=>`${model} fits this machine \\xB7 ${size} download`",
+"note": null,
+"vi": "(model,size)=>`${model} phù hợp với thiết bị này \\xB7 tải xuống ${size}`"
+},
+"shell.modelMenu.modelLimitedTip": {
+"en": "time=>`This model hit its own limit and resets at ${time}. Other models here still work.`",
+"note": null,
+"vi": "time=>`Mô hình này đã chạm giới hạn riêng và sẽ được đặt lại lúc ${time}. Các mô hình khác ở đây vẫn hoạt động.`"
+},
+"shell.modelMenu.modelResets": {
+"en": "time=>`resets ${time}`",
+"note": null,
+"vi": "time=>`đặt lại ${time}`"
+},
+"shell.modelMenu.poolAccount": {
+"en": "number=>`Account ${number}`",
+"note": null,
+"vi": "number=>`Tài khoản ${number}`"
+},
+"shell.modelMenu.poolAccounts": {
+"en": "count=>`${count} ${count===1?\"account\":\"accounts\"}`",
+"note": null,
+"vi": "count=>`${count} tài khoản`"
+},
+"shell.modelMenu.poolLimited": {
+"en": "(limited,total)=>`${limited}/${total} accounts limited`",
+"note": null,
+"vi": "(limited,total)=>`${limited}/${total} tài khoản bị giới hạn`"
+},
+"shell.modelMenu.priceTitle": {
+"en": "(input,output,cache)=>`Input ${input}/Mtok \\xB7 Output ${output}/Mtok`+(cache?` \\xB7 Cached read ${cache}/Mtok`:\"\")",
+"note": null,
+"vi": "(input,output,cache)=>`Đầu vào ${input}/Mtok \\xB7 Đầu ra ${output}/Mtok`+(cache?` \\xB7 Đọc từ bộ nhớ đệm ${cache}/Mtok`:\"\")"
+},
+"shell.modelMenu.usageLeft": {
+"en": "(percent,time)=>time?`${percent}% left \\xB7 resets ${time}`:`${percent}% left`",
+"note": null,
+"vi": "(percent,time)=>time?`Còn ${percent}% \\xB7 đặt lại ${time}`:`Còn ${percent}%`"
+},
+"shell.modelMenu.usageTip": {
+"en": "provider=>`${provider} is close to its usage limit.`",
+"note": null,
+"vi": "provider=>`${provider} sắp chạm giới hạn sử dụng.`"
+},
+"shell.modelMenu.usageWindow": {
+"en": "(label,percent,time)=>time?`${label}: ${percent}% left, resets ${time}`:`${label}: ${percent}% left`",
+"note": null,
+"vi": "(label,percent,time)=>time?`${label}: còn ${percent}%, đặt lại ${time}`:`${label}: còn ${percent}%`"
+},
+"shell.modelOptions.sendsOnRoute": {
+"en": "level=>`sends ${level} on this route`",
+"note": null,
+"vi": "level=>`gửi ${level} qua tuyến này`"
+},
+"shell.statusbar.backendLabel": {
+"en": "version=>`backend v${version}`",
+"note": null,
+"vi": "version=>`backend phiên bản ${version}`"
+},
+"shell.statusbar.backendVersion": {
+"en": "version=>`Backend v${version}`",
+"note": null,
+"vi": "version=>`Backend phiên bản ${version}`"
+},
+"shell.statusbar.branch": {
+"en": "branch=>`branch ${branch}`",
+"note": null,
+"vi": "branch=>`nhánh ${branch}`"
+},
+"shell.statusbar.clientLabel": {
+"en": "version=>`client v${version}`",
+"note": null,
+"vi": "version=>`client phiên bản ${version}`"
+},
+"shell.statusbar.commit": {
+"en": "sha=>`commit ${sha}`",
+"note": null,
+"vi": "sha=>`commit ${sha}`"
+},
+"shell.statusbar.commitsBehind": {
+"en": "(count,branch)=>`${count} commit${count===1?\"\":\"s\"} behind ${branch}`",
+"note": null,
+"vi": "(count,branch)=>`Chậm hơn ${branch} ${count} commit`"
+},
+"shell.statusbar.compressions": {
+"en": "count=>`Compressions: ${count}`",
+"note": null,
+"vi": "count=>`Số lần nén: ${count}`"
+},
+"shell.statusbar.connectionCloud": {
+"en": "host=>`Cloud: ${host}`",
+"note": null,
+"vi": "host=>`Đám mây: ${host}`"
+},
+"shell.statusbar.connectionCloudTooltip": {
+"en": "host=>`Hermes Cloud \\xB7 ${host}`",
+"note": null,
+"vi": "host=>`Đám mây Hermes · ${host}`"
+},
+"shell.statusbar.connectionRemote": {
+"en": "host=>`Remote: ${host}`",
+"note": null,
+"vi": "host=>`Từ xa: ${host}`"
+},
+"shell.statusbar.connectionRemoteTooltip": {
+"en": "host=>`Remote \\xB7 ${host}`",
+"note": null,
+"vi": "host=>`Từ xa \\xB7 ${host}`"
+},
+"shell.statusbar.connectionSsh": {
+"en": "host=>`SSH: ${host}`",
+"note": null,
+"vi": "host=>`SSH: ${host}`"
+},
+"shell.statusbar.connectionSshTooltip": {
+"en": "host=>`SSH \\xB7 ${host}`",
+"note": null,
+"vi": "host=>`SSH \\xB7 ${host}`"
+},
+"shell.statusbar.contextUsagePanel.percentFull": {
+"en": "percent=>`${percent}% Full`",
+"note": null,
+"vi": "percent=>`${percent}% đã dùng`"
+},
+"shell.statusbar.contextUsagePanel.tokenSummary": {
+"en": "(used,max)=>`${used} / ${max} Tokens`",
+"note": null,
+"vi": "(used,max)=>`${used} / ${max} token`"
+},
+"shell.statusbar.desktopVersion": {
+"en": "version=>`Hermes Desktop v${version}`",
+"note": null,
+"vi": "version=>`Hermes Desktop phiên bản ${version}`"
+},
+"shell.statusbar.failed": {
+"en": "count=>`${count} failed`",
+"note": null,
+"vi": "count=>`${count} tác vụ thất bại`"
+},
+"shell.statusbar.messagingDegraded": {
+"en": "name=>`${name} down`",
+"note": null,
+"vi": "name=>`${name} không hoạt động`"
+},
+"shell.statusbar.modelTitle": {
+"en": "(provider,model)=>`Model \\xB7 ${provider}: ${model}`",
+"note": null,
+"vi": "(provider,model)=>`Mô hình \\xB7 ${provider}: ${model}`"
+},
+"shell.statusbar.providerModelTitle": {
+"en": "(provider,model)=>`${provider} \\xB7 ${model}`",
+"note": null,
+"vi": "(provider,model)=>`${provider} \\xB7 ${model}`"
+},
+"shell.statusbar.releaseAvailable": {
+"en": "tag=>`Version ${tag} is available.`",
+"note": null,
+"vi": "tag=>`Đã có phiên bản ${tag}.`"
+},
+"shell.statusbar.running": {
+"en": "count=>`${count} running`",
+"note": null,
+"vi": "count=>`${count} đang chạy`"
+},
+"shell.statusbar.subagents": {
+"en": "count=>`${count} subagent${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} agent con`"
+},
+"sidebar.loadCount": {
+"en": "step=>`Load ${step} more`",
+"note": null,
+"vi": "step=>`Tải thêm ${step}`"
+},
+"sidebar.messageCount": {
+"en": "count=>`${count} ${count===1?\"message\":\"messages\"}`",
+"note": null,
+"vi": "count=>`${count} tin nhắn`"
+},
+"sidebar.newSessionIn": {
+"en": "label=>`New session in ${label}`",
+"note": null,
+"vi": "label=>`Phiên mới trong ${label}`"
+},
+"sidebar.noMatch": {
+"en": "query=>`No sessions match \\u201C${query}\\u201D.`",
+"note": null,
+"vi": "query=>`Không có phiên nào khớp với “${query}”.`"
+},
+"sidebar.projects.branchOff": {
+"en": "()=>({after:\"\",before:\"branch off \"})",
+"note": null,
+"vi": "()=>({after:\"\",before:\"tách nhánh \"})"
+},
+"sidebar.projects.enter": {
+"en": "label=>`Open ${label}`",
+"note": null,
+"vi": "label=>`Mở ${label}`"
+},
+"sidebar.projects.movedTo": {
+"en": "name=>`Moved to ${name}`",
+"note": null,
+"vi": "name=>`Đã chuyển đến ${name}`"
+},
+"sidebar.projects.reorder": {
+"en": "label=>`Reorder ${label}`",
+"note": null,
+"vi": "label=>`Sắp xếp lại ${label}`"
+},
+"sidebar.projects.showAllCount": {
+"en": "count=>`Show all ${count} sessions`",
+"note": null,
+"vi": "count=>`Hiện tất cả ${count} phiên`"
+},
+"sidebar.projects.toggle": {
+"en": "(label,open)=>`${open?\"Show\":\"Hide\"} ${label} sessions`",
+"note": null,
+"vi": "(label,open)=>`${open?\"Hiện\":\"Ẩn\"} các phiên trong ${label}`"
+},
+"sidebar.row.deleteDesc": {
+"en": "title=>`This will permanently delete \\u201C${title}\\u201D. This cannot be undone.`",
+"note": null,
+"vi": "title=>`Thao tác này sẽ xóa vĩnh viễn “${title}”. Bạn không thể hoàn tác.`"
+},
+"sidebar.row.handoffOrigin": {
+"en": "platform=>`Handed off from ${platform}`",
+"note": null,
+"vi": "platform=>`Được bàn giao từ ${platform}`"
+},
+"sidebar.row.messageCount": {
+"en": "count=>`${count} ${count===1?\"message\":\"messages\"}`",
+"note": null,
+"vi": "count=>`${count} tin nhắn`"
+},
+"sidebar.row.ownedByProfile": {
+"en": "profile=>`Profile: ${profile}`",
+"note": null,
+"vi": "profile=>`Hồ sơ: ${profile}`"
+},
+"sidebar.row.untitledChat": {
+"en": "id=>`Chat ${id}`",
+"note": null,
+"vi": "id=>`Cuộc trò chuyện ${id}`"
+},
+"sidebar.showMoreIn": {
+"en": "(count,label)=>`Show ${count} more in ${label}`",
+"note": null,
+"vi": "(count,label)=>`Hiện thêm ${count} phiên trong ${label}`"
+},
+"sidebar.storageCorrupt.body": {
+"en": "profiles=>`Hermes can't read all of the session history for ${profiles}. Chats missing from this list were not deleted; the file they are stored in is damaged.`",
+"note": null,
+"vi": "profiles=>`Hermes không thể đọc toàn bộ lịch sử phiên của ${profiles}. Các cuộc trò chuyện không có trong danh sách này chưa bị xóa; tệp lưu trữ chúng đã bị hỏng.`"
+},
+"sidebar.toolCallCount": {
+"en": "count=>`${count} ${count===1?\"tool call\":\"tool calls\"}`",
+"note": null,
+"vi": "count=>`${count} lệnh gọi công cụ`"
+},
+"skillDeepLink.installComplete": {
+"en": "name=>`\\u201C${name}\\u201D installed`",
+"note": null,
+"vi": "name=>`Đã cài đặt “${name}”`"
+},
+"skillDeepLink.installTitle": {
+"en": "name=>`Install \\u201C${name}\\u201D?`",
+"note": null,
+"vi": "name=>`Cài đặt “${name}”?`"
+},
+"skills.appliesToNewSessions": {
+"en": "name=>`${name} applies to new sessions.`",
+"note": null,
+"vi": "name=>`${name} áp dụng cho các phiên mới.`"
+},
+"skills.bulkUpdated": {
+"en": "count=>`Updated ${count} ${count===1?\"item\":\"items\"} for new sessions.`",
+"note": null,
+"vi": "count=>`Đã cập nhật ${count} mục cho các phiên mới.`"
+},
+"skills.configureToolset": {
+"en": "label=>`Configure ${label}`",
+"note": null,
+"vi": "label=>`Định cấu hình ${label}`"
+},
+"skills.emptyNoneAvailable": {
+"en": "noun=>`No ${noun} available yet.`",
+"note": null,
+"vi": "noun=>`Chưa có ${noun} nào.`"
+},
+"skills.emptyNoneFound": {
+"en": "noun=>`No ${noun} found`",
+"note": null,
+"vi": "noun=>`Không tìm thấy ${noun}`"
+},
+"skills.emptyNothingMatches": {
+"en": "query=>`Nothing matches \\u201C${query}\\u201D.`",
+"note": null,
+"vi": "query=>`Không có kết quả khớp với “${query}”.`"
+},
+"skills.failedToUpdate": {
+"en": "name=>`Failed to update ${name}`",
+"note": null,
+"vi": "name=>`Không thể cập nhật ${name}`"
+},
+"skills.hub.alreadyInstalled": {
+"en": "name=>`\"${name}\" is already installed`",
+"note": null,
+"vi": "name=>`\"${name}\" đã được cài đặt`"
+},
+"skills.hub.findings": {
+"en": "count=>`${count} finding${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} phát hiện`"
+},
+"skills.hub.installBlockedMessage": {
+"en": "(findings,unverified)=>`The security scan flagged ${findings>0?`${findings} item${findings===1?\"\":\"s\"}`:\"risky patterns\"} to review${unverified?\" and the skill comes from an unverified source\":\"\"}. Read the scan before deciding whether to trust the author.`",
+"note": null,
+"vi": "(findings,unverified)=>`Quét bảo mật phát hiện ${findings>0?`${findings} mục`:\"các mẫu đáng ngờ\"} cần xem xét${unverified?\" và kỹ năng này đến từ nguồn chưa được xác minh\":\"\"}. Hãy đọc kết quả quét trước khi quyết định có tin tưởng tác giả hay không.`"
+},
+"skills.hub.installBlockedTitle": {
+"en": "name=>`Couldn't install ${name}`",
+"note": null,
+"vi": "name=>`Không thể cài đặt ${name}`"
+},
+"skills.hub.installStarted": {
+"en": "name=>`Installing ${name}...`",
+"note": null,
+"vi": "name=>`Đang cài đặt ${name}...`"
+},
+"skills.hub.resultCount": {
+"en": "(count,ms)=>`${count} result${count===1?\"\":\"s\"}${ms!==null?` in ${ms}ms`:\"\"}`",
+"note": null,
+"vi": "(count,ms)=>`${count} kết quả${ms!==null?` trong ${ms}ms`:\"\"}`"
+},
+"skills.hub.timedOut": {
+"en": "sources=>`Timed out: ${sources}`",
+"note": null,
+"vi": "sources=>`Hết thời gian chờ: ${sources}`"
+},
+"skills.hub.uninstallStarted": {
+"en": "name=>`Uninstalling ${name}...`",
+"note": null,
+"vi": "name=>`Đang gỡ cài đặt ${name}...`"
+},
+"skills.plugins.alreadyInstalled": {
+"en": "name=>`${name} is already installed in this profile.`",
+"note": null,
+"vi": "name=>`${name} đã được cài đặt trong hồ sơ này.`"
+},
+"skills.plugins.catalogProvenance": {
+"en": "sha=>`Installed from the Hermes catalog${sha?` at pin ${sha}`:\"\"}.`",
+"note": null,
+"vi": "sha=>`Đã cài từ danh mục Hermes${sha?` tại commit ${sha}`:\"\"}.`"
+},
+"skills.plugins.deepLinkCatalogUnknown": {
+"en": "name=>`\\u201C${name}\\u201D is not in the Hermes plugin catalog. Nothing was installed.`",
+"note": null,
+"vi": "name=>`“${name}” không có trong danh mục plugin Hermes. Không có gì được cài đặt.`"
+},
+"skills.plugins.halfAgentIn": {
+"en": "profile=>`Agent in ${profile}`",
+"note": null,
+"vi": "profile=>`Agent trong ${profile}`"
+},
+"skills.plugins.installAgentHereTip": {
+"en": "profile=>`The desktop half is loaded in this app, but the agent half is not installed in ${profile}. Install it there.`",
+"note": null,
+"vi": "profile=>`Phần dành cho máy tính đã được tải trong ứng dụng này, nhưng phần agent chưa được cài đặt trong ${profile}. Hãy cài đặt tại đó.`"
+},
+"skills.plugins.pinnedBadge": {
+"en": "sha=>`pinned @ ${sha}`",
+"note": null,
+"vi": "sha=>`đã ghim @ ${sha}`"
+},
+"skills.plugins.pinnedProvenance": {
+"en": "sha=>`Pinned to commit ${sha}. Updates are refused until it is reinstalled with a new pin.`",
+"note": null,
+"vi": "sha=>`Đã ghim ở commit ${sha}. Không thể cập nhật cho đến khi cài lại với commit ghim mới.`"
+},
+"skills.plugins.settingsForm.saveFailed": {
+"en": "name=>`Could not save ${name} settings`",
+"note": null,
+"vi": "name=>`Không thể lưu cài đặt của ${name}`"
+},
+"skills.plugins.settingsForm.saved": {
+"en": "name=>`${name} settings saved.`",
+"note": null,
+"vi": "name=>`Đã lưu cài đặt của ${name}.`"
+},
+"skills.plugins.settingsForm.secretStoredAs": {
+"en": "env=>`Stored in the profile's .env as ${env}, never in config.yaml; leave blank to keep the current value.`",
+"note": null,
+"vi": "env=>`Đã lưu trong tệp .env của hồ sơ dưới tên ${env}, không lưu trong config.yaml; để trống để giữ nguyên giá trị hiện tại.`"
+},
+"skills.plugins.settingsToggle": {
+"en": "name=>`Settings: ${name}`",
+"note": null,
+"vi": "name=>`Cài đặt: ${name}`"
+},
+"skills.plugins.toggleFailed": {
+"en": "name=>`Could not toggle ${name}`",
+"note": null,
+"vi": "name=>`Không thể bật/tắt ${name}`"
+},
+"skills.plugins.toolsetOff": {
+"en": "(name,profile)=>`${name} agent tools disabled for ${profile}`",
+"note": null,
+"vi": "(name,profile)=>`Đã tắt công cụ agent ${name} cho ${profile}`"
+},
+"skills.plugins.toolsetOn": {
+"en": "(name,profile)=>`${name} agent tools enabled for ${profile}`",
+"note": null,
+"vi": "(name,profile)=>`Đã bật công cụ agent ${name} cho ${profile}`"
+},
+"skills.plugins.toolsetToggleFailed": {
+"en": "name=>`Could not toggle the ${name} agent tools; the Desktop panel was left unchanged`",
+"note": null,
+"vi": "name=>`Không thể bật/tắt công cụ agent ${name}; bảng Desktop vẫn được giữ nguyên`"
+},
+"skills.plugins.uninstallConfirmBody": {
+"en": "(name,profile)=>`This deletes the plugin's files from the ${profile} profile. Any desktop half it shipped is removed with it. Reinstall it from the catalog or from Git at any time.`",
+"note": null,
+"vi": "(name,profile)=>`Thao tác này sẽ xóa các tệp plugin khỏi hồ sơ ${profile}. Thành phần dành cho máy tính mà plugin cung cấp cũng sẽ bị gỡ. Bạn có thể cài lại từ danh mục hoặc Git bất cứ lúc nào.`"
+},
+"skills.plugins.uninstallConfirmTitle": {
+"en": "name=>`Uninstall ${name}?`",
+"note": null,
+"vi": "name=>`Gỡ cài đặt ${name}?`"
+},
+"skills.plugins.uninstallDesktopConfirmBody": {
+"en": "name=>`This deletes ${name} from the desktop-plugins folder on this computer and unloads it now. Reinstall it from Git or drop the folder back at any time.`",
+"note": null,
+"vi": "name=>`Thao tác này sẽ xóa ${name} khỏi thư mục desktop-plugins trên máy tính này và dỡ plugin ngay. Bạn có thể cài lại từ Git hoặc đưa thư mục trở lại bất cứ lúc nào.`"
+},
+"skills.plugins.uninstallDesktopTip": {
+"en": "name=>`Uninstall ${name} from this app`",
+"note": null,
+"vi": "name=>`Gỡ cài đặt ${name} khỏi ứng dụng này`"
+},
+"skills.plugins.uninstallFailed": {
+"en": "name=>`Could not uninstall ${name}`",
+"note": null,
+"vi": "name=>`Không thể gỡ cài đặt ${name}`"
+},
+"skills.plugins.uninstallTip": {
+"en": "(name,profile)=>`Uninstall ${name} from ${profile}`",
+"note": null,
+"vi": "(name,profile)=>`Gỡ cài đặt ${name} khỏi hồ sơ ${profile}`"
+},
+"skills.plugins.uninstalled": {
+"en": "name=>`${name} uninstalled. Restart the gateway to unload it.`",
+"note": null,
+"vi": "name=>`Đã gỡ cài đặt ${name}. Khởi động lại gateway để dỡ plugin.`"
+},
+"skills.plugins.uninstalledDesktop": {
+"en": "name=>`${name} uninstalled.`",
+"note": null,
+"vi": "name=>`Đã gỡ cài đặt ${name}.`"
+},
+"skills.plugins.updateConsentBody": {
+"en": "(name,sha)=>`The new catalog pin of ${name} (${sha}) adds surfaces the installed version does not have. Apply it only if you trust them:`",
+"note": null,
+"vi": "(name,sha)=>`Commit ghim mới trong danh mục của ${name} (${sha}) bổ sung các quyền mà phiên bản đã cài chưa có. Chỉ áp dụng nếu bạn tin tưởng các quyền này:`"
+},
+"skills.plugins.updateConsentTitle": {
+"en": "name=>`${name} asks for more`",
+"note": null,
+"vi": "name=>`${name} yêu cầu thêm quyền`"
+},
+"skills.plugins.updateFailed": {
+"en": "name=>`Could not update ${name}`",
+"note": null,
+"vi": "name=>`Không thể cập nhật ${name}`"
+},
+"skills.plugins.updateToPin": {
+"en": "sha=>`Update to ${sha}`",
+"note": null,
+"vi": "sha=>`Cập nhật lên ${sha}`"
+},
+"skills.plugins.updated": {
+"en": "name=>`${name} updated to the current catalog pin. Restart the gateway to apply.`",
+"note": null,
+"vi": "name=>`Đã cập nhật ${name} lên commit ghim hiện tại trong danh mục. Khởi động lại gateway để áp dụng.`"
+},
+"skills.toggleToolset": {
+"en": "(label,enabled)=>`Turn ${label} toolset ${enabled?\"on\":\"off\"}`",
+"note": null,
+"vi": "(label,enabled)=>`${enabled?\"Bật\":\"Tắt\"} bộ công cụ ${label}`"
+},
+"skills.toolsetsEnabled": {
+"en": "(enabled,total)=>`${enabled}/${total} toolsets enabled`",
+"note": null,
+"vi": "(enabled,total)=>`Đã bật ${enabled}/${total} bộ công cụ`"
+},
+"skills.usageCount": {
+"en": "count=>`used ${count}\\xD7`",
+"note": null,
+"vi": "count=>`đã dùng ${count}\\xD7`"
+},
+"starmap.importSuccess": {
+"en": "nodes=>`Loaded a map with ${nodes} ${nodes===1?\"node\":\"nodes\"}.`",
+"note": null,
+"vi": "nodes=>`Đã tải bản đồ gồm ${nodes} nút.`"
+},
+"starmap.subtitle": {
+"en": "(nodes,clusters)=>`${nodes} skills across ${clusters} categories`",
+"note": null,
+"vi": "(nodes,clusters)=>`${nodes} kỹ năng thuộc ${clusters} danh mục`"
+},
+"statusStack.background": {
+"en": "count=>`${count} Background`",
+"note": null,
+"vi": "count=>`${count} tác vụ nền`"
+},
+"statusStack.coding.ahead": {
+"en": "count=>`${count} ahead`",
+"note": null,
+"vi": "count=>`đi trước ${count}`"
+},
+"statusStack.coding.behind": {
+"en": "count=>`${count} behind`",
+"note": null,
+"vi": "count=>`đi sau ${count}`"
+},
+"statusStack.coding.branchOffFrom": {
+"en": "base=>`New branch from ${base}`",
+"note": null,
+"vi": "base=>`Nhánh mới từ ${base}`"
+},
+"statusStack.coding.changed": {
+"en": "count=>`${count} changed`",
+"note": null,
+"vi": "count=>`${count} thay đổi`"
+},
+"statusStack.coding.commitPlaceholder": {
+"en": "shortcut=>`Message (${shortcut} to commit)`",
+"note": null,
+"vi": "shortcut=>`Thông điệp (${shortcut} để commit)`"
+},
+"statusStack.coding.switchFailed": {
+"en": "branch=>`Could not switch to ${branch}`",
+"note": null,
+"vi": "branch=>`Không thể chuyển sang ${branch}`"
+},
+"statusStack.coding.switchTo": {
+"en": "branch=>`Switch to ${branch}`",
+"note": null,
+"vi": "branch=>`Chuyển sang ${branch}`"
+},
+"statusStack.control.actionFailed": {
+"en": "msg=>`Action failed: ${msg}`",
+"note": null,
+"vi": "msg=>`Thao tác thất bại: ${msg}`"
+},
+"statusStack.control.controlUnavailable": {
+"en": "msg=>`Session controls unavailable: ${msg}`",
+"note": null,
+"vi": "msg=>`Không thể điều khiển phiên: ${msg}`"
+},
+"statusStack.control.copyCriterion": {
+"en": "index=>`Copy criterion ${index}`",
+"note": null,
+"vi": "index=>`Sao chép tiêu chí ${index}`"
+},
+"statusStack.control.criteriaHeader": {
+"en": "count=>`Criteria \\xB7 ${count}`",
+"note": null,
+"vi": "count=>`Tiêu chí \\xB7 ${count}`"
+},
+"statusStack.control.gateAttempts": {
+"en": "(attempts,max)=>`${attempts}/${max} attempts`",
+"note": null,
+"vi": "(attempts,max)=>`${attempts}/${max} lần thử`"
+},
+"statusStack.control.gateLastExit": {
+"en": "code=>code===null?\"Pending\":`Exit code: ${code}`",
+"note": null,
+"vi": "code=>code===null?\"Đang chờ\":`Mã thoát: ${code}`"
+},
+"statusStack.control.gateTimeout": {
+"en": "seconds=>`${seconds}s timeout`",
+"note": null,
+"vi": "seconds=>`hết thời gian chờ sau ${seconds}s`"
+},
+"statusStack.control.goalActiveTurns": {
+"en": "(turn,maxTurns)=>`Turn ${turn}/${maxTurns}`",
+"note": null,
+"vi": "(turn,maxTurns)=>`Lượt ${turn}/${maxTurns}`"
+},
+"statusStack.control.goalDoneTurns": {
+"en": "turns=>`${turns} turn${turns===1?\"\":\"s\"}`",
+"note": null,
+"vi": "turns=>`${turns} lượt`"
+},
+"statusStack.control.goalTurn": {
+"en": "turn=>`Turn ${turn}`",
+"note": null,
+"vi": "turn=>`Lượt ${turn}`"
+},
+"statusStack.control.heartbeatEveryHours": {
+"en": "hours=>`every ${hours}h`",
+"note": null,
+"vi": "hours=>`mỗi ${hours}h`"
+},
+"statusStack.control.heartbeatEveryMinutes": {
+"en": "minutes=>`every ${minutes}m`",
+"note": null,
+"vi": "minutes=>`mỗi ${minutes}m`"
+},
+"statusStack.control.heartbeatEverySeconds": {
+"en": "seconds=>`every ${seconds}s`",
+"note": null,
+"vi": "seconds=>`mỗi ${seconds}s`"
+},
+"statusStack.control.heartbeatFiredCount": {
+"en": "count=>`Fired ${count} time${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`Đã kích hoạt ${count} lần`"
+},
+"statusStack.control.heartbeatNext": {
+"en": "time=>`next ${time}`",
+"note": null,
+"vi": "time=>`tiếp theo ${time}`"
+},
+"statusStack.control.loopEveryHours": {
+"en": "hours=>`every ${hours}h`",
+"note": null,
+"vi": "hours=>`mỗi ${hours}h`"
+},
+"statusStack.control.loopEveryMinutes": {
+"en": "minutes=>`every ${minutes}m`",
+"note": null,
+"vi": "minutes=>`mỗi ${minutes}m`"
+},
+"statusStack.control.loopEverySeconds": {
+"en": "seconds=>`every ${seconds}s`",
+"note": null,
+"vi": "seconds=>`mỗi ${seconds}s`"
+},
+"statusStack.control.loopNext": {
+"en": "time=>`next ${time}`",
+"note": null,
+"vi": "time=>`tiếp theo ${time}`"
+},
+"statusStack.control.loopRunCount": {
+"en": "(current,total)=>`Run ${current}/${total}`",
+"note": null,
+"vi": "(current,total)=>`Lần chạy ${current}/${total}`"
+},
+"statusStack.control.loopRuns": {
+"en": "runs=>`${runs} run${runs===1?\"\":\"s\"}`",
+"note": null,
+"vi": "runs=>`${runs} lần chạy`"
+},
+"statusStack.control.removeCriterion": {
+"en": "index=>`Remove criterion ${index}`",
+"note": null,
+"vi": "index=>`Gỡ tiêu chí ${index}`"
+},
+"statusStack.control.removeCriterionConfirmBody": {
+"en": "index=>`Are you sure you want to remove criterion ${index}?`",
+"note": null,
+"vi": "index=>`Bạn có chắc muốn gỡ tiêu chí ${index} không?`"
+},
+"statusStack.control.removeCriterionConfirmTitle": {
+"en": "index=>`Remove criterion ${index}?`",
+"note": null,
+"vi": "index=>`Gỡ tiêu chí ${index}?`"
+},
+"statusStack.control.waitPid": {
+"en": "pid=>`Waiting on process ${pid}`",
+"note": null,
+"vi": "pid=>`Đang chờ tiến trình ${pid}`"
+},
+"statusStack.control.waitSession": {
+"en": "target=>`Waiting on session ${target}`",
+"note": null,
+"vi": "target=>`Đang chờ phiên ${target}`"
+},
+"statusStack.control.waitUntil": {
+"en": "target=>`Waiting until ${target}`",
+"note": null,
+"vi": "target=>`Chờ đến ${target}`"
+},
+"statusStack.exit": {
+"en": "code=>`exit ${code}`",
+"note": null,
+"vi": "code=>`thoát ${code}`"
+},
+"statusStack.previousTodos": {
+"en": "(done,total)=>`Previous tasks ${done}/${total}`",
+"note": null,
+"vi": "(done,total)=>`Tác vụ trước đó ${done}/${total}`"
+},
+"statusStack.subagents": {
+"en": "count=>`${count} Subagent${count===1?\"\":\"s\"}`",
+"note": null,
+"vi": "count=>`${count} agent con`"
+},
+"statusStack.todos": {
+"en": "(done,total)=>`Tasks ${done}/${total}`",
+"note": null,
+"vi": "(done,total)=>`Tác vụ ${done}/${total}`"
+},
+"titlebar.layoutEditorTitle": {
+"en": "mod=>`Layout editor \\u2014 ${mod}-click resets the layout`",
+"note": null,
+"vi": "mod=>`Trình chỉnh sửa bố cục — nhấp bằng ${mod} để đặt lại bố cục`"
+},
+"titlebar.unreadSessions": {
+"en": "count=>count===1?\"1 unread session\":`${count} unread sessions`",
+"note": null,
+"vi": "count=>count===1?\"1 phiên chưa đọc\":`${count} phiên chưa đọc`"
+},
+"ui.sidebar.toggle": {
+"en": "open=>`${open?\"Show\":\"Hide\"} sidebar`",
+"note": null,
+"vi": "open=>`${open?\"Hiện\":\"Ẩn\"} thanh bên`"
+},
+"updates.applyStatus.owed": {
+"en": "steps=>`Backend updated, but still owed: ${steps}. Re-run \\`hermes update\\` to finish them.`",
+"note": null,
+"vi": "steps=>`Backend đã cập nhật, nhưng vẫn còn: ${steps}. Chạy lại \\`hermes update\\` để hoàn tất.`"
+},
+"updates.availableBodyRelease": {
+"en": "tag=>`Version ${tag} is ready to install.`",
+"note": null,
+"vi": "tag=>`Đã sẵn sàng cài đặt phiên bản ${tag}.`"
+},
+"updates.daysAgo": {
+"en": "count=>`${count}d ago`",
+"note": null,
+"vi": "count=>`${count} ngày trước`"
+},
+"updates.hoursAgo": {
+"en": "count=>`${count}h ago`",
+"note": null,
+"vi": "count=>`${count} giờ trước`"
+},
+"updates.lastChecked": {
+"en": "age=>`Last checked ${age}`",
+"note": null,
+"vi": "age=>`Kiểm tra lần cuối ${age}`"
+},
+"updates.minAgo": {
+"en": "count=>`${count} min ago`",
+"note": null,
+"vi": "count=>`${count} phút trước`"
+},
+"updates.moreChanges": {
+"en": "count=>`+ ${count} more change${count===1?\"\":\"s\"} included.`",
+"note": null,
+"vi": "count=>`+ ${count} thay đổi khác đã được đưa vào.`"
+},
+"updates.pidLabel": {
+"en": "pid=>`PID ${pid}`",
+"note": null,
+"vi": "pid=>`PID ${pid}`"
+},
+"updates.portLabel": {
+"en": "port=>`Port ${port}`",
+"note": null,
+"vi": "port=>`Cổng ${port}`"
+},
+"updates.releaseAvailable": {
+"en": "tag=>`Version ${tag} is available.`",
+"note": null,
+"vi": "tag=>`Đã có phiên bản ${tag}.`"
+},
+"updates.updateReady": {
+"en": "count=>`A new update is ready (${count} change${count===1?\"\":\"s\"} included).`",
+"note": null,
+"vi": "count=>`Đã có bản cập nhật mới (${count} thay đổi).`"
+},
+"updates.version": {
+"en": "value=>`Version ${value}`",
+"note": null,
+"vi": "value=>`Phiên bản ${value}`"
+},
+"webhooks.createFailed": {
+"en": "detail=>`Failed to create: ${detail}`",
+"note": null,
+"vi": "detail=>`Không thể tạo: ${detail}`"
+},
+"webhooks.deleteFailed": {
+"en": "name=>`Failed to delete \"${name}\"`",
+"note": null,
+"vi": "name=>`Không thể xóa \"${name}\"`"
+},
+"webhooks.disabled": {
+"en": "name=>`Disabled: \"${name}\"`",
+"note": null,
+"vi": "name=>`Đã tắt: \"${name}\"`"
+},
+"webhooks.enabled": {
+"en": "name=>`Enabled: \"${name}\"`",
+"note": null,
+"vi": "name=>`Đã bật: \"${name}\"`"
+},
+"webhooks.restartFailed": {
+"en": "detail=>`Gateway restart failed${detail}`",
+"note": null,
+"vi": "detail=>`Không thể khởi động lại gateway${detail}`"
+},
+"webhooks.subscriptions": {
+"en": "count=>`Subscriptions (${count})`",
+"note": null,
+"vi": "count=>`Đăng ký (${count})`"
+},
+"webhooks.toggleFailed": {
+"en": "(name,enabled)=>`Failed to turn \"${name}\" ${enabled?\"on\":\"off\"}`",
+"note": null,
+"vi": "(name,enabled)=>`Không thể ${enabled?\"bật\":\"tắt\"} \"${name}\"`"
+},
+"zones.customZoneName": {
+"en": "count=>`Custom ${count}-zone`",
+"note": null,
+"vi": "count => `${count} vùng tùy chỉnh`"
+},
+"zones.deletePreset": {
+"en": "name=>`Delete ${name}`",
+"note": null,
+"vi": "name=>`Xóa ${name}`"
+},
+"zones.hideStripTab": {
+"en": "title=>`Hide ${title}`",
+"note": null,
+"vi": "title=>`Ẩn ${title}`"
+},
+"zones.layoutNamePlaceholder": {
+"en": "fallback=>`Layout name (${fallback})`",
+"note": null,
+"vi": "fallback=>`Tên bố cục (${fallback})`"
+},
+"zones.mergeZones": {
+"en": "count=>`Merge ${count} zones`",
+"note": null,
+"vi": "count=>`Gộp ${count} vùng`"
+},
+"zones.missingPane": {
+"en": "paneId=>`missing pane: ${paneId}`",
+"note": null,
+"vi": "paneId=>`thiếu bảng: ${paneId}`"
+},
+"zones.pluginDisabled": {
+"en": "pluginId=>`Plugin \"${pluginId}\" disabled`",
+"note": null,
+"vi": "pluginId=>`Plugin \"${pluginId}\" đã bị tắt`"
+},
+"zones.showStripTab": {
+"en": "title=>`Show ${title}`",
+"note": null,
+"vi": "title=>`Hiện ${title}`"
+},
+"zones.tabCount": {
+"en": "count=>`${count} tabs`",
+"note": null,
+"vi": "count=>`${count} thẻ`"
+},
+"zones.toggleStripTab": {
+"en": "title=>`Toggle ${title} tab`",
+"note": null,
+"vi": "title=>`Bật/tắt thẻ ${title}`"
+},
+"zones.zoneCount": {
+"en": "count=>`${count} zones`",
+"note": null,
+"vi": "count=>`${count} vùng`"
+},
+"zones.zoneMenuLabel": {
+"en": "title=>`Zone options for ${title}`",
+"note": null,
+"vi": "title=>`Tùy chọn vùng cho ${title}`"
+},
+"zones.zoneTag": {
+"en": "index=>`zone ${index}`",
+"note": null,
+"vi": "index=>`vùng ${index}`"
+}
+}

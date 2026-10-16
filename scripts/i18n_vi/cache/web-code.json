@@ -1,0 +1,7 @@
+{
+"pluginsPage.updateConsentBody": {
+"en": "(name, sha) => `The new catalog pin of ${name} (${sha}) adds surfaces the installed version does not have. Apply it only if you trust them:`",
+"note": null,
+"vi": "(name, sha) => `Bản ghim mới trong danh mục của ${name} (${sha}) bổ sung các bề mặt mà phiên bản đã cài chưa có. Chỉ áp dụng nếu bạn tin tưởng chúng:`"
+}
+}

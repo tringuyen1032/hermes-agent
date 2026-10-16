@@ -1,0 +1,897 @@
+{
+"addComment": {
+"en": "Add a comment…",
+"note": null,
+"vi": "Thêm bình luận…"
+},
+"allProfiles": {
+"en": "All profiles",
+"note": null,
+"vi": "Tất cả hồ sơ"
+},
+"allTenants": {
+"en": "All tenants",
+"note": null,
+"vi": "Tất cả tenant"
+},
+"arcRunning": {
+"en": "An agent is working on this now.",
+"note": null,
+"vi": "Agent đang xử lý tác vụ này."
+},
+"arcStale": {
+"en": "Claimed, but no worker heartbeat for 2+ minutes — the dispatcher will reclaim it.",
+"note": null,
+"vi": "Đã được nhận nhưng worker không gửi tín hiệu hoạt động trong hơn 2 phút — bộ điều phối sẽ nhận lại tác vụ."
+},
+"archive": {
+"en": "Archive",
+"note": null,
+"vi": "Lưu trữ"
+},
+"assign": {
+"en": "Assign",
+"note": null,
+"vi": "Giao"
+},
+"assignee": {
+"en": "Assignee",
+"note": null,
+"vi": "Người được giao"
+},
+"auto": {
+"en": "Auto",
+"note": null,
+"vi": "Tự động"
+},
+"autoDecompose": {
+"en": "Auto-decompose triage tasks",
+"note": null,
+"vi": "Tự động phân rã tác vụ phân loại"
+},
+"blockReason": {
+"en": "Block kind",
+"note": null,
+"vi": "Loại chặn"
+},
+"blockRecurrences": {
+"en": "Block recurrences",
+"note": null,
+"vi": "Số lần chặn lại"
+},
+"blockRecurrencesTip": {
+"en": "Times this task re-blocked for the same reason after a human unblock.",
+"note": null,
+"vi": "Số lần tác vụ này bị chặn lại vì cùng một lý do sau khi có người gỡ chặn."
+},
+"blockedBy": {
+"en": "Blocked by",
+"note": null,
+"vi": "Bị chặn bởi"
+},
+"blocks": {
+"en": "Blocks",
+"note": null,
+"vi": "Chặn"
+},
+"board": {
+"en": "Board",
+"note": null,
+"vi": "Bảng"
+},
+"boardDefaultSuffix": {
+"en": " · board default",
+"note": null,
+"vi": " · mặc định của bảng"
+},
+"boardNamePlaceholder": {
+"en": "Board name",
+"note": null,
+"vi": "Tên bảng"
+},
+"cancel": {
+"en": "Cancel",
+"note": null,
+"vi": "Hủy"
+},
+"cancelEdit": {
+"en": "Cancel edit",
+"note": null,
+"vi": "Hủy chỉnh sửa"
+},
+"clearSelection": {
+"en": "Clear selection (Esc)",
+"note": null,
+"vi": "Bỏ chọn (Esc)"
+},
+"close": {
+"en": "Close",
+"note": null,
+"vi": "Đóng"
+},
+"col.archived.help": {
+"en": "Hidden from the default board view.",
+"note": null,
+"vi": "Ẩn khỏi chế độ xem bảng mặc định."
+},
+"col.archived.label": {
+"en": "Archived",
+"note": null,
+"vi": "Đã lưu trữ"
+},
+"col.blocked.help": {
+"en": "The worker asked for human input.",
+"note": null,
+"vi": "Worker cần người dùng cung cấp thông tin."
+},
+"col.blocked.label": {
+"en": "Blocked",
+"note": null,
+"vi": "Bị chặn"
+},
+"col.done.help": {
+"en": "Completed; dependent children become ready.",
+"note": null,
+"vi": "Đã hoàn tất; các tác vụ con phụ thuộc sẽ chuyển sang trạng thái sẵn sàng."
+},
+"col.done.label": {
+"en": "Done",
+"note": null,
+"vi": "Hoàn tất"
+},
+"col.ready.help": {
+"en": "Dependencies satisfied — assign a profile and the dispatcher runs it.",
+"note": null,
+"vi": "Đã đáp ứng các điều kiện phụ thuộc — chỉ định hồ sơ để bộ điều phối chạy tác vụ."
+},
+"col.ready.label": {
+"en": "Ready",
+"note": null,
+"vi": "Sẵn sàng"
+},
+"col.review.help": {
+"en": "A review agent is checking the work. Set by the dispatcher.",
+"note": null,
+"vi": "Agent review đang kiểm tra kết quả. Bộ điều phối tự cập nhật trạng thái này."
+},
+"col.review.label": {
+"en": "Review",
+"note": null,
+"vi": "Đang xem xét"
+},
+"col.running.help": {
+"en": "Claimed by a worker — an agent is on it. Set by the dispatcher.",
+"note": null,
+"vi": "Đã được worker nhận — agent đang xử lý. Bộ điều phối tự cập nhật trạng thái này."
+},
+"col.running.label": {
+"en": "Running",
+"note": null,
+"vi": "Đang chạy"
+},
+"col.scheduled.help": {
+"en": "Waiting for a scheduled time to arrive.",
+"note": null,
+"vi": "Đang chờ đến giờ đã hẹn."
+},
+"col.scheduled.label": {
+"en": "Scheduled",
+"note": null,
+"vi": "Đã lên lịch"
+},
+"col.todo.help": {
+"en": "Waiting on dependencies, or unassigned.",
+"note": null,
+"vi": "Đang chờ tác vụ phụ thuộc hoặc chưa được giao."
+},
+"col.todo.label": {
+"en": "Todo",
+"note": null,
+"vi": "Việc cần làm"
+},
+"col.triage.help": {
+"en": "Raw ideas — a specifier fleshes out the spec.",
+"note": null,
+"vi": "Ý tưởng thô — người phụ trách đặc tả sẽ hoàn thiện bản đặc tả."
+},
+"col.triage.label": {
+"en": "Triage",
+"note": null,
+"vi": "Phân loại"
+},
+"commandCopied": {
+"en": "Command copied",
+"note": null,
+"vi": "Đã sao chép lệnh"
+},
+"comment": {
+"en": "Comment",
+"note": null,
+"vi": "Bình luận"
+},
+"commentsHelp": {
+"en": "Comments are added to the task thread. When a worker picks the task up it reads them as part of its context.",
+"note": null,
+"vi": "Bình luận sẽ được thêm vào luồng tác vụ. Khi worker nhận tác vụ, các bình luận sẽ nằm trong ngữ cảnh của worker."
+},
+"commentsHelpRunning": {
+"en": "This task is running. Your note is folded into the worker’s current turn within a few seconds — no block/unblock dance. “Requeue with note” instead restarts the task from scratch with your note in context.",
+"note": null,
+"vi": "Tác vụ này đang chạy. Ghi chú của bạn sẽ được thêm vào lượt hiện tại của worker trong vài giây — không cần gỡ chặn rồi chặn lại. “Xếp hàng lại kèm ghi chú” sẽ khởi động lại tác vụ từ đầu, với ghi chú của bạn trong ngữ cảnh."
+},
+"complexity.L": {
+"en": "Large",
+"note": null,
+"vi": "Lớn"
+},
+"complexity.M": {
+"en": "Medium",
+"note": null,
+"vi": "Trung bình"
+},
+"complexity.S": {
+"en": "Small",
+"note": null,
+"vi": "Nhỏ"
+},
+"consecutiveFailures": {
+"en": "Consecutive failures",
+"note": null,
+"vi": "Số lần thất bại liên tiếp"
+},
+"copiedTitle": {
+"en": "Copied title",
+"note": null,
+"vi": "Đã sao chép tiêu đề"
+},
+"copyTaskId": {
+"en": "Copy task id",
+"note": null,
+"vi": "Sao chép ID tác vụ"
+},
+"copyTitle": {
+"en": "Copy title",
+"note": null,
+"vi": "Sao chép tiêu đề"
+},
+"couldNotEstimate": {
+"en": "Could not estimate",
+"note": null,
+"vi": "Không thể ước tính"
+},
+"createBoard": {
+"en": "Create board",
+"note": null,
+"vi": "Tạo bảng"
+},
+"createTask": {
+"en": "Create task",
+"note": null,
+"vi": "Tạo tác vụ"
+},
+"creating": {
+"en": "Creating…",
+"note": null,
+"vi": "Đang tạo…"
+},
+"defaultAssignee": {
+"en": "Default assignee",
+"note": null,
+"vi": "Người được giao mặc định"
+},
+"defaultParen": {
+"en": "(default)",
+"note": null,
+"vi": "(mặc định)"
+},
+"delete": {
+"en": "Delete",
+"note": null,
+"vi": "Xóa"
+},
+"deleteBoardConfirm": {
+"en": "The board is archived, not erased — its tasks and attachments stay on disk and can be restored.",
+"note": null,
+"vi": "Bảng sẽ được lưu trữ chứ không bị xóa — các tác vụ và tệp đính kèm vẫn nằm trên đĩa và có thể khôi phục."
+},
+"deliveredLive": {
+"en": "Delivered to the running worker within a few seconds.",
+"note": null,
+"vi": "Tin nhắn sẽ đến worker đang chạy trong vài giây."
+},
+"dependencies": {
+"en": "Dependencies",
+"note": null,
+"vi": "Phụ thuộc"
+},
+"descPlaceholder": {
+"en": "Description (optional)",
+"note": null,
+"vi": "Mô tả (không bắt buộc)"
+},
+"description": {
+"en": "Description",
+"note": null,
+"vi": "Mô tả"
+},
+"deselect": {
+"en": "Deselect",
+"note": null,
+"vi": "Bỏ chọn"
+},
+"editDescription": {
+"en": "Edit description",
+"note": null,
+"vi": "Sửa mô tả"
+},
+"empty": {
+"en": "Empty",
+"note": null,
+"vi": "Trống"
+},
+"estimate": {
+"en": "Estimate",
+"note": null,
+"vi": "Ước tính"
+},
+"estimateEffort": {
+"en": "Estimate effort",
+"note": null,
+"vi": "Ước tính công sức"
+},
+"estimateTip": {
+"en": "Rough token + complexity estimate from the auxiliary model — makes a model call.",
+"note": null,
+"vi": "Ước tính sơ bộ số token và độ phức tạp bằng mô hình phụ trợ — thao tác này sẽ gọi mô hình."
+},
+"estimateTipLong": {
+"en": "Runs a quick auxiliary-model call to estimate tokens + complexity. A rough guide, not a bill.",
+"note": null,
+"vi": "Gọi nhanh mô hình phụ trợ để ước tính số token và độ phức tạp. Chỉ mang tính tham khảo, không phải hóa đơn."
+},
+"estimating": {
+"en": "Estimating…",
+"note": null,
+"vi": "Đang ước tính…"
+},
+"evtArchived": {
+"en": "archived",
+"note": null,
+"vi": "đã lưu trữ"
+},
+"evtBlocked": {
+"en": "blocked — needs human input",
+"note": null,
+"vi": "bị chặn — cần người xử lý"
+},
+"evtClaimedReview": {
+"en": "claimed by a review agent",
+"note": null,
+"vi": "đã được agent review nhận"
+},
+"evtClaimedWorker": {
+"en": "claimed by a worker",
+"note": null,
+"vi": "đã được worker nhận"
+},
+"evtCompleted": {
+"en": "completed",
+"note": null,
+"vi": "đã hoàn tất"
+},
+"evtPromoted": {
+"en": "dependencies done — promoted to Ready",
+"note": null,
+"vi": "các tác vụ phụ thuộc đã xong — chuyển sang Ready"
+},
+"evtReclaimed": {
+"en": "reclaimed — returned to the queue",
+"note": null,
+"vi": "đã thu hồi — trả lại hàng đợi"
+},
+"evtScheduled": {
+"en": "scheduled for later",
+"note": null,
+"vi": "đã lên lịch"
+},
+"evtSpecified": {
+"en": "spec written by the triage agent",
+"note": null,
+"vi": "agent phân loại đã viết đặc tả"
+},
+"evtUnassigned": {
+"en": "unassigned",
+"note": null,
+"vi": "đã bỏ giao"
+},
+"evtWorkerStarted": {
+"en": "worker started",
+"note": null,
+"vi": "worker đã bắt đầu"
+},
+"exportBoardTitle": {
+"en": "Export board…",
+"note": null,
+"vi": "Xuất bảng…"
+},
+"exportDots": {
+"en": "Export…",
+"note": null,
+"vi": "Xuất…"
+},
+"filterCards": {
+"en": "Filter cards…",
+"note": null,
+"vi": "Lọc thẻ…"
+},
+"filters": {
+"en": "Filters",
+"note": null,
+"vi": "Bộ lọc"
+},
+"goalMode": {
+"en": "Goal mode (worker loops until a judge agrees it's done)",
+"note": null,
+"vi": "Chế độ mục tiêu (worker lặp lại cho đến khi người đánh giá xác nhận đã xong)"
+},
+"groupRunning": {
+"en": "Group Running by profile",
+"note": null,
+"vi": "Nhóm tác vụ đang chạy theo hồ sơ"
+},
+"importBoardTitle": {
+"en": "Import board…",
+"note": null,
+"vi": "Nhập bảng…"
+},
+"importDots": {
+"en": "Import…",
+"note": null,
+"vi": "Nhập…"
+},
+"introBody": {
+"en": "You don’t run the cards — agents do. Put a card in Ready with an assignee and an agent picks it up within a minute. No assignee, no run. Triage: an agent rewrites the idea into a proper task first. Todo: waiting on other cards. Scheduled: waiting on a timer. Running and Review: the agents’ lanes, hands off. Blocked: it’s waiting on you. Results come back on the card.",
+"note": null,
+"vi": "Bạn không tự chạy các thẻ — agent sẽ làm việc đó. Đưa thẻ vào Ready và giao cho một agent; agent sẽ nhận thẻ trong vòng một phút. Không giao cho ai thì sẽ không chạy. Triage: agent sẽ viết lại ý tưởng thành tác vụ hoàn chỉnh trước. Todo: đang chờ các thẻ khác. Scheduled: đang chờ đến giờ hẹn. Running và Review: các luồng làm việc của agent, bạn không cần can thiệp. Blocked: đang chờ bạn xử lý. Kết quả sẽ xuất hiện trên thẻ."
+},
+"introGotIt": {
+"en": "Got it",
+"note": null,
+"vi": "Đã hiểu"
+},
+"lastFailureError": {
+"en": "Last failure",
+"note": null,
+"vi": "Lỗi gần nhất"
+},
+"latestSummary": {
+"en": "Latest summary",
+"note": null,
+"vi": "Tóm tắt mới nhất"
+},
+"locked.review": {
+"en": "Review is entered by the dispatcher when a review agent takes the card.",
+"note": null,
+"vi": "Bộ điều phối chuyển tác vụ sang trạng thái đang xem xét khi agent review nhận thẻ."
+},
+"locked.running": {
+"en": "Running is set by the dispatcher when a worker claims the card.",
+"note": null,
+"vi": "Bộ điều phối chuyển tác vụ sang trạng thái đang chạy khi worker nhận thẻ."
+},
+"locked.scheduled": {
+"en": "Scheduled needs a wake-up time — agents set it; it can’t be dragged into.",
+"note": null,
+"vi": "Trạng thái đã lên lịch cần có giờ đánh thức — agent sẽ đặt giờ; không thể kéo thẻ vào đây."
+},
+"makesModelCall": {
+"en": "makes a model call",
+"note": null,
+"vi": "gọi mô hình"
+},
+"messageWorker": {
+"en": "Message the running worker…",
+"note": null,
+"vi": "Nhắn cho worker đang chạy…"
+},
+"metaCreated": {
+"en": "Created",
+"note": null,
+"vi": "Ngày tạo"
+},
+"metaCreatedBy": {
+"en": "Created by",
+"note": null,
+"vi": "Người tạo"
+},
+"metaPriority": {
+"en": "Priority",
+"note": null,
+"vi": "Mức độ ưu tiên"
+},
+"metaTenant": {
+"en": "Tenant",
+"note": null,
+"vi": "Người thuê"
+},
+"metaWorkerPid": {
+"en": "Worker pid",
+"note": null,
+"vi": "PID của worker"
+},
+"model": {
+"en": "Model",
+"note": null,
+"vi": "Mô hình"
+},
+"modelClear": {
+"en": "Clear model override",
+"note": null,
+"vi": "Xóa ghi đè mô hình"
+},
+"modelHint": {
+"en": "Runs this task on a specific model and thinking depth. Unset uses the assigned profile’s own.",
+"note": null,
+"vi": "Chạy tác vụ này bằng mô hình và độ sâu suy luận cụ thể. Để trống để dùng cấu hình riêng của hồ sơ được chỉ định."
+},
+"modelInherit": {
+"en": "Profile default",
+"note": null,
+"vi": "Mặc định theo hồ sơ"
+},
+"moveToShort": {
+"en": "Move to",
+"note": null,
+"vi": "Chuyển đến"
+},
+"name": {
+"en": "Name",
+"note": null,
+"vi": "Tên"
+},
+"nav": {
+"en": "Kanban",
+"note": null,
+"vi": "Kanban"
+},
+"newBoard": {
+"en": "New board",
+"note": null,
+"vi": "Bảng mới"
+},
+"newBoardDots": {
+"en": "New board…",
+"note": null,
+"vi": "Bảng mới…"
+},
+"newTask": {
+"en": "New task",
+"note": null,
+"vi": "Tạo tác vụ mới"
+},
+"newTaskCommand": {
+"en": "Kanban: New task",
+"note": null,
+"vi": "Kanban: Tạo tác vụ mới"
+},
+"noAttachments": {
+"en": "No attachments yet.",
+"note": null,
+"vi": "Chưa có tệp đính kèm."
+},
+"noDescription": {
+"en": "No description yet.",
+"note": null,
+"vi": "Chưa có mô tả."
+},
+"noHeartbeat": {
+"en": "no heartbeat",
+"note": null,
+"vi": "không có tín hiệu hoạt động"
+},
+"noMatch": {
+"en": "No tasks match the filters",
+"note": null,
+"vi": "Không có tác vụ nào khớp với bộ lọc"
+},
+"noParent": {
+"en": "— no parent —",
+"note": null,
+"vi": "— không có tác vụ cha —"
+},
+"noProject": {
+"en": "No project (scratch sandboxes)",
+"note": null,
+"vi": "Không có dự án (sandbox tạm)"
+},
+"noTasks": {
+"en": "No tasks on this board",
+"note": null,
+"vi": "Bảng này chưa có tác vụ nào"
+},
+"notePosted": {
+"en": "Note posted — worker requeued",
+"note": null,
+"vi": "Đã đăng ghi chú — tác vụ đã được xếp hàng lại"
+},
+"notify.blockLoopTitle": {
+"en": "Task routed to triage — needs a decision",
+"note": null,
+"vi": "Tác vụ đã chuyển đến khâu phân loại — cần quyết định"
+},
+"notify.blockedTitle": {
+"en": "Task blocked — needs your input",
+"note": null,
+"vi": "Tác vụ bị chặn — cần bạn cung cấp thông tin"
+},
+"notify.completedTitle": {
+"en": "Task completed",
+"note": null,
+"vi": "Tác vụ đã hoàn tất"
+},
+"notify.crashedTitle": {
+"en": "Task hit a problem — Hermes will retry it automatically",
+"note": null,
+"vi": "Tác vụ gặp sự cố — Hermes sẽ tự động thử lại"
+},
+"notify.gaveUpBody": {
+"en": "Hermes couldn’t finish this task. Open Kanban to see why and reassign it.",
+"note": null,
+"vi": "Hermes không thể hoàn thành tác vụ này. Mở Kanban để xem lý do và giao lại tác vụ."
+},
+"notify.gaveUpTitle": {
+"en": "Task stopped",
+"note": null,
+"vi": "Tác vụ đã dừng"
+},
+"notify.openKanban": {
+"en": "Open Kanban",
+"note": null,
+"vi": "Mở Kanban"
+},
+"notify.timedOutTitle": {
+"en": "Task took too long — Hermes will retry it automatically",
+"note": null,
+"vi": "Tác vụ mất quá nhiều thời gian — Hermes sẽ tự động thử lại"
+},
+"open": {
+"en": "Open",
+"note": null,
+"vi": "Mở"
+},
+"openBoard": {
+"en": "Kanban: Open board",
+"note": null,
+"vi": "Kanban: Mở bảng"
+},
+"orchestrationSettings": {
+"en": "Orchestration settings",
+"note": null,
+"vi": "Cài đặt điều phối"
+},
+"orchestratorProfile": {
+"en": "Orchestrator profile",
+"note": null,
+"vi": "Hồ sơ điều phối"
+},
+"parent": {
+"en": "Parent (blocks until it's done)",
+"note": null,
+"vi": "Tác vụ cha (chặn cho đến khi tác vụ này hoàn tất)"
+},
+"parkedOption": {
+"en": "unassigned (parked — won't run)",
+"note": null,
+"vi": "chưa giao (đang chờ — sẽ không chạy)"
+},
+"priority": {
+"en": "Priority",
+"note": null,
+"vi": "Mức ưu tiên"
+},
+"profileDescriptions": {
+"en": "Profile descriptions",
+"note": null,
+"vi": "Mô tả hồ sơ"
+},
+"profileDescriptionsHint": {
+"en": "Descriptions guide the decomposer’s routing. Auto-generate with the auxiliary model, or write your own.",
+"note": null,
+"vi": "Mô tả giúp định tuyến khi phân rã tác vụ. Tự động tạo bằng mô hình phụ hoặc tự viết mô tả."
+},
+"profileGoodAt": {
+"en": "What is this profile good at?",
+"note": null,
+"vi": "Hồ sơ này làm tốt việc gì?"
+},
+"project": {
+"en": "Project",
+"note": null,
+"vi": "Dự án"
+},
+"projectHintCmd": {
+"en": "hermes project",
+"note": null,
+"vi": "hermes project"
+},
+"projectHintPre": {
+"en": "New tasks run in the project’s repo (a worktree per task); each task can still override its workspace at creation. Manage projects with ",
+"note": null,
+"vi": "Tác vụ mới chạy trong kho mã của dự án (mỗi tác vụ có một worktree riêng); khi tạo, bạn vẫn có thể chọn không gian làm việc khác cho từng tác vụ. Quản lý dự án bằng lệnh "
+},
+"reEstimate": {
+"en": "Re-estimate",
+"note": null,
+"vi": "Ước tính lại"
+},
+"readyUnassignedBody": {
+"en": "The dispatcher only claims Ready cards that have an assignee. Pick a profile in the Assignee field above (or set a default assignee in the orchestration settings) and it runs within a minute.",
+"note": null,
+"vi": "Bộ điều phối chỉ nhận các thẻ ở trạng thái Sẵn sàng đã được giao cho người phụ trách. Chọn một hồ sơ trong trường Người phụ trách ở trên (hoặc đặt người phụ trách mặc định trong phần cài đặt điều phối) để tác vụ chạy trong vòng một phút."
+},
+"readyUnassignedTitle": {
+"en": "Ready, but unassigned — this card will never run.",
+"note": null,
+"vi": "Đã sẵn sàng nhưng chưa được giao — thẻ này sẽ không bao giờ chạy."
+},
+"refused": {
+"en": "refused",
+"note": null,
+"vi": "đã từ chối"
+},
+"renameBoardTitle": {
+"en": "Rename board",
+"note": null,
+"vi": "Đổi tên bảng"
+},
+"renameDots": {
+"en": "Rename…",
+"note": null,
+"vi": "Đổi tên…"
+},
+"requeueWithNote": {
+"en": "Requeue with note",
+"note": null,
+"vi": "Xếp hàng lại kèm ghi chú"
+},
+"result": {
+"en": "Result",
+"note": null,
+"vi": "Kết quả"
+},
+"reviewChecking": {
+"en": "A review agent is checking the completed work.",
+"note": null,
+"vi": "Agent review đang kiểm tra kết quả đã hoàn tất."
+},
+"roughEstimate": {
+"en": "Rough estimate",
+"note": null,
+"vi": "Ước tính sơ bộ"
+},
+"save": {
+"en": "Save",
+"note": null,
+"vi": "Lưu"
+},
+"send": {
+"en": "Send",
+"note": null,
+"vi": "Gửi"
+},
+"settingsDots": {
+"en": "Settings…",
+"note": null,
+"vi": "Cài đặt…"
+},
+"showArchived": {
+"en": "Show archived",
+"note": null,
+"vi": "Hiện mục đã lưu trữ"
+},
+"skills": {
+"en": "Skills (comma-separated)",
+"note": null,
+"vi": "Kỹ năng (phân tách bằng dấu phẩy)"
+},
+"skillsPlaceholder": {
+"en": "translation, github",
+"note": null,
+"vi": "translation, github"
+},
+"someone": {
+"en": "someone",
+"note": null,
+"vi": "ai đó"
+},
+"switchBoard": {
+"en": "Switch board",
+"note": null,
+"vi": "Chuyển bảng"
+},
+"taskActions": {
+"en": "Task actions",
+"note": null,
+"vi": "Thao tác với tác vụ"
+},
+"title": {
+"en": "Kanban",
+"note": null,
+"vi": "Kanban"
+},
+"titlePlaceholder": {
+"en": "Title",
+"note": null,
+"vi": "Tiêu đề"
+},
+"titlePlaceholderTriage": {
+"en": "Rough idea — a specifier will flesh it out",
+"note": null,
+"vi": "Ý tưởng sơ bộ — agent phân loại sẽ hoàn thiện"
+},
+"tokUnit": {
+"en": "tok",
+"note": null,
+"vi": "token"
+},
+"unassignAction": {
+"en": "Unassign",
+"note": null,
+"vi": "Bỏ giao"
+},
+"unassigned": {
+"en": "unassigned",
+"note": null,
+"vi": "chưa giao"
+},
+"uploadAttachment": {
+"en": "Upload attachment",
+"note": null,
+"vi": "Tải tệp đính kèm lên"
+},
+"wontRun": {
+"en": "won't run",
+"note": null,
+"vi": "sẽ không chạy"
+},
+"wontRunTip": {
+"en": "Ready cards only run once a profile is assigned. Open the card and set an assignee, or configure a default assignee in orchestration settings.",
+"note": null,
+"vi": "Thẻ ở trạng thái sẵn sàng chỉ chạy khi đã được chỉ định hồ sơ. Mở thẻ rồi chỉ định người phụ trách, hoặc đặt người phụ trách mặc định trong cài đặt điều phối."
+},
+"workerLog": {
+"en": "Worker log",
+"note": null,
+"vi": "Nhật ký worker"
+},
+"workerLogTail": {
+"en": "Worker log · tail",
+"note": null,
+"vi": "Nhật ký worker · phần cuối"
+},
+"working": {
+"en": "working",
+"note": null,
+"vi": "đang xử lý"
+},
+"workspace": {
+"en": "Workspace",
+"note": null,
+"vi": "Không gian làm việc"
+},
+"workspaceInherit": {
+"en": "Inherits the board’s project directory",
+"note": null,
+"vi": "Kế thừa thư mục dự án của bảng"
+},
+"workspaceInheritGeneric": {
+"en": "Leave empty to inherit the board’s project directory.",
+"note": null,
+"vi": "Để trống để kế thừa thư mục dự án của bảng."
+},
+"workspaceOverride": {
+"en": "Workspace path (optional override)",
+"note": null,
+"vi": "Đường dẫn không gian làm việc (ghi đè, không bắt buộc)"
+}
+}

@@ -1,0 +1,3807 @@
+{
+"achievements.actions.rescan": {
+"en": "Rescan",
+"note": null,
+"vi": "Quét lại"
+},
+"achievements.card.evidence_label": {
+"en": "Evidence",
+"note": null,
+"vi": "Bằng chứng"
+},
+"achievements.card.evidence_session_fallback": {
+"en": "session",
+"note": null,
+"vi": "phiên"
+},
+"achievements.card.how_to_reveal": {
+"en": "How to reveal",
+"note": null,
+"vi": "Cách khám phá"
+},
+"achievements.card.no_evidence": {
+"en": "No evidence yet",
+"note": null,
+"vi": "Chưa có bằng chứng"
+},
+"achievements.card.share_label": {
+"en": "Share {name}",
+"note": null,
+"vi": "Chia sẻ {name}"
+},
+"achievements.card.share_text": {
+"en": "Share",
+"note": null,
+"vi": "Chia sẻ"
+},
+"achievements.card.share_title": {
+"en": "Share this achievement",
+"note": null,
+"vi": "Chia sẻ thành tích này"
+},
+"achievements.card.what_counts": {
+"en": "What counts",
+"note": null,
+"vi": "Điều kiện tính"
+},
+"achievements.empty.no_secrets_body": {
+"en": "Clue: secrets usually start from unusual failure or power-user patterns — port conflicts, permission walls, missing env vars, YAML mistakes, Docker collisions, rollback/checkpoint use, cache hits, or tiny fixes after lots of red text.",
+"note": null,
+"vi": "Gợi ý: bí mật thường gắn với những lỗi bất thường hoặc cách dùng nâng cao — xung đột cổng, vướng quyền truy cập, thiếu biến môi trường, lỗi YAML, xung đột Docker, dùng khôi phục/checkpoint, cache hit hoặc sửa lỗi nhỏ sau hàng loạt thông báo lỗi."
+},
+"achievements.empty.no_secrets_header": {
+"en": "No hidden secrets left in this scan.",
+"note": null,
+"vi": "Không còn bí mật nào bị ẩn trong lần quét này."
+},
+"achievements.filters.all_categories": {
+"en": "All",
+"note": null,
+"vi": "Tất cả"
+},
+"achievements.filters.visibility_all": {
+"en": "all",
+"note": null,
+"vi": "tất cả"
+},
+"achievements.filters.visibility_discovered": {
+"en": "discovered",
+"note": null,
+"vi": "đã khám phá"
+},
+"achievements.filters.visibility_secret": {
+"en": "secret",
+"note": null,
+"vi": "bí mật"
+},
+"achievements.filters.visibility_unlocked": {
+"en": "unlocked",
+"note": null,
+"vi": "đã mở khóa"
+},
+"achievements.guide.scan_status_body": {
+"en": "Hermes is scanning local history once, then cards will appear automatically. Nothing is stuck if this takes a few seconds.",
+"note": null,
+"vi": "Hermes sẽ quét lịch sử cục bộ một lần, sau đó các thẻ tự động xuất hiện. Nếu mất vài giây thì không có gì bị treo cả."
+},
+"achievements.guide.scan_status_header": {
+"en": "Scan status",
+"note": null,
+"vi": "Trạng thái quét"
+},
+"achievements.guide.secret_body": {
+"en": "Secrets hide their exact trigger. Once Hermes sees a related signal, the card becomes Discovered and shows its requirement.",
+"note": null,
+"vi": "Các thành tích bí mật sẽ ẩn điều kiện kích hoạt chính xác. Khi Hermes phát hiện dấu hiệu liên quan, thẻ sẽ chuyển sang trạng thái Đã khám phá và hiển thị yêu cầu."
+},
+"achievements.guide.secret_header": {
+"en": "Secret achievements",
+"note": null,
+"vi": "Thành tích bí mật"
+},
+"achievements.guide.tiers_header": {
+"en": "Tiers",
+"note": null,
+"vi": "Cấp độ"
+},
+"achievements.guide.what_scanned_body": {
+"en": "Sessions, tool calls, model metadata, errors, achievements, and local unlock state.",
+"note": null,
+"vi": "Phiên, lệnh gọi công cụ, metadata mô hình, lỗi, thành tích và trạng thái mở khóa cục bộ."
+},
+"achievements.guide.what_scanned_header": {
+"en": "What is scanned",
+"note": null,
+"vi": "Nội dung được quét"
+},
+"achievements.hero.kicker": {
+"en": "Agentic Gamerscore",
+"note": null,
+"vi": "Điểm thành tích agent"
+},
+"achievements.hero.scan_subtitle": {
+"en": "Scanning Hermes session history. First scan can take 5–10 seconds on large histories.",
+"note": null,
+"vi": "Đang quét lịch sử phiên Hermes. Lần quét đầu tiên có thể mất 5–10 giây nếu lịch sử lớn."
+},
+"achievements.hero.subtitle": {
+"en": "Collectible Hermes badges earned from real session history. Known unfinished achievements are shown as Discovered; Secret achievements stay hidden until the first matching behavior appears.",
+"note": null,
+"vi": "Huy hiệu Hermes có thể sưu tầm, nhận được qua lịch sử phiên thực tế. Thành tích đã biết nhưng chưa hoàn thành sẽ hiện là Đã khám phá; thành tích Bí mật vẫn bị ẩn cho đến khi hành vi tương ứng xuất hiện lần đầu."
+},
+"achievements.hero.title": {
+"en": "Hermes Achievements",
+"note": null,
+"vi": "Thành tích Hermes"
+},
+"achievements.latest.header": {
+"en": "Recent unlocks",
+"note": null,
+"vi": "Thành tích mới mở khóa"
+},
+"achievements.progress.hidden": {
+"en": "hidden",
+"note": null,
+"vi": "ẩn"
+},
+"achievements.scan.building_detail": {
+"en": "Reading sessions, tool calls, model metadata, and unlock state.",
+"note": null,
+"vi": "Đang đọc các phiên, lệnh gọi công cụ, metadata mô hình và trạng thái mở khóa."
+},
+"achievements.scan.building_headline": {
+"en": "Building achievement profile…",
+"note": null,
+"vi": "Đang tạo hồ sơ thành tích…"
+},
+"achievements.scan.idle_detail": {
+"en": "Reading sessions, tool calls, model metadata, and unlock state. Badges appear here as they unlock.",
+"note": null,
+"vi": "Đang đọc các phiên, lệnh gọi công cụ, metadata mô hình và trạng thái mở khóa. Huy hiệu sẽ xuất hiện tại đây khi được mở khóa."
+},
+"achievements.scan.progress_detail": {
+"en": "Scanned {scanned} of {total} sessions · {pct}%. Badges unlock as more history streams in.",
+"note": null,
+"vi": "Đã quét {scanned}/{total} phiên · {pct}%. Huy hiệu sẽ mở khóa khi có thêm dữ liệu lịch sử."
+},
+"achievements.scan.starting_headline": {
+"en": "Starting achievement scan…",
+"note": null,
+"vi": "Đang bắt đầu quét thành tích…"
+},
+"achievements.share.card_alt": {
+"en": "{name} share card",
+"note": null,
+"vi": "Thẻ chia sẻ {name}"
+},
+"achievements.share.clipboard_unsupported": {
+"en": "Clipboard image copy not supported in this browser — use Download instead.",
+"note": null,
+"vi": "Trình duyệt này không hỗ trợ sao chép ảnh vào clipboard — hãy tải ảnh xuống."
+},
+"achievements.share.close": {
+"en": "Close",
+"note": null,
+"vi": "Đóng"
+},
+"achievements.share.copied": {
+"en": "Copied ✓",
+"note": null,
+"vi": "Đã sao chép ✓"
+},
+"achievements.share.copy_button": {
+"en": "Copy image",
+"note": null,
+"vi": "Sao chép ảnh"
+},
+"achievements.share.copy_title": {
+"en": "Copy the image to paste into your post",
+"note": null,
+"vi": "Sao chép ảnh để dán vào bài đăng"
+},
+"achievements.share.dialog_label": {
+"en": "Share achievement",
+"note": null,
+"vi": "Chia sẻ thành tích"
+},
+"achievements.share.download_button": {
+"en": "Download PNG",
+"note": null,
+"vi": "Tải PNG xuống"
+},
+"achievements.share.error_generic": {
+"en": "Something went wrong.",
+"note": null,
+"vi": "Đã xảy ra lỗi."
+},
+"achievements.share.header": {
+"en": "Share: {name}",
+"note": null,
+"vi": "Chia sẻ: {name}"
+},
+"achievements.share.hint": {
+"en": "Share on X opens a pre-filled post in a new tab. Click Copy image first if you want the 1200×630 badge attached — X lets you paste it right into the tweet composer. Download PNG saves the file for use anywhere.",
+"note": null,
+"vi": "Chia sẻ lên X sẽ mở bài đăng đã soạn sẵn trong thẻ mới. Nhấn Sao chép ảnh trước nếu muốn đính kèm huy hiệu 1200×630 — X cho phép dán ảnh trực tiếp vào khung soạn tweet. Tải PNG xuống để lưu tệp và dùng ở bất cứ đâu."
+},
+"achievements.share.rendering": {
+"en": "Rendering…",
+"note": null,
+"vi": "Đang tạo ảnh…"
+},
+"achievements.share.tweet_text": {
+"en": "Just unlocked {tier_part}\"{name}\" in Hermes Agent ☤",
+"note": null,
+"vi": "Vừa mở khóa {tier_part}\"{name}\" trong Hermes Agent ☤"
+},
+"achievements.share.x_button": {
+"en": "Share on X",
+"note": null,
+"vi": "Chia sẻ lên X"
+},
+"achievements.share.x_title": {
+"en": "Opens X with a pre-filled post",
+"note": null,
+"vi": "Mở X với bài đăng đã soạn sẵn"
+},
+"achievements.state.discovered": {
+"en": "Discovered",
+"note": null,
+"vi": "Đã khám phá"
+},
+"achievements.state.secret": {
+"en": "Secret",
+"note": null,
+"vi": "Bí mật"
+},
+"achievements.state.unlocked": {
+"en": "Unlocked",
+"note": null,
+"vi": "Đã mở khóa"
+},
+"achievements.stats.discovered": {
+"en": "Discovered",
+"note": null,
+"vi": "Đã khám phá"
+},
+"achievements.stats.discovered_hint": {
+"en": "known, not earned yet",
+"note": null,
+"vi": "đã biết, chưa nhận"
+},
+"achievements.stats.highest_tier": {
+"en": "Highest tier",
+"note": null,
+"vi": "Bậc cao nhất"
+},
+"achievements.stats.highest_tier_hint": {
+"en": "Copper → Silver → Gold → Diamond → Olympian",
+"note": null,
+"vi": "Đồng → Bạc → Vàng → Kim cương → Olympian"
+},
+"achievements.stats.latest": {
+"en": "Latest",
+"note": null,
+"vi": "Gần đây nhất"
+},
+"achievements.stats.latest_hint_empty": {
+"en": "run Hermes more",
+"note": null,
+"vi": "dùng Hermes thêm"
+},
+"achievements.stats.none_yet": {
+"en": "None yet",
+"note": null,
+"vi": "Chưa có"
+},
+"achievements.stats.secrets": {
+"en": "Secrets",
+"note": null,
+"vi": "Bí mật"
+},
+"achievements.stats.secrets_hint": {
+"en": "hidden until first signal",
+"note": null,
+"vi": "ẩn cho đến khi có tín hiệu đầu tiên"
+},
+"achievements.stats.unlocked": {
+"en": "Unlocked",
+"note": null,
+"vi": "Đã mở khóa"
+},
+"achievements.stats.unlocked_hint": {
+"en": "earned badges",
+"note": null,
+"vi": "huy hiệu đã nhận"
+},
+"achievements.tier.complete": {
+"en": "Complete",
+"note": null,
+"vi": "Hoàn thành"
+},
+"achievements.tier.hidden": {
+"en": "Hidden",
+"note": null,
+"vi": "Ẩn"
+},
+"achievements.tier.objective": {
+"en": "Objective",
+"note": null,
+"vi": "Mục tiêu"
+},
+"achievements.tier.target": {
+"en": "Target {tier}",
+"note": null,
+"vi": "Mục tiêu {tier}"
+},
+"analytics.acrossModels": {
+"en": "across {count} models",
+"note": null,
+"vi": "trên {count} mô hình"
+},
+"analytics.apiCalls": {
+"en": "API Calls",
+"note": null,
+"vi": "Lệnh gọi API"
+},
+"analytics.dailyBreakdown": {
+"en": "Daily Breakdown",
+"note": null,
+"vi": "Phân tích theo ngày"
+},
+"analytics.dailyTokenUsage": {
+"en": "Daily Token Usage",
+"note": null,
+"vi": "Mức sử dụng token hằng ngày"
+},
+"analytics.date": {
+"en": "Date",
+"note": null,
+"vi": "Ngày"
+},
+"analytics.edits": {
+"en": "Agent Managed",
+"note": null,
+"vi": "Agent đã quản lý"
+},
+"analytics.inOut": {
+"en": "{input} in / {output} out",
+"note": null,
+"vi": "đầu vào {input} / đầu ra {output}"
+},
+"analytics.input": {
+"en": "Input",
+"note": null,
+"vi": "Đầu vào"
+},
+"analytics.lastUsed": {
+"en": "Last Used",
+"note": null,
+"vi": "Lần dùng gần nhất"
+},
+"analytics.loads": {
+"en": "Agent Loaded",
+"note": null,
+"vi": "Agent đã tải"
+},
+"analytics.model": {
+"en": "Model",
+"note": null,
+"vi": "Mô hình"
+},
+"analytics.noUsageData": {
+"en": "No usage data for this period",
+"note": null,
+"vi": "Không có dữ liệu sử dụng trong khoảng thời gian này"
+},
+"analytics.output": {
+"en": "Output",
+"note": null,
+"vi": "Đầu ra"
+},
+"analytics.perDayAvg": {
+"en": "/day avg",
+"note": null,
+"vi": "/day trung bình"
+},
+"analytics.perModelBreakdown": {
+"en": "Per-Model Breakdown",
+"note": null,
+"vi": "Phân tích theo mô hình"
+},
+"analytics.period": {
+"en": "Period:",
+"note": null,
+"vi": "Khoảng thời gian:"
+},
+"analytics.skill": {
+"en": "Skill",
+"note": null,
+"vi": "Kỹ năng"
+},
+"analytics.startSession": {
+"en": "Start a session to see analytics here",
+"note": null,
+"vi": "Bắt đầu phiên để xem số liệu phân tích tại đây"
+},
+"analytics.tokens": {
+"en": "Tokens",
+"note": null,
+"vi": "Token"
+},
+"analytics.topSkills": {
+"en": "Top Skills",
+"note": null,
+"vi": "Kỹ năng được dùng nhiều nhất"
+},
+"analytics.total": {
+"en": "Total",
+"note": null,
+"vi": "Tổng"
+},
+"analytics.totalSessions": {
+"en": "Total Sessions",
+"note": null,
+"vi": "Tổng số phiên"
+},
+"analytics.totalTokens": {
+"en": "Total Tokens",
+"note": null,
+"vi": "Tổng số token"
+},
+"app.activeSessionsLabel": {
+"en": "Active Sessions:",
+"note": null,
+"vi": "Phiên đang hoạt động:"
+},
+"app.brand": {
+"en": "Hermes Agent",
+"note": null,
+"vi": "Hermes Agent"
+},
+"app.brandShort": {
+"en": "HA",
+"note": null,
+"vi": "HA"
+},
+"app.closeModelTools": {
+"en": "Close model and tools",
+"note": null,
+"vi": "Đóng mô hình và công cụ"
+},
+"app.closeNavigation": {
+"en": "Close navigation",
+"note": null,
+"vi": "Đóng thanh điều hướng"
+},
+"app.currentProfileOption": {
+"en": "this dashboard ({name})",
+"note": null,
+"vi": "bảng điều khiển này ({name})"
+},
+"app.diskCriticalBanner": {
+"en": "Your agent's disk is almost full. New messages, memories, and settings may fail to save.",
+"note": null,
+"vi": "Ổ đĩa của agent sắp đầy. Tin nhắn mới, bộ nhớ và cài đặt có thể không lưu được."
+},
+"app.diskElevatedBanner": {
+"en": "Your agent's disk is filling up. Consider clearing old sessions or expanding its storage.",
+"note": null,
+"vi": "Ổ đĩa của agent đang dần đầy. Hãy cân nhắc xóa các phiên cũ hoặc mở rộng dung lượng lưu trữ."
+},
+"app.dismiss": {
+"en": "Dismiss",
+"note": null,
+"vi": "Bỏ qua"
+},
+"app.footer.org": {
+"en": "Nous Research",
+"note": null,
+"vi": "Nous Research"
+},
+"app.gatewayStatusLabel": {
+"en": "Gateway Status:",
+"note": null,
+"vi": "Trạng thái gateway:"
+},
+"app.gatewayStrip.degraded": {
+"en": "Degraded",
+"note": null,
+"vi": "Hoạt động không ổn định"
+},
+"app.gatewayStrip.failed": {
+"en": "Start failed",
+"note": null,
+"vi": "Khởi động thất bại"
+},
+"app.gatewayStrip.heartbeatStale": {
+"en": "Heartbeat stale",
+"note": null,
+"vi": "Heartbeat đã cũ"
+},
+"app.gatewayStrip.off": {
+"en": "Off",
+"note": null,
+"vi": "Tắt"
+},
+"app.gatewayStrip.running": {
+"en": "Running",
+"note": null,
+"vi": "Đang chạy"
+},
+"app.gatewayStrip.starting": {
+"en": "Starting",
+"note": null,
+"vi": "Đang khởi động"
+},
+"app.gatewayStrip.stopped": {
+"en": "Stopped",
+"note": null,
+"vi": "Đã dừng"
+},
+"app.managingProfile": {
+"en": "Managing profile",
+"note": null,
+"vi": "Đang quản lý hồ sơ"
+},
+"app.managingProfileBanner": {
+"en": "Managing profile “{name}” — config, keys, skills, MCPs, model, and new chats apply to that profile.",
+"note": null,
+"vi": "Đang quản lý hồ sơ “{name}” — cấu hình, khóa, kỹ năng, MCP, mô hình và cuộc trò chuyện mới sẽ áp dụng cho hồ sơ này."
+},
+"app.memoryCriticalBanner": {
+"en": "Your agent is almost out of memory and may restart. Consider closing idle sessions or upgrading its memory.",
+"note": null,
+"vi": "Agent sắp hết bộ nhớ và có thể khởi động lại. Hãy cân nhắc đóng các phiên không hoạt động hoặc nâng cấp bộ nhớ."
+},
+"app.memoryElevatedBanner": {
+"en": "Your agent is running low on memory.",
+"note": null,
+"vi": "Agent sắp hết bộ nhớ."
+},
+"app.memoryOomRestartBanner": {
+"en": "Your agent restarted unexpectedly, most likely because it ran out of memory. Long sessions and many concurrent tasks increase memory use.",
+"note": null,
+"vi": "Agent đã khởi động lại ngoài dự kiến, nhiều khả năng do hết bộ nhớ. Phiên dài và nhiều tác vụ chạy đồng thời sẽ làm tăng mức sử dụng bộ nhớ."
+},
+"app.modelToolsSheetSubtitle": {
+"en": "& tools",
+"note": null,
+"vi": "& công cụ"
+},
+"app.modelToolsSheetTitle": {
+"en": "Model",
+"note": null,
+"vi": "Mô hình"
+},
+"app.multiplexStandaloneBanner": {
+"en": "Your gateway serves only one profile. Not served: {profiles}. Why: {reason}. Fix: hermes gateway migrate --multiplex",
+"note": null,
+"vi": "Gateway chỉ phục vụ một hồ sơ. Không được phục vụ: {profiles}. Lý do: {reason}. Cách khắc phục: hermes gateway migrate --multiplex"
+},
+"app.nav.analytics": {
+"en": "Analytics",
+"note": null,
+"vi": "Phân tích"
+},
+"app.nav.chat": {
+"en": "Chat",
+"note": null,
+"vi": "Trò chuyện"
+},
+"app.nav.config": {
+"en": "Config",
+"note": null,
+"vi": "Cấu hình"
+},
+"app.nav.cron": {
+"en": "Cron",
+"note": null,
+"vi": "Tác vụ định kỳ"
+},
+"app.nav.documentation": {
+"en": "Documentation",
+"note": null,
+"vi": "Tài liệu"
+},
+"app.nav.keys": {
+"en": "Keys",
+"note": null,
+"vi": "Khóa"
+},
+"app.nav.logs": {
+"en": "Logs",
+"note": null,
+"vi": "Nhật ký"
+},
+"app.nav.models": {
+"en": "Models",
+"note": null,
+"vi": "Mô hình"
+},
+"app.nav.plugins": {
+"en": "Plugins",
+"note": null,
+"vi": "Plugin"
+},
+"app.nav.profiles": {
+"en": "Profiles",
+"note": null,
+"vi": "Hồ sơ"
+},
+"app.nav.sessions": {
+"en": "Sessions",
+"note": null,
+"vi": "Phiên"
+},
+"app.nav.skills": {
+"en": "Skills",
+"note": null,
+"vi": "Kỹ năng"
+},
+"app.navigation": {
+"en": "Navigation",
+"note": null,
+"vi": "Điều hướng"
+},
+"app.openDocumentation": {
+"en": "Open documentation in a new tab",
+"note": null,
+"vi": "Mở tài liệu trong thẻ mới"
+},
+"app.openNavigation": {
+"en": "Open navigation",
+"note": null,
+"vi": "Mở mục điều hướng"
+},
+"app.pluginNavSection": {
+"en": "Plugins",
+"note": null,
+"vi": "Plugin"
+},
+"app.sessionsActiveCount": {
+"en": "{count} active",
+"note": null,
+"vi": "{count} đang hoạt động"
+},
+"app.sharedMetricsBody": {
+"en": "Shared metrics are bounded counters, never prompts, files, paths or error text. Collection stays on this machine; sending to Nous is a separate choice.",
+"note": null,
+"vi": "Số liệu chia sẻ chỉ gồm các bộ đếm giới hạn, không bao giờ chứa prompt, tệp, đường dẫn hay nội dung lỗi. Dữ liệu được thu thập trên máy này; gửi đến Nous là lựa chọn riêng."
+},
+"app.sharedMetricsDetails": {
+"en": "Details",
+"note": null,
+"vi": "Chi tiết"
+},
+"app.sharedMetricsLocal": {
+"en": "Local only",
+"note": null,
+"vi": "Chỉ lưu trên máy này"
+},
+"app.sharedMetricsOff": {
+"en": "No thanks",
+"note": null,
+"vi": "Không, cảm ơn"
+},
+"app.sharedMetricsReaskBody": {
+"en": "Asking once more: an earlier version could save \"No thanks\" before you saw this question.",
+"note": null,
+"vi": "Xin hỏi lại: phiên bản trước có thể đã lưu \"Không, cảm ơn\" trước khi bạn thấy câu hỏi này."
+},
+"app.sharedMetricsSaveFailed": {
+"en": "Couldn't save your choice",
+"note": null,
+"vi": "Không thể lưu lựa chọn"
+},
+"app.sharedMetricsShare": {
+"en": "Send to Nous",
+"note": null,
+"vi": "Gửi đến Nous"
+},
+"app.sharedMetricsTitle": {
+"en": "Help improve Hermes?",
+"note": null,
+"vi": "Giúp cải thiện Hermes?"
+},
+"app.statusOverview": {
+"en": "Status overview",
+"note": null,
+"vi": "Tổng quan trạng thái"
+},
+"app.system": {
+"en": "System",
+"note": null,
+"vi": "Hệ thống"
+},
+"app.webUi": {
+"en": "Web UI",
+"note": null,
+"vi": "Giao diện web"
+},
+"common.active": {
+"en": "active",
+"note": null,
+"vi": "đang hoạt động"
+},
+"common.cancel": {
+"en": "Cancel",
+"note": null,
+"vi": "Hủy"
+},
+"common.clear": {
+"en": "Clear",
+"note": null,
+"vi": "Xóa"
+},
+"common.close": {
+"en": "Close",
+"note": null,
+"vi": "Đóng"
+},
+"common.collapse": {
+"en": "Collapse",
+"note": null,
+"vi": "Thu gọn"
+},
+"common.configured": {
+"en": "configured",
+"note": null,
+"vi": "đã cấu hình"
+},
+"common.confirm": {
+"en": "Confirm",
+"note": null,
+"vi": "Xác nhận"
+},
+"common.create": {
+"en": "Create",
+"note": null,
+"vi": "Tạo"
+},
+"common.creating": {
+"en": "Creating...",
+"note": null,
+"vi": "Đang tạo..."
+},
+"common.delete": {
+"en": "Delete",
+"note": null,
+"vi": "Xóa"
+},
+"common.disabled": {
+"en": "disabled",
+"note": null,
+"vi": "đã tắt"
+},
+"common.enabled": {
+"en": "enabled",
+"note": null,
+"vi": "đã bật"
+},
+"common.expand": {
+"en": "Expand",
+"note": null,
+"vi": "Mở rộng"
+},
+"common.failedToRemove": {
+"en": "Failed to remove",
+"note": null,
+"vi": "Không thể gỡ"
+},
+"common.failedToReveal": {
+"en": "Failed to reveal",
+"note": null,
+"vi": "Không thể hiển thị"
+},
+"common.failedToToggle": {
+"en": "Failed to toggle",
+"note": null,
+"vi": "Không thể bật/tắt"
+},
+"common.form": {
+"en": "Form",
+"note": null,
+"vi": "Biểu mẫu"
+},
+"common.gateway": {
+"en": "Gateway",
+"note": null,
+"vi": "Gateway"
+},
+"common.gatewayHint": {
+"en": "Messaging platforms, the API server and webhooks are configured on the Channels page. These are gateway-wide settings (proxy/relay mode and the global allowlist).",
+"note": null,
+"vi": "Các nền tảng nhắn tin, máy chủ API và webhook được cấu hình trong trang Kênh. Đây là các cài đặt áp dụng cho toàn gateway (chế độ proxy/relay và danh sách cho phép toàn cục)."
+},
+"common.general": {
+"en": "General",
+"note": null,
+"vi": "Chung"
+},
+"common.inactive": {
+"en": "inactive",
+"note": null,
+"vi": "không hoạt động"
+},
+"common.live": {
+"en": "Live",
+"note": null,
+"vi": "Trực tiếp"
+},
+"common.loadFailed": {
+"en": "Could not load {what}. Check that the dashboard server is running and click Retry.",
+"note": null,
+"vi": "Không thể tải {what}. Hãy kiểm tra máy chủ bảng điều khiển đang chạy rồi nhấn Thử lại."
+},
+"common.loadFailedDetails": {
+"en": "Details: {detail}",
+"note": null,
+"vi": "Chi tiết: {detail}"
+},
+"common.loading": {
+"en": "Loading...",
+"note": null,
+"vi": "Đang tải..."
+},
+"common.match": {
+"en": "match",
+"note": null,
+"vi": "khớp"
+},
+"common.messaging": {
+"en": "Messaging",
+"note": null,
+"vi": "Nhắn tin"
+},
+"common.msgs": {
+"en": "msgs",
+"note": null,
+"vi": "tin nhắn"
+},
+"common.noResults": {
+"en": "No results",
+"note": null,
+"vi": "Không có kết quả"
+},
+"common.none": {
+"en": "None",
+"note": null,
+"vi": "Không có"
+},
+"common.of": {
+"en": "of",
+"note": null,
+"vi": "trên"
+},
+"common.off": {
+"en": "Off",
+"note": null,
+"vi": "Tắt"
+},
+"common.other": {
+"en": "Other",
+"note": null,
+"vi": "Khác"
+},
+"common.page": {
+"en": "Page",
+"note": null,
+"vi": "Trang"
+},
+"common.pluginLoadFailed": {
+"en": "Could not load this plugin’s script. Check the Network tab (dashboard-plugins/…) and the server’s plugin path.",
+"note": null,
+"vi": "Không thể tải tập lệnh của plugin này. Hãy kiểm tra thẻ Network (dashboard-plugins/…) và đường dẫn plugin trên máy chủ."
+},
+"common.pluginNotRegistered": {
+"en": "The plugin’s script did not call register(), or the script errored. Open the browser console for details.",
+"note": null,
+"vi": "Tập lệnh của plugin không gọi register() hoặc đã gặp lỗi. Mở bảng điều khiển trình duyệt để xem chi tiết."
+},
+"common.refresh": {
+"en": "Refresh",
+"note": null,
+"vi": "Làm mới"
+},
+"common.removed": {
+"en": "removed",
+"note": null,
+"vi": "đã gỡ"
+},
+"common.replace": {
+"en": "Replace",
+"note": null,
+"vi": "Thay thế"
+},
+"common.retry": {
+"en": "Retry",
+"note": null,
+"vi": "Thử lại"
+},
+"common.save": {
+"en": "Save",
+"note": null,
+"vi": "Lưu"
+},
+"common.saving": {
+"en": "Saving...",
+"note": null,
+"vi": "Đang lưu..."
+},
+"common.search": {
+"en": "Search...",
+"note": null,
+"vi": "Tìm kiếm..."
+},
+"common.set": {
+"en": "Set",
+"note": null,
+"vi": "Đặt"
+},
+"common.tools": {
+"en": "tools",
+"note": null,
+"vi": "công cụ"
+},
+"common.unknown": {
+"en": "unknown",
+"note": null,
+"vi": "không xác định"
+},
+"common.untitled": {
+"en": "Untitled",
+"note": null,
+"vi": "Chưa có tiêu đề"
+},
+"config.categories.agent": {
+"en": "Agent",
+"note": null,
+"vi": "Agent"
+},
+"config.categories.auxiliary": {
+"en": "Auxiliary",
+"note": null,
+"vi": "Khác"
+},
+"config.categories.browser": {
+"en": "Browser",
+"note": null,
+"vi": "Trình duyệt"
+},
+"config.categories.compression": {
+"en": "Compression",
+"note": null,
+"vi": "Nén"
+},
+"config.categories.delegation": {
+"en": "Delegation",
+"note": null,
+"vi": "Ủy quyền"
+},
+"config.categories.discord": {
+"en": "Discord",
+"note": null,
+"vi": "Discord"
+},
+"config.categories.display": {
+"en": "Display",
+"note": null,
+"vi": "Hiển thị"
+},
+"config.categories.general": {
+"en": "General",
+"note": null,
+"vi": "Chung"
+},
+"config.categories.logging": {
+"en": "Logging",
+"note": null,
+"vi": "Ghi nhật ký"
+},
+"config.categories.memory": {
+"en": "Memory",
+"note": null,
+"vi": "Bộ nhớ"
+},
+"config.categories.security": {
+"en": "Security",
+"note": null,
+"vi": "Bảo mật"
+},
+"config.categories.stt": {
+"en": "Speech-to-Text",
+"note": null,
+"vi": "Chuyển giọng nói thành văn bản"
+},
+"config.categories.terminal": {
+"en": "Terminal",
+"note": null,
+"vi": "Terminal"
+},
+"config.categories.tts": {
+"en": "Text-to-Speech",
+"note": null,
+"vi": "Chuyển văn bản thành giọng nói"
+},
+"config.categories.voice": {
+"en": "Voice",
+"note": null,
+"vi": "Giọng nói"
+},
+"config.configImported": {
+"en": "Config imported — review and save",
+"note": null,
+"vi": "Đã nhập cấu hình — hãy xem lại rồi lưu"
+},
+"config.configPath": {
+"en": "~/.hermes/config.yaml",
+"note": null,
+"vi": "~/.hermes/config.yaml"
+},
+"config.configSaved": {
+"en": "Configuration saved",
+"note": null,
+"vi": "Đã lưu cấu hình"
+},
+"config.confirmResetScope": {
+"en": "Reset all {scope} settings to their defaults? This only updates the form — changes aren't written to config.yaml until you press Save.",
+"note": null,
+"vi": "Đặt lại tất cả cài đặt {scope} về mặc định? Thao tác này chỉ cập nhật biểu mẫu — thay đổi sẽ chưa được ghi vào config.yaml cho đến khi bạn nhấn Lưu."
+},
+"config.exportConfig": {
+"en": "Export config as JSON",
+"note": null,
+"vi": "Xuất cấu hình dưới dạng JSON"
+},
+"config.failedToLoadRaw": {
+"en": "Failed to load raw config",
+"note": null,
+"vi": "Không thể tải cấu hình thô"
+},
+"config.failedToSave": {
+"en": "Failed to save",
+"note": null,
+"vi": "Lưu thất bại"
+},
+"config.failedToSaveYaml": {
+"en": "Failed to save YAML",
+"note": null,
+"vi": "Lưu YAML thất bại"
+},
+"config.fields": {
+"en": "field{s}",
+"note": null,
+"vi": "trường{s}"
+},
+"config.filters": {
+"en": "Filters",
+"note": null,
+"vi": "Bộ lọc"
+},
+"config.importConfig": {
+"en": "Import config from JSON",
+"note": null,
+"vi": "Nhập cấu hình từ JSON"
+},
+"config.invalidJson": {
+"en": "Invalid JSON file",
+"note": null,
+"vi": "Tệp JSON không hợp lệ"
+},
+"config.noFieldsMatch": {
+"en": "No fields match \"{query}\"",
+"note": null,
+"vi": "Không có trường nào khớp với \"{query}\""
+},
+"config.rawYaml": {
+"en": "Raw YAML Configuration",
+"note": null,
+"vi": "Cấu hình YAML thô"
+},
+"config.resetDefaults": {
+"en": "Reset to defaults",
+"note": null,
+"vi": "Đặt lại về mặc định"
+},
+"config.resetScopeToast": {
+"en": "{scope} reset to defaults — review and Save to persist",
+"note": null,
+"vi": "Đã đặt lại {scope} về mặc định — hãy xem lại rồi nhấn Lưu để áp dụng"
+},
+"config.resetScopeTooltip": {
+"en": "Reset {scope} to defaults",
+"note": null,
+"vi": "Đặt lại {scope} về mặc định"
+},
+"config.searchResults": {
+"en": "Search Results",
+"note": null,
+"vi": "Kết quả tìm kiếm"
+},
+"config.sections": {
+"en": "Sections",
+"note": null,
+"vi": "Mục"
+},
+"config.yamlConfigSaved": {
+"en": "YAML config saved",
+"note": null,
+"vi": "Đã lưu cấu hình YAML"
+},
+"cron.confirmDeleteMessage": {
+"en": "This removes the job from the schedule. This cannot be undone.",
+"note": null,
+"vi": "Tác vụ sẽ bị gỡ khỏi lịch. Bạn không thể hoàn tác thao tác này."
+},
+"cron.confirmDeleteTitle": {
+"en": "Delete scheduled job?",
+"note": null,
+"vi": "Xóa tác vụ định kỳ?"
+},
+"cron.deliverTo": {
+"en": "Deliver to",
+"note": null,
+"vi": "Gửi đến"
+},
+"cron.delivery.discord": {
+"en": "Discord",
+"note": null,
+"vi": "Discord"
+},
+"cron.delivery.email": {
+"en": "Email",
+"note": null,
+"vi": "Email"
+},
+"cron.delivery.local": {
+"en": "Local",
+"note": null,
+"vi": "Cục bộ"
+},
+"cron.delivery.needsHomeChannel": {
+"en": "set a home channel first",
+"note": null,
+"vi": "hãy đặt kênh chính trước"
+},
+"cron.delivery.noneConfigured": {
+"en": "No messaging platforms configured. Set one up under Channels to deliver reports.",
+"note": null,
+"vi": "Chưa thiết lập nền tảng nhắn tin nào. Hãy thiết lập trong mục Kênh để gửi báo cáo."
+},
+"cron.delivery.slack": {
+"en": "Slack",
+"note": null,
+"vi": "Slack"
+},
+"cron.delivery.telegram": {
+"en": "Telegram",
+"note": null,
+"vi": "Telegram"
+},
+"cron.last": {
+"en": "Last",
+"note": null,
+"vi": "Lần trước"
+},
+"cron.loadWhat": {
+"en": "cron jobs",
+"note": null,
+"vi": "tác vụ định kỳ"
+},
+"cron.nameOptional": {
+"en": "Name (optional)",
+"note": null,
+"vi": "Tên (không bắt buộc)"
+},
+"cron.namePlaceholder": {
+"en": "e.g. Daily summary",
+"note": null,
+"vi": "ví dụ: Tóm tắt hằng ngày"
+},
+"cron.newJob": {
+"en": "New Cron Job",
+"note": null,
+"vi": "Tác vụ định kỳ mới"
+},
+"cron.next": {
+"en": "Next",
+"note": null,
+"vi": "Lần tới"
+},
+"cron.noJobs": {
+"en": "No cron jobs configured. Create one above.",
+"note": null,
+"vi": "Chưa có tác vụ cron nào. Tạo một tác vụ ở trên."
+},
+"cron.overdueSince": {
+"en": "Overdue since",
+"note": null,
+"vi": "Quá hạn từ"
+},
+"cron.pause": {
+"en": "Pause",
+"note": null,
+"vi": "Tạm dừng"
+},
+"cron.prompt": {
+"en": "Prompt",
+"note": null,
+"vi": "Prompt"
+},
+"cron.promptPlaceholder": {
+"en": "What should the agent do on each run?",
+"note": null,
+"vi": "Agent cần làm gì mỗi lần chạy?"
+},
+"cron.resume": {
+"en": "Resume",
+"note": null,
+"vi": "Tiếp tục"
+},
+"cron.schedule": {
+"en": "Schedule (cron expression)",
+"note": null,
+"vi": "Lịch (biểu thức cron)"
+},
+"cron.scheduleDescribe.dailyAt": {
+"en": "Daily at {time}",
+"note": null,
+"vi": "Hằng ngày lúc {time}"
+},
+"cron.scheduleDescribe.everyDays": {
+"en": "Every {n} d",
+"note": null,
+"vi": "Mỗi {n} ngày"
+},
+"cron.scheduleDescribe.everyHours": {
+"en": "Every {n} h",
+"note": null,
+"vi": "Mỗi {n} giờ"
+},
+"cron.scheduleDescribe.everyMinutes": {
+"en": "Every {n} min",
+"note": null,
+"vi": "Mỗi {n} phút"
+},
+"cron.scheduleDescribe.monthlyAt": {
+"en": "Monthly on the {day} at {time}",
+"note": null,
+"vi": "Hằng tháng vào ngày {day} lúc {time}"
+},
+"cron.scheduleDescribe.none": {
+"en": "—",
+"note": null,
+"vi": "—"
+},
+"cron.scheduleDescribe.onceAt": {
+"en": "Once at {time}",
+"note": null,
+"vi": "Một lần lúc {time}"
+},
+"cron.scheduleDescribe.weeklyAt": {
+"en": "Weekly on {days} at {time}",
+"note": null,
+"vi": "Hằng tuần vào {days} lúc {time}"
+},
+"cron.scheduleMode": {
+"en": "Schedule",
+"note": null,
+"vi": "Lịch"
+},
+"cron.scheduleModes.custom": {
+"en": "Custom (cron expression)",
+"note": null,
+"vi": "Tùy chỉnh (biểu thức cron)"
+},
+"cron.scheduleModes.customHint": {
+"en": "Five-field cron expression (minute, hour, day, month, weekday).",
+"note": null,
+"vi": "Biểu thức cron gồm 5 trường (phút, giờ, ngày, tháng, thứ)."
+},
+"cron.scheduleModes.customLabel": {
+"en": "Cron expression",
+"note": null,
+"vi": "Biểu thức cron"
+},
+"cron.scheduleModes.customPlaceholder": {
+"en": "0 9 * * *",
+"note": null,
+"vi": "0 9 * * *"
+},
+"cron.scheduleModes.daily": {
+"en": "Daily",
+"note": null,
+"vi": "Hằng ngày"
+},
+"cron.scheduleModes.dayOfMonth": {
+"en": "Day of month",
+"note": null,
+"vi": "Ngày trong tháng"
+},
+"cron.scheduleModes.interval": {
+"en": "Every interval",
+"note": null,
+"vi": "Theo chu kỳ"
+},
+"cron.scheduleModes.intervalEvery": {
+"en": "Every",
+"note": null,
+"vi": "Mỗi"
+},
+"cron.scheduleModes.intervalUnit": {
+"en": "Unit",
+"note": null,
+"vi": "Đơn vị"
+},
+"cron.scheduleModes.monthly": {
+"en": "Monthly",
+"note": null,
+"vi": "Hằng tháng"
+},
+"cron.scheduleModes.once": {
+"en": "Once",
+"note": null,
+"vi": "Một lần"
+},
+"cron.scheduleModes.onceAt": {
+"en": "Run at",
+"note": null,
+"vi": "Chạy lúc"
+},
+"cron.scheduleModes.preview": {
+"en": "Sends as",
+"note": null,
+"vi": "Gửi dưới dạng"
+},
+"cron.scheduleModes.previewEmpty": {
+"en": "(incomplete)",
+"note": null,
+"vi": "(chưa hoàn chỉnh)"
+},
+"cron.scheduleModes.timeOfDay": {
+"en": "Time of day",
+"note": null,
+"vi": "Thời gian trong ngày"
+},
+"cron.scheduleModes.unitDays": {
+"en": "days",
+"note": null,
+"vi": "ngày"
+},
+"cron.scheduleModes.unitHours": {
+"en": "hours",
+"note": null,
+"vi": "giờ"
+},
+"cron.scheduleModes.unitMinutes": {
+"en": "minutes",
+"note": null,
+"vi": "phút"
+},
+"cron.scheduleModes.weekdays": {
+"en": "Days of week",
+"note": null,
+"vi": "Các ngày trong tuần"
+},
+"cron.scheduleModes.weekdaysShort#0": {
+"en": "Sun",
+"note": "One entry of a rotating list (e.g. composer placeholder).",
+"vi": "CN"
+},
+"cron.scheduleModes.weekdaysShort#1": {
+"en": "Mon",
+"note": "One entry of a rotating list (e.g. composer placeholder).",
+"vi": "Thứ 2"
+},
+"cron.scheduleModes.weekdaysShort#2": {
+"en": "Tue",
+"note": "One entry of a rotating list (e.g. composer placeholder).",
+"vi": "Thứ 3"
+},
+"cron.scheduleModes.weekdaysShort#3": {
+"en": "Wed",
+"note": "One entry of a rotating list (e.g. composer placeholder).",
+"vi": "Thứ 4"
+},
+"cron.scheduleModes.weekdaysShort#4": {
+"en": "Thu",
+"note": "One entry of a rotating list (e.g. composer placeholder).",
+"vi": "Thứ 5"
+},
+"cron.scheduleModes.weekdaysShort#5": {
+"en": "Fri",
+"note": "One entry of a rotating list (e.g. composer placeholder).",
+"vi": "Thứ 6"
+},
+"cron.scheduleModes.weekdaysShort#6": {
+"en": "Sat",
+"note": "One entry of a rotating list (e.g. composer placeholder).",
+"vi": "Thứ 7"
+},
+"cron.scheduleModes.weekly": {
+"en": "Weekly",
+"note": null,
+"vi": "Hằng tuần"
+},
+"cron.schedulePlaceholder": {
+"en": "0 9 * * *",
+"note": null,
+"vi": "0 9 * * *"
+},
+"cron.scheduledJobs": {
+"en": "Scheduled Jobs",
+"note": null,
+"vi": "Tác vụ đã lên lịch"
+},
+"cron.schedulerLastTicked": {
+"en": "Scheduler last ticked {when} — jobs that came due since then have not fired",
+"note": null,
+"vi": "Bộ lập lịch chạy lần cuối lúc {when} — các tác vụ đến hạn từ đó vẫn chưa chạy"
+},
+"cron.scriptRequired": {
+"en": "Script-only jobs need a script path. Fill in the Script field or switch the job back to prompt mode.",
+"note": null,
+"vi": "Tác vụ chỉ chạy script cần có đường dẫn đến script. Điền vào trường Script hoặc chuyển tác vụ về chế độ prompt."
+},
+"cron.triggerNow": {
+"en": "Trigger now",
+"note": null,
+"vi": "Chạy ngay"
+},
+"env.add": {
+"en": "Add",
+"note": null,
+"vi": "Thêm"
+},
+"env.addCustomKey": {
+"en": "Add a custom key",
+"note": null,
+"vi": "Thêm khóa tùy chỉnh"
+},
+"env.changesNote": {
+"en": "Changes are saved to disk immediately. Active sessions pick up new keys automatically.",
+"note": null,
+"vi": "Thay đổi được lưu vào ổ đĩa ngay lập tức. Các phiên đang hoạt động tự động nhận khóa mới."
+},
+"env.confirmClearMessage": {
+"en": "The stored value for this variable will be removed from your .env file. This cannot be undone from the UI.",
+"note": null,
+"vi": "Giá trị đã lưu cho biến này sẽ bị xóa khỏi tệp .env. Không thể hoàn tác thao tác này trong giao diện."
+},
+"env.confirmClearTitle": {
+"en": "Clear this key?",
+"note": null,
+"vi": "Xóa khóa này?"
+},
+"env.customConfigured": {
+"en": "{count} custom key{s} set",
+"note": null,
+"vi": "Đã đặt {count} khóa tùy chỉnh{s}"
+},
+"env.customHint": {
+"en": "Arbitrary environment variables stored in your .env that Hermes doesn't recognise. Use these to inject env vars for skills, MCP servers, or your own tooling.",
+"note": null,
+"vi": "Các biến môi trường bất kỳ được lưu trong .env mà Hermes không nhận diện. Dùng các biến này để cung cấp biến môi trường cho kỹ năng, máy chủ MCP hoặc công cụ riêng của bạn."
+},
+"env.customKeyName": {
+"en": "Variable name",
+"note": null,
+"vi": "Tên biến"
+},
+"env.customKeyNamePlaceholder": {
+"en": "e.g. MY_SERVICE_API_KEY",
+"note": null,
+"vi": "ví dụ: MY_SERVICE_API_KEY"
+},
+"env.customTitle": {
+"en": "Custom Keys",
+"note": null,
+"vi": "Khóa tùy chỉnh"
+},
+"env.description": {
+"en": "Manage API keys and secrets stored in",
+"note": null,
+"vi": "Quản lý khóa API và bí mật được lưu trong"
+},
+"env.enterValue": {
+"en": "Enter value...",
+"note": null,
+"vi": "Nhập giá trị..."
+},
+"env.getKey": {
+"en": "Get key",
+"note": null,
+"vi": "Lấy khóa"
+},
+"env.hideAdvanced": {
+"en": "Hide Advanced",
+"note": null,
+"vi": "Ẩn nâng cao"
+},
+"env.hideValue": {
+"en": "Hide value",
+"note": null,
+"vi": "Ẩn giá trị"
+},
+"env.invalidKeyName": {
+"en": "Use letters, numbers and underscores only (must start with a letter or underscore).",
+"note": null,
+"vi": "Chỉ dùng chữ cái, chữ số và dấu gạch dưới (phải bắt đầu bằng chữ cái hoặc dấu gạch dưới)."
+},
+"env.keysCount": {
+"en": "{count} key{s}",
+"note": null,
+"vi": "{count} khóa{s}"
+},
+"env.llmProviders": {
+"en": "LLM Providers",
+"note": null,
+"vi": "Nhà cung cấp LLM"
+},
+"env.notConfigured": {
+"en": "{count} not configured",
+"note": null,
+"vi": "Chưa cấu hình {count}"
+},
+"env.notSet": {
+"en": "Not set",
+"note": null,
+"vi": "Chưa đặt"
+},
+"env.providersConfigured": {
+"en": "{configured} of {total} providers configured",
+"note": null,
+"vi": "Đã cấu hình {configured}/{total} nhà cung cấp"
+},
+"env.replaceCurrentValue": {
+"en": "Replace current value ({preview})",
+"note": null,
+"vi": "Thay thế giá trị hiện tại ({preview})"
+},
+"env.showAdvanced": {
+"en": "Show Advanced",
+"note": null,
+"vi": "Hiện nâng cao"
+},
+"env.showLess": {
+"en": "Show less",
+"note": null,
+"vi": "Thu gọn"
+},
+"env.showMore": {
+"en": "Show more",
+"note": null,
+"vi": "Xem thêm"
+},
+"env.showValue": {
+"en": "Show real value",
+"note": null,
+"vi": "Hiện giá trị thực"
+},
+"kanban.active": {
+"en": "active",
+"note": null,
+"vi": "đang hoạt động"
+},
+"kanban.addChild": {
+"en": "— add child —",
+"note": null,
+"vi": "— thêm tác vụ con —"
+},
+"kanban.addComment": {
+"en": "Add a comment… (Enter to submit)",
+"note": null,
+"vi": "Thêm bình luận… (nhấn Enter để gửi)"
+},
+"kanban.addParent": {
+"en": "— add parent —",
+"note": null,
+"vi": "— thêm tác vụ cha —"
+},
+"kanban.allProfiles": {
+"en": "All profiles",
+"note": null,
+"vi": "Tất cả hồ sơ"
+},
+"kanban.allTenants": {
+"en": "All tenants",
+"note": null,
+"vi": "Tất cả tenant"
+},
+"kanban.apply": {
+"en": "Apply",
+"note": null,
+"vi": "Áp dụng"
+},
+"kanban.archive": {
+"en": "Archive",
+"note": null,
+"vi": "Lưu trữ"
+},
+"kanban.archiveBoardConfirm": {
+"en": "Archive board '{name}'? It will be moved to boards/_archived/ so you can recover it later. Tasks on this board will no longer appear anywhere in the UI.",
+"note": null,
+"vi": "Lưu trữ bảng '{name}'? Bảng sẽ được chuyển vào boards/_archived/ để bạn có thể khôi phục sau. Các tác vụ trên bảng này sẽ không còn xuất hiện ở bất kỳ đâu trong giao diện."
+},
+"kanban.archiveBoardTitle": {
+"en": "Archive this board",
+"note": null,
+"vi": "Lưu trữ bảng này"
+},
+"kanban.assignee": {
+"en": "Assignee",
+"note": null,
+"vi": "Người được giao"
+},
+"kanban.assigneeLabel": {
+"en": "Assignee",
+"note": null,
+"vi": "Người được giao"
+},
+"kanban.assigneeLabelHint": {
+"en": "(blank = dispatcher picks)",
+"note": null,
+"vi": "(để trống = bộ điều phối tự chọn)"
+},
+"kanban.assigneePlaceholder": {
+"en": "assignee",
+"note": null,
+"vi": "người được giao"
+},
+"kanban.attention": {
+"en": "Attention",
+"note": null,
+"vi": "Cần chú ý"
+},
+"kanban.block": {
+"en": "Block",
+"note": null,
+"vi": "Chặn"
+},
+"kanban.board": {
+"en": "Board",
+"note": null,
+"vi": "Bảng"
+},
+"kanban.boardSettings": {
+"en": "Settings",
+"note": null,
+"vi": "Cài đặt"
+},
+"kanban.boardSettingsTitle": {
+"en": "Board settings — name, description, and the default project directory new tasks inherit",
+"note": null,
+"vi": "Cài đặt bảng — tên, mô tả và thư mục dự án mặc định cho các tác vụ mới"
+},
+"kanban.boardSettingsTitleFor": {
+"en": "Board settings — {name}",
+"note": null,
+"vi": "Cài đặt bảng — {name}"
+},
+"kanban.boardSwitcherHint": {
+"en": "Boards let you separate unrelated streams of work",
+"note": null,
+"vi": "Dùng các bảng để tách những luồng công việc không liên quan"
+},
+"kanban.bulkFailed": {
+"en": "Bulk: ",
+"note": null,
+"vi": "Thao tác hàng loạt: "
+},
+"kanban.cancel": {
+"en": "Cancel",
+"note": null,
+"vi": "Hủy"
+},
+"kanban.children": {
+"en": "Children:",
+"note": null,
+"vi": "Tác vụ con:"
+},
+"kanban.clear": {
+"en": "Clear",
+"note": null,
+"vi": "Xóa"
+},
+"kanban.clickToEdit": {
+"en": "Click to edit",
+"note": null,
+"vi": "Nhấp để chỉnh sửa"
+},
+"kanban.clickToEditAssignee": {
+"en": "Click to edit assignee",
+"note": null,
+"vi": "Nhấp để chỉnh sửa người được giao"
+},
+"kanban.close": {
+"en": "Close (Esc)",
+"note": null,
+"vi": "Đóng (Esc)"
+},
+"kanban.columnHelp.archived": {
+"en": "Archived",
+"note": null,
+"vi": "Đã lưu trữ"
+},
+"kanban.columnHelp.blocked": {
+"en": "Worker asked for human input",
+"note": null,
+"vi": "Worker cần người dùng cung cấp thông tin"
+},
+"kanban.columnHelp.done": {
+"en": "Completed",
+"note": null,
+"vi": "Đã hoàn thành"
+},
+"kanban.columnHelp.ready": {
+"en": "Dependencies satisfied; assign a profile to dispatch",
+"note": null,
+"vi": "Đã đáp ứng các điều kiện phụ thuộc; giao cho một hồ sơ để điều phối"
+},
+"kanban.columnHelp.running": {
+"en": "Claimed by a worker — in-flight",
+"note": null,
+"vi": "Đã được worker nhận — đang thực hiện"
+},
+"kanban.columnHelp.scheduled": {
+"en": "Waiting on a known time delay or scheduled follow-up",
+"note": null,
+"vi": "Đang chờ đến thời điểm đã định hoặc lần theo dõi đã lên lịch"
+},
+"kanban.columnHelp.todo": {
+"en": "Waiting on dependencies or unassigned",
+"note": null,
+"vi": "Đang chờ phụ thuộc hoặc chưa được giao"
+},
+"kanban.columnHelp.triage": {
+"en": "Raw ideas — a specifier will flesh out the spec",
+"note": null,
+"vi": "Ý tưởng sơ bộ — agent làm rõ sẽ hoàn thiện đặc tả"
+},
+"kanban.columnLabels.archived": {
+"en": "Archived",
+"note": null,
+"vi": "Đã lưu trữ"
+},
+"kanban.columnLabels.blocked": {
+"en": "Blocked",
+"note": null,
+"vi": "Bị chặn"
+},
+"kanban.columnLabels.done": {
+"en": "Done",
+"note": null,
+"vi": "Hoàn tất"
+},
+"kanban.columnLabels.ready": {
+"en": "Ready",
+"note": null,
+"vi": "Sẵn sàng"
+},
+"kanban.columnLabels.running": {
+"en": "In Progress",
+"note": null,
+"vi": "Đang thực hiện"
+},
+"kanban.columnLabels.scheduled": {
+"en": "Scheduled",
+"note": null,
+"vi": "Đã lên lịch"
+},
+"kanban.columnLabels.todo": {
+"en": "Todo",
+"note": null,
+"vi": "Cần làm"
+},
+"kanban.columnLabels.triage": {
+"en": "Triage",
+"note": null,
+"vi": "Phân loại"
+},
+"kanban.comment": {
+"en": "Comment",
+"note": null,
+"vi": "Bình luận"
+},
+"kanban.commentHint": {
+"en": "Comments reach the worker on its next run or kanban_show() — no need to block the task first.",
+"note": null,
+"vi": "Worker sẽ nhận bình luận trong lần chạy tiếp theo hoặc khi gọi kanban_show() — không cần chặn tác vụ trước."
+},
+"kanban.commentHintTitle": {
+"en": "Comments are the channel for talking to a task's worker. They land on the thread immediately — no need to block the task first. A running worker picks the thread up on its next kanban_show() or respawn; blocking is only for when you want the worker to STOP and wait for your input.",
+"note": null,
+"vi": "Bình luận là kênh trao đổi với worker của tác vụ. Bình luận xuất hiện ngay trong luồng — không cần chặn tác vụ trước. Worker đang chạy sẽ đọc luồng trong lần gọi kanban_show() tiếp theo hoặc khi được khởi chạy lại; chỉ chặn tác vụ khi bạn muốn worker DỪNG và chờ bạn nhập thông tin."
+},
+"kanban.comments": {
+"en": "Comments",
+"note": null,
+"vi": "Bình luận"
+},
+"kanban.complete": {
+"en": "Complete",
+"note": null,
+"vi": "Hoàn tất"
+},
+"kanban.completionBlockedHallucination": {
+"en": "⚠ Completion blocked — phantom card ids",
+"note": null,
+"vi": "⚠ Không thể hoàn tất — ID thẻ không tồn tại"
+},
+"kanban.completionSummary": {
+"en": "Completion summary for {label}. This is stored as the task result.",
+"note": null,
+"vi": "Tóm tắt hoàn thành cho {label}. Nội dung này sẽ được lưu làm kết quả tác vụ."
+},
+"kanban.completionSummaryRequired": {
+"en": "Completion summary is required before marking a task done.",
+"note": null,
+"vi": "Cần có tóm tắt hoàn thành trước khi đánh dấu tác vụ là hoàn tất."
+},
+"kanban.confirmArchive": {
+"en": "Archive this task? It disappears from the default board view.",
+"note": null,
+"vi": "Lưu trữ tác vụ này? Tác vụ sẽ không còn xuất hiện trong chế độ xem bảng mặc định."
+},
+"kanban.confirmArchiveMany": {
+"en": "Archive {n} tasks? They disappear from the default board view.",
+"note": null,
+"vi": "Lưu trữ {n} tác vụ? Các tác vụ sẽ không còn xuất hiện trong chế độ xem bảng mặc định."
+},
+"kanban.confirmBlocked": {
+"en": "Mark this task as blocked? The worker's claim is released.",
+"note": null,
+"vi": "Đánh dấu tác vụ này là bị chặn? Worker sẽ nhả tác vụ đã nhận."
+},
+"kanban.confirmBlockedMany": {
+"en": "Mark {n} tasks as blocked? The workers' claims are released.",
+"note": null,
+"vi": "Đánh dấu {n} tác vụ là bị chặn? Các worker sẽ nhả những tác vụ đã nhận."
+},
+"kanban.confirmDone": {
+"en": "Mark this task as done? The worker's claim is released and dependent children become ready.",
+"note": null,
+"vi": "Đánh dấu tác vụ này là hoàn tất? Worker sẽ nhả tác vụ đã nhận và các tác vụ con phụ thuộc sẽ chuyển sang trạng thái sẵn sàng."
+},
+"kanban.confirmDoneMany": {
+"en": "Mark {n} tasks as done? The workers' claims are released and dependent children become ready.",
+"note": null,
+"vi": "Đánh dấu {n} tác vụ là hoàn tất? Các worker sẽ nhả những tác vụ đã nhận và các tác vụ con phụ thuộc sẽ chuyển sang trạng thái sẵn sàng."
+},
+"kanban.confirmScheduled": {
+"en": "Move this task to Scheduled? Use this for known time delays rather than human blockers.",
+"note": null,
+"vi": "Chuyển tác vụ này sang trạng thái đã lên lịch? Dùng trạng thái này cho các khoảng chờ đã biết, không phải khi bị chặn vì cần người xử lý."
+},
+"kanban.copied": {
+"en": "Copied",
+"note": null,
+"vi": "Đã sao chép"
+},
+"kanban.copyCommand": {
+"en": "Copy command to clipboard",
+"note": null,
+"vi": "Sao chép lệnh vào bộ nhớ tạm"
+},
+"kanban.create": {
+"en": "Create",
+"note": null,
+"vi": "Tạo"
+},
+"kanban.createBoard": {
+"en": "Create board",
+"note": null,
+"vi": "Tạo bảng"
+},
+"kanban.createTask": {
+"en": "Create task in this column",
+"note": null,
+"vi": "Tạo tác vụ trong cột này"
+},
+"kanban.createdBy": {
+"en": "Created by",
+"note": null,
+"vi": "Người tạo"
+},
+"kanban.creating": {
+"en": "Creating…",
+"note": null,
+"vi": "Đang tạo…"
+},
+"kanban.dependencies": {
+"en": "Dependencies",
+"note": null,
+"vi": "Việc phụ thuộc"
+},
+"kanban.description": {
+"en": "Description",
+"note": null,
+"vi": "Mô tả"
+},
+"kanban.descriptionHint": {
+"en": "(optional)",
+"note": null,
+"vi": "(không bắt buộc)"
+},
+"kanban.diagnostic": {
+"en": "diagnostic",
+"note": null,
+"vi": "chẩn đoán"
+},
+"kanban.diagnostics": {
+"en": "Diagnostics",
+"note": null,
+"vi": "Chẩn đoán"
+},
+"kanban.displayName": {
+"en": "Display name",
+"note": null,
+"vi": "Tên hiển thị"
+},
+"kanban.displayNameHint": {
+"en": "(optional)",
+"note": null,
+"vi": "(không bắt buộc)"
+},
+"kanban.edit": {
+"en": "edit",
+"note": null,
+"vi": "chỉnh sửa"
+},
+"kanban.emptyAssignee": {
+"en": "(empty = unassign)",
+"note": null,
+"vi": "(để trống = bỏ giao)"
+},
+"kanban.ended": {
+"en": "ended",
+"note": null,
+"vi": "đã kết thúc"
+},
+"kanban.events": {
+"en": "Events",
+"note": null,
+"vi": "Sự kiện"
+},
+"kanban.filterCards": {
+"en": "Filter cards…",
+"note": null,
+"vi": "Lọc thẻ…"
+},
+"kanban.hide": {
+"en": "Hide",
+"note": null,
+"vi": "Ẩn"
+},
+"kanban.icon": {
+"en": "Icon",
+"note": null,
+"vi": "Biểu tượng"
+},
+"kanban.iconHint": {
+"en": "(single character or emoji)",
+"note": null,
+"vi": "(một ký tự hoặc emoji)"
+},
+"kanban.lanesByProfile": {
+"en": "Lanes by profile",
+"note": null,
+"vi": "Chia làn theo hồ sơ"
+},
+"kanban.loadFailed": {
+"en": "Failed to load Kanban board: ",
+"note": null,
+"vi": "Không tải được bảng Kanban: "
+},
+"kanban.loadFailedHint": {
+"en": "The backend auto-creates kanban.db on first read. If this persists, check the dashboard logs.",
+"note": null,
+"vi": "Backend tự tạo kanban.db trong lần đọc đầu tiên. Nếu lỗi vẫn tiếp diễn, hãy kiểm tra nhật ký bảng điều khiển."
+},
+"kanban.loading": {
+"en": "Loading Kanban board…",
+"note": null,
+"vi": "Đang tải bảng Kanban…"
+},
+"kanban.loadingDetail": {
+"en": "Loading…",
+"note": null,
+"vi": "Đang tải…"
+},
+"kanban.loadingLog": {
+"en": "Loading log…",
+"note": null,
+"vi": "Đang tải nhật ký…"
+},
+"kanban.logAt": {
+"en": ")",
+"note": null,
+"vi": ")"
+},
+"kanban.logTruncated": {
+"en": "(showing last 100 KB — full log at ",
+"note": null,
+"vi": "(đang hiển thị 100 KB cuối — nhật ký đầy đủ tại "
+},
+"kanban.markArchived": {
+"en": "Archive {n} task(s)?",
+"note": null,
+"vi": "Lưu trữ {n} tác vụ?"
+},
+"kanban.markDone": {
+"en": "Mark {n} task(s) as done?",
+"note": null,
+"vi": "Đánh dấu {n} tác vụ là hoàn tất?"
+},
+"kanban.moveFailed": {
+"en": "Move failed: ",
+"note": null,
+"vi": "Di chuyển thất bại: "
+},
+"kanban.needsAssignee": {
+"en": "Needs assignee",
+"note": null,
+"vi": "Cần người được giao"
+},
+"kanban.needsAssigneeHint": {
+"en": "Dependencies are satisfied, but the dispatcher skips this task until you assign a profile.",
+"note": null,
+"vi": "Các phụ thuộc đã được đáp ứng, nhưng bộ điều phối sẽ bỏ qua tác vụ này cho đến khi bạn giao cho một hồ sơ."
+},
+"kanban.newBoard": {
+"en": "+ New board",
+"note": null,
+"vi": "+ Bảng mới"
+},
+"kanban.newBoardDescription": {
+"en": "Boards let you separate unrelated streams of work — one per project, repo, or domain. Workers on one board never see another board's tasks.",
+"note": null,
+"vi": "Tạo các bảng để tách riêng những luồng công việc không liên quan — mỗi dự án, kho mã hoặc lĩnh vực một bảng. Worker trên bảng này sẽ không thấy tác vụ ở bảng khác."
+},
+"kanban.newBoardTitle": {
+"en": "New board",
+"note": null,
+"vi": "Bảng mới"
+},
+"kanban.newTaskTitle": {
+"en": "New task — {column}",
+"note": null,
+"vi": "Tác vụ mới — {column}"
+},
+"kanban.noComments": {
+"en": "— no comments —",
+"note": null,
+"vi": "— không có bình luận —"
+},
+"kanban.noDescription": {
+"en": "— no description —",
+"note": null,
+"vi": "— không có mô tả —"
+},
+"kanban.noParent": {
+"en": "— no parent —",
+"note": null,
+"vi": "— không có tác vụ cha —"
+},
+"kanban.noProfile": {
+"en": "(no profile)",
+"note": null,
+"vi": "(không có hồ sơ)"
+},
+"kanban.noTasks": {
+"en": "— no tasks —",
+"note": null,
+"vi": "— không có tác vụ —"
+},
+"kanban.noWorkerLog": {
+"en": "— no worker log yet (task hasn't spawned or log was rotated away) —",
+"note": null,
+"vi": "— chưa có nhật ký worker (tác vụ chưa khởi chạy hoặc nhật ký đã bị xoay vòng) —"
+},
+"kanban.none": {
+"en": "none",
+"note": null,
+"vi": "không có"
+},
+"kanban.notifyHomeChannels": {
+"en": "Notify home channels",
+"note": null,
+"vi": "Thông báo cho các kênh chính"
+},
+"kanban.nudgeDispatcher": {
+"en": "Nudge dispatcher",
+"note": null,
+"vi": "Thúc bộ điều phối"
+},
+"kanban.open": {
+"en": "Open",
+"note": null,
+"vi": "Mở"
+},
+"kanban.parentLabel": {
+"en": "Parent task",
+"note": null,
+"vi": "Tác vụ cha"
+},
+"kanban.parentLabelHint": {
+"en": "(child stays blocked until the parent is done)",
+"note": null,
+"vi": "(tác vụ con vẫn bị chặn cho đến khi tác vụ cha hoàn tất)"
+},
+"kanban.parents": {
+"en": "Parents:",
+"note": null,
+"vi": "Tác vụ cha:"
+},
+"kanban.phantomIds": {
+"en": "Phantom ids:",
+"note": null,
+"vi": "ID không tồn tại:"
+},
+"kanban.pickProfileFirst": {
+"en": "Pick a profile first.",
+"note": null,
+"vi": "Trước tiên, hãy chọn hồ sơ."
+},
+"kanban.priority": {
+"en": "Priority",
+"note": null,
+"vi": "Mức ưu tiên"
+},
+"kanban.projectDirectoryOverrideHint": {
+"en": "New tasks inherit this as their workspace default; each task can still override it in the create dialog.",
+"note": null,
+"vi": "Tác vụ mới sẽ dùng thư mục này làm không gian làm việc mặc định; bạn vẫn có thể đổi thư mục cho từng tác vụ trong hộp thoại tạo."
+},
+"kanban.reassign": {
+"en": "Reassign",
+"note": null,
+"vi": "Chuyển giao"
+},
+"kanban.reassignFailed": {
+"en": "Reassign failed: ",
+"note": null,
+"vi": "Giao lại thất bại: "
+},
+"kanban.reassignTo": {
+"en": "Reassign to:",
+"note": null,
+"vi": "Chuyển cho:"
+},
+"kanban.reassignedMessage": {
+"en": "Reassigned {id} to {profile}.",
+"note": null,
+"vi": "Đã giao lại {id} cho {profile}."
+},
+"kanban.reclaim": {
+"en": "Reclaim",
+"note": null,
+"vi": "Nhận lại"
+},
+"kanban.reclaimFailed": {
+"en": "Reclaim failed: ",
+"note": null,
+"vi": "Thu hồi thất bại: "
+},
+"kanban.reclaimedMessage": {
+"en": "Reclaimed {id}. Task is back to ready.",
+"note": null,
+"vi": "Đã nhận lại {id}. Tác vụ đã trở về trạng thái sẵn sàng."
+},
+"kanban.refresh": {
+"en": "Refresh",
+"note": null,
+"vi": "Làm mới"
+},
+"kanban.reloadView": {
+"en": "Reload view",
+"note": null,
+"vi": "Tải lại chế độ xem"
+},
+"kanban.removeDependency": {
+"en": "Remove dependency",
+"note": null,
+"vi": "Gỡ quan hệ phụ thuộc"
+},
+"kanban.renderingError": {
+"en": "Kanban tab hit a rendering error",
+"note": null,
+"vi": "Thẻ Kanban gặp lỗi hiển thị"
+},
+"kanban.result": {
+"en": "Result",
+"note": null,
+"vi": "Kết quả"
+},
+"kanban.runHistory": {
+"en": "Run history",
+"note": null,
+"vi": "Lịch sử chạy"
+},
+"kanban.save": {
+"en": "Save",
+"note": null,
+"vi": "Lưu"
+},
+"kanban.saving": {
+"en": "Saving…",
+"note": null,
+"vi": "Đang lưu…"
+},
+"kanban.search": {
+"en": "Search",
+"note": null,
+"vi": "Tìm kiếm"
+},
+"kanban.selectForBulk": {
+"en": "Select for bulk actions",
+"note": null,
+"vi": "Chọn để thao tác hàng loạt"
+},
+"kanban.selected": {
+"en": "selected",
+"note": null,
+"vi": "đã chọn"
+},
+"kanban.sendNotifications": {
+"en": "Send completed / blocked / gave_up notifications to",
+"note": null,
+"vi": "Gửi thông báo khi hoàn tất / bị chặn / bỏ cuộc đến"
+},
+"kanban.sendingUpdates": {
+"en": "Sending updates to",
+"note": null,
+"vi": "Đang gửi cập nhật đến"
+},
+"kanban.show": {
+"en": "Show",
+"note": null,
+"vi": "Hiện"
+},
+"kanban.showAllAttempts": {
+"en": "Show all attempts",
+"note": null,
+"vi": "Hiện tất cả lần thử"
+},
+"kanban.showArchived": {
+"en": "Show archived",
+"note": null,
+"vi": "Hiện mục đã lưu trữ"
+},
+"kanban.skills": {
+"en": "Skills",
+"note": null,
+"vi": "Kỹ năng"
+},
+"kanban.skillsLabel": {
+"en": "Skills",
+"note": null,
+"vi": "Kỹ năng"
+},
+"kanban.skillsLabelHint": {
+"en": "(optional, comma-separated)",
+"note": null,
+"vi": "(không bắt buộc, phân tách bằng dấu phẩy)"
+},
+"kanban.skillsPlaceholder": {
+"en": "skills (optional, comma-separated): translation, github-code-review",
+"note": null,
+"vi": "kỹ năng (không bắt buộc, phân tách bằng dấu phẩy): translation, github-code-review"
+},
+"kanban.slug": {
+"en": "Slug",
+"note": null,
+"vi": "Slug"
+},
+"kanban.slugHint": {
+"en": "— lowercase, hyphens, e.g. atm10-server",
+"note": null,
+"vi": "— chữ thường, dùng dấu gạch nối, ví dụ: atm10-server"
+},
+"kanban.specifier": {
+"en": "specifier",
+"note": null,
+"vi": "agent làm rõ"
+},
+"kanban.status": {
+"en": "Status",
+"note": null,
+"vi": "Trạng thái"
+},
+"kanban.suspectedHallucinatedReferences": {
+"en": "⚠ Prose referenced phantom card ids",
+"note": null,
+"vi": "⚠ Nội dung có nhắc đến ID thẻ không tồn tại"
+},
+"kanban.switchAfterCreate": {
+"en": "Switch to this board after creating it",
+"note": null,
+"vi": "Chuyển sang bảng này sau khi tạo"
+},
+"kanban.taskCreatedWarning": {
+"en": "Task created, but: ",
+"note": null,
+"vi": "Đã tạo tác vụ, nhưng: "
+},
+"kanban.taskNeedsAttention": {
+"en": "1 task needs attention",
+"note": null,
+"vi": "1 tác vụ cần chú ý"
+},
+"kanban.taskTitleLabel": {
+"en": "Title",
+"note": null,
+"vi": "Tiêu đề"
+},
+"kanban.taskTitlePlaceholder": {
+"en": "New task title…",
+"note": null,
+"vi": "Tiêu đề tác vụ mới…"
+},
+"kanban.tasksNeedAttention": {
+"en": "tasks need attention",
+"note": null,
+"vi": "tác vụ cần chú ý"
+},
+"kanban.tenant": {
+"en": "Tenant",
+"note": null,
+"vi": "Tenant"
+},
+"kanban.trash.confirmManyTitle": {
+"en": "Delete {n} tasks?",
+"note": null,
+"vi": "Xóa {n} tác vụ?"
+},
+"kanban.trash.confirmTitle": {
+"en": "Delete task?",
+"note": null,
+"vi": "Xóa tác vụ?"
+},
+"kanban.triagePlaceholder": {
+"en": "Rough idea — AI will spec it…",
+"note": null,
+"vi": "Ý tưởng sơ bộ — AI sẽ soạn đặc tả…"
+},
+"kanban.unassigned": {
+"en": "unassigned",
+"note": null,
+"vi": "chưa được giao"
+},
+"kanban.unblock": {
+"en": "Unblock",
+"note": null,
+"vi": "Bỏ chặn"
+},
+"kanban.unblockFailed": {
+"en": "Unblock failed: ",
+"note": null,
+"vi": "Bỏ chặn thất bại: "
+},
+"kanban.unblockedMessage": {
+"en": "Unblocked {id}. Task is ready for the next tick.",
+"note": null,
+"vi": "Đã bỏ chặn {id}. Tác vụ sẵn sàng cho lượt chạy tiếp theo."
+},
+"kanban.untitled": {
+"en": "(untitled)",
+"note": null,
+"vi": "(chưa có tiêu đề)"
+},
+"kanban.warning": {
+"en": "Warning",
+"note": null,
+"vi": "Cảnh báo"
+},
+"kanban.workerLog": {
+"en": "Worker log",
+"note": null,
+"vi": "Nhật ký worker"
+},
+"kanban.workspace": {
+"en": "Workspace",
+"note": null,
+"vi": "Không gian làm việc"
+},
+"kanban.workspacePathDir": {
+"en": "workspace path (required, e.g. ~/projects/my-app)",
+"note": null,
+"vi": "đường dẫn không gian làm việc (bắt buộc, ví dụ: ~/projects/my-app)"
+},
+"kanban.workspacePathOptional": {
+"en": "workspace path (optional, derived from assignee if blank)",
+"note": null,
+"vi": "đường dẫn không gian làm việc (không bắt buộc, sẽ lấy từ người được giao nếu để trống)"
+},
+"kanban.wsAuthFailed": {
+"en": "WebSocket auth failed — reload the page to refresh the session token.",
+"note": null,
+"vi": "Xác thực WebSocket thất bại — tải lại trang để làm mới token phiên."
+},
+"language.switchTo": {
+"en": "Switch language",
+"note": null,
+"vi": "Chuyển ngôn ngữ"
+},
+"logs.autoRefresh": {
+"en": "Auto-refresh",
+"note": null,
+"vi": "Tự động làm mới"
+},
+"logs.component": {
+"en": "Component",
+"note": null,
+"vi": "Thành phần"
+},
+"logs.file": {
+"en": "File",
+"note": null,
+"vi": "Tệp"
+},
+"logs.level": {
+"en": "Level",
+"note": null,
+"vi": "Mức độ"
+},
+"logs.lines": {
+"en": "Lines",
+"note": null,
+"vi": "Dòng"
+},
+"logs.noLogLines": {
+"en": "No log lines found",
+"note": null,
+"vi": "Không tìm thấy dòng nhật ký nào"
+},
+"logs.title": {
+"en": "Logs",
+"note": null,
+"vi": "Nhật ký"
+},
+"models.apiCalls": {
+"en": "API calls",
+"note": null,
+"vi": "lệnh gọi API"
+},
+"models.avgPerSession": {
+"en": "avg/session",
+"note": null,
+"vi": "trung bình/phiên"
+},
+"models.estimatedCost": {
+"en": "Est. Cost",
+"note": null,
+"vi": "Chi phí ước tính"
+},
+"models.modelsUsed": {
+"en": "Models Used",
+"note": null,
+"vi": "Mô hình đã dùng"
+},
+"models.noModelsData": {
+"en": "No model usage data for this period",
+"note": null,
+"vi": "Không có dữ liệu sử dụng mô hình trong khoảng thời gian này"
+},
+"models.sessions": {
+"en": "sessions",
+"note": null,
+"vi": "phiên"
+},
+"models.startSession": {
+"en": "Start a session to see model data here",
+"note": null,
+"vi": "Bắt đầu phiên để xem dữ liệu mô hình tại đây"
+},
+"models.tokens": {
+"en": "tokens",
+"note": null,
+"vi": "token"
+},
+"models.toolCalls": {
+"en": "tool calls",
+"note": null,
+"vi": "lệnh gọi công cụ"
+},
+"oauth.cli": {
+"en": "Copy",
+"note": null,
+"vi": "Sao chép"
+},
+"oauth.connect": {
+"en": "Connect",
+"note": null,
+"vi": "Kết nối"
+},
+"oauth.connected": {
+"en": "Connected",
+"note": null,
+"vi": "Đã kết nối"
+},
+"oauth.connectedClosing": {
+"en": "Connected! Closing…",
+"note": null,
+"vi": "Đã kết nối! Đang đóng…"
+},
+"oauth.copied": {
+"en": "Copied ✓",
+"note": null,
+"vi": "Đã sao chép ✓"
+},
+"oauth.copyCliCommand": {
+"en": "Copy CLI command (for external / fallback)",
+"note": null,
+"vi": "Sao chép lệnh CLI (dùng cho nhà cung cấp bên ngoài hoặc phương án dự phòng)"
+},
+"oauth.copyCode": {
+"en": "Copy code",
+"note": null,
+"vi": "Sao chép mã"
+},
+"oauth.copyFailed": {
+"en": "Could not copy automatically. Select the code and copy it manually.",
+"note": null,
+"vi": "Không thể tự động sao chép. Hãy chọn mã rồi sao chép thủ công."
+},
+"oauth.description": {
+"en": "{connected} of {total} OAuth providers connected. Use Login for dashboard-supported flows; CLI commands remain available for external or fallback setup.",
+"note": null,
+"vi": "Đã kết nối {connected}/{total} nhà cung cấp OAuth. Dùng nút Đăng nhập cho các quy trình được bảng điều khiển hỗ trợ; vẫn có thể dùng lệnh CLI để thiết lập nhà cung cấp bên ngoài hoặc dùng phương án dự phòng."
+},
+"oauth.disconnect": {
+"en": "Disconnect",
+"note": null,
+"vi": "Ngắt kết nối"
+},
+"oauth.enterCodePrompt": {
+"en": "A new tab opened. Enter this code if prompted:",
+"note": null,
+"vi": "Một thẻ mới đã mở. Nhập mã này nếu được yêu cầu:"
+},
+"oauth.exchangingCode": {
+"en": "Exchanging code for tokens…",
+"note": null,
+"vi": "Đang đổi mã lấy token…"
+},
+"oauth.expired": {
+"en": "Expired",
+"note": null,
+"vi": "Đã hết hạn"
+},
+"oauth.expiresIn": {
+"en": "expires in {time}",
+"note": null,
+"vi": "hết hạn sau {time}"
+},
+"oauth.flowLabels.device_code": {
+"en": "Device code",
+"note": null,
+"vi": "Mã thiết bị"
+},
+"oauth.flowLabels.external": {
+"en": "External CLI",
+"note": null,
+"vi": "CLI bên ngoài"
+},
+"oauth.flowLabels.pkce": {
+"en": "Browser login (PKCE)",
+"note": null,
+"vi": "Đăng nhập bằng trình duyệt (PKCE)"
+},
+"oauth.initiatingLogin": {
+"en": "Initiating login flow…",
+"note": null,
+"vi": "Đang bắt đầu quy trình đăng nhập…"
+},
+"oauth.login": {
+"en": "Login",
+"note": null,
+"vi": "Đăng nhập"
+},
+"oauth.loginFailed": {
+"en": "Login failed.",
+"note": null,
+"vi": "Đăng nhập thất bại."
+},
+"oauth.managedExternally": {
+"en": "Managed externally",
+"note": null,
+"vi": "Được quản lý bên ngoài"
+},
+"oauth.noProviders": {
+"en": "No OAuth-capable providers detected.",
+"note": null,
+"vi": "Không tìm thấy nhà cung cấp nào hỗ trợ OAuth."
+},
+"oauth.notConnected": {
+"en": "Not connected. Use Login when available, or run {command} in a terminal.",
+"note": null,
+"vi": "Chưa kết nối. Dùng nút Đăng nhập nếu có, hoặc chạy {command} trong terminal."
+},
+"oauth.pasteCode": {
+"en": "Paste authorization code (with #state suffix is fine)",
+"note": null,
+"vi": "Dán mã ủy quyền (có thể kèm hậu tố #state)"
+},
+"oauth.pkceStep1": {
+"en": "A new tab opened to claude.ai. Sign in and click Authorize.",
+"note": null,
+"vi": "Một thẻ mới đã mở đến claude.ai. Đăng nhập rồi nhấn Authorize."
+},
+"oauth.pkceStep2": {
+"en": "Copy the authorization code shown after authorizing.",
+"note": null,
+"vi": "Sao chép mã ủy quyền hiển thị sau khi xác thực."
+},
+"oauth.pkceStep3": {
+"en": "Paste it below and submit.",
+"note": null,
+"vi": "Dán mã vào bên dưới rồi gửi."
+},
+"oauth.providerLogins": {
+"en": "Provider Logins (OAuth)",
+"note": null,
+"vi": "Đăng nhập nhà cung cấp (OAuth)"
+},
+"oauth.reOpenAuth": {
+"en": "Re-open auth page",
+"note": null,
+"vi": "Mở lại trang xác thực"
+},
+"oauth.reOpenVerification": {
+"en": "Re-open verification page",
+"note": null,
+"vi": "Mở lại trang xác minh"
+},
+"oauth.runInTerminal": {
+"en": "in a terminal.",
+"note": null,
+"vi": "trong terminal."
+},
+"oauth.sessionExpired": {
+"en": "Session expired. Click Retry to start a new login.",
+"note": null,
+"vi": "Phiên đã hết hạn. Nhấn Thử lại để bắt đầu đăng nhập mới."
+},
+"oauth.sessionExpiredNoError": {
+"en": "Sign-in expired without reaching the provider. This usually means the sign-in page stalled in the opened tab (server-side issue) — finish signing in there, then click Retry. If it keeps failing, use an API key or the CLI fallback instead.",
+"note": null,
+"vi": "Đăng nhập đã hết hạn trước khi kết nối tới nhà cung cấp. Thường là do trang đăng nhập bị treo trong thẻ vừa mở (lỗi phía máy chủ) — hãy hoàn tất đăng nhập ở đó rồi nhấn Thử lại. Nếu vẫn không được, hãy dùng khóa API hoặc phương án dự phòng qua CLI."
+},
+"oauth.sessionExpires": {
+"en": "Session expires in {time}",
+"note": null,
+"vi": "Phiên hết hạn sau {time}"
+},
+"oauth.submitCode": {
+"en": "Submit code",
+"note": null,
+"vi": "Gửi mã"
+},
+"oauth.title": {
+"en": "Provider Logins (OAuth)",
+"note": null,
+"vi": "Đăng nhập nhà cung cấp (OAuth)"
+},
+"oauth.waitingAuth": {
+"en": "Waiting for you to authorize in the browser…",
+"note": null,
+"vi": "Đang chờ bạn xác thực trong trình duyệt…"
+},
+"pluginsPage.authRequired": {
+"en": "Auth required",
+"note": null,
+"vi": "Cần xác thực"
+},
+"pluginsPage.authRequiredHint": {
+"en": "Run this command to authenticate:",
+"note": null,
+"vi": "Chạy lệnh này để xác thực:"
+},
+"pluginsPage.catalogConfirmInstallNote": {
+"en": "Plugins install disabled; enable it after install to activate.",
+"note": null,
+"vi": "Tính năng cài plugin đang tắt; hãy bật sau khi cài đặt để kích hoạt."
+},
+"pluginsPage.catalogConfirmTitle": {
+"en": "Install this plugin?",
+"note": null,
+"vi": "Cài đặt plugin này?"
+},
+"pluginsPage.catalogEmpty": {
+"en": "No catalog entries match.",
+"note": null,
+"vi": "Không có mục nào trong danh mục phù hợp."
+},
+"pluginsPage.catalogEmptyDocsLink": {
+"en": "Learn about Hermes plugins",
+"note": null,
+"vi": "Tìm hiểu về plugin Hermes"
+},
+"pluginsPage.catalogHeading": {
+"en": "Plugin catalog",
+"note": null,
+"vi": "Danh mục plugin"
+},
+"pluginsPage.catalogHint": {
+"en": "Curated, Nous-reviewed plugins pinned to exact commits. Install from here for supply-chain-safe versions.",
+"note": null,
+"vi": "Plugin được Nous tuyển chọn và xem xét, cố định theo commit cụ thể. Cài đặt từ đây để dùng phiên bản an toàn trước rủi ro chuỗi cung ứng."
+},
+"pluginsPage.catalogInstallBtn": {
+"en": "Install",
+"note": null,
+"vi": "Cài đặt"
+},
+"pluginsPage.catalogInstalledBadge": {
+"en": "Installed ✓",
+"note": null,
+"vi": "Đã cài đặt ✓"
+},
+"pluginsPage.catalogRemovedBadge": {
+"en": "Removed",
+"note": null,
+"vi": "Đã gỡ"
+},
+"pluginsPage.catalogRequiresEnv": {
+"en": "Requires env",
+"note": null,
+"vi": "Cần biến môi trường"
+},
+"pluginsPage.catalogSearchPlaceholder": {
+"en": "Search catalog...",
+"note": null,
+"vi": "Tìm trong danh mục..."
+},
+"pluginsPage.catalogUpdateBtn": {
+"en": "Update available",
+"note": null,
+"vi": "Có bản cập nhật"
+},
+"pluginsPage.contextEngineLabel": {
+"en": "Context engine",
+"note": null,
+"vi": "Công cụ ngữ cảnh"
+},
+"pluginsPage.dashboardSlots": {
+"en": "Dashboard slots",
+"note": null,
+"vi": "Vị trí trên bảng điều khiển"
+},
+"pluginsPage.disableRuntime": {
+"en": "Disable",
+"note": null,
+"vi": "Tắt"
+},
+"pluginsPage.enableAfterInstall": {
+"en": "Enable after install",
+"note": null,
+"vi": "Bật sau khi cài đặt"
+},
+"pluginsPage.enableRuntime": {
+"en": "Enable",
+"note": null,
+"vi": "Bật"
+},
+"pluginsPage.forceReinstall": {
+"en": "Force reinstall (delete existing folder first)",
+"note": null,
+"vi": "Buộc cài đặt lại (xóa thư mục hiện có trước)"
+},
+"pluginsPage.headline": {
+"en": "Discover, install, enable, and update Hermes plugins (`hermes plugins` parity).",
+"note": null,
+"vi": "Khám phá, cài đặt, bật và cập nhật plugin Hermes (tương đương `hermes plugins`)."
+},
+"pluginsPage.hideFromSidebar": {
+"en": "Hide from sidebar",
+"note": null,
+"vi": "Ẩn khỏi thanh bên"
+},
+"pluginsPage.identifierLabel": {
+"en": "Git URL or owner/repo",
+"note": null,
+"vi": "URL Git hoặc owner/repo"
+},
+"pluginsPage.inactive": {
+"en": "inactive",
+"note": null,
+"vi": "không hoạt động"
+},
+"pluginsPage.installBtn": {
+"en": "Install",
+"note": null,
+"vi": "Cài đặt"
+},
+"pluginsPage.installHeading": {
+"en": "Install from GitHub / Git URL",
+"note": null,
+"vi": "Cài đặt từ GitHub / URL Git"
+},
+"pluginsPage.installHint": {
+"en": "Use owner/repo shorthand or a full https:// or git@ clone URL. For a plugin in a subdirectory, append the path: owner/repo/path/to/plugin (or <url>#path/to/plugin).",
+"note": null,
+"vi": "Nhập dạng rút gọn owner/repo hoặc URL clone đầy đủ bắt đầu bằng https:// hay git@. Với plugin nằm trong thư mục con, thêm đường dẫn: owner/repo/path/to/plugin (hoặc <url>#path/to/plugin)."
+},
+"pluginsPage.memoryProviderLabel": {
+"en": "Memory provider",
+"note": null,
+"vi": "Nhà cung cấp bộ nhớ"
+},
+"pluginsPage.missingEnvWarn": {
+"en": "Set these in Keys before the plugin can run:",
+"note": null,
+"vi": "Hãy thêm các biến này trong mục Keys trước khi chạy plugin:"
+},
+"pluginsPage.noDashboardTab": {
+"en": "No dashboard tab",
+"note": null,
+"vi": "Không có thẻ bảng điều khiển"
+},
+"pluginsPage.openTab": {
+"en": "Open",
+"note": null,
+"vi": "Mở"
+},
+"pluginsPage.orphanHeading": {
+"en": "Dashboard-only extensions (no agent plugin.yaml match)",
+"note": null,
+"vi": "Phần mở rộng chỉ dành cho bảng điều khiển (không khớp với plugin.yaml của agent)"
+},
+"pluginsPage.pluginListHeading": {
+"en": "Installed plugins",
+"note": null,
+"vi": "Plugin đã cài đặt"
+},
+"pluginsPage.providerDefaults": {
+"en": "built-in / default",
+"note": null,
+"vi": "tích hợp sẵn / mặc định"
+},
+"pluginsPage.providersHeading": {
+"en": "Runtime provider plugins",
+"note": null,
+"vi": "Plugin nhà cung cấp lúc chạy"
+},
+"pluginsPage.providersHint": {
+"en": "Writes memory.provider (empty = built-in) and context.engine to config.yaml. Takes effect next session.",
+"note": null,
+"vi": "Ghi memory.provider (để trống = tích hợp sẵn) và context.engine vào config.yaml. Có hiệu lực từ phiên tiếp theo."
+},
+"pluginsPage.refreshDashboard": {
+"en": "Rescan dashboard extensions",
+"note": null,
+"vi": "Quét lại phần mở rộng bảng điều khiển"
+},
+"pluginsPage.removeConfirm": {
+"en": "Remove this plugin from ~/.hermes/plugins/?",
+"note": null,
+"vi": "Gỡ plugin này khỏi ~/.hermes/plugins/?"
+},
+"pluginsPage.removeHint": {
+"en": "Only user-installed plugins under ~/.hermes/plugins can be removed.",
+"note": null,
+"vi": "Chỉ có thể gỡ plugin do người dùng cài trong ~/.hermes/plugins."
+},
+"pluginsPage.removedFromCatalog": {
+"en": "Removed from catalog",
+"note": null,
+"vi": "Đã gỡ khỏi danh mục"
+},
+"pluginsPage.rescanHeading": {
+"en": "SPA plugin registry",
+"note": null,
+"vi": "Danh mục plugin SPA"
+},
+"pluginsPage.rescanHint": {
+"en": "Rescan after adding files on disk so the dashboard sidebar picks up new manifests.",
+"note": null,
+"vi": "Quét lại sau khi thêm tệp vào ổ đĩa để thanh bên của bảng điều khiển nhận các manifest mới."
+},
+"pluginsPage.runtimeHeading": {
+"en": "Gateway runtime (YAML plugins)",
+"note": null,
+"vi": "Gateway lúc chạy (plugin YAML)"
+},
+"pluginsPage.saveProviders": {
+"en": "Save provider settings",
+"note": null,
+"vi": "Lưu cài đặt nhà cung cấp"
+},
+"pluginsPage.savedProviders": {
+"en": "Provider settings saved.",
+"note": null,
+"vi": "Đã lưu cài đặt nhà cung cấp."
+},
+"pluginsPage.showInSidebar": {
+"en": "Show in sidebar",
+"note": null,
+"vi": "Hiện trong thanh bên"
+},
+"pluginsPage.sourceBadge": {
+"en": "Source",
+"note": null,
+"vi": "Nguồn"
+},
+"pluginsPage.toggleTakesEffectAfterRestart": {
+"en": "Saved — restart the gateway to apply the change.",
+"note": null,
+"vi": "Đã lưu — khởi động lại gateway để áp dụng thay đổi."
+},
+"pluginsPage.updateGit": {
+"en": "Git pull",
+"note": null,
+"vi": "Git pull"
+},
+"pluginsPage.versionBadge": {
+"en": "Version",
+"note": null,
+"vi": "Phiên bản"
+},
+"profiles.actions": {
+"en": "Actions",
+"note": null,
+"vi": "Thao tác"
+},
+"profiles.activeBadge": {
+"en": "active",
+"note": null,
+"vi": "đang hoạt động"
+},
+"profiles.activeProfile": {
+"en": "Active profile",
+"note": null,
+"vi": "Hồ sơ đang hoạt động"
+},
+"profiles.activeSet": {
+"en": "Active profile set",
+"note": null,
+"vi": "Đã đặt làm hồ sơ đang hoạt động"
+},
+"profiles.advancedOptions": {
+"en": "Advanced options",
+"note": null,
+"vi": "Tùy chọn nâng cao"
+},
+"profiles.aliasBadge": {
+"en": "alias",
+"note": null,
+"vi": "bí danh"
+},
+"profiles.allProfiles": {
+"en": "Profiles",
+"note": null,
+"vi": "Hồ sơ"
+},
+"profiles.autoGenerate": {
+"en": "Auto-generate",
+"note": null,
+"vi": "Tự động tạo"
+},
+"profiles.cloneAll": {
+"en": "Clone everything (memories, sessions, skills, state)",
+"note": null,
+"vi": "Sao chép mọi thứ (bộ nhớ, phiên, kỹ năng, trạng thái)"
+},
+"profiles.cloneFrom": {
+"en": "Clone config from",
+"note": null,
+"vi": "Sao chép cấu hình từ"
+},
+"profiles.cloneFromNone": {
+"en": "None (blank)",
+"note": null,
+"vi": "Không (để trống)"
+},
+"profiles.commandCopied": {
+"en": "Copied to clipboard",
+"note": null,
+"vi": "Đã sao chép vào bộ nhớ tạm"
+},
+"profiles.confirmDeleteMessage": {
+"en": "This permanently deletes profile '{name}' — config, keys, memories, sessions, skills, cron jobs. Cannot be undone.",
+"note": null,
+"vi": "Hồ sơ '{name}' sẽ bị xóa vĩnh viễn — gồm cấu hình, khóa, bộ nhớ, phiên, kỹ năng và tác vụ định kỳ. Không thể hoàn tác."
+},
+"profiles.confirmDeleteTitle": {
+"en": "Delete profile?",
+"note": null,
+"vi": "Xóa hồ sơ?"
+},
+"profiles.copyFailed": {
+"en": "Could not copy",
+"note": null,
+"vi": "Không thể sao chép"
+},
+"profiles.created": {
+"en": "Created",
+"note": null,
+"vi": "Đã tạo"
+},
+"profiles.defaultBadge": {
+"en": "default",
+"note": null,
+"vi": "mặc định"
+},
+"profiles.deleted": {
+"en": "Deleted",
+"note": null,
+"vi": "Đã xóa"
+},
+"profiles.describeFailed": {
+"en": "Could not generate description",
+"note": null,
+"vi": "Không thể tạo mô tả"
+},
+"profiles.description": {
+"en": "Description",
+"note": null,
+"vi": "Mô tả"
+},
+"profiles.descriptionOptional": {
+"en": "Description (optional)",
+"note": null,
+"vi": "Mô tả (không bắt buộc)"
+},
+"profiles.descriptionPlaceholder": {
+"en": "What is this profile good at? Used to route kanban tasks by role.",
+"note": null,
+"vi": "Hồ sơ này phù hợp với việc gì? Dùng để phân công tác vụ Kanban theo vai trò."
+},
+"profiles.descriptionSaved": {
+"en": "Description saved",
+"note": null,
+"vi": "Đã lưu mô tả"
+},
+"profiles.distribution": {
+"en": "Distribution",
+"note": null,
+"vi": "Phân phối"
+},
+"profiles.editDescription": {
+"en": "Edit description",
+"note": null,
+"vi": "Chỉnh sửa mô tả"
+},
+"profiles.editModel": {
+"en": "Change model",
+"note": null,
+"vi": "Đổi mô hình"
+},
+"profiles.editSoul": {
+"en": "Edit SOUL.md",
+"note": null,
+"vi": "Chỉnh sửa SOUL.md"
+},
+"profiles.gatewayRunning": {
+"en": "Gateway running",
+"note": null,
+"vi": "Gateway đang chạy"
+},
+"profiles.gatewayRunningWarning": {
+"en": "This profile's gateway is running — it will be stopped.",
+"note": null,
+"vi": "Gateway của hồ sơ này đang chạy — gateway sẽ bị dừng."
+},
+"profiles.gatewayStopped": {
+"en": "Gateway stopped",
+"note": null,
+"vi": "Gateway đã dừng"
+},
+"profiles.generating": {
+"en": "Generating…",
+"note": null,
+"vi": "Đang tạo…"
+},
+"profiles.hasEnv": {
+"en": "env",
+"note": null,
+"vi": "env"
+},
+"profiles.invalidName": {
+"en": "Invalid profile name",
+"note": null,
+"vi": "Tên hồ sơ không hợp lệ"
+},
+"profiles.model": {
+"en": "Model",
+"note": null,
+"vi": "Mô hình"
+},
+"profiles.modelInherit": {
+"en": "Inherit from clone / default",
+"note": null,
+"vi": "Kế thừa từ bản sao hoặc mặc định"
+},
+"profiles.modelLoading": {
+"en": "Loading models…",
+"note": null,
+"vi": "Đang tải mô hình…"
+},
+"profiles.modelNone": {
+"en": "No model providers are set up yet. Add an API key under Keys or sign in to a provider under Models.",
+"note": null,
+"vi": "Chưa thiết lập nhà cung cấp mô hình nào. Thêm khóa API trong mục Khóa hoặc đăng nhập vào nhà cung cấp trong mục Mô hình."
+},
+"profiles.modelOptional": {
+"en": "Model (optional)",
+"note": null,
+"vi": "Mô hình (không bắt buộc)"
+},
+"profiles.modelSaved": {
+"en": "Model updated",
+"note": null,
+"vi": "Đã cập nhật mô hình"
+},
+"profiles.modelSelect": {
+"en": "Select a model",
+"note": null,
+"vi": "Chọn mô hình"
+},
+"profiles.name": {
+"en": "Name",
+"note": null,
+"vi": "Tên"
+},
+"profiles.namePlaceholder": {
+"en": "e.g. coder, writer, etc.",
+"note": null,
+"vi": "ví dụ: coder, writer, v.v."
+},
+"profiles.nameRequired": {
+"en": "Name is required",
+"note": null,
+"vi": "Cần nhập tên"
+},
+"profiles.nameRule": {
+"en": "Lowercase letters, digits, _ and - only; must start with a letter or digit; up to 64 characters.",
+"note": null,
+"vi": "Chỉ dùng chữ thường, chữ số, _ và -; phải bắt đầu bằng chữ cái hoặc chữ số; tối đa 64 ký tự."
+},
+"profiles.newProfile": {
+"en": "New Profile",
+"note": null,
+"vi": "Hồ sơ mới"
+},
+"profiles.noDescription": {
+"en": "No description",
+"note": null,
+"vi": "Chưa có mô tả"
+},
+"profiles.noProfiles": {
+"en": "No profiles found.",
+"note": null,
+"vi": "Không tìm thấy hồ sơ nào."
+},
+"profiles.noSkillsOption": {
+"en": "Don't seed bundled skills",
+"note": null,
+"vi": "Không thêm sẵn kỹ năng đi kèm"
+},
+"profiles.openInTerminal": {
+"en": "Copy CLI command",
+"note": null,
+"vi": "Sao chép lệnh CLI"
+},
+"profiles.rename": {
+"en": "Rename",
+"note": null,
+"vi": "Đổi tên"
+},
+"profiles.renamed": {
+"en": "Renamed",
+"note": null,
+"vi": "Đã đổi tên"
+},
+"profiles.reviewBadge": {
+"en": "review",
+"note": null,
+"vi": "review"
+},
+"profiles.saveSoul": {
+"en": "Save SOUL",
+"note": null,
+"vi": "Lưu SOUL"
+},
+"profiles.setActive": {
+"en": "Set as active",
+"note": null,
+"vi": "Đặt làm hồ sơ đang hoạt động"
+},
+"profiles.skills": {
+"en": "Skills",
+"note": null,
+"vi": "Kỹ năng"
+},
+"profiles.soulPlaceholder": {
+"en": "# How this agent should behave…",
+"note": null,
+"vi": "# Cách agent này nên hoạt động…"
+},
+"profiles.soulSaved": {
+"en": "SOUL.md saved",
+"note": null,
+"vi": "Đã lưu SOUL.md"
+},
+"profiles.soulSection": {
+"en": "SOUL.md (personality / system prompt)",
+"note": null,
+"vi": "SOUL.md (tính cách / prompt hệ thống)"
+},
+"sessions.anySource": {
+"en": "Any source",
+"note": null,
+"vi": "Mọi nguồn"
+},
+"sessions.clearSelection": {
+"en": "Clear selection",
+"note": null,
+"vi": "Bỏ chọn"
+},
+"sessions.confirmDeleteMessage": {
+"en": "This permanently removes the conversation and all of its messages. This cannot be undone.",
+"note": null,
+"vi": "Cuộc trò chuyện và toàn bộ tin nhắn sẽ bị xóa vĩnh viễn. Không thể hoàn tác thao tác này."
+},
+"sessions.confirmDeleteTitle": {
+"en": "Delete session?",
+"note": null,
+"vi": "Xóa phiên?"
+},
+"sessions.deleteEmpty": {
+"en": "Delete empty",
+"note": null,
+"vi": "Xóa phiên trống"
+},
+"sessions.deleteEmptyConfirmMessage": {
+"en": "This permanently removes {count} sessions that have no messages. Active and archived sessions are skipped. This cannot be undone.",
+"note": null,
+"vi": "{count} phiên chưa có tin nhắn sẽ bị xóa vĩnh viễn. Các phiên đang hoạt động và đã lưu trữ sẽ được giữ lại. Không thể hoàn tác thao tác này."
+},
+"sessions.deleteEmptyConfirmTitle": {
+"en": "Delete empty sessions?",
+"note": null,
+"vi": "Xóa các phiên trống?"
+},
+"sessions.deleteSelected": {
+"en": "Delete {count}",
+"note": null,
+"vi": "Xóa {count}"
+},
+"sessions.deleteSelectedConfirmMessage": {
+"en": "This permanently removes {count} selected sessions and all their messages. This cannot be undone.",
+"note": null,
+"vi": "{count} phiên đã chọn và toàn bộ tin nhắn trong đó sẽ bị xóa vĩnh viễn. Không thể hoàn tác thao tác này."
+},
+"sessions.deleteSelectedConfirmTitle": {
+"en": "Delete {count} sessions?",
+"note": null,
+"vi": "Xóa {count} phiên?"
+},
+"sessions.deleteSession": {
+"en": "Delete session",
+"note": null,
+"vi": "Xóa phiên"
+},
+"sessions.emptySessionsDeleted": {
+"en": "{count} empty sessions deleted",
+"note": null,
+"vi": "Đã xóa {count} phiên trống"
+},
+"sessions.failedToDelete": {
+"en": "Failed to delete session",
+"note": null,
+"vi": "Không thể xóa phiên"
+},
+"sessions.failedToDeleteEmpty": {
+"en": "Failed to delete empty sessions",
+"note": null,
+"vi": "Không thể xóa các phiên trống"
+},
+"sessions.failedToDeleteSelected": {
+"en": "Failed to delete selected sessions",
+"note": null,
+"vi": "Không thể xóa các phiên đã chọn"
+},
+"sessions.filterAll": {
+"en": "All",
+"note": null,
+"vi": "Tất cả"
+},
+"sessions.filterAutomation": {
+"en": "Automation",
+"note": null,
+"vi": "Tự động hóa"
+},
+"sessions.filterChats": {
+"en": "Chats",
+"note": null,
+"vi": "Cuộc trò chuyện"
+},
+"sessions.history": {
+"en": "History",
+"note": null,
+"vi": "Lịch sử"
+},
+"sessions.newChat": {
+"en": "New chat",
+"note": null,
+"vi": "Cuộc trò chuyện mới"
+},
+"sessions.nextPage": {
+"en": "Next page",
+"note": null,
+"vi": "Trang sau"
+},
+"sessions.noMatch": {
+"en": "No sessions match your search",
+"note": null,
+"vi": "Không tìm thấy phiên nào khớp với nội dung tìm kiếm"
+},
+"sessions.noMessages": {
+"en": "No messages",
+"note": null,
+"vi": "Chưa có tin nhắn"
+},
+"sessions.noSessions": {
+"en": "No sessions yet",
+"note": null,
+"vi": "Chưa có phiên nào"
+},
+"sessions.noSessionsInFilter": {
+"en": "No sessions in this filter",
+"note": null,
+"vi": "Không có phiên nào trong bộ lọc này"
+},
+"sessions.overview": {
+"en": "Overview",
+"note": null,
+"vi": "Tổng quan"
+},
+"sessions.previousPage": {
+"en": "Previous page",
+"note": null,
+"vi": "Trang trước"
+},
+"sessions.resumeInChat": {
+"en": "Resume in Chat",
+"note": null,
+"vi": "Tiếp tục trong cuộc trò chuyện"
+},
+"sessions.roles.assistant": {
+"en": "Assistant",
+"note": null,
+"vi": "Trợ lý"
+},
+"sessions.roles.system": {
+"en": "System",
+"note": null,
+"vi": "Hệ thống"
+},
+"sessions.roles.tool": {
+"en": "Tool",
+"note": null,
+"vi": "Công cụ"
+},
+"sessions.roles.user": {
+"en": "User",
+"note": null,
+"vi": "Người dùng"
+},
+"sessions.searchPlaceholder": {
+"en": "Search message content...",
+"note": null,
+"vi": "Tìm trong nội dung tin nhắn..."
+},
+"sessions.selectAllOnPage": {
+"en": "Select all on this page",
+"note": null,
+"vi": "Chọn tất cả trên trang này"
+},
+"sessions.selectSession": {
+"en": "Select session",
+"note": null,
+"vi": "Chọn phiên"
+},
+"sessions.selectedCount": {
+"en": "{count} selected",
+"note": null,
+"vi": "Đã chọn {count}"
+},
+"sessions.selectedSessionsDeleted": {
+"en": "{count} sessions deleted",
+"note": null,
+"vi": "Đã xóa {count} phiên"
+},
+"sessions.selectedSessionsSkippedActive": {
+"en": "{deleted} deleted; {count} kept because a turn is running",
+"note": null,
+"vi": "Đã xóa {deleted}; giữ lại {count} phiên vì đang có lượt chạy"
+},
+"sessions.sessionDeleted": {
+"en": "Session deleted",
+"note": null,
+"vi": "Đã xóa phiên"
+},
+"sessions.sourceFilter": {
+"en": "Session source",
+"note": null,
+"vi": "Nguồn phiên"
+},
+"sessions.startConversation": {
+"en": "Start a conversation to see it here",
+"note": null,
+"vi": "Bắt đầu cuộc trò chuyện để xem tại đây"
+},
+"sessions.title": {
+"en": "Sessions",
+"note": null,
+"vi": "Phiên"
+},
+"sessions.untitledSession": {
+"en": "Untitled session",
+"note": null,
+"vi": "Phiên chưa có tiêu đề"
+},
+"sessions.workspace": {
+"en": "workspace",
+"note": null,
+"vi": "không gian làm việc"
+},
+"sessions.workspaceCustom": {
+"en": "Other path…",
+"note": null,
+"vi": "Đường dẫn khác…"
+},
+"sessions.workspaceDefault": {
+"en": "Default",
+"note": null,
+"vi": "Mặc định"
+},
+"sessions.workspaceRescan": {
+"en": "Rescan repositories",
+"note": null,
+"vi": "Quét lại các kho mã"
+},
+"skills.all": {
+"en": "All",
+"note": null,
+"vi": "Tất cả"
+},
+"skills.browseHub": {
+"en": "Browse skills hub",
+"note": null,
+"vi": "Khám phá trung tâm kỹ năng"
+},
+"skills.categories": {
+"en": "Categories",
+"note": null,
+"vi": "Danh mục"
+},
+"skills.createSkill": {
+"en": "Create skill",
+"note": null,
+"vi": "Tạo kỹ năng"
+},
+"skills.currentProfile": {
+"en": "current ({name})",
+"note": null,
+"vi": "hiện tại ({name})"
+},
+"skills.disabledForCli": {
+"en": "Disabled for CLI",
+"note": null,
+"vi": "Đã tắt cho CLI"
+},
+"skills.enabledOf": {
+"en": "{enabled}/{total} enabled",
+"note": null,
+"vi": "Đã bật {enabled}/{total}"
+},
+"skills.filters": {
+"en": "Filters",
+"note": null,
+"vi": "Bộ lọc"
+},
+"skills.loadWhat": {
+"en": "skills",
+"note": null,
+"vi": "kỹ năng"
+},
+"skills.managingProfile": {
+"en": "Managing profile “{name}” — toggles apply to that profile, not this dashboard’s.",
+"note": null,
+"vi": "Đang quản lý hồ sơ “{name}” — các nút bật/tắt áp dụng cho hồ sơ này, không phải hồ sơ trên bảng điều khiển."
+},
+"skills.more": {
+"en": "+{count} more",
+"note": null,
+"vi": "Còn {count} mục nữa"
+},
+"skills.noDescription": {
+"en": "No description available.",
+"note": null,
+"vi": "Chưa có mô tả."
+},
+"skills.noSkills": {
+"en": "No skills installed yet. Browse the skills hub or create one here; from a terminal you can also run `hermes skills search <topic>`.",
+"note": null,
+"vi": "Chưa cài đặt kỹ năng nào. Khám phá kho kỹ năng hoặc tạo kỹ năng tại đây; bạn cũng có thể chạy `hermes skills search <topic>` trong terminal."
+},
+"skills.noSkillsMatch": {
+"en": "No skills match your search or filter.",
+"note": null,
+"vi": "Không có kỹ năng nào khớp với tìm kiếm hoặc bộ lọc."
+},
+"skills.noToolsetsMatch": {
+"en": "No toolsets match the search.",
+"note": null,
+"vi": "Không có bộ công cụ nào khớp với tìm kiếm."
+},
+"skills.profileSelector": {
+"en": "Profile",
+"note": null,
+"vi": "Hồ sơ"
+},
+"skills.resultCount": {
+"en": "{count} result{s}",
+"note": null,
+"vi": "{count} kết quả{s}"
+},
+"skills.searchPlaceholder": {
+"en": "Search skills and toolsets...",
+"note": null,
+"vi": "Tìm kỹ năng và bộ công cụ..."
+},
+"skills.setupNeeded": {
+"en": "Setup needed",
+"note": null,
+"vi": "Cần thiết lập"
+},
+"skills.skillCount": {
+"en": "{count} skill{s}",
+"note": null,
+"vi": "{count} kỹ năng{s}"
+},
+"skills.title": {
+"en": "Skills",
+"note": null,
+"vi": "Kỹ năng"
+},
+"skills.toolsetLabel": {
+"en": "{name} toolset",
+"note": null,
+"vi": "Bộ công cụ {name}"
+},
+"skills.toolsets": {
+"en": "Toolsets",
+"note": null,
+"vi": "Bộ công cụ"
+},
+"status.actionFailed": {
+"en": "Action failed",
+"note": null,
+"vi": "Thao tác thất bại"
+},
+"status.actionFinished": {
+"en": "Finished",
+"note": null,
+"vi": "Đã xong"
+},
+"status.actionFinishedOwed": {
+"en": "Updated, but still owed (re-run `hermes update` to finish)",
+"note": null,
+"vi": "Đã cập nhật nhưng vẫn còn việc cần hoàn tất (chạy lại `hermes update` để hoàn tất)"
+},
+"status.actions": {
+"en": "Actions",
+"note": null,
+"vi": "Thao tác"
+},
+"status.activeSessions": {
+"en": "Active Sessions",
+"note": null,
+"vi": "Phiên đang hoạt động"
+},
+"status.agent": {
+"en": "Agent",
+"note": null,
+"vi": "Agent"
+},
+"status.connected": {
+"en": "Connected",
+"note": null,
+"vi": "Đã kết nối"
+},
+"status.connectedPlatforms": {
+"en": "Connected Platforms",
+"note": null,
+"vi": "Nền tảng đã kết nối"
+},
+"status.disabled": {
+"en": "Disabled",
+"note": null,
+"vi": "Đã tắt"
+},
+"status.disconnected": {
+"en": "Disconnected",
+"note": null,
+"vi": "Đã ngắt kết nối"
+},
+"status.error": {
+"en": "Error",
+"note": null,
+"vi": "Lỗi"
+},
+"status.failed": {
+"en": "Failed",
+"note": null,
+"vi": "Thất bại"
+},
+"status.gateway": {
+"en": "Gateway",
+"note": null,
+"vi": "Gateway"
+},
+"status.gatewayFailedToStart": {
+"en": "Gateway failed to start",
+"note": null,
+"vi": "Gateway không thể khởi động"
+},
+"status.lastUpdate": {
+"en": "Last update",
+"note": null,
+"vi": "Lần cập nhật gần nhất"
+},
+"status.noneRunning": {
+"en": "None",
+"note": null,
+"vi": "Không có"
+},
+"status.notRunning": {
+"en": "Not running",
+"note": null,
+"vi": "Không chạy"
+},
+"status.pid": {
+"en": "PID",
+"note": null,
+"vi": "PID"
+},
+"status.platformDisconnected": {
+"en": "disconnected",
+"note": null,
+"vi": "đã ngắt kết nối"
+},
+"status.platformError": {
+"en": "error",
+"note": null,
+"vi": "lỗi"
+},
+"status.recentSessions": {
+"en": "Recent Sessions",
+"note": null,
+"vi": "Phiên gần đây"
+},
+"status.restartGateway": {
+"en": "Restart Gateway",
+"note": null,
+"vi": "Khởi động lại gateway"
+},
+"status.restartGatewayConfirmMessage": {
+"en": "This restarts the Hermes gateway process. Connected channels and active sessions will reconnect afterward.",
+"note": null,
+"vi": "Thao tác này sẽ khởi động lại tiến trình gateway của Hermes. Các kênh đã kết nối và phiên đang hoạt động sẽ kết nối lại sau đó."
+},
+"status.restartGatewayConfirmTitle": {
+"en": "Restart gateway?",
+"note": null,
+"vi": "Khởi động lại gateway?"
+},
+"status.restartingGateway": {
+"en": "Restarting gateway…",
+"note": null,
+"vi": "Đang khởi động lại gateway…"
+},
+"status.running": {
+"en": "Running",
+"note": null,
+"vi": "Đang chạy"
+},
+"status.runningRemote": {
+"en": "Running (remote)",
+"note": null,
+"vi": "Đang chạy (từ xa)"
+},
+"status.startFailed": {
+"en": "Start failed",
+"note": null,
+"vi": "Khởi động thất bại"
+},
+"status.startedInBackground": {
+"en": "Started in background — check logs for progress",
+"note": null,
+"vi": "Đã khởi động trong nền — xem nhật ký để theo dõi tiến trình"
+},
+"status.starting": {
+"en": "Starting",
+"note": null,
+"vi": "Đang khởi động"
+},
+"status.stopped": {
+"en": "Stopped",
+"note": null,
+"vi": "Đã dừng"
+},
+"status.updateHermes": {
+"en": "Update Hermes",
+"note": null,
+"vi": "Cập nhật Hermes"
+},
+"status.updateHermesConfirmMessage": {
+"en": "This runs hermes update and restarts the gateway when it finishes. Active sessions keep their prompt cache until then.",
+"note": null,
+"vi": "Thao tác này sẽ chạy hermes update và khởi động lại gateway khi hoàn tất. Các phiên đang hoạt động vẫn giữ bộ nhớ đệm prompt cho đến lúc đó."
+},
+"status.updateHermesConfirmNow": {
+"en": "Update now",
+"note": null,
+"vi": "Cập nhật ngay"
+},
+"status.updateHermesConfirmTitle": {
+"en": "Update Hermes?",
+"note": null,
+"vi": "Cập nhật Hermes?"
+},
+"status.updatingHermes": {
+"en": "Updating Hermes…",
+"note": null,
+"vi": "Đang cập nhật Hermes…"
+},
+"status.waitingForOutput": {
+"en": "Waiting for output…",
+"note": null,
+"vi": "Đang chờ đầu ra…"
+},
+"theme.fontDefault": {
+"en": "Theme default",
+"note": null,
+"vi": "Mặc định theo chủ đề"
+},
+"theme.fontDefaultHint": {
+"en": "Use the active theme's font",
+"note": null,
+"vi": "Dùng phông chữ của chủ đề đang hoạt động"
+},
+"theme.fontMono": {
+"en": "Mono",
+"note": null,
+"vi": "Đơn cách"
+},
+"theme.fontSans": {
+"en": "Sans",
+"note": null,
+"vi": "Không chân"
+},
+"theme.fontSerif": {
+"en": "Serif",
+"note": null,
+"vi": "Có chân"
+},
+"theme.fontTitle": {
+"en": "Font",
+"note": null,
+"vi": "Phông chữ"
+},
+"theme.switchTheme": {
+"en": "Switch theme",
+"note": null,
+"vi": "Đổi chủ đề"
+},
+"theme.title": {
+"en": "Theme",
+"note": null,
+"vi": "Chủ đề"
+}
+}

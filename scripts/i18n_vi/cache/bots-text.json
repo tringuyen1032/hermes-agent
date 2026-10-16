@@ -1,0 +1,1612 @@
+{
+"avatar.blobFromName": {
+"en": "Blob face — drawn from the bot’s name",
+"note": null,
+"vi": "Mặt blob — tạo từ tên bot"
+},
+"avatar.classicShapes": {
+"en": "Classic shapes",
+"note": null,
+"vi": "Hình dạng cổ điển"
+},
+"avatar.describeHint": {
+"en": "Leave blank to auto-generate from name/title/description + agent-messaging roster.",
+"note": null,
+"vi": "Để trống để tự tạo dựa trên tên/tiêu đề/mô tả và danh sách agent nhắn tin."
+},
+"avatar.describePlaceholder": {
+"en": "Describe your avatar…",
+"note": null,
+"vi": "Mô tả ảnh đại diện…"
+},
+"avatar.generate": {
+"en": "Generate",
+"note": null,
+"vi": "Tạo"
+},
+"avatar.generating": {
+"en": "Generating…",
+"note": null,
+"vi": "Đang tạo…"
+},
+"avatar.generationFailed": {
+"en": "Avatar generation failed",
+"note": null,
+"vi": "Tạo ảnh đại diện thất bại"
+},
+"avatar.imageTooLarge": {
+"en": "Image too large (max 15MB).",
+"note": null,
+"vi": "Ảnh quá lớn (tối đa 15MB)."
+},
+"avatar.matchTheName": {
+"en": "Match the name",
+"note": null,
+"vi": "Khớp với tên"
+},
+"avatar.petLoadFailed": {
+"en": "Could not load that pet — try another.",
+"note": null,
+"vi": "Không tải được thú cưng đó — hãy thử chọn thú cưng khác."
+},
+"avatar.pickPet": {
+"en": "Pick a pet as this bot’s profile picture.",
+"note": null,
+"vi": "Chọn thú cưng làm ảnh đại diện cho bot này."
+},
+"avatar.randomize": {
+"en": "Randomize",
+"note": null,
+"vi": "Tạo ngẫu nhiên"
+},
+"avatar.removeBackToShape": {
+"en": "Remove — back to shape avatar",
+"note": null,
+"vi": "Gỡ — quay lại ảnh đại diện dạng hình"
+},
+"avatar.removeImage": {
+"en": "Remove image — use shape",
+"note": null,
+"vi": "Gỡ ảnh — dùng hình dạng"
+},
+"avatar.savedLocally": {
+"en": "Saved look locally; remote persistence failed",
+"note": null,
+"vi": "Đã lưu giao diện trên thiết bị; không thể lưu lên máy chủ từ xa"
+},
+"avatar.savedLocallyDescriptionFailed": {
+"en": "Saved look locally; description update failed",
+"note": null,
+"vi": "Đã lưu giao diện trên thiết bị; không thể cập nhật mô tả"
+},
+"avatar.tabBot": {
+"en": "Bot",
+"note": null,
+"vi": "Bot"
+},
+"avatar.tabGenerate": {
+"en": "Generate",
+"note": null,
+"vi": "Tạo"
+},
+"avatar.tabPet": {
+"en": "Pet",
+"note": null,
+"vi": "Thú cưng"
+},
+"avatar.unlockFollowsName": {
+"en": "Unlock — the face follows the bot’s name again",
+"note": null,
+"vi": "Mở khóa — khuôn mặt sẽ theo tên bot trở lại"
+},
+"avatar.upload": {
+"en": "Upload",
+"note": null,
+"vi": "Tải lên"
+},
+"bot.advanced": {
+"en": "Advanced",
+"note": null,
+"vi": "Nâng cao"
+},
+"bot.advancedFailed": {
+"en": "Advanced configuration failed",
+"note": null,
+"vi": "Không thể áp dụng cấu hình nâng cao"
+},
+"bot.advancedHint": {
+"en": "Advanced — model, skills, toolsets, SOUL.md",
+"note": null,
+"vi": "Nâng cao — mô hình, kỹ năng, bộ công cụ, SOUL.md"
+},
+"bot.attentionBlocked": {
+"en": "Bot is blocked — see its last message",
+"note": null,
+"vi": "Bot bị chặn — xem tin nhắn gần nhất"
+},
+"bot.attentionFallback": {
+"en": "Needs attention",
+"note": null,
+"vi": "Cần chú ý"
+},
+"bot.attentionMissingConfig": {
+"en": "Provider not configured — run hermes model",
+"note": null,
+"vi": "Chưa cấu hình nhà cung cấp — chạy hermes model"
+},
+"bot.attentionProviderAuth": {
+"en": "Sign in again for this profile",
+"note": null,
+"vi": "Đăng nhập lại cho hồ sơ này"
+},
+"bot.attentionQuota": {
+"en": "Quota or balance exhausted",
+"note": null,
+"vi": "Đã hết hạn mức hoặc số dư"
+},
+"bot.chatEmpty": {
+"en": "Say something to get started.",
+"note": null,
+"vi": "Gửi tin nhắn để bắt đầu."
+},
+"bot.createFailed": {
+"en": "Could not create the profile yet",
+"note": null,
+"vi": "Chưa thể tạo hồ sơ"
+},
+"bot.createFirstHint": {
+"en": "Open the Bots pane and hit “New Bot”.",
+"note": null,
+"vi": "Mở bảng Bots rồi chọn “New Bot”."
+},
+"bot.deleteTitle": {
+"en": "Delete bot and profile?",
+"note": null,
+"vi": "Xóa bot và hồ sơ?"
+},
+"bot.descriptionHint": {
+"en": "Leave blank to generate from the bot’s name and description.",
+"note": null,
+"vi": "Để trống để tạo nội dung dựa trên tên và mô tả của bot."
+},
+"bot.duplicate": {
+"en": "Duplicate",
+"note": null,
+"vi": "Nhân bản"
+},
+"bot.duplicateFailed": {
+"en": "Duplicate failed",
+"note": null,
+"vi": "Không thể nhân bản"
+},
+"bot.editMenu": {
+"en": "Edit…",
+"note": null,
+"vi": "Chỉnh sửa…"
+},
+"bot.editTitle": {
+"en": "Edit profile",
+"note": null,
+"vi": "Sửa hồ sơ"
+},
+"bot.groupsLoadFailed": {
+"en": "Could not load bot groups",
+"note": null,
+"vi": "Không thể tải nhóm bot"
+},
+"bot.helpPromptPlaceholder": {
+"en": "What should this bot help with?",
+"note": null,
+"vi": "Bot này nên giúp gì?"
+},
+"bot.hide": {
+"en": "Hide",
+"note": null,
+"vi": "Ẩn"
+},
+"bot.kickoff": {
+"en": "Hey, tell me about yourself!",
+"note": null,
+"vi": "Chào bạn, kể tôi nghe về bạn nhé!"
+},
+"bot.loadFailed": {
+"en": "Could not load bot",
+"note": null,
+"vi": "Không thể tải bot"
+},
+"bot.manageGroups": {
+"en": "Manage groups…",
+"note": null,
+"vi": "Quản lý nhóm…"
+},
+"bot.metadataLoadFailed": {
+"en": "Could not load bot metadata",
+"note": null,
+"vi": "Không thể tải siêu dữ liệu của bot"
+},
+"bot.newChatWith": {
+"en": "New chat with this bot",
+"note": null,
+"vi": "Cuộc trò chuyện mới với bot này"
+},
+"bot.newTitle": {
+"en": "New bot",
+"note": null,
+"vi": "Bot mới"
+},
+"bot.openAnotherChatUnsupported": {
+"en": "Update Hermes Desktop to open another Bot chat.",
+"note": null,
+"vi": "Cập nhật Hermes Desktop để mở cuộc trò chuyện khác với bot."
+},
+"bot.openBotChat": {
+"en": "Open Bot Chat",
+"note": null,
+"vi": "Mở cuộc trò chuyện với bot"
+},
+"bot.openChatFailedMessage": {
+"en": "Try again.",
+"note": null,
+"vi": "Thử lại."
+},
+"bot.openGateways": {
+"en": "Open Gateways",
+"note": null,
+"vi": "Mở Gateways"
+},
+"bot.openNeedsUpdateTitle": {
+"en": "This bot lives on an older Hermes",
+"note": null,
+"vi": "Bot này đang chạy trên phiên bản Hermes cũ"
+},
+"bot.openUnreachableMessage": {
+"en": "Check it is online and try again.",
+"note": null,
+"vi": "Kiểm tra máy tính đang trực tuyến rồi thử lại."
+},
+"bot.openUnreachableTitle": {
+"en": "Hermes couldn’t reach the computer this bot runs on",
+"note": null,
+"vi": "Hermes không thể kết nối với máy tính đang chạy bot này"
+},
+"bot.openingChat": {
+"en": "Opening chat…",
+"note": null,
+"vi": "Đang mở cuộc trò chuyện…"
+},
+"bot.pinToTop": {
+"en": "Pin to top",
+"note": null,
+"vi": "Ghim lên đầu"
+},
+"bot.remoteConnectionsUnsupported": {
+"en": "Update Hermes Desktop to chat with bots on other connections.",
+"note": null,
+"vi": "Cập nhật Hermes Desktop để trò chuyện với bot trên các kết nối khác."
+},
+"bot.removeFromAllGroups": {
+"en": "Remove from all groups",
+"note": null,
+"vi": "Gỡ khỏi tất cả nhóm"
+},
+"bot.thisDevice": {
+"en": "This device",
+"note": null,
+"vi": "Thiết bị này"
+},
+"bot.unhide": {
+"en": "Unhide",
+"note": null,
+"vi": "Bỏ ẩn"
+},
+"bot.unpin": {
+"en": "Unpin",
+"note": null,
+"vi": "Bỏ ghim"
+},
+"cron.active": {
+"en": "Active",
+"note": null,
+"vi": "Đang hoạt động"
+},
+"cron.blockedConfig": {
+"en": "Blocked by configuration (not run)",
+"note": null,
+"vi": "Bị chặn do cấu hình (chưa chạy)"
+},
+"cron.continuity": {
+"en": "Continuity: each run sees the previous run’s output (dedupe, continue where it left off)",
+"note": null,
+"vi": "Tính liên tục: mỗi lần chạy đều xem được kết quả của lần trước (loại bỏ trùng lặp, tiếp tục từ chỗ đã dừng)"
+},
+"cron.dayOfMonth": {
+"en": "Day of month",
+"note": null,
+"vi": "Ngày trong tháng"
+},
+"cron.daysFromNow": {
+"en": "days from now",
+"note": null,
+"vi": "ngày nữa"
+},
+"cron.deliveryFailed": {
+"en": "Ran, but delivery failed",
+"note": null,
+"vi": "Đã chạy nhưng gửi thất bại"
+},
+"cron.detailDescription": {
+"en": "What this job runs, and when it runs next.",
+"note": null,
+"vi": "Tác vụ này làm gì và lần chạy tiếp theo vào lúc nào."
+},
+"cron.failed": {
+"en": "Failed",
+"note": null,
+"vi": "Thất bại"
+},
+"cron.filterHint": {
+"en": "Scheduled jobs exist in this profile but none are tagged for this bot. Name a job \"[bot:<name>] …\" to show it here, or see them in Cron below.",
+"note": null,
+"vi": "Hồ sơ này có tác vụ đã lên lịch nhưng không tác vụ nào được gắn thẻ cho bot này. Đặt tên tác vụ theo dạng \"[bot:<name>] …\" để hiển thị tại đây, hoặc xem các tác vụ bên dưới."
+},
+"cron.freqAdvanced": {
+"en": "Advanced…",
+"note": null,
+"vi": "Nâng cao…"
+},
+"cron.freqDaily": {
+"en": "Every day",
+"note": null,
+"vi": "Mỗi ngày"
+},
+"cron.freqHourly": {
+"en": "Every hour",
+"note": null,
+"vi": "Mỗi giờ"
+},
+"cron.freqInterval": {
+"en": "Interval",
+"note": null,
+"vi": "Theo khoảng thời gian"
+},
+"cron.freqMonthly": {
+"en": "Every month",
+"note": null,
+"vi": "Mỗi tháng"
+},
+"cron.freqOnce": {
+"en": "Once, in…",
+"note": null,
+"vi": "Một lần, vào…"
+},
+"cron.freqWeekdays": {
+"en": "Weekdays",
+"note": null,
+"vi": "Các ngày trong tuần"
+},
+"cron.freqWeekly": {
+"en": "Every week",
+"note": null,
+"vi": "Mỗi tuần"
+},
+"cron.hoursFromNow": {
+"en": "hours from now",
+"note": null,
+"vi": "giờ nữa"
+},
+"cron.instruction": {
+"en": "Instruction",
+"note": null,
+"vi": "Chỉ dẫn"
+},
+"cron.instructionNul": {
+"en": "Job instruction cannot contain NUL (U+0000).",
+"note": null,
+"vi": "Chỉ thị của tác vụ không được chứa NUL (U+0000)."
+},
+"cron.lastResult": {
+"en": "Last result",
+"note": null,
+"vi": "Kết quả gần nhất"
+},
+"cron.lastRun": {
+"en": "Last run",
+"note": null,
+"vi": "Lần chạy gần nhất"
+},
+"cron.legacyUnsafe": {
+"en": "Paused for security: delete and recreate this legacy job before running it again.",
+"note": null,
+"vi": "Đã tạm dừng vì lý do bảo mật: hãy xóa rồi tạo lại tác vụ cũ này trước khi chạy lại."
+},
+"cron.minutesFromNow": {
+"en": "minutes from now",
+"note": null,
+"vi": "phút nữa"
+},
+"cron.nameNul": {
+"en": "Job name cannot contain NUL (U+0000).",
+"note": null,
+"vi": "Tên tác vụ không được chứa NUL (U+0000)."
+},
+"cron.needsRosterFirst": {
+"en": "This bot has to appear in the roster first.",
+"note": null,
+"vi": "Bot này cần có trong danh sách trước."
+},
+"cron.nextRun": {
+"en": "Next run",
+"note": null,
+"vi": "Lần chạy tiếp theo"
+},
+"cron.overdueSince": {
+"en": "Overdue since",
+"note": null,
+"vi": "Quá hạn từ"
+},
+"cron.paused": {
+"en": "Paused",
+"note": null,
+"vi": "Đã tạm dừng"
+},
+"cron.rawSchedule": {
+"en": "Schedule (raw)",
+"note": null,
+"vi": "Lịch (thô)"
+},
+"cron.readFailure": {
+"en": "The list may still be there — this was a read failure, not a delete.",
+"note": null,
+"vi": "Danh sách có thể vẫn còn — đây là lỗi đọc, không phải lỗi xóa."
+},
+"cron.repeat": {
+"en": "Repeat",
+"note": null,
+"vi": "Lặp lại"
+},
+"cron.runHistoryOnly": {
+"en": "Run history only",
+"note": null,
+"vi": "Chỉ xem lịch sử chạy"
+},
+"cron.runsHint": {
+"en": "runs (blank = forever)",
+"note": null,
+"vi": "lần chạy (để trống = chạy mãi)"
+},
+"cron.runsHourly": {
+"en": "Runs at the top of every hour",
+"note": null,
+"vi": "Chạy vào đầu mỗi giờ"
+},
+"cron.runsRaw": {
+"en": "Raw schedule — every Nm/Nh/Nd or 5-field cron",
+"note": null,
+"vi": "Lịch thô — mỗi Nm/Nh/Nd hoặc cron 5 trường"
+},
+"cron.schedule": {
+"en": "Schedule",
+"note": null,
+"vi": "Lịch"
+},
+"cron.sendResultsTo": {
+"en": "Send results to",
+"note": null,
+"vi": "Gửi kết quả đến"
+},
+"cron.staleNotice": {
+"en": "Could not refresh scheduled jobs. Showing the last list we had.",
+"note": null,
+"vi": "Không thể làm mới các tác vụ định kỳ. Đang hiển thị danh sách gần nhất."
+},
+"cron.status": {
+"en": "Status",
+"note": null,
+"vi": "Trạng thái"
+},
+"cron.stopAfter": {
+"en": "Stop after",
+"note": null,
+"vi": "Dừng sau"
+},
+"cron.succeeded": {
+"en": "Succeeded",
+"note": null,
+"vi": "Thành công"
+},
+"cron.unitDays": {
+"en": "day(s)",
+"note": null,
+"vi": "ngày"
+},
+"cron.unitHours": {
+"en": "hour(s)",
+"note": null,
+"vi": "giờ"
+},
+"cron.unitMinutes": {
+"en": "minute(s)",
+"note": null,
+"vi": "phút"
+},
+"cron.untitled": {
+"en": "Untitled job",
+"note": null,
+"vi": "Tác vụ chưa đặt tên"
+},
+"cron.whenToRun": {
+"en": "When to run",
+"note": null,
+"vi": "Thời gian chạy"
+},
+"cron.workdir": {
+"en": "Working directory",
+"note": null,
+"vi": "Thư mục làm việc"
+},
+"editor.auto": {
+"en": "Auto",
+"note": null,
+"vi": "Tự động"
+},
+"editor.autoHint": {
+"en": "Auto — the name decides",
+"note": null,
+"vi": "Tự động — quyết định dựa trên tên"
+},
+"editor.backToDropdowns": {
+"en": "← Back to dropdowns",
+"note": null,
+"vi": "← Quay lại danh sách thả xuống"
+},
+"editor.capabilities": {
+"en": "Capabilities",
+"note": null,
+"vi": "Năng lực"
+},
+"editor.catalog": {
+"en": "catalog",
+"note": null,
+"vi": "danh mục"
+},
+"editor.catalogInstalled": {
+"en": "catalog · installed",
+"note": null,
+"vi": "danh mục · đã cài đặt"
+},
+"editor.checkingImage": {
+"en": "Checking image backend…",
+"note": null,
+"vi": "Đang kiểm tra backend hình ảnh…"
+},
+"editor.chooseImage": {
+"en": "Choose an image…",
+"note": null,
+"vi": "Chọn ảnh…"
+},
+"editor.cloneFrom": {
+"en": "Clone from profile",
+"note": null,
+"vi": "Sao chép từ hồ sơ"
+},
+"editor.configureModel": {
+"en": "Configure model",
+"note": null,
+"vi": "Cấu hình mô hình"
+},
+"editor.createBot": {
+"en": "Create Bot",
+"note": null,
+"vi": "Tạo bot"
+},
+"editor.createEmpty": {
+"en": "Create empty (skip bundled skills)",
+"note": null,
+"vi": "Tạo hồ sơ trống (bỏ qua kỹ năng đi kèm)"
+},
+"editor.createOn": {
+"en": "Create on",
+"note": null,
+"vi": "Tạo trên"
+},
+"editor.creating": {
+"en": "Creating…",
+"note": null,
+"vi": "Đang tạo…"
+},
+"editor.defaultToolsHint": {
+"en": "Leaving all (or none) checked keeps the default toolset behavior.",
+"note": null,
+"vi": "Nếu chọn tất cả hoặc không chọn mục nào, bộ công cụ sẽ hoạt động theo mặc định."
+},
+"editor.description": {
+"en": "Description",
+"note": null,
+"vi": "Mô tả"
+},
+"editor.editSoul": {
+"en": "SOUL.md (persona + agent-messaging protocol)",
+"note": null,
+"vi": "SOUL.md (tính cách + giao thức nhắn tin giữa các agent)"
+},
+"editor.emptySkillsHint": {
+"en": "“Create empty” is checked — no bundled skills will be installed.",
+"note": null,
+"vi": "Đang chọn “Tạo hồ sơ trống” — sẽ không cài đặt kỹ năng đi kèm."
+},
+"editor.enterManually": {
+"en": "✏️ Enter manually…",
+"note": null,
+"vi": "✏️ Nhập thủ công…"
+},
+"editor.freshProfile": {
+"en": "Fresh profile (bundled skills)",
+"note": null,
+"vi": "Hồ sơ mới (có sẵn kỹ năng đi kèm)"
+},
+"editor.fullConfigHint": {
+"en": "Full configuration needs a newer gateway (restart it after updating Hermes).",
+"note": null,
+"vi": "Cấu hình đầy đủ cần gateway mới hơn (hãy khởi động lại sau khi cập nhật Hermes)."
+},
+"editor.gatewayDefault": {
+"en": "gateway default",
+"note": null,
+"vi": "mặc định của gateway"
+},
+"editor.general": {
+"en": "General",
+"note": null,
+"vi": "Chung"
+},
+"editor.inheritLaunch": {
+"en": "Inherit (launch profile)",
+"note": null,
+"vi": "Kế thừa (hồ sơ khởi chạy)"
+},
+"editor.inheritedModel": {
+"en": "inherited from launch profile",
+"note": null,
+"vi": "kế thừa từ hồ sơ khởi chạy"
+},
+"editor.liveCapabilities": {
+"en": "Capabilities (applies immediately — skills, tools, MCP)",
+"note": null,
+"vi": "Năng lực (áp dụng ngay — kỹ năng, công cụ, MCP)"
+},
+"editor.lockFace": {
+"en": "Lock face",
+"note": null,
+"vi": "Khóa diện mạo"
+},
+"editor.lockedHint": {
+"en": "Face locked — renaming won’t change it.",
+"note": null,
+"vi": "Đã khóa diện mạo — đổi tên sẽ không làm thay đổi."
+},
+"editor.mcpHint": {
+"en": "Configured servers copy from the main profile; catalog entries are the bundled MCP menu. Entries needing API keys route through setup first (credentials follow the shared keys setting).",
+"note": null,
+"vi": "Máy chủ đã cấu hình sẽ được sao chép từ hồ sơ chính; các mục trong danh mục là danh sách MCP đi kèm. Những mục cần khóa API sẽ chuyển sang bước thiết lập trước (thông tin xác thực tuân theo tùy chọn dùng chung khóa)."
+},
+"editor.mcpServers": {
+"en": "MCP servers",
+"note": null,
+"vi": "Máy chủ MCP"
+},
+"editor.modelCustom": {
+"en": "Model (Custom)",
+"note": null,
+"vi": "Mô hình (tùy chỉnh)"
+},
+"editor.modelNameExample": {
+"en": "e.g. model name",
+"note": null,
+"vi": "ví dụ: tên mô hình"
+},
+"editor.modelSwitchFailed": {
+"en": "Model switch failed",
+"note": null,
+"vi": "Không thể chuyển mô hình"
+},
+"editor.name": {
+"en": "Name",
+"note": null,
+"vi": "Tên"
+},
+"editor.nameFirstHint": {
+"en": "Name the bot first — a draft profile is created when you open this tab (discarded if you cancel).",
+"note": null,
+"vi": "Hãy đặt tên cho bot trước — hồ sơ nháp sẽ được tạo khi bạn mở thẻ này (và bị hủy nếu bạn hủy thao tác)."
+},
+"editor.nameTakenHint": {
+"en": "That name is taken — pick another before configuring capabilities.",
+"note": null,
+"vi": "Tên này đã được dùng — hãy chọn tên khác trước khi cấu hình năng lực."
+},
+"editor.needsModel": {
+"en": "No model provider is ready for it yet, so it skipped its introduction. Pick a provider and model under Advanced.",
+"note": null,
+"vi": "Chưa có nhà cung cấp mô hình nào sẵn sàng, nên agent đã bỏ qua phần giới thiệu. Hãy chọn nhà cung cấp và mô hình trong mục Nâng cao."
+},
+"editor.newDescription": {
+"en": "A named teammate with its own memory, skills, and chat. It can message your other agents.",
+"note": null,
+"vi": "Một đồng đội có tên riêng, bộ nhớ, kỹ năng và cuộc trò chuyện riêng. Agent này có thể nhắn tin cho các agent khác của bạn."
+},
+"editor.newerDesktop": {
+"en": "Skills need a newer Hermes Desktop.",
+"note": null,
+"vi": "Kỹ năng cần Hermes Desktop mới hơn."
+},
+"editor.newerGateway": {
+"en": "Capability catalog needs a newer gateway (restart it after updating Hermes).",
+"note": null,
+"vi": "Danh mục năng lực cần gateway mới hơn (hãy khởi động lại sau khi cập nhật Hermes)."
+},
+"editor.noImageModel": {
+"en": "No image model available. If you just enabled one (or updated Hermes), restart the gateway: Ctrl+K → \"Restart gateway\".",
+"note": null,
+"vi": "Không có mô hình hình ảnh nào khả dụng. Nếu bạn vừa bật một mô hình (hoặc cập nhật Hermes), hãy khởi động lại gateway: Ctrl+K → \"Restart gateway\"."
+},
+"editor.providerCustom": {
+"en": "Provider (Custom)",
+"note": null,
+"vi": "Nhà cung cấp (tùy chỉnh)"
+},
+"editor.remoteCapabilitiesHint": {
+"en": "Remote capabilities require a newer desktop. Model and SOUL changes remain staged until you save.",
+"note": null,
+"vi": "Năng lực từ xa cần Hermes Desktop mới hơn. Thay đổi mô hình và SOUL sẽ chờ đến khi bạn lưu."
+},
+"editor.shareKeys": {
+"en": "Share keys & accounts with the main profile",
+"note": null,
+"vi": "Dùng chung khóa và tài khoản với hồ sơ chính"
+},
+"editor.shareKeysHint": {
+"en": "Subscriptions, OAuth logins, and API keys stay shared (not copied), so token refreshes never invalidate each other. Uncheck for an isolated snapshot copy.",
+"note": null,
+"vi": "Gói đăng ký, thông tin đăng nhập OAuth và khóa API sẽ được dùng chung (không sao chép), để việc làm mới token không làm mất hiệu lực của nhau. Bỏ chọn để tạo bản sao độc lập."
+},
+"editor.skills": {
+"en": "Skills",
+"note": null,
+"vi": "Kỹ năng"
+},
+"editor.soul": {
+"en": "SOUL.md (optional — replaces the generated persona)",
+"note": null,
+"vi": "SOUL.md (không bắt buộc — thay thế tính cách được tạo tự động)"
+},
+"editor.title": {
+"en": "Title",
+"note": null,
+"vi": "Chức danh"
+},
+"editor.tools": {
+"en": "Tools",
+"note": null,
+"vi": "Công cụ"
+},
+"editor.unlock": {
+"en": "Unlock",
+"note": null,
+"vi": "Mở khóa"
+},
+"editor.unlockedHint": {
+"en": "Face follows the name.",
+"note": null,
+"vi": "Diện mạo sẽ thay đổi theo tên."
+},
+"group.activity": {
+"en": "Activity",
+"note": null,
+"vi": "Hoạt động"
+},
+"group.attachHint": {
+"en": "Attach files — every responding bot sees them",
+"note": null,
+"vi": "Đính kèm tệp — mọi bot phản hồi đều thấy tệp"
+},
+"group.collapseThread": {
+"en": "Collapse thread",
+"note": null,
+"vi": "Thu gọn luồng"
+},
+"group.collapseThreadLabel": {
+"en": "Collapse this thread",
+"note": null,
+"vi": "Thu gọn luồng này"
+},
+"group.commandApproval": {
+"en": "command approval",
+"note": null,
+"vi": "phê duyệt lệnh"
+},
+"group.composerPlaceholder": {
+"en": "Say something — every bot in this group hears the room.",
+"note": null,
+"vi": "Nhắn gì đó — mọi bot trong nhóm đều thấy tin nhắn này."
+},
+"group.compressHistory": {
+"en": "Compress history",
+"note": null,
+"vi": "Nén lịch sử trò chuyện"
+},
+"group.deleteAction": {
+"en": "Delete",
+"note": null,
+"vi": "Xóa"
+},
+"group.deleteTitle": {
+"en": "Delete group chat?",
+"note": null,
+"vi": "Xóa cuộc trò chuyện nhóm?"
+},
+"group.disbandAction": {
+"en": "Disband",
+"note": null,
+"vi": "Giải tán"
+},
+"group.disbandDescPrefix": {
+"en": "This removes the ",
+"note": null,
+"vi": "Thao tác này sẽ xóa "
+},
+"group.disbandDone": {
+"en": "Disbanded",
+"note": null,
+"vi": "Đã giải tán"
+},
+"group.disbandTitle": {
+"en": "Disband group chat?",
+"note": null,
+"vi": "Giải tán cuộc trò chuyện nhóm?"
+},
+"group.disbanding": {
+"en": "Disbanding…",
+"note": null,
+"vi": "Đang giải tán…"
+},
+"group.dropToRoom": {
+"en": "Drop to attach — every responding bot sees it",
+"note": null,
+"vi": "Thả vào để đính kèm — mọi bot đang phản hồi đều thấy"
+},
+"group.dropToThread": {
+"en": "Drop to attach to this thread reply",
+"note": null,
+"vi": "Thả vào đây để đính kèm vào phản hồi trong luồng"
+},
+"group.everyoneMeta": {
+"en": "Every bot in the room",
+"note": null,
+"vi": "Mọi bot trong phòng"
+},
+"group.hideActivity": {
+"en": "Hide room activity",
+"note": null,
+"vi": "Ẩn hoạt động trong phòng"
+},
+"group.holdDetection": {
+"en": "Detect stop directives",
+"note": null,
+"vi": "Phát hiện lệnh tạm dừng"
+},
+"group.holdDetectionHint": {
+"en": "Let room messages put addressed members on hold until they are mentioned again.",
+"note": null,
+"vi": "Cho phép tin nhắn trong phòng tạm dừng các thành viên được nhắc tên cho đến khi họ được nhắc lại."
+},
+"group.holdReleaseHint": {
+"en": "Mention a paused bot or send @all resume to release them.",
+"note": null,
+"vi": "Nhắc đến bot đang tạm dừng hoặc gửi @all resume để cho phép bot tiếp tục."
+},
+"group.manageDesc": {
+"en": "A bot can join multiple group chats. Memberships sync to every machine.",
+"note": null,
+"vi": "Một bot có thể tham gia nhiều cuộc trò chuyện nhóm. Danh sách thành viên được đồng bộ trên mọi máy."
+},
+"group.manageTitle": {
+"en": "Manage groups",
+"note": null,
+"vi": "Quản lý nhóm"
+},
+"group.nameLabel": {
+"en": "Group name",
+"note": null,
+"vi": "Tên nhóm"
+},
+"group.needsYourInput": {
+"en": "A bot in this group chat needs your input",
+"note": null,
+"vi": "Một bot trong cuộc trò chuyện nhóm này cần bạn nhập thông tin"
+},
+"group.newThread": {
+"en": "New Thread",
+"note": null,
+"vi": "Luồng mới"
+},
+"group.newTitle": {
+"en": "New group chat",
+"note": null,
+"vi": "Cuộc trò chuyện nhóm mới"
+},
+"group.noActivityYet": {
+"en": "No activity in this turn yet.",
+"note": null,
+"vi": "Chưa có hoạt động nào trong lượt này."
+},
+"group.openThread": {
+"en": "Open this thread",
+"note": null,
+"vi": "Mở luồng này"
+},
+"group.pictureGenerationFailed": {
+"en": "Group picture generation failed",
+"note": null,
+"vi": "Tạo ảnh nhóm thất bại"
+},
+"group.removeAttachment": {
+"en": "Remove attachment",
+"note": null,
+"vi": "Gỡ tệp đính kèm"
+},
+"group.removeFromSelection": {
+"en": "Remove from selection",
+"note": null,
+"vi": "Bỏ khỏi danh sách chọn"
+},
+"group.reply": {
+"en": "Reply",
+"note": null,
+"vi": "Phản hồi"
+},
+"group.replyInThread": {
+"en": "Reply in thread",
+"note": null,
+"vi": "Phản hồi trong luồng"
+},
+"group.replyInThreadPlaceholder": {
+"en": "Reply in thread…",
+"note": null,
+"vi": "Phản hồi trong luồng…"
+},
+"group.roomWorking": {
+"en": "The room is working…",
+"note": null,
+"vi": "Phòng đang xử lý…"
+},
+"group.searchToAdd": {
+"en": "Search bots to add",
+"note": null,
+"vi": "Tìm bot để thêm"
+},
+"group.searchToAddPlaceholder": {
+"en": "Search bots to add…",
+"note": null,
+"vi": "Tìm bot để thêm…"
+},
+"group.settingsDesc": {
+"en": "Rename the group or set a room picture. Members and history are kept.",
+"note": null,
+"vi": "Đổi tên nhóm hoặc đặt ảnh phòng. Thành viên và lịch sử trò chuyện vẫn được giữ lại."
+},
+"group.settingsTitle": {
+"en": "Group settings",
+"note": null,
+"vi": "Cài đặt nhóm"
+},
+"group.showActivity": {
+"en": "Show room activity",
+"note": null,
+"vi": "Hiện hoạt động trong phòng"
+},
+"group.slashCommandsUnsupported": {
+"en": "Slash commands are not supported in group chats. Open an individual bot chat to use them.",
+"note": null,
+"vi": "Cuộc trò chuyện nhóm không hỗ trợ lệnh bắt đầu bằng dấu gạch chéo. Hãy mở cuộc trò chuyện riêng với bot để dùng các lệnh này."
+},
+"group.stop": {
+"en": "Stop",
+"note": null,
+"vi": "Dừng"
+},
+"group.stopHint": {
+"en": "Stop this run — interrupts the member on turn and holds the rest",
+"note": null,
+"vi": "Dừng lượt chạy này — ngắt thành viên đang đến lượt và tạm dừng các thành viên còn lại"
+},
+"group.threadFallback": {
+"en": "Thread",
+"note": null,
+"vi": "Luồng"
+},
+"group.waitingForAnswer": {
+"en": "Waiting for your answer…",
+"note": null,
+"vi": "Đang chờ bạn trả lời…"
+},
+"group.you": {
+"en": "You",
+"note": null,
+"vi": "Bạn"
+},
+"roster.activeNow": {
+"en": "Active now",
+"note": null,
+"vi": "Đang hoạt động"
+},
+"roster.allHidden": {
+"en": "All bots are hidden",
+"note": null,
+"vi": "Tất cả bot đều đang ẩn"
+},
+"roster.allHiddenDesc": {
+"en": "They keep working and retain their history.",
+"note": null,
+"vi": "Các bot vẫn hoạt động và giữ nguyên lịch sử."
+},
+"roster.anyActivity": {
+"en": "Any activity",
+"note": null,
+"vi": "Mọi hoạt động"
+},
+"roster.botsAndGroups": {
+"en": "Bots and group chats",
+"note": null,
+"vi": "Bot và cuộc trò chuyện nhóm"
+},
+"roster.botsOnly": {
+"en": "Bots only",
+"note": null,
+"vi": "Chỉ bot"
+},
+"roster.clearFilters": {
+"en": "Clear filters",
+"note": null,
+"vi": "Xóa bộ lọc"
+},
+"roster.emptyDesc": {
+"en": "Create your first bot.",
+"note": null,
+"vi": "Tạo bot đầu tiên."
+},
+"roster.emptyTitle": {
+"en": "No bots yet",
+"note": null,
+"vi": "Chưa có bot nào"
+},
+"roster.gatewayRemoved": {
+"en": "Gateway removed",
+"note": null,
+"vi": "Gateway đã bị gỡ"
+},
+"roster.groupChats": {
+"en": "Group chats",
+"note": null,
+"vi": "Cuộc trò chuyện nhóm"
+},
+"roster.groupsOnly": {
+"en": "Group chats only",
+"note": null,
+"vi": "Chỉ cuộc trò chuyện nhóm"
+},
+"roster.hiddenFromRoster": {
+"en": "Hidden from the roster",
+"note": null,
+"vi": "Đã ẩn khỏi danh sách"
+},
+"roster.needsAttention": {
+"en": "needs attention",
+"note": null,
+"vi": "cần chú ý"
+},
+"roster.needsInput": {
+"en": "Needs your input",
+"note": null,
+"vi": "Cần bạn phản hồi"
+},
+"roster.newBotOrGroup": {
+"en": "New bot or group chat",
+"note": null,
+"vi": "Bot hoặc cuộc trò chuyện nhóm mới"
+},
+"roster.noHiddenMatch": {
+"en": "No hidden bots match these filters.",
+"note": null,
+"vi": "Không có bot ẩn nào khớp với bộ lọc này."
+},
+"roster.noMatchFilters": {
+"en": "No bots or group chats match these filters.",
+"note": null,
+"vi": "Không có bot hoặc cuộc trò chuyện nhóm nào khớp với bộ lọc này."
+},
+"roster.older": {
+"en": "Older",
+"note": null,
+"vi": "Cũ hơn"
+},
+"roster.onDemand": {
+"en": "On demand",
+"note": null,
+"vi": "Theo yêu cầu"
+},
+"roster.pinned": {
+"en": "Pinned",
+"note": null,
+"vi": "Đã ghim"
+},
+"roster.ready": {
+"en": "Ready",
+"note": null,
+"vi": "Sẵn sàng"
+},
+"roster.recentlyActive": {
+"en": "Recently active",
+"note": null,
+"vi": "Hoạt động gần đây"
+},
+"roster.retryNow": {
+"en": "Retry now",
+"note": null,
+"vi": "Thử lại ngay"
+},
+"roster.search": {
+"en": "Search bots and group chats",
+"note": null,
+"vi": "Tìm bot và cuộc trò chuyện nhóm"
+},
+"roster.searchPlaceholder": {
+"en": "Search bots and group chats…",
+"note": null,
+"vi": "Tìm bot và cuộc trò chuyện nhóm…"
+},
+"roster.showHidden": {
+"en": "Show hidden bots",
+"note": null,
+"vi": "Hiện bot đang ẩn"
+},
+"roster.statusUnknown": {
+"en": "Status unknown",
+"note": null,
+"vi": "Không rõ trạng thái"
+},
+"roster.unavailable": {
+"en": "Unavailable",
+"note": null,
+"vi": "Không khả dụng"
+},
+"roster.waitingForGateway": {
+"en": "Waiting for the gateway connection… (remote gateways can take a few seconds; retries automatically)",
+"note": null,
+"vi": "Đang chờ kết nối gateway… (gateway từ xa có thể mất vài giây; sẽ tự động thử lại)"
+},
+"screen.agentControls": {
+"en": "Bot is in control",
+"note": null,
+"vi": "Bot đang điều khiển"
+},
+"screen.attaching": {
+"en": "Connecting to the screen…",
+"note": null,
+"vi": "Đang kết nối với Screen…"
+},
+"screen.autoOpenMenu": {
+"en": "Open Screen when the bot uses it",
+"note": null,
+"vi": "Mở Screen khi bot sử dụng"
+},
+"screen.controlTaken": {
+"en": "Another viewer took control. Watching only.",
+"note": null,
+"vi": "Người xem khác đã tiếp quản. Chỉ có thể theo dõi."
+},
+"screen.handBack": {
+"en": "Hand back",
+"note": null,
+"vi": "Bàn giao lại"
+},
+"screen.handBackForce": {
+"en": "Hand back (force)",
+"note": null,
+"vi": "Bàn giao lại (bắt buộc)"
+},
+"screen.handBackForceHint": {
+"en": "Release a lease held by a viewer that is no longer here, e.g. after a reload.",
+"note": null,
+"vi": "Giải phóng quyền điều khiển của người xem không còn ở đây, chẳng hạn sau khi tải lại."
+},
+"screen.heroConnecting": {
+"en": "Checking the screen…",
+"note": null,
+"vi": "Đang kiểm tra màn hình…"
+},
+"screen.heroInstall": {
+"en": "Install",
+"note": null,
+"vi": "Cài đặt"
+},
+"screen.heroNotInstalled": {
+"en": "Not installed on this host",
+"note": null,
+"vi": "Chưa cài đặt trên máy chủ này"
+},
+"screen.heroOpenLive": {
+"en": "Open live",
+"note": null,
+"vi": "Mở trực tiếp"
+},
+"screen.heroStale": {
+"en": "Last seen — screen unreachable",
+"note": null,
+"vi": "Lần cuối ghi nhận — không thể kết nối màn hình"
+},
+"screen.heroStart": {
+"en": "Start",
+"note": null,
+"vi": "Khởi động"
+},
+"screen.heroStopped": {
+"en": "Screen is off",
+"note": null,
+"vi": "Màn hình đang tắt"
+},
+"screen.heroSuppressed": {
+"en": "Hidden while someone has control",
+"note": null,
+"vi": "Đang ẩn khi có người điều khiển"
+},
+"screen.imageSwitchApprove": {
+"en": "Switch image",
+"note": null,
+"vi": "Chuyển sang ảnh mới"
+},
+"screen.imageSwitchKeep": {
+"en": "Keep current image",
+"note": null,
+"vi": "Giữ ảnh hiện tại"
+},
+"screen.imageSwitchTitle": {
+"en": "New sandbox image available",
+"note": null,
+"vi": "Đã có ảnh sandbox mới"
+},
+"screen.install": {
+"en": "Install on host",
+"note": null,
+"vi": "Cài đặt trên máy chủ"
+},
+"screen.installCancelled": {
+"en": "Install cancelled: no sudo password was provided.",
+"note": null,
+"vi": "Đã hủy cài đặt: chưa cung cấp mật khẩu sudo."
+},
+"screen.installFailed": {
+"en": "Install failed. Read the log above, or run the command on the host yourself.",
+"note": null,
+"vi": "Cài đặt thất bại. Xem nhật ký ở trên hoặc tự chạy lệnh trên máy chủ."
+},
+"screen.installHint": {
+"en": "Runs on the gateway host as the user Hermes runs as; sudo is asked for once, through Hermes.",
+"note": null,
+"vi": "Lệnh chạy trên máy chủ gateway dưới tài khoản chạy Hermes; Hermes sẽ yêu cầu sudo một lần."
+},
+"screen.installing": {
+"en": "Installing…",
+"note": null,
+"vi": "Đang cài đặt…"
+},
+"screen.managedNotIncludedBody": {
+"en": "Hermes Cloud includes Screen on bots with 8 GB of memory or more. It can’t be installed on a smaller bot.",
+"note": null,
+"vi": "Hermes Cloud có Screen trên các bot có ít nhất 8 GB bộ nhớ. Không thể cài Screen trên bot có bộ nhớ ít hơn."
+},
+"screen.managedNotIncludedTitle": {
+"en": "Screen isn’t included on this bot",
+"note": null,
+"vi": "Bot này không có Screen"
+},
+"screen.menu": {
+"en": "Open Screen",
+"note": null,
+"vi": "Mở màn hình"
+},
+"screen.noPackageManager": {
+"en": "No supported package manager (apt, dnf, pacman) was found on the gateway host.",
+"note": null,
+"vi": "Không tìm thấy trình quản lý gói được hỗ trợ (apt, dnf, pacman) trên máy chủ gateway."
+},
+"screen.notInstalledBody": {
+"en": "The gateway host needs TigerVNC and the Xfce core to give this bot a screen. Run on the host:",
+"note": null,
+"vi": "Máy chủ gateway cần TigerVNC và Xfce core để cấp màn hình cho bot này. Chạy lệnh sau trên máy chủ:"
+},
+"screen.notInstalledTitle": {
+"en": "Screen packages missing",
+"note": null,
+"vi": "Thiếu gói Screen"
+},
+"screen.openNeedsUpdate": {
+"en": "Update Hermes Desktop to open bot screens.",
+"note": null,
+"vi": "Cập nhật Hermes Desktop để mở màn hình bot."
+},
+"screen.otherControls": {
+"en": "Another viewer is in control",
+"note": null,
+"vi": "Người xem khác đang điều khiển"
+},
+"screen.portalNotInstalled": {
+"en": "Not installed on host",
+"note": null,
+"vi": "Chưa cài đặt trên máy chủ"
+},
+"screen.portalOpen": {
+"en": "Open",
+"note": null,
+"vi": "Mở"
+},
+"screen.portalOtherControls": {
+"en": "Live · another viewer in control",
+"note": null,
+"vi": "Đang hoạt động · người xem khác đang điều khiển"
+},
+"screen.portalStopped": {
+"en": "Stopped",
+"note": null,
+"vi": "Đã dừng"
+},
+"screen.portalTitle": {
+"en": "Screen",
+"note": null,
+"vi": "Màn hình"
+},
+"screen.portalUnavailable": {
+"en": "Update the bot’s Hermes to use Screen",
+"note": null,
+"vi": "Cập nhật Hermes của bot để dùng Screen"
+},
+"screen.portalUnavailableManaged": {
+"en": "Screen is not available on this managed Hermes release yet",
+"note": null,
+"vi": "Screen chưa có trên bản phát hành Hermes được quản lý này"
+},
+"screen.portalUnsupported": {
+"en": "Not available on this host",
+"note": null,
+"vi": "Không khả dụng trên máy chủ này"
+},
+"screen.portalWatching": {
+"en": "Live · bot in control",
+"note": null,
+"vi": "Đang hoạt động · bot đang điều khiển"
+},
+"screen.portalYouControl": {
+"en": "Live · you are in control",
+"note": null,
+"vi": "Đang hoạt động · bạn đang điều khiển"
+},
+"screen.reconnect": {
+"en": "Reconnect",
+"note": null,
+"vi": "Kết nối lại"
+},
+"screen.start": {
+"en": "Start screen",
+"note": null,
+"vi": "Khởi động Screen"
+},
+"screen.stoppedBody": {
+"en": "Start this bot’s desktop to watch what it does and take over when it needs you.",
+"note": null,
+"vi": "Khởi động màn hình desktop của bot để theo dõi hoạt động và tiếp quản khi bot cần bạn."
+},
+"screen.stoppedTitle": {
+"en": "Screen is off",
+"note": null,
+"vi": "Screen đang tắt"
+},
+"screen.streamLost": {
+"en": "Screen stream ended",
+"note": null,
+"vi": "Luồng Screen đã kết thúc"
+},
+"screen.takeOver": {
+"en": "Take over",
+"note": null,
+"vi": "Tiếp quản"
+},
+"screen.title": {
+"en": "Screen",
+"note": null,
+"vi": "Màn hình"
+},
+"screen.unavailableTitle": {
+"en": "Screen needs a newer Hermes",
+"note": null,
+"vi": "Screen cần phiên bản Hermes mới hơn"
+},
+"screen.unsupportedBody": {
+"en": "Bot screens run on Linux gateway hosts. This bot uses the host’s own display.",
+"note": null,
+"vi": "Màn hình bot chạy trên máy chủ gateway Linux. Bot này dùng màn hình có sẵn trên máy chủ."
+},
+"screen.unsupportedTitle": {
+"en": "No bot screen on this host",
+"note": null,
+"vi": "Máy chủ này không hỗ trợ màn hình cho bot"
+},
+"screen.youControl": {
+"en": "You are in control",
+"note": null,
+"vi": "Bạn đang điều khiển"
+},
+"sections.create": {
+"en": "Create",
+"note": null,
+"vi": "Tạo"
+},
+"sections.emptyHint": {
+"en": "Drag bots here",
+"note": null,
+"vi": "Kéo bot vào đây"
+},
+"sections.headingTip": {
+"en": "Drop bots here · double-click to rename",
+"note": null,
+"vi": "Thả bot vào đây · nhấp đúp để đổi tên"
+},
+"sections.moveDown": {
+"en": "Move down",
+"note": null,
+"vi": "Di chuyển xuống"
+},
+"sections.moveTo": {
+"en": "Move to section",
+"note": null,
+"vi": "Chuyển đến phần"
+},
+"sections.moveUp": {
+"en": "Move up",
+"note": null,
+"vi": "Di chuyển lên"
+},
+"sections.nameLabel": {
+"en": "Section name",
+"note": null,
+"vi": "Tên phần"
+},
+"sections.namePlaceholder": {
+"en": "e.g. Clients",
+"note": null,
+"vi": "ví dụ: Khách hàng"
+},
+"sections.newSection": {
+"en": "New section",
+"note": null,
+"vi": "Phần mới"
+},
+"sections.newSectionEllipsis": {
+"en": "New section…",
+"note": null,
+"vi": "Phần mới…"
+},
+"sections.newTitle": {
+"en": "New section",
+"note": null,
+"vi": "Phần mới"
+},
+"sections.removeFromSection": {
+"en": "Remove from section",
+"note": null,
+"vi": "Gỡ khỏi phần"
+},
+"sections.rename": {
+"en": "Rename…",
+"note": null,
+"vi": "Đổi tên…"
+},
+"sections.renameTitle": {
+"en": "Rename section",
+"note": null,
+"vi": "Đổi tên phần"
+},
+"sections.unassigned": {
+"en": "Unassigned",
+"note": null,
+"vi": "Chưa phân loại"
+},
+"sections.undo": {
+"en": "Undo",
+"note": null,
+"vi": "Hoàn tác"
+},
+"tools.addServerFailed": {
+"en": "Could not add server",
+"note": null,
+"vi": "Không thể thêm máy chủ"
+},
+"tools.authorizing": {
+"en": "Authorizing…",
+"note": null,
+"vi": "Đang cấp quyền…"
+},
+"tools.completeSignIn": {
+"en": "Complete sign-in in your browser...",
+"note": null,
+"vi": "Hoàn tất đăng nhập trong trình duyệt..."
+},
+"tools.filterSkills": {
+"en": "Filter skills…",
+"note": null,
+"vi": "Lọc kỹ năng…"
+},
+"tools.noMcpServers": {
+"en": "No MCP servers configured or in the catalog.",
+"note": null,
+"vi": "Chưa cấu hình máy chủ MCP nào hoặc không có máy chủ nào trong danh mục."
+},
+"tools.noTarget": {
+"en": "No target profile",
+"note": null,
+"vi": "Không có hồ sơ đích"
+},
+"tools.resizeHint": {
+"en": "Drag the corner to resize.",
+"note": null,
+"vi": "Kéo góc để đổi kích thước."
+},
+"tools.saveTest": {
+"en": "Save & test",
+"note": null,
+"vi": "Lưu và kiểm tra"
+},
+"tools.searchHint": {
+"en": "Searching community + well-known sources — can take ~10s…",
+"note": null,
+"vi": "Đang tìm trong cộng đồng và các nguồn uy tín — có thể mất khoảng 10 giây…"
+},
+"tools.searchHub": {
+"en": "Search the hub (community + well-known sources)…",
+"note": null,
+"vi": "Tìm trong trung tâm (cộng đồng và các nguồn uy tín)…"
+},
+"tools.setUp": {
+"en": "Set up…",
+"note": null,
+"vi": "Thiết lập…"
+},
+"tools.setUpDone": {
+"en": "set up ✓",
+"note": null,
+"vi": "đã thiết lập ✓"
+},
+"tools.setupFailed": {
+"en": "Setup failed",
+"note": null,
+"vi": "Thiết lập thất bại"
+},
+"tools.signIn": {
+"en": "Sign in…",
+"note": null,
+"vi": "Đăng nhập…"
+},
+"tools.skillsHub": {
+"en": "Hermes Skills Hub",
+"note": null,
+"vi": "Trung tâm kỹ năng Hermes"
+},
+"tools.testFailed": {
+"en": "Server test failed after setup",
+"note": null,
+"vi": "Kiểm tra máy chủ thất bại sau khi thiết lập"
+},
+"tools.working": {
+"en": "Working…",
+"note": null,
+"vi": "Đang xử lý…"
+}
+}

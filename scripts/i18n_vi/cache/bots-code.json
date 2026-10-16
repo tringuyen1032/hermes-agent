@@ -1,0 +1,387 @@
+{
+"bot.groupsMenu": {
+"en": "(groups) => `Groups: ${groups}\\u2026`",
+"note": null,
+"vi": "(groups) => `Nhóm: ${groups}…`"
+},
+"bot.hiddenToast": {
+"en": "(name) => `${name} hidden \\u2014 use the eye button in the Bots header to see hidden bots`",
+"note": null,
+"vi": "(name) => `Đã ẩn ${name} — dùng nút hình con mắt trong tiêu đề Bots để xem các bot đã ẩn`"
+},
+"bot.openChatFailedTitle": {
+"en": "(botName) => `Could not open ${botName}\\u2019s chat`",
+"note": null,
+"vi": "(botName) => `Không thể mở cuộc trò chuyện với ${botName}`"
+},
+"bot.openNeedsUpdateMessage": {
+"en": "(connectionLabel) => `Update ${connectionLabel}, then try again.`",
+"note": null,
+"vi": "(connectionLabel) => `Hãy cập nhật ${connectionLabel} rồi thử lại.`"
+},
+"bot.pinnedToast": {
+"en": "(name) => `${name} pinned to top`",
+"note": null,
+"vi": "(name) => `Đã ghim ${name} lên đầu`"
+},
+"bot.unhiddenToast": {
+"en": "(name) => `${name} is back in the roster`",
+"note": null,
+"vi": "(name) => `${name} đã trở lại danh sách`"
+},
+"bot.unpinnedToast": {
+"en": "(name) => `${name} unpinned`",
+"note": null,
+"vi": "(name) => `Đã bỏ ghim ${name}`"
+},
+"cron.botChatTarget": {
+"en": "(bot) => `${bot}\\u2019s chat (bot responds)`",
+"note": null,
+"vi": "(bot) => `Cuộc trò chuyện với ${bot} (bot sẽ phản hồi)`"
+},
+"cron.createDesc": {
+"en": "(bot) => `A recurring task ${bot} runs on a schedule. Runs land in its own chat history.`",
+"note": null,
+"vi": "(bot) => `Tác vụ định kỳ ${bot} chạy theo lịch. Các lần chạy được lưu trong lịch sử trò chuyện riêng.`"
+},
+"cron.everyNDays": {
+"en": "(days) => `Every ${days} days`",
+"note": null,
+"vi": "(days) => `Mỗi ${days} ngày`"
+},
+"cron.everyNHours": {
+"en": "(hours) => `Every ${hours}h`",
+"note": null,
+"vi": "(hours) => `Mỗi ${hours} giờ`"
+},
+"cron.everyNMinutes": {
+"en": "(minutes) => `Every ${minutes}m`",
+"note": null,
+"vi": "(minutes) => `Mỗi ${minutes} phút`"
+},
+"cron.onceIn": {
+"en": "(when) => `Once (${when})`",
+"note": null,
+"vi": "(when) => `Một lần (${when})`"
+},
+"cron.runsDaily": {
+"en": "(time) => `Runs every day at ${time}`",
+"note": null,
+"vi": "(time) => `Chạy hằng ngày lúc ${time}`"
+},
+"cron.runsInterval": {
+"en": "(count2, unit) => `Runs every ${count2} ${unit}`",
+"note": null,
+"vi": "(count2, unit) => `Chạy mỗi ${count2} ${unit}`"
+},
+"cron.runsMonthly": {
+"en": "(day, time) => `Runs on day ${day} of each month at ${time}`",
+"note": null,
+"vi": "(day, time) => `Chạy vào ngày ${day} hằng tháng lúc ${time}`"
+},
+"cron.runsOnce": {
+"en": "(count2, unit) => `Runs once, ${count2} ${unit} from now`",
+"note": null,
+"vi": "(count2, unit) => `Chạy một lần sau ${count2} ${unit} nữa`"
+},
+"cron.runsWeekdays": {
+"en": "(time) => `Runs Monday\\u2013Friday at ${time}`",
+"note": null,
+"vi": "(time) => `Chạy từ thứ Hai đến thứ Sáu lúc ${time}`"
+},
+"cron.runsWeekly": {
+"en": "(day, time) => `Runs every ${day} at ${time}`",
+"note": null,
+"vi": "(day, time) => `Chạy vào thứ ${day} hằng tuần lúc ${time}`"
+},
+"cron.timesTotal": {
+"en": "(count2) => `, ${count2} time(s) total`",
+"note": null,
+"vi": "(count2) => `, tổng cộng ${count2} lần`"
+},
+"editor.catalogHint": {
+"en": "(source) => `Catalog from ${source} \\u2014 unchecked skills are disabled after creation.`",
+"note": null,
+"vi": "(source) => `Danh mục từ ${source} — các kỹ năng chưa chọn sẽ bị tắt sau khi tạo.`"
+},
+"editor.cloneFromOn": {
+"en": "(target) => `Clone from profile (on ${target})`",
+"note": null,
+"vi": "(target) => `Sao chép từ hồ sơ (trên ${target})`"
+},
+"editor.created": {
+"en": "(name) => `Bot \"${name}\" created`",
+"note": null,
+"vi": "(name) => `Đã tạo bot \"${name}\"`"
+},
+"editor.createdOn": {
+"en": "(name, target) => `Bot \"${name}\" created on ${target}`",
+"note": null,
+"vi": "(name, target) => `Đã tạo bot \"${name}\" trên ${target}`"
+},
+"editor.currentConnection": {
+"en": "(name) => `${name} (current)`",
+"note": null,
+"vi": "(name) => `${name} (hiện tại)`"
+},
+"editor.editDescription": {
+"en": "(name, profile) => `Appearance and role for ${name} (${profile}).`",
+"note": null,
+"vi": "(name, profile) => `Giao diện và vai trò của ${name} (${profile}).`"
+},
+"editor.nameTaken": {
+"en": "(name) => `An agent named \"${name}\" already exists.`",
+"note": null,
+"vi": "(name) => `Đã có agent tên \"${name}\".`"
+},
+"editor.nameTakenOn": {
+"en": "(name, target) => `An agent named \"${name}\" already exists on ${target}.`",
+"note": null,
+"vi": "(name, target) => `Đã có agent tên \"${name}\" trên ${target}.`"
+},
+"editor.remoteHint": {
+"en": "(target) => `The agent is created on ${target} and appears in the roster as a Connections bot. Chat routes to that machine.`",
+"note": null,
+"vi": "(target) => `Agent sẽ được tạo trên ${target} và xuất hiện trong danh sách dưới dạng bot Connections. Cuộc trò chuyện sẽ được chuyển đến máy đó.`"
+},
+"editor.sectionsFailed": {
+"en": "(sections) => `Some sections failed: ${sections}`",
+"note": null,
+"vi": "(sections) => `Một số mục gặp lỗi: ${sections}`"
+},
+"editor.shareKeysOn": {
+"en": "(target) => `Share keys & accounts with the default profile on ${target}`",
+"note": null,
+"vi": "(target) => `Chia sẻ khóa và tài khoản với hồ sơ mặc định trên ${target}`"
+},
+"editor.skillsEnabled": {
+"en": "(enabled, total) => `Skills (${enabled}/${total} enabled)`",
+"note": null,
+"vi": "(enabled, total) => `Kỹ năng (${enabled}/${total} đã bật)`"
+},
+"editor.toolsetsEnabled": {
+"en": "(enabled, total) => `Toolsets (${enabled}/${total} enabled \\u2014 unchecking all restores the default)`",
+"note": null,
+"vi": "(enabled, total) => `Bộ công cụ (${enabled}/${total} đã bật — bỏ chọn tất cả để khôi phục mặc định)`"
+},
+"editor.updated": {
+"en": "(name) => `${name} updated`",
+"note": null,
+"vi": "(name) => `Đã cập nhật ${name}`"
+},
+"group.allHeldStatus": {
+"en": "(count2) => `All ${count2} bots are paused`",
+"note": null,
+"vi": "(count2) => `Cả ${count2} bot đều đang tạm dừng`"
+},
+"group.answerFailed": {
+"en": "(handle, error) => `Could not send the answer to @${handle}: ${error}`",
+"note": null,
+"vi": "(handle, error) => `Không thể gửi câu trả lời cho @${handle}: ${error}`"
+},
+"group.answerTo": {
+"en": "(member) => `Answer @${member}`",
+"note": null,
+"vi": "(member) => `Trả lời @${member}`"
+},
+"group.asks": {
+"en": "(handle) => `@${handle} asks:`",
+"note": null,
+"vi": "(handle) => `@${handle} hỏi:`"
+},
+"group.availableCount": {
+"en": "(available, total) => `${available} of ${total} available`",
+"note": null,
+"vi": "(available, total) => `Có thể dùng ${available}/${total}`"
+},
+"group.compressDone": {
+"en": "(member, compressed, detail) => `Compressed ${compressed} room session${compressed === 1 ? \"\" : \"s\"} for ${member}${detail ? ` \\u2014 ${detail}` : \"\"}`",
+"note": null,
+"vi": "(member, compressed, detail) => `Đã nén ${compressed} phiên phòng cho ${member}${detail ? ` — ${detail}` : \"\"}`"
+},
+"group.compressFailed": {
+"en": "(member, error) => `Could not compress ${member}'s room history: ${error}`",
+"note": null,
+"vi": "(member, error) => `Không thể nén lịch sử phòng của ${member}: ${error}`"
+},
+"group.compressHistoryHint": {
+"en": "(member) => `Compress ${member}'s hidden room history so the member stops failing with empty replies`",
+"note": null,
+"vi": "(member) => `Nén lịch sử phòng đã ẩn của ${member} để thành viên không còn gặp lỗi phản hồi trống`"
+},
+"group.compressNothing": {
+"en": "(member) => `Nothing to compress for ${member} \\u2014 no room session yet`",
+"note": null,
+"vi": "(member) => `Không có gì cần nén cho ${member} — chưa có phiên phòng`"
+},
+"group.compressing": {
+"en": "(member) => `Compressing ${member}'s room history\\u2026`",
+"note": null,
+"vi": "(member) => `Đang nén lịch sử phòng của ${member}…`"
+},
+"group.disbandDescSuffix": {
+"en": "(count2) => ` grouping from its ${count2} bots and clears the shared room log. The bots themselves and their per-group sessions are kept.`",
+"note": null,
+"vi": "(count2) => ` nhóm khỏi ${count2} bot và xóa nhật ký phòng dùng chung. Các bot và phiên riêng theo nhóm vẫn được giữ lại.`"
+},
+"group.disbandHint": {
+"en": "(group2) => `Disband the ${group2} group chat`",
+"note": null,
+"vi": "(group2) => `Giải tán cuộc trò chuyện nhóm ${group2}`"
+},
+"group.disbandLabel": {
+"en": "(group2) => `Disband ${group2}`",
+"note": null,
+"vi": "(group2) => `Giải tán ${group2}`"
+},
+"group.disbanded": {
+"en": "(group2) => `Disbanded \\u201C${group2}\\u201D`",
+"note": null,
+"vi": "(group2) => `Đã giải tán “${group2}”`"
+},
+"group.heldMembersStatus": {
+"en": "(members) => `Paused: ${members}`",
+"note": null,
+"vi": "(members) => `Đang tạm dừng: ${members}`"
+},
+"group.memberCount": {
+"en": "(count2) => `${count2} bots`",
+"note": null,
+"vi": "(count2) => `${count2} bot`"
+},
+"group.memberThinking": {
+"en": "(name) => `${name} is thinking\\u2026`",
+"note": null,
+"vi": "(name) => `${name} đang suy nghĩ…`"
+},
+"group.messageRoom": {
+"en": "(group2) => `Message ${group2}`",
+"note": null,
+"vi": "(group2) => `Nhắn tin cho ${group2}`"
+},
+"group.nameTaken": {
+"en": "(name) => `A group named \\u201C${name}\\u201D already exists.`",
+"note": null,
+"vi": "(name) => `Đã có nhóm tên “${name}”.`"
+},
+"group.newThreadPlaceholder": {
+"en": "(group2) => `New thread in ${group2}\\u2026 (@name to direct, @everyone for all)`",
+"note": null,
+"vi": "(group2) => `Luồng mới trong ${group2}… (@name để gửi riêng, @everyone để gửi cho tất cả)`"
+},
+"group.noMembersToSend": {
+"en": "(group2) => `${group2} has no members to send to \\u2014 add a bot, or reopen the room if members are still loading.`",
+"note": null,
+"vi": "(group2) => `${group2} chưa có thành viên để gửi tin nhắn — hãy thêm bot hoặc mở lại phòng nếu thành viên vẫn đang tải.`"
+},
+"group.replyCount": {
+"en": "(replies) => `${replies} ${replies === 1 ? \"reply\" : \"replies\"}`",
+"note": null,
+"vi": "(replies) => `${replies} phản hồi`"
+},
+"group.settingsHint": {
+"en": "(group2) => `Group settings \\u2014 rename ${group2} or set a room picture`",
+"note": null,
+"vi": "(group2) => `Cài đặt nhóm — đổi tên ${group2} hoặc đặt ảnh phòng`"
+},
+"group.settingsLabel": {
+"en": "(group2) => `Group settings for ${group2}`",
+"note": null,
+"vi": "(group2) => `Cài đặt nhóm ${group2}`"
+},
+"group.stopped": {
+"en": "(group2) => `Stopped ${group2} \\u2014 remaining turns are held until you resume`",
+"note": null,
+"vi": "(group2) => `Đã dừng ${group2} — các lượt còn lại sẽ tạm dừng cho đến khi bạn tiếp tục`"
+},
+"group.wantsToRunCommand": {
+"en": "(handle) => `@${handle} wants to run a command:`",
+"note": null,
+"vi": "(handle) => `@${handle} muốn chạy lệnh:`"
+},
+"roster.noMatchFiltersOn": {
+"en": "(gateway) => `No bots or group chats match these filters on ${gateway}`",
+"note": null,
+"vi": "(gateway) => `Không có bot hoặc cuộc trò chuyện nhóm nào khớp với các bộ lọc này trên ${gateway}`"
+},
+"roster.noMatchQuery": {
+"en": "(query) => `No bots or group chats match \\u201C${query}\\u201D`",
+"note": null,
+"vi": "(query) => `Không có bot hoặc cuộc trò chuyện nhóm nào khớp với “${query}”`"
+},
+"roster.noMatchQueryOn": {
+"en": "(query, gateway) => `No bots or group chats match \\u201C${query}\\u201D on ${gateway}`",
+"note": null,
+"vi": "(query, gateway) => `Không có bot hoặc cuộc trò chuyện nhóm nào khớp với “${query}” trên ${gateway}`"
+},
+"roster.rosterUnavailable": {
+"en": "(reason) => `Roster unavailable: ${reason}. If your gateway predates profiles.list, update Hermes and restart the gateway.`",
+"note": null,
+"vi": "(reason) => `Danh sách hiện không khả dụng: ${reason}. Nếu gateway của bạn chưa có profiles.list, hãy cập nhật Hermes rồi khởi động lại gateway.`"
+},
+"screen.autoOpenOffToast": {
+"en": "(name) => `${name}\\u2019s Screen stays closed until you open it`",
+"note": null,
+"vi": "(name) => `Màn hình của ${name} sẽ đóng cho đến khi bạn mở`"
+},
+"screen.autoOpenOnToast": {
+"en": "(name) => `${name}\\u2019s Screen opens when it starts using its desktop`",
+"note": null,
+"vi": "(name) => `Màn hình của ${name} sẽ mở khi bắt đầu dùng máy tính`"
+},
+"screen.imageSwitchBody": {
+"en": "(current2, target) => `Your sandbox still runs ${current2}, which has no desktop. Switching to ${target} recreates the container the next time the bot uses its terminal: files in /root and /workspace stay on this machine, packages installed inside the container are reinstalled on demand.`",
+"note": null,
+"vi": "(current2, target) => `Sandbox của bạn vẫn đang chạy ${current2}, không có giao diện máy tính. Chuyển sang ${target} sẽ tạo lại container vào lần tiếp theo bot dùng terminal: các tệp trong /root và /workspace vẫn nằm trên máy này, còn các gói đã cài trong container sẽ được cài lại khi cần.`"
+},
+"screen.placementSandbox": {
+"en": "(backend) => `Screen runs inside the ${backend} sandbox, with the terminal`",
+"note": null,
+"vi": "(backend) => `Màn hình chạy trong sandbox ${backend}, cùng với terminal`"
+},
+"sections.deleted": {
+"en": "(name, count2) => count2 === 0 ? `Deleted \\u201C${name}\\u201D` : `Deleted \\u201C${name}\\u201D \\u2014 ${count2} ${count2 === 1 ? \"bot\" : \"bots\"} moved to Unassigned`",
+"note": null,
+"vi": "(name, count2) => count2 === 0 ? `Đã xóa “${name}”` : `Đã xóa “${name}” — ${count2} bot đã được chuyển sang Chưa phân nhóm`"
+},
+"sections.options": {
+"en": "(name) => `${name} section options`",
+"note": null,
+"vi": "(name) => `Tùy chọn mục ${name}`"
+},
+"tools.authenticated": {
+"en": "(name) => `${name} authenticated`",
+"note": null,
+"vi": "(name) => `Đã xác thực ${name}`"
+},
+"tools.configured": {
+"en": "(name) => `${name} configured`",
+"note": null,
+"vi": "(name) => `Đã cấu hình ${name}`"
+},
+"tools.installFailed": {
+"en": "(name) => `Installing \"${name}\" failed`",
+"note": null,
+"vi": "(name) => `Cài đặt \"${name}\" thất bại`"
+},
+"tools.installHint": {
+"en": "(name) => `Install \"${name}\" and add it to the list above`",
+"note": null,
+"vi": "(name) => `Cài đặt \"${name}\" và thêm vào danh sách phía trên`"
+},
+"tools.installed": {
+"en": "(name) => `Skill \"${name}\" installed`",
+"note": null,
+"vi": "(name) => `Đã cài đặt kỹ năng \"${name}\"`"
+},
+"tools.needsSetup": {
+"en": "(keys) => `needs setup (${keys}) \\u2014 restart the gateway to enable in-app setup`",
+"note": null,
+"vi": "(keys) => `cần thiết lập (${keys}) — khởi động lại gateway để bật thiết lập trong ứng dụng`"
+},
+"tools.setKeyFailed": {
+"en": "(key) => `Failed to set ${key}`",
+"note": null,
+"vi": "(key) => `Không thể đặt ${key}`"
+}
+}

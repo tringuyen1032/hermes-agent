@@ -1,0 +1,87 @@
+{
+"allowOnce": {
+"en": "Allow once",
+"note": null,
+"vi": "Cho phép một lần"
+},
+"attachFiles": {
+"en": "Attach files",
+"note": null,
+"vi": "Đính kèm tệp"
+},
+"confirmDiscard": {
+"en": "Confirm discard",
+"note": null,
+"vi": "Xác nhận bỏ"
+},
+"deny": {
+"en": "Deny",
+"note": null,
+"vi": "Từ chối"
+},
+"discardUnknown": {
+"en": "Discard unknown work",
+"note": null,
+"vi": "Bỏ công việc không xác định"
+},
+"discardWarning": {
+"en": "Side effects may already have occurred. Discarding does not undo them.",
+"note": null,
+"vi": "Các tác động phụ có thể đã xảy ra. Bỏ công việc không thể hoàn tác những tác động đó."
+},
+"driverUnavailable": {
+"en": "Group driver unavailable. Update or reconnect the owning gateway.",
+"note": null,
+"vi": "Trình điều khiển nhóm không khả dụng. Hãy cập nhật hoặc kết nối lại gateway quản lý nhóm này."
+},
+"emptyGroups": {
+"en": "No gateway groups found.",
+"note": null,
+"vi": "Không tìm thấy nhóm gateway."
+},
+"groupMessage": {
+"en": "Group message",
+"note": null,
+"vi": "Tin nhắn nhóm"
+},
+"invalidLogCursor": {
+"en": "Invalid room log cursor",
+"note": null,
+"vi": "Con trỏ nhật ký phòng không hợp lệ"
+},
+"loadingGroup": {
+"en": "Loading group…",
+"note": null,
+"vi": "Đang tải nhóm…"
+},
+"loadingGroups": {
+"en": "Loading gateway groups…",
+"note": null,
+"vi": "Đang tải các nhóm gateway…"
+},
+"refreshGroups": {
+"en": "Refresh gateway groups",
+"note": null,
+"vi": "Làm mới các nhóm gateway"
+},
+"removeAttachment": {
+"en": "Remove attachment",
+"note": null,
+"vi": "Gỡ tệp đính kèm"
+},
+"restoredPendingSend": {
+"en": "An unconfirmed send was restored. Retry it before sending another message.",
+"note": null,
+"vi": "Đã khôi phục tin nhắn chưa được xác nhận. Hãy thử gửi lại trước khi gửi tin nhắn khác."
+},
+"unconfirmedSend": {
+"en": "The previous send is unconfirmed. Retry its original text before sending another message.",
+"note": null,
+"vi": "Tin nhắn gửi trước đó chưa được xác nhận. Hãy thử gửi lại nội dung ban đầu trước khi gửi tin nhắn khác."
+},
+"uploadFailed": {
+"en": "Upload failed",
+"note": null,
+"vi": "Tải lên thất bại"
+}
+}
