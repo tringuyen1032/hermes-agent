@@ -10,6 +10,7 @@ import json
 import os
 import random
 import re
+import sys
 import time
 import urllib.error
 import urllib.request
@@ -84,3 +85,20 @@ def parse_json_object(content: str) -> dict:
         if start >= 0 and end > start:
             return json.loads(text[start:end + 1])
         raise
+
+
+def ping() -> None:
+    """Exit non-zero unless the endpoint answers and offers MODEL (run before any work starts)."""
+    base, key = endpoint()
+    req = urllib.request.Request(f"{base}/models", headers={"Authorization": f"Bearer {key}"})
+    with urllib.request.urlopen(req, timeout=20) as resp:
+        ids = {model.get("id") for model in json.loads(resp.read()).get("data", [])}
+    if MODEL not in ids:
+        sys.exit(f"{MODEL} is not offered by {base}")
+    print(f"ok: {MODEL} at {base}")
+
+
+if __name__ == "__main__":
+    if sys.argv[1:] != ["--ping"]:
+        sys.exit("usage: python llm.py --ping")
+    ping()

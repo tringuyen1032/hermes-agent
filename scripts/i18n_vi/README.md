@@ -23,6 +23,25 @@ Endpoint: `VI_I18N_BASE_URL` + `VI_I18N_API_KEY` (máy chủ tương thích Open
 Nếu không đặt, công cụ dùng provider của Codex CLI trong `~/.codex/config.toml`.
 Mô hình: `VI_I18N_MODEL` (mặc định `gpt-6-luna`).
 
+## Tự đồng bộ hằng ngày
+
+`sync-upstream.sh` gộp các commit mới của upstream, dịch chuỗi mới (`update.sh`), kiểm tra
+(typecheck, test i18n, lint, so khớp khóa và placeholder với tiếng Anh), rồi ghi tất cả thành một
+merge commit và push nhánh. Script chỉ chạy khi checkout sạch và đang ở nhánh vi. Hễ một bước
+lỗi, checkout trở về đúng trạng thái trước khi chạy và có thông báo macOS. Xung đột merge cần xử
+lý tay, trừ khối `vi` trong plugin kanban/bot (được sinh lại tự động).
+
+```sh
+scripts/i18n_vi/launchd.sh install 09:00   # lịch hằng ngày qua launchd; thêm --build để build lại app
+scripts/i18n_vi/launchd.sh status          # trạng thái và nhật ký gần nhất
+scripts/i18n_vi/launchd.sh run             # chạy ngay
+scripts/i18n_vi/launchd.sh uninstall
+```
+
+Dùng launchd thay vì cron vì Mac đang ngủ lúc đến giờ thì job chạy khi máy thức dậy, không bị bỏ
+qua. Nhật ký: `.work/sync.log`. Cần mạng tới endpoint dịch (Tailscale) lúc chạy; nếu không tới
+được, job bỏ qua lượt đó.
+
 ## Sửa tay một bản dịch
 
 `cache/` là bộ nhớ dịch. Ghim bản dịch đã duyệt vào cache rồi chạy lại `update.sh`:
