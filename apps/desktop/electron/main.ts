@@ -220,6 +220,7 @@ import { describeCrashReason, installCrashForensics } from './crash-forensics'
 import { adoptServedDashboardToken } from './dashboard-token'
 import { resolveDesktopHermesHome, resolveDesktopUserData } from './data-paths'
 import { registerDeepLinkProtocol as registerDeepLinkProtocolWith } from './deep-link-protocol'
+import { DEFAULT_UI_LOCALE } from './default-ui-locale'
 import { loadOrCreateInstallationId, sshOwnershipId } from './desktop-installation'
 import { formatDesktopLogLine, formatLogStamp } from './desktop-log-line'
 import {
@@ -389,6 +390,7 @@ import {
   NativeAuthChangedError
 } from './native-access-token'
 import { oauthSessionIsLive, resolveJsonBody, resolveReadinessProbeAuth } from './native-auth-decisions'
+import { localizeMenuTemplate } from './native-menu-i18n'
 import {
   nativeRefreshUrl,
   type NativeTokenSet,
@@ -1414,6 +1416,9 @@ const BOOT_FAKE_STEP_MS = (() => {
 })()
 
 const APP_NAME: string = IDENTITY_APP_NAME || process.env.HERMES_DESKTOP_APP_NAME || 'Hermes'
+// The renderer's UI language, mirrored for the native menus (`hermes:menu-locale`). Starts at this
+// build's first-run language so a fresh install's menu bar matches before the renderer reports.
+let nativeMenuLocale = DEFAULT_UI_LOCALE
 const HUD_WINDOW_TITLE = `${APP_NAME} HUD`
 const TITLEBAR_HEIGHT = 34
 const MACOS_TRAFFIC_LIGHTS_HEIGHT = 14
@@ -6619,7 +6624,7 @@ function buildApplicationMenu() {
     submenu: [checkForUpdatesItem]
   })
 
-  return Menu.buildFromTemplate(template)
+  return Menu.buildFromTemplate(localizeMenuTemplate(template, nativeMenuLocale, APP_NAME))
 }
 
 function toggleDevTools(window) {
@@ -12550,6 +12555,7 @@ const minimizeToTray = createMinimizeToTray({
   restoreMainWindow: () =>
     ensureMainWindow(mainWindow, { isReady: app.isReady(), createWindow, focusWindow: activateWindow }),
   isQuittingForHandoff: () => isQuittingForHandoff,
+  localizeMenu: template => localizeMenuTemplate(template, nativeMenuLocale, APP_NAME),
   log: rememberLog
 })
 
@@ -17003,6 +17009,19 @@ ipcMain.on('hermes:titlebar-theme', (_event, payload) => {
   // one app theme. applyTitleBarOverlay no-ops on the frameless pet overlay.
   for (const win of BrowserWindow.getAllWindows()) {
     applyTitleBarOverlay(win)
+  }
+})
+
+// Relabel the native menu bar when the renderer's UI language changes (only macOS installs one).
+ipcMain.on('hermes:menu-locale', (_event, locale) => {
+  if (typeof locale !== 'string' || !locale.trim() || locale === nativeMenuLocale) {
+    return
+  }
+
+  nativeMenuLocale = locale
+
+  if (IS_MAC && Menu.getApplicationMenu()) {
+    Menu.setApplicationMenu(buildApplicationMenu())
   }
 })
 

@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 
-import { app, BrowserWindow, ipcMain, Menu, nativeImage, Tray } from 'electron'
+import { app, BrowserWindow, ipcMain, Menu, type MenuItemConstructorOptions, nativeImage, Tray } from 'electron'
 
 export interface MinimizeToTrayStatus {
   enabled: boolean
@@ -13,6 +13,8 @@ interface Options {
   getIconPath: () => string | undefined
   restoreMainWindow: () => void
   isQuittingForHandoff: () => boolean
+  /** Relabel the tray menu for the UI language (identity when absent). */
+  localizeMenu?: (template: MenuItemConstructorOptions[]) => MenuItemConstructorOptions[]
   log: (message: string) => void
 }
 
@@ -184,14 +186,15 @@ export function createMinimizeToTray(options: Options) {
           })
         )
         tray.setToolTip('Hermes')
-        tray.setContextMenu(
-          Menu.buildFromTemplate([
-            { label: 'Show Hermes', click: restore },
-            { type: 'separator' },
-            // Do not bypass the ordinary active-work confirmation or teardown.
-            { label: 'Quit Hermes', click: () => app.quit() }
-          ])
-        )
+
+        const trayMenu: MenuItemConstructorOptions[] = [
+          { label: 'Show Hermes', click: restore },
+          { type: 'separator' },
+          // Do not bypass the ordinary active-work confirmation or teardown.
+          { label: 'Quit Hermes', click: () => app.quit() }
+        ]
+
+        tray.setContextMenu(Menu.buildFromTemplate(options.localizeMenu?.(trayMenu) ?? trayMenu))
 
         // macOS single-click opens the native menu, not the window behind it.
         if (process.platform !== 'darwin') {

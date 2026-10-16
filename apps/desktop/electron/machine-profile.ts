@@ -3,9 +3,13 @@ import * as os from 'node:os'
 
 import { app, ipcMain } from 'electron'
 
+import { DEFAULT_UI_LOCALE } from './default-ui-locale'
+
 export interface MachineProfile {
   ageDays: number | null
   arch: string
+  /** The build's first-run UI language (see default-ui-locale.ts); absent on builds that follow the OS. */
+  defaultUiLocale?: string
   locale: string
   platform: NodeJS.Platform
   release: string
@@ -40,6 +44,7 @@ function readMachineProfile(): MachineProfile {
   return {
     ageDays,
     arch: process.arch,
+    defaultUiLocale: DEFAULT_UI_LOCALE,
     locale: app.getLocale() || '',
     platform: process.platform,
     release: os.release(),

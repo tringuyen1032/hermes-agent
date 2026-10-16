@@ -1127,8 +1127,270 @@ const zhHant: KanbanMessages = {
   }
 }
 
+const vi: KanbanMessages = {
+  nav: 'Kanban',
+  openBoard: 'Kanban: Mở bảng',
+  newTaskCommand: 'Kanban: Tạo tác vụ mới',
+  countTip: (running, ready) => `Kanban — ${running} đang chạy, ${ready} sẵn sàng`,
+  col: {
+    triage: {
+      label: 'Phân loại',
+      help: 'Ý tưởng thô — người phụ trách đặc tả sẽ hoàn thiện bản đặc tả.'
+    },
+    todo: {
+      label: 'Việc cần làm',
+      help: 'Đang chờ tác vụ phụ thuộc hoặc chưa được giao.'
+    },
+    scheduled: {
+      label: 'Đã lên lịch',
+      help: 'Đang chờ đến giờ đã hẹn.'
+    },
+    ready: {
+      label: 'Sẵn sàng',
+      help: 'Đã đáp ứng các điều kiện phụ thuộc — chỉ định hồ sơ để bộ điều phối chạy tác vụ.'
+    },
+    running: {
+      label: 'Đang chạy',
+      help: 'Đã được worker nhận — agent đang xử lý. Bộ điều phối tự cập nhật trạng thái này.'
+    },
+    blocked: {
+      label: 'Bị chặn',
+      help: 'Worker cần người dùng cung cấp thông tin.'
+    },
+    review: {
+      label: 'Đang xem xét',
+      help: 'Agent review đang kiểm tra kết quả. Bộ điều phối tự cập nhật trạng thái này.'
+    },
+    done: {
+      label: 'Hoàn tất',
+      help: 'Đã hoàn tất; các tác vụ con phụ thuộc sẽ chuyển sang trạng thái sẵn sàng.'
+    },
+    archived: {
+      label: 'Đã lưu trữ',
+      help: 'Ẩn khỏi chế độ xem bảng mặc định.'
+    }
+  },
+  locked: {
+    review: 'Bộ điều phối chuyển tác vụ sang trạng thái đang xem xét khi agent review nhận thẻ.',
+    running: 'Bộ điều phối chuyển tác vụ sang trạng thái đang chạy khi worker nhận thẻ.',
+    scheduled: 'Trạng thái đã lên lịch cần có giờ đánh thức — agent sẽ đặt giờ; không thể kéo thẻ vào đây.'
+  },
+  arcRunning: 'Agent đang xử lý tác vụ này.',
+  arcStale:
+    'Đã được nhận nhưng worker không gửi tín hiệu hoạt động trong hơn 2 phút — bộ điều phối sẽ nhận lại tác vụ.',
+  title: 'Kanban',
+  orchestrationSettings: 'Cài đặt điều phối',
+  newTask: 'Tạo tác vụ mới',
+  filterCards: 'Lọc thẻ…',
+  noMatch: 'Không có tác vụ nào khớp với bộ lọc',
+  noTasks: 'Bảng này chưa có tác vụ nào',
+  open: 'Mở',
+  select: modifier => `Chọn (nhấp với ${modifier})`,
+  deselect: 'Bỏ chọn',
+  moveTo: label => `Chuyển đến ${label}`,
+  delete: 'Xóa',
+  reviewChecking: 'Agent review đang kiểm tra kết quả đã hoàn tất.',
+  attachedTip: name => `${name} đã được gắn — bộ điều phối sẽ bàn giao ở chu kỳ tiếp theo (≤1 phút).`,
+  orchestratorTip: name => `${name} (bộ điều phối) sẽ xử lý ở chu kỳ tiếp theo và viết bản đặc tả.`,
+  autoAssignTip: name => `Tự động giao cho “${name}” (kanban.default_assignee) ở chu kỳ điều phối tiếp theo.`,
+  wontRun: 'sẽ không chạy',
+  wontRunTip:
+    'Thẻ ở trạng thái sẵn sàng chỉ chạy khi đã được chỉ định hồ sơ. Mở thẻ rồi chỉ định người phụ trách, hoặc đặt người phụ trách mặc định trong cài đặt điều phối.',
+  noHeartbeat: 'không có tín hiệu hoạt động',
+  expand: label => `Mở rộng ${label}`,
+  collapse: label => `Thu gọn ${label}`,
+  newTaskIn: label => `Tạo tác vụ mới trong ${label}`,
+  empty: 'Trống',
+  unassigned: 'chưa giao',
+  filters: 'Bộ lọc',
+  allProfiles: 'Tất cả hồ sơ',
+  allTenants: 'Tất cả tenant',
+  showArchived: 'Hiện mục đã lưu trữ',
+  groupRunning: 'Nhóm tác vụ đang chạy theo hồ sơ',
+  nSelected: n => `Đã chọn ${n}`,
+  moveToShort: 'Chuyển đến',
+  assign: 'Giao',
+  unassignAction: 'Bỏ giao',
+  archive: 'Lưu trữ',
+  clearSelection: 'Bỏ chọn (Esc)',
+  refused: 'đã từ chối',
+  bulkFailed: (failed2, total, err) => `${failed2}/${total} tác vụ thất bại — ${err}. Các thẻ thất bại vẫn được chọn.`,
+  titlePlaceholderTriage: 'Ý tưởng sơ bộ — agent phân loại sẽ hoàn thiện',
+  titlePlaceholder: 'Tiêu đề',
+  descPlaceholder: 'Mô tả (không bắt buộc)',
+  priority: 'Mức ưu tiên',
+  workspace: 'Không gian làm việc',
+  boardDefaultSuffix: ' · mặc định của bảng',
+  workspaceOverride: 'Đường dẫn không gian làm việc (ghi đè, không bắt buộc)',
+  model: 'Mô hình',
+  modelInherit: 'Mặc định theo hồ sơ',
+  modelClear: 'Xóa ghi đè mô hình',
+  modelHint:
+    'Chạy tác vụ này bằng mô hình và độ sâu suy luận cụ thể. Để trống để dùng cấu hình riêng của hồ sơ được chỉ định.',
+  workspaceInherit: 'Kế thừa thư mục dự án của bảng',
+  workspaceInheritDir: dir => `Để trống để kế thừa ${dir}`,
+  workspaceInheritGeneric: 'Để trống để kế thừa thư mục dự án của bảng.',
+  assignee: 'Người được giao',
+  defaultOption: name => `${name} (mặc định)`,
+  parkedOption: 'chưa giao (đang chờ — sẽ không chạy)',
+  skills: 'Kỹ năng (phân tách bằng dấu phẩy)',
+  skillsPlaceholder: 'translation, github',
+  parent: 'Tác vụ cha (chặn cho đến khi tác vụ này hoàn tất)',
+  noParent: '— không có tác vụ cha —',
+  goalMode: 'Chế độ mục tiêu (worker lặp lại cho đến khi người đánh giá xác nhận đã xong)',
+  creating: 'Đang tạo…',
+  createTask: 'Tạo tác vụ',
+  cancel: 'Hủy',
+  save: 'Lưu',
+  estimate: 'Ước tính',
+  estimateEffort: 'Ước tính công sức',
+  estimating: 'Đang ước tính…',
+  reEstimate: 'Ước tính lại',
+  makesModelCall: 'gọi mô hình',
+  estimateTip: 'Ước tính sơ bộ số token và độ phức tạp bằng mô hình phụ trợ — thao tác này sẽ gọi mô hình.',
+  estimateTipLong:
+    'Gọi nhanh mô hình phụ trợ để ước tính số token và độ phức tạp. Chỉ mang tính tham khảo, không phải hóa đơn.',
+  roughEstimate: 'Ước tính sơ bộ',
+  tokUnit: 'token',
+  couldNotEstimate: 'Không thể ước tính',
+  complexity: {
+    S: 'Nhỏ',
+    M: 'Trung bình',
+    L: 'Lớn'
+  },
+  introBody:
+    'Bạn không tự chạy các thẻ — agent sẽ làm việc đó. Đưa thẻ vào Ready và giao cho một agent; agent sẽ nhận thẻ trong vòng một phút. Không giao cho ai thì sẽ không chạy. Triage: agent sẽ viết lại ý tưởng thành tác vụ hoàn chỉnh trước. Todo: đang chờ các thẻ khác. Scheduled: đang chờ đến giờ hẹn. Running và Review: các luồng làm việc của agent, bạn không cần can thiệp. Blocked: đang chờ bạn xử lý. Kết quả sẽ xuất hiện trên thẻ.',
+  introGotIt: 'Đã hiểu',
+  evtCreated: (where, assignee) =>
+    `đã tạo${where ? ` trong ${where}` : ''}${assignee ? ` · giao cho ${assignee}` : ''}`,
+  evtMovedTo: col => `đã chuyển đến ${col}`,
+  evtParentReopened: parent => `tác vụ cha ${parent} đã mở lại`,
+  evtAssignedTo: assignee => `đã giao cho ${assignee}`,
+  evtUnassigned: 'đã bỏ giao',
+  evtCommentBy: author => `bình luận từ ${author}`,
+  evtClaimedReview: 'đã được agent review nhận',
+  evtClaimedWorker: 'đã được worker nhận',
+  evtWorkerStarted: 'worker đã bắt đầu',
+  evtCompleted: 'đã hoàn tất',
+  evtBlocked: 'bị chặn — cần người xử lý',
+  evtUnblocked: col => `đã bỏ chặn${col ? ` → ${col}` : ' → Sẵn sàng'}`,
+  evtReclaimed: 'đã thu hồi — trả lại hàng đợi',
+  evtSpecified: 'agent phân loại đã viết đặc tả',
+  evtPromoted: 'các tác vụ phụ thuộc đã xong — chuyển sang Ready',
+  evtScheduled: 'đã lên lịch',
+  evtArchived: 'đã lưu trữ',
+  evtReprioritized: priority => `đã đặt mức ưu tiên thành ${priority}`,
+  someone: 'ai đó',
+  metaPriority: 'Mức độ ưu tiên',
+  metaTenant: 'Người thuê',
+  metaCreatedBy: 'Người tạo',
+  metaCreated: 'Ngày tạo',
+  metaWorkerPid: 'PID của worker',
+  blockKindTip: kind =>
+    kind === 'needs_input'
+      ? 'Worker cần người dùng cung cấp thông tin.'
+      : kind === 'capability'
+        ? 'Worker gặp trở ngại về khả năng và không thể tiếp tục.'
+        : kind === 'transient'
+          ? 'Worker gặp lỗi tạm thời.'
+          : 'Worker báo có một phụ thuộc cần chờ xử lý.',
+  blockReason: 'Loại chặn',
+  blockRecurrences: 'Số lần chặn lại',
+  blockRecurrencesTip: 'Số lần tác vụ này bị chặn lại vì cùng một lý do sau khi có người gỡ chặn.',
+  consecutiveFailures: 'Số lần thất bại liên tiếp',
+  lastFailureError: 'Lỗi gần nhất',
+  unblockedMessage: id => `Đã bỏ chặn ${id}. Tác vụ sẵn sàng cho chu kỳ tiếp theo.`,
+  readyUnassignedTitle: 'Đã sẵn sàng nhưng chưa được giao — thẻ này sẽ không bao giờ chạy.',
+  readyUnassignedBody:
+    'Bộ điều phối chỉ nhận các thẻ ở trạng thái Sẵn sàng đã được giao cho người phụ trách. Chọn một hồ sơ trong trường Người phụ trách ở trên (hoặc đặt người phụ trách mặc định trong phần cài đặt điều phối) để tác vụ chạy trong vòng một phút.',
+  diagnosticsN: n => `Chẩn đoán · ${n}`,
+  commandCopied: 'Đã sao chép lệnh',
+  description: 'Mô tả',
+  editDescription: 'Sửa mô tả',
+  cancelEdit: 'Hủy chỉnh sửa',
+  noDescription: 'Chưa có mô tả.',
+  result: 'Kết quả',
+  latestSummary: 'Tóm tắt mới nhất',
+  dependencies: 'Phụ thuộc',
+  blockedBy: 'Bị chặn bởi',
+  blocks: 'Chặn',
+  comments: n => `Bình luận · ${n}`,
+  commentsHelpRunning:
+    'Tác vụ này đang chạy. Ghi chú của bạn sẽ được thêm vào lượt hiện tại của worker trong vài giây — không cần gỡ chặn rồi chặn lại. “Xếp hàng lại kèm ghi chú” sẽ khởi động lại tác vụ từ đầu, với ghi chú của bạn trong ngữ cảnh.',
+  commentsHelp:
+    'Bình luận sẽ được thêm vào luồng tác vụ. Khi worker nhận tác vụ, các bình luận sẽ nằm trong ngữ cảnh của worker.',
+  send: 'Gửi',
+  comment: 'Bình luận',
+  messageWorker: 'Nhắn cho worker đang chạy…',
+  addComment: 'Thêm bình luận…',
+  deliveredLive: 'Tin nhắn sẽ đến worker đang chạy trong vài giây.',
+  requeueWithNote: 'Xếp hàng lại kèm ghi chú',
+  notePosted: 'Đã đăng ghi chú — tác vụ đã được xếp hàng lại',
+  activity: n => `Hoạt động · ${n}`,
+  runs: n => `Lượt chạy · ${n}`,
+  workerLog: 'Nhật ký worker',
+  workerLogTail: 'Nhật ký worker · phần cuối',
+  attachments: n => `Tệp đính kèm · ${n}`,
+  noAttachments: 'Chưa có tệp đính kèm.',
+  uploadAttachment: 'Tải tệp đính kèm lên',
+  taskActions: 'Thao tác với tác vụ',
+  copyTaskId: 'Sao chép ID tác vụ',
+  copyTitle: 'Sao chép tiêu đề',
+  copiedId: id => `Đã sao chép ${id}`,
+  copiedTitle: 'Đã sao chép tiêu đề',
+  close: 'Đóng',
+  working: 'đang xử lý',
+  board: 'Bảng',
+  newBoard: 'Bảng mới',
+  switchBoard: 'Chuyển bảng',
+  newBoardDots: 'Bảng mới…',
+  exportDots: 'Xuất…',
+  importDots: 'Nhập…',
+  renameDots: 'Đổi tên…',
+  settingsDots: 'Cài đặt…',
+  exportBoardTitle: 'Xuất bảng…',
+  importBoardTitle: 'Nhập bảng…',
+  boardExported: path => `Đã xuất bảng đến ${path}`,
+  boardImported: name => `Đã nhập ${name}`,
+  boardImportedAs: slug => `Tên đó đã được dùng — đã nhập với tên ${slug}`,
+  renameBoardTitle: 'Đổi tên bảng',
+  deleteBoardTitle: name => `Xóa "${name}"?`,
+  deleteBoardConfirm:
+    'Bảng sẽ được lưu trữ chứ không bị xóa — các tác vụ và tệp đính kèm vẫn nằm trên đĩa và có thể khôi phục.',
+  boardArchived: path => `Đã lưu trữ bảng vào ${path}`,
+  boardSettingsFor: name => `Cài đặt bảng — ${name}`,
+  name: 'Tên',
+  boardNamePlaceholder: 'Tên bảng',
+  slug: slug => `slug: ${slug}`,
+  project: 'Dự án',
+  noProject: 'Không có dự án (sandbox tạm)',
+  projectHintPre:
+    'Tác vụ mới chạy trong kho mã của dự án (mỗi tác vụ có một worktree riêng); khi tạo, bạn vẫn có thể chọn không gian làm việc khác cho từng tác vụ. Quản lý dự án bằng lệnh ',
+  projectHintCmd: 'hermes project',
+  createBoard: 'Tạo bảng',
+  orchestratorProfile: 'Hồ sơ điều phối',
+  defaultAssignee: 'Người được giao mặc định',
+  defaultParen: '(mặc định)',
+  autoDecompose: 'Tự động phân rã tác vụ phân loại',
+  profileDescriptions: 'Mô tả hồ sơ',
+  profileDescriptionsHint: 'Mô tả giúp định tuyến khi phân rã tác vụ. Tự động tạo bằng mô hình phụ hoặc tự viết mô tả.',
+  profileGoodAt: 'Hồ sơ này làm tốt việc gì?',
+  auto: 'Tự động',
+  notify: {
+    completedTitle: 'Tác vụ đã hoàn tất',
+    blockedTitle: 'Tác vụ bị chặn — cần bạn cung cấp thông tin',
+    blockLoopTitle: 'Tác vụ đã chuyển đến khâu phân loại — cần quyết định',
+    gaveUpTitle: 'Tác vụ đã dừng',
+    gaveUpBody: 'Hermes không thể hoàn thành tác vụ này. Mở Kanban để xem lý do và giao lại tác vụ.',
+    crashedTitle: 'Tác vụ gặp sự cố — Hermes sẽ tự động thử lại',
+    timedOutTitle: 'Tác vụ mất quá nhiều thời gian — Hermes sẽ tự động thử lại',
+    openKanban: 'Mở Kanban',
+    artifacts: n => `${n} mục`
+  }
+}
+
 /** Registered via `ctx.i18n.register` at plugin load (disposer tracked). */
-export const KANBAN_LOCALES: PluginLocaleBundles = { en, ja, zh, 'zh-hant': zhHant }
+export const KANBAN_LOCALES: PluginLocaleBundles = { en, ja, zh, 'zh-hant': zhHant, vi }
 
 // Bind the message SHAPE to a plugin translator: string leaves resolve now,
 // function leaves forward their args through t(path, …). One tiny generic

@@ -123,6 +123,7 @@ export function I18nProvider({
     localeRef.current = locale
     setRuntimeI18nLocale(locale)
     applyDocumentLocale(locale, isRtlLocale(locale))
+    globalThis.window?.hermesDesktop?.setMenuLocale?.(locale)
   }, [locale, registryVersion])
 
   // A saved `display.language` the app could not render at read time (`pl`
@@ -198,7 +199,24 @@ export function I18nProvider({
           const machineProfile = await window.hermesDesktop?.getMachineProfile?.().catch(() => null)
 
           if (!cancelled && !userLocaleRef.current) {
-            setLocaleState(resolveInitialLocale(undefined, machineProfile?.locale))
+            // A build may ship a first-run language (`defaultUiLocale`, a product default rather
+            // than an OS guess): it wins over the OS and is saved once — only while no language is
+            // saved at all — so the backend, TUI and CLI speak it too.
+            const buildDefault = machineProfile?.defaultUiLocale
+
+            if (buildDefault && isSupportedLocaleValue(buildDefault)) {
+              const next = normalizeLocale(buildDefault)
+
+              setLocaleState(next)
+
+              if (requestedRef.current === null) {
+                Promise.resolve()
+                  .then(() => configClient.saveConfig(withConfigDisplayLanguage(config, next)))
+                  .catch(saveFailure => console.debug('[i18n] first-run language not saved', saveFailure))
+              }
+            } else {
+              setLocaleState(resolveInitialLocale(undefined, machineProfile?.locale))
+            }
           }
         })
         .catch(error => {

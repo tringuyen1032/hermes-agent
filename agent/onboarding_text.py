@@ -34,6 +34,7 @@ _GREETINGS = {
     "ru": "Привет, я Hermes. Давайте всё настроим под вас. А потом сделаем что-нибудь классное.",
     "zh": "你好，我是 Hermes。我们先帮你把一切设置好，然后一起做点很酷的事。",
     "zh-hant": "你好，我是 Hermes。我們先幫你把一切設定好，然後一起做點很酷的事。",
+    "vi": "Xin chào, tôi là Hermes. Hãy để tôi thiết lập mọi thứ cho bạn. Sau đó, chúng ta sẽ cùng làm một điều thật thú vị.",
 }
 
 _NAME_QUESTIONS = {
@@ -45,6 +46,7 @@ _NAME_QUESTIONS = {
     "ru": "Как к вам обращаться?",
     "zh": "我该怎么称呼你？",
     "zh-hant": "我該怎麼稱呼你？",
+    "vi": "Tôi nên gọi bạn là gì?",
 }
 
 _TRADITIONAL_CHINESE = {"hant", "tw", "hk", "mo"}

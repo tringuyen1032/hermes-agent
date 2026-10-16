@@ -141,8 +141,7 @@ export const CANONICAL_GROUP_LOCALES = {
     loadingGroup: 'Chargement du groupe…',
     loadingGroups: 'Chargement des groupes de la passerelle…',
     emptyGroups: 'Aucun groupe de passerelle trouvé.',
-    driverUnavailable:
-      'Pilote de groupe indisponible. Mettez à jour ou reconnectez la passerelle propriétaire.',
+    driverUnavailable: 'Pilote de groupe indisponible. Mettez à jour ou reconnectez la passerelle propriétaire.',
     invalidLogCursor: 'Curseur de journal de salon invalide',
     allowOnce: 'Autoriser une fois',
     deny: 'Refuser',
@@ -151,7 +150,7 @@ export const CANONICAL_GROUP_LOCALES = {
     confirmDiscard: "Confirmer l'abandon",
     unconfirmedSend:
       "L'envoi précédent n'est pas confirmé. Réessayez son texte d'origine avant d'envoyer un autre message.",
-    restoredPendingSend: 'Un envoi non confirmé a été restauré. Réessayez-le avant d\'envoyer un autre message.',
+    restoredPendingSend: "Un envoi non confirmé a été restauré. Réessayez-le avant d'envoyer un autre message.",
     groupMessage: 'Message de groupe',
     attachFiles: 'Joindre des fichiers',
     removeAttachment: 'Retirer la pièce jointe',
@@ -184,20 +183,38 @@ export const CANONICAL_GROUP_LOCALES = {
     loadingGroup: 'Cargando grupo…',
     loadingGroups: 'Cargando grupos de la pasarela…',
     emptyGroups: 'No se encontraron grupos de la pasarela.',
-    driverUnavailable:
-      'Controlador de grupo no disponible. Actualiza o vuelve a conectar la pasarela propietaria.',
+    driverUnavailable: 'Controlador de grupo no disponible. Actualiza o vuelve a conectar la pasarela propietaria.',
     invalidLogCursor: 'Cursor de registro de sala no válido',
     allowOnce: 'Permitir una vez',
     deny: 'Denegar',
     discardUnknown: 'Descartar trabajo con resultado desconocido',
     discardWarning: 'Puede que ya se hayan producido efectos secundarios. Descartar no los deshace.',
     confirmDiscard: 'Confirmar descarte',
-    unconfirmedSend:
-      'El envío anterior no está confirmado. Reintenta su texto original antes de enviar otro mensaje.',
+    unconfirmedSend: 'El envío anterior no está confirmado. Reintenta su texto original antes de enviar otro mensaje.',
     restoredPendingSend: 'Se restauró un envío sin confirmar. Reintántalo antes de enviar otro mensaje.',
     groupMessage: 'Mensaje de grupo',
     attachFiles: 'Adjuntar archivos',
     removeAttachment: 'Quitar adjunto',
     uploadFailed: 'Error al subir'
+  },
+  vi: {
+    refreshGroups: 'Làm mới các nhóm gateway',
+    loadingGroup: 'Đang tải nhóm…',
+    loadingGroups: 'Đang tải các nhóm gateway…',
+    emptyGroups: 'Không tìm thấy nhóm gateway.',
+    driverUnavailable: 'Trình điều khiển nhóm không khả dụng. Hãy cập nhật hoặc kết nối lại gateway quản lý nhóm này.',
+    invalidLogCursor: 'Con trỏ nhật ký phòng không hợp lệ',
+    allowOnce: 'Cho phép một lần',
+    deny: 'Từ chối',
+    discardUnknown: 'Bỏ công việc không xác định',
+    discardWarning: 'Các tác động phụ có thể đã xảy ra. Bỏ công việc không thể hoàn tác những tác động đó.',
+    confirmDiscard: 'Xác nhận bỏ',
+    unconfirmedSend:
+      'Tin nhắn gửi trước đó chưa được xác nhận. Hãy thử gửi lại nội dung ban đầu trước khi gửi tin nhắn khác.',
+    restoredPendingSend: 'Đã khôi phục tin nhắn chưa được xác nhận. Hãy thử gửi lại trước khi gửi tin nhắn khác.',
+    groupMessage: 'Tin nhắn nhóm',
+    attachFiles: 'Đính kèm tệp',
+    removeAttachment: 'Gỡ tệp đính kèm',
+    uploadFailed: 'Tải lên thất bại'
   }
 } satisfies Record<string, CanonicalGroupMessages>

@@ -144,6 +144,52 @@ describe('I18nProvider', () => {
     expect($requestedLocale.get()).toBe('it')
   })
 
+  it('starts in the build default language over the OS and saves it once when none is saved', async () => {
+    const saveConfig = vi.fn().mockResolvedValue({ ok: true })
+    const getMachineProfile = vi.fn().mockResolvedValue({ defaultUiLocale: 'vi', locale: 'en-US' })
+
+    vi.stubGlobal('hermesDesktop', { getMachineProfile })
+
+    try {
+      render(
+        <I18nProvider configClient={{ getConfig: vi.fn().mockResolvedValue({ terminal: { cwd: '/w' } }), saveConfig }}>
+          <LanguageProbe />
+        </I18nProvider>
+      )
+
+      await waitFor(() => expect(saveConfig).toHaveBeenCalledTimes(1))
+      expect(saveConfig).toHaveBeenCalledWith({ display: { language: 'vi' }, terminal: { cwd: '/w' } })
+      expect(screen.getByTestId('locale').textContent).toBe('vi')
+      expect(screen.getByTestId('label').textContent).toBe(TRANSLATIONS.vi.language.label)
+    } finally {
+      vi.unstubAllGlobals()
+    }
+  })
+
+  it('never saves the build default over a language the config already names', async () => {
+    const saveConfig = vi.fn()
+
+    vi.stubGlobal('hermesDesktop', {
+      getMachineProfile: vi.fn().mockResolvedValue({ defaultUiLocale: 'vi', locale: '' })
+    })
+
+    try {
+      render(
+        <I18nProvider
+          configClient={{ getConfig: vi.fn().mockResolvedValue({ display: { language: 'it' } }), saveConfig }}
+        >
+          <LanguageProbe />
+        </I18nProvider>
+      )
+
+      await waitFor(() => expect(screen.getByTestId('locale').textContent).toBe('vi'))
+      expect(saveConfig).not.toHaveBeenCalled()
+      expect($requestedLocale.get()).toBe('it')
+    } finally {
+      vi.unstubAllGlobals()
+    }
+  })
+
   it('promotes a saved pack-only language once its pack registers, then drops back when it is removed', async () => {
     const configClient: I18nConfigClient = {
       getConfig: vi.fn().mockResolvedValue({ display: { language: 'pl' } }),

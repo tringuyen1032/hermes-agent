@@ -35,6 +35,10 @@ describe('desktop i18n languages', () => {
     expect(normalizeLocale('ES-419')).toBe('es')
     expect(normalizeLocale(' es_mx ')).toBe('es')
     expect(normalizeLocale('Español')).toBe('es')
+    expect(normalizeLocale('vi-VN')).toBe('vi')
+    expect(normalizeLocale(' vi_vn ')).toBe('vi')
+    expect(normalizeLocale('Tiếng Việt')).toBe('vi')
+    expect(normalizeLocale('Vietnamese')).toBe('vi')
   })
 
   it('falls back to English for empty or unsupported values', () => {
@@ -59,6 +63,8 @@ describe('desktop i18n languages', () => {
     expect(isLocale('fr')).toBe(true)
     expect(isLocale('de')).toBe(true)
     expect(isLocale('es')).toBe(true)
+    expect(isLocale('vi')).toBe(true)
+    expect(isSupportedLocaleValue('vi-VN')).toBe(true)
   })
 
   it('round-trips every picker option through its display.language value to a registered catalog', () => {

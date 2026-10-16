@@ -3,6 +3,8 @@ import * as os from 'node:os'
 
 import { beforeEach, expect, it, vi } from 'vitest'
 
+import { DEFAULT_UI_LOCALE } from './default-ui-locale'
+
 const host = vi.hoisted(() => ({
   getLocale: vi.fn((): string => 'fr-CA'),
   handle: vi.fn()
@@ -36,6 +38,7 @@ it('registers the renderer channel and reports native machine facts with the OS 
   expect(result).toEqual({
     ageDays: birthtimeMs > 0 ? Math.max(0, Math.floor((Date.now() - birthtimeMs) / 86_400_000)) : null,
     arch: process.arch,
+    defaultUiLocale: DEFAULT_UI_LOCALE,
     locale: 'fr-CA',
     platform: process.platform,
     release: os.release(),

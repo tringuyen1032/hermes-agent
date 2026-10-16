@@ -14,6 +14,7 @@ import { jaOverrides } from './ja'
 import knownGaps from './overlay-gaps.json'
 import { ruOverrides } from './ru'
 import type { BundledLocale } from './types'
+import { viOverrides } from './vi'
 import { zhOverrides } from './zh'
 import { zhHantOverrides } from './zh-hant'
 
@@ -30,6 +31,7 @@ const OVERLAYS = {
   fr: frOverrides,
   ja: jaOverrides,
   ru: ruOverrides,
+  vi: viOverrides,
   zh: zhOverrides,
   'zh-hant': zhHantOverrides
 } satisfies Record<Exclude<BundledLocale, 'en'>, TranslationOverrides>
