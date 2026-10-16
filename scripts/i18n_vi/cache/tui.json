@@ -4949,6 +4949,11 @@
 "note": "Rendered output of a function; {0}, {1}… are its arguments in order — keep each one. Function source: model=>`Confirm model switch to ${model}`",
 "vi": "Xác nhận chuyển sang mô hình {0}"
 },
+"slashCmd.session.model.deferredRefused": {
+"en": "model switch to {0} failed ({1}); keeping the current model",
+"note": "Rendered output of a function; {0}, {1}… are its arguments in order — keep each one. Function source: (model,reason)=>`model switch to ${model} failed (${reason}); keeping the current model`",
+"vi": "không thể chuyển sang mô hình {0} ({1}); tiếp tục dùng mô hình hiện tại"
+},
 "slashCmd.session.model.expensiveDetail": {
 "en": "This model has unusually high known pricing.",
 "note": null,

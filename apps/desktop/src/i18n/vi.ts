@@ -5149,6 +5149,7 @@ export const viOverrides = {
     paneControls: 'Điều khiển bảng',
     appControls: 'Điều khiển ứng dụng',
     modelMenu: {
+      pickDeferred: model => `áp dụng ${model} từ tin nhắn tiếp theo`,
       search: 'Tìm kiếm mô hình',
       noModels: 'Không tìm thấy mô hình nào',
       editModels: 'Chỉnh sửa mô hình…',

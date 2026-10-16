@@ -2489,6 +2489,11 @@
 "note": null,
 "vi": "time=>`đặt lại ${time}`"
 },
+"shell.modelMenu.pickDeferred": {
+"en": "model=>`${model} applies from your next message`",
+"note": null,
+"vi": "model=>`áp dụng ${model} từ tin nhắn tiếp theo`"
+},
 "shell.modelMenu.poolAccount": {
 "en": "number=>`Account ${number}`",
 "note": null,
