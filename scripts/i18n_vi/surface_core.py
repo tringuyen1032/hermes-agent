@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import glob
 import json
 import os
 import re
@@ -18,6 +17,7 @@ from yamlout import emit_nested
 REPO = Path(os.environ.get("HERMES_REPO") or Path(__file__).resolve().parents[2])
 WORK = Path(__file__).resolve().parent / ".work"
 LOCALES = REPO / "locales"
+KEEP = json.loads(Path(__file__).with_name("keep-english.json").read_text(encoding="utf-8"))
 
 # Typed-answer lists: English words stay first (they always match anyway), Vietnamese synonyms follow,
 # with and without diacritics. Matching is case-insensitive on comma-separated words.
@@ -57,23 +57,17 @@ def flatten(node, prefix=""):
     return out
 
 
+def has_text(value: str) -> bool:
+    """False for format-only strings ("{error}", "  - {name}") that have nothing to translate."""
+    return bool(re.sub(r"\{[^}]*\}|`[^`]*`|[^A-Za-z]", "", value))
+
+
 def keep_english_keys(en: dict[str, str]) -> set[str]:
-    """Keys every bundled locale (or ≥11 of 16) leaves in English: format-only strings, identifiers and
-    the model-facing kanban wake prompt. Translating those would change what the agent reads."""
-    others = []
-    for f in sorted(glob.glob(str(LOCALES / "*.yaml"))):
-        name = os.path.basename(f)
-        if name.startswith("_") or name in ("en.yaml", "vi.yaml") or ".tui." in name:
-            continue
-        others.append(flatten(yaml.safe_load(open(f, encoding="utf-8"))))
-    keep = set()
-    for k, v in en.items():
-        same = sum(1 for o in others if o.get(k) == v)
-        letters = re.sub(r"\{[^}]*\}|`[^`]*`|[^A-Za-z]", "", v)
-        if same >= 11 or not letters:
-            keep.add(k)
-    keep.update(k for k in en if k.startswith("gateway.kanban.wake."))
-    return keep
+    """Reviewed keys that stay English (keep-english.json: identifiers, format-only and model-facing
+    text), the kanban wake prompt the agent reads, and strings with no text. Upstream adds new keys to
+    every locale in English first, so other locales cannot tell "keep" from "not yet translated"."""
+    pinned = set(KEEP["core"])
+    return {k for k, v in en.items() if k in pinned or k.startswith("gateway.kanban.wake.") or not has_text(v)}
 
 
 def main() -> None:

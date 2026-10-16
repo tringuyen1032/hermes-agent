@@ -9879,6 +9879,11 @@
 "note": null,
 "vi": "Không thể cập nhật config.yaml ({error})"
 },
+"gateway.model.err_once_local": {
+"en": "`--once` is not available in this session; use `/model <name>` and switch back after the turn.",
+"note": null,
+"vi": "`--once` không dùng được trong phiên này; hãy dùng `/model <name>` rồi chuyển lại sau lượt này."
+},
 "gateway.model.err_skew": {
 "en": "This gateway is running code from {boot_rev} but the checkout on disk is now {disk_rev}. Switching models would risk a stale-module crash — restart the gateway to load the new code: hermes gateway restart",
 "note": null,
@@ -9903,6 +9908,11 @@
 "en": "⚠️ **{title}**\n\n{message}\n\n_Text fallback: reply `{prefix}approve` to switch or `{prefix}cancel` to keep the current model._",
 "note": null,
 "vi": "⚠️ **{title}**\n\n{message}\n\n_Nếu không dùng được nút, hãy trả lời `{prefix}approve` để chuyển đổi hoặc `{prefix}cancel` để giữ nguyên mô hình hiện tại._"
+},
+"gateway.model.local_next_turn": {
+"en": "Applies from your next message.",
+"note": null,
+"vi": "Áp dụng từ tin nhắn tiếp theo."
 },
 "gateway.model.max_output_label": {
 "en": "Max output: {tokens} tokens",

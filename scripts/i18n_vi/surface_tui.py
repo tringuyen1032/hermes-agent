@@ -2,15 +2,14 @@
 
 from __future__ import annotations
 
-import glob
 import json
 import os
 from pathlib import Path
 
-import yaml
 
 from checks import check_text, fix_case
 from engine import translate
+from surface_core import has_text
 from yamlout import emit_flat
 
 REPO = Path(os.environ.get("HERMES_REPO") or Path(__file__).resolve().parents[2])
@@ -34,11 +33,9 @@ def main() -> None:
         else:
             en[leaf["path"]] = leaf["value"]
 
-    packs = []
-    for f in sorted(glob.glob(str(LOCALES / "*.tui.yaml"))):
-        if os.path.basename(f) != "vi.tui.yaml":
-            packs.append(yaml.safe_load(open(f, encoding="utf-8")) or {})
-    keep = {k for k, v in en.items() if sum(1 for p in packs if p.get(k) == v) >= 11}
+    # Reviewed keys that stay English; anything new is translated (see surface_core.keep_english_keys).
+    pinned = set(json.loads(Path(__file__).with_name("keep-english.json").read_text(encoding="utf-8"))["tui"])
+    keep = {k for k, v in en.items() if k in pinned or not has_text(v)}
     print(f"tui: {len(en)} keys, {len(keep)} kept in English", flush=True)
 
     items = []
